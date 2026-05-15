@@ -1,0 +1,112 @@
+[
+  {
+    "amap_id": "B0FFH5XXI5",
+    "amap_name": "宁波东钱湖华茂希尔顿酒店",
+    "amap_address": "东钱湖旅游度假区连心路99号",
+    "amap_area": "",
+    "amap_type": "住宿服务;宾馆酒店;五星级宾馆|餐饮服务;餐饮相关场所;餐饮相关",
+    "amap_distance": 1.79,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 121.64631248457627,
+    "cgcs_lat": 29.78963231302429,
+    "amap_lon": 121.650445,
+    "amap_lat": 29.787044,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0HK7UO82W",
+    "amap_name": "宁波东钱湖华茂希尔顿酒店大堂",
+    "amap_address": "钱湖东路与莫古路交叉口东南420米",
+    "amap_area": "",
+    "amap_type": "住宿服务;宾馆酒店;五星级宾馆",
+    "amap_distance": 2.52,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 121.64629152133507,
+    "cgcs_lat": 29.78962635014935,
+    "amap_lon": 121.650424,
+    "amap_lat": 29.787038,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0ID5N7281",
+    "amap_name": "宁波东钱湖华茂希尔顿酒店·大堂吧",
+    "amap_address": "东钱湖旅游度假区连心路99号宁波东钱湖华茂希尔顿酒店",
+    "amap_area": "",
+    "amap_type": "餐饮服务;餐饮相关场所;餐饮相关",
+    "amap_distance": 10.36,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 121.64625758511964,
+    "cgcs_lat": 29.789562416872467,
+    "amap_lon": 121.65039,
+    "amap_lat": 29.786974,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFIJD3UH",
+    "amap_name": "宁波东钱湖华茂希尔顿酒店·钱湖阁中餐厅",
+    "amap_address": "连心路99号宁波东钱湖华茂希尔顿度假酒店1层",
+    "amap_area": "",
+    "amap_type": "餐饮服务;中餐厅;中餐厅",
+    "amap_distance": 98.38,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 121.64719099000949,
+    "cgcs_lat": 29.789211832715644,
+    "amap_lon": 121.651325,
+    "amap_lat": 29.786625,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0G0C7YK1B",
+    "amap_name": "特斯拉超级充电站(宁波东钱湖华茂希尔顿酒店)",
+    "amap_address": "连心路99号华茂希尔顿度假酒店地下停车场B1层C130-C136&C142-C143车位区域",
+    "amap_area": "",
+    "amap_type": "汽车服务;充电站;充电站",
+    "amap_distance": 117.12,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 121.64742657498321,
+    "cgcs_lat": 29.7892494151924,
+    "amap_lon": 121.651561,
+    "amap_lat": 29.786663,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0M6DN4NBD",
+    "amap_name": "宁波东钱湖华茂希尔顿酒店·宴会厅",
+    "amap_address": "东钱湖旅游度假区连心路99号宁波东钱湖华茂希尔顿酒店",
+    "amap_area": "",
+    "amap_type": "餐饮服务;餐饮相关场所;餐饮相关",
+    "amap_distance": 14.63,
+    "amap_businessarea": {
+      "opentime_today": "10:00-22:00",
+      "cost": "159.00",
+      "keytag": "中餐",
+      "rating": "4.1",
+      "rectag": "中餐",
+      "opentime_week": "周一至周日 10:00-22:00"
+    },
+    "cgcs_lon": 121.64641730871755,
+    "cgcs_lat": 29.789560139747213,
+    "amap_lon": 121.65055,
+    "amap_lat": 29.786972,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0H12S7P9N",
+    "amap_name": "宁波东钱湖华茂希尔顿酒店停车场",
+    "amap_address": "东钱湖旅游度假区连心路99号",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 33.1,
+    "amap_businessarea": {
+      "keytag": "地面停车场",
+      "tel": "0574-27999999",
+      "rectag": "地面停车场",
+      "parking_type": "地面"
+    },
+    "cgcs_lon": 121.64642530972594,
+    "cgcs_lat": 29.789372148852973,
+    "amap_lon": 121.650558,
+    "amap_lat": 29.786784,
+    "source": "name_poi"
+  }
+]

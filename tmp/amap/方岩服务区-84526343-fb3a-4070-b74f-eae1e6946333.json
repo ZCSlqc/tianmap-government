@@ -1,0 +1,89 @@
+[
+  {
+    "amap_id": "B0KGJ74IIC",
+    "amap_name": "方岩服务区驿路好运·美食汇",
+    "amap_address": "方岩服务区东侧",
+    "amap_area": "",
+    "amap_type": "餐饮服务;中餐厅;中餐厅",
+    "amap_distance": 8.1,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 120.19463679418925,
+    "cgcs_lat": 28.97629973808818,
+    "amap_lon": 120.199098,
+    "amap_lat": 28.973429,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0LG3LABBR",
+    "amap_name": "方岩服务区驿缘咖啡",
+    "amap_address": "方岩服务区东侧",
+    "amap_area": "",
+    "amap_type": "餐饮服务;咖啡厅;咖啡厅",
+    "amap_distance": 33.41,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 120.19444130247955,
+    "cgcs_lat": 28.976053623444702,
+    "amap_lon": 120.198903,
+    "amap_lat": 28.973183,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFM11E8M",
+    "amap_name": "方岩服务区警务室",
+    "amap_address": "方岩服务区东侧",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;公检法机构;公安警察",
+    "amap_distance": 51.54,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 120.19411544605863,
+    "cgcs_lat": 28.976085073172104,
+    "amap_lon": 120.198578,
+    "amap_lat": 28.973215,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFGBET4V",
+    "amap_name": "方岩服务区(东永高速东阳方向)",
+    "amap_address": "永康市",
+    "amap_area": "",
+    "amap_type": "道路附属设施;服务区;高速服务区",
+    "amap_distance": 56.72,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 120.19410743053992,
+    "cgcs_lat": 28.976015116857166,
+    "amap_lon": 120.19857,
+    "amap_lat": 28.973145,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFIMENXJ",
+    "amap_name": "中国石化方岩服务区东侧加油站",
+    "amap_address": "东永高速东侧",
+    "amap_area": "",
+    "amap_type": "汽车服务;加油站;中国石化",
+    "amap_distance": 62.15,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 120.1939810552656,
+    "cgcs_lat": 28.976565467274558,
+    "amap_lon": 120.198444,
+    "amap_lat": 28.973696,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFIMENXB",
+    "amap_name": "方岩服务区第一公共厕所",
+    "amap_address": "东永高速方岩服务区",
+    "amap_area": "",
+    "amap_type": "公共设施;公共厕所;公共厕所",
+    "amap_distance": 40.1,
+    "amap_businessarea": {
+      "keytag": "公厕",
+      "rectag": "公厕"
+    },
+    "cgcs_lon": 120.1944012026543,
+    "cgcs_lat": 28.975988611592268,
+    "amap_lon": 120.198863,
+    "amap_lat": 28.973118,
+    "source": "name_poi"
+  }
+]

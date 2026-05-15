@@ -1,0 +1,126 @@
+[
+  {
+    "amap_id": "B0FFGCIFV2",
+    "amap_name": "马群广场",
+    "amap_address": "栖霞区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;环岛名",
+    "amap_distance": 38.0,
+    "amap_businessarea": "马群",
+    "cgcs_lon": 118.88147704686757,
+    "cgcs_lat": 32.05051280119379,
+    "amap_lon": 118.886503,
+    "amap_lat": 32.0483,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFJ8MA6Q",
+    "amap_name": "军总东苑(东1门)",
+    "amap_address": "五棵松44号军总东苑",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 65.05,
+    "amap_businessarea": "马群",
+    "cgcs_lon": 118.8813860633935,
+    "cgcs_lat": 32.04968055743758,
+    "amap_lon": 118.886412,
+    "amap_lat": 32.047468,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFGAV756",
+    "amap_name": "军总东苑",
+    "amap_address": "五棵松44号",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;住宅小区",
+    "amap_distance": 123.42,
+    "amap_businessarea": "马群",
+    "cgcs_lon": 118.88106690262049,
+    "cgcs_lat": 32.049146232842155,
+    "amap_lon": 118.886093,
+    "amap_lat": 32.046934,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0J3RU1UP8",
+    "amap_name": "马群街97号小区",
+    "amap_address": "中山门大街与马群广场交叉口东南60米",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;住宅小区",
+    "amap_distance": 132.41,
+    "amap_businessarea": "马群",
+    "cgcs_lon": 118.8825557043321,
+    "cgcs_lat": 32.05062248545713,
+    "amap_lon": 118.887581,
+    "amap_lat": 32.048409,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFHGNFUD",
+    "amap_name": "紫金佳苑(西北2门)",
+    "amap_address": "中山门大街506号紫金佳苑",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院正门",
+    "amap_distance": 142.81,
+    "amap_businessarea": "马群",
+    "cgcs_lon": 118.8797759449263,
+    "cgcs_lat": 32.04985852244024,
+    "amap_lon": 118.884803,
+    "amap_lat": 32.047647,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B001909L2T",
+    "amap_name": "现代雕塑",
+    "amap_address": "光华路97号",
+    "amap_area": "",
+    "amap_type": "公司企业;工厂;工厂",
+    "amap_distance": 4818.05,
+    "amap_businessarea": {
+      "opentime_today": "10:00-22:00",
+      "keytag": "公司企业,工厂,工厂",
+      "business_area": "光华路",
+      "tel": "025-84860078",
+      "opentime_week": "周一至周日 10:00-22:00"
+    },
+    "cgcs_lon": 118.84352068737066,
+    "cgcs_lat": 32.02097374302152,
+    "amap_lon": 118.848596,
+    "amap_lat": 32.018815,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0L3VRJGNQ",
+    "amap_name": "南京卓凡雕塑艺术有限公司",
+    "amap_address": "寅春路18号栖霞区330科技创业大厦",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 7318.36,
+    "amap_businessarea": {
+      "keytag": "公司",
+      "rectag": "公司"
+    },
+    "cgcs_lon": 118.84790486227286,
+    "cgcs_lat": 32.10983748211965,
+    "amap_lon": 118.85298,
+    "amap_lat": 32.107652,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0L3VRIF73",
+    "amap_name": "南京楚风汉韵雕塑有限公司",
+    "amap_address": "寅春路18号栖霞区330科技创业大厦",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 7318.36,
+    "amap_businessarea": {
+      "keytag": "公司",
+      "rectag": "公司"
+    },
+    "cgcs_lon": 118.84790486227286,
+    "cgcs_lat": 32.10983748211965,
+    "amap_lon": 118.85298,
+    "amap_lat": 32.107652,
+    "source": "name_poi"
+  }
+]

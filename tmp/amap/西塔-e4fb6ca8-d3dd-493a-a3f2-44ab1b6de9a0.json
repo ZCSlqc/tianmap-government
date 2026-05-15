@@ -1,0 +1,161 @@
+[
+  {
+    "amap_id": "B0HGFM4K0K",
+    "amap_name": "西塔(大门)",
+    "amap_address": "北市场街道市府大路25号西塔内(南侧)",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院正门",
+    "amap_distance": 25.65,
+    "amap_businessarea": "市府",
+    "cgcs_lon": 123.40242294373688,
+    "cgcs_lat": 41.80216713322196,
+    "amap_lon": 123.408573,
+    "amap_lat": 41.804613,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0G3D7294Q",
+    "amap_name": "护国延寿寺",
+    "amap_address": "北市场街道敦化一路55-2号西南80米",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;寺庙道观",
+    "amap_distance": 29.38,
+    "amap_businessarea": "市府",
+    "cgcs_lon": 123.40250286851901,
+    "cgcs_lat": 41.80265814174932,
+    "amap_lon": 123.408653,
+    "amap_lat": 41.805104,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B00180J6UM",
+    "amap_name": "西塔",
+    "amap_address": "北市场街道市府大路25号",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 29.74,
+    "amap_businessarea": "市府",
+    "cgcs_lon": 123.40250486795922,
+    "cgcs_lat": 41.80266114220892,
+    "amap_lon": 123.408655,
+    "amap_lat": 41.805107,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFK80QIQ",
+    "amap_name": "南无观世音菩萨",
+    "amap_address": "北市场街道市府大路25号西塔(东南角)",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 33.94,
+    "amap_businessarea": "市府",
+    "cgcs_lon": 123.40274892009505,
+    "cgcs_lat": 41.802191221348366,
+    "amap_lon": 123.408899,
+    "amap_lat": 41.804637,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0H141W2FY",
+    "amap_name": "龙秀山烤肉(西塔韩国风情街店)",
+    "amap_address": "敦化一路55号(老太太串店斜对面)",
+    "amap_area": "",
+    "amap_type": "餐饮服务;中餐厅;中餐厅",
+    "amap_distance": 93.18,
+    "amap_businessarea": "市府",
+    "cgcs_lon": 123.40309777956053,
+    "cgcs_lat": 41.80308029862934,
+    "amap_lon": 123.409248,
+    "amap_lat": 41.805526,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0018165G9",
+    "amap_name": "沈阳市朝鲜族第六中学",
+    "amap_address": "",
+    "amap_area": "20832.577993",
+    "amap_type": "141202",
+    "amap_distance": 36.85,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 123.40102400587556,
+    "cgcs_lat": 41.80286278816068,
+    "amap_lon": 123.407174,
+    "amap_lat": 41.805309,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "B0FFGLJ7NR",
+    "amap_name": "西塔-清初四塔",
+    "amap_address": "图们路20-1号西塔",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 25.29,
+    "amap_businessarea": {
+      "opentime_today": "08:30-17:00",
+      "keytag": "文物古迹",
+      "rating": "3.8",
+      "business_area": "市府",
+      "rectag": "文物古迹",
+      "opentime_week": "周一至周日 08:30-17:00"
+    },
+    "cgcs_lon": 123.40245987628724,
+    "cgcs_lat": 41.80262413112293,
+    "amap_lon": 123.40861,
+    "amap_lat": 41.80507,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "BV10049549",
+    "amap_name": "西塔(公交站)",
+    "amap_address": "243路;262路;281路",
+    "amap_area": "",
+    "amap_type": "交通设施服务;公交车站;公交车站相关",
+    "amap_distance": 60.29,
+    "amap_businessarea": {
+      "keytag": "公交站",
+      "business_area": "市府",
+      "rectag": "公交站"
+    },
+    "cgcs_lon": 123.40269596620392,
+    "cgcs_lat": 41.801886214662915,
+    "amap_lon": 123.408846,
+    "amap_lat": 41.804332,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFHP30O9",
+    "amap_name": "西塔·首尔广场品鉴接待中心",
+    "amap_address": "太原北街西塔·首尔广场",
+    "amap_area": "",
+    "amap_type": "生活服务;生活服务场所;生活服务场所",
+    "amap_distance": 152.5,
+    "amap_businessarea": {
+      "keytag": "生活服务,生活服务场所,生活服务场所",
+      "rating": "4.1",
+      "business_area": "市府"
+    },
+    "cgcs_lon": 123.40377600443222,
+    "cgcs_lat": 41.801448551888164,
+    "amap_lon": 123.409926,
+    "amap_lat": 41.803894,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0018171TG",
+    "amap_name": "西塔兰桂坊",
+    "amap_address": "安图街3号",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商住两用楼宇",
+    "amap_distance": 179.73,
+    "amap_businessarea": {
+      "keytag": "商住两用",
+      "business_area": "胜利",
+      "rectag": "商住两用"
+    },
+    "cgcs_lon": 123.40250967569652,
+    "cgcs_lat": 41.804014109434355,
+    "amap_lon": 123.40866,
+    "amap_lat": 41.80646,
+    "source": "name_poi"
+  }
+]

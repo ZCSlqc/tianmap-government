@@ -1,0 +1,167 @@
+[
+  {
+    "amap_id": "B0L0LCACCB",
+    "amap_name": "洋后桥",
+    "amap_address": "在政和937乡道外屯林业站处七星溪上",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 5.75,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.99594290784579,
+    "cgcs_lat": 27.335682174986633,
+    "amap_lon": 119.000795,
+    "amap_lat": 27.332453,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B025706U14",
+    "amap_name": "外屯林业站",
+    "amap_address": "外屯乡937乡道",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;乡镇级政府及事业单位",
+    "amap_distance": 255.41,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.99356119519231,
+    "cgcs_lat": 27.336439285412276,
+    "amap_lon": 118.998405,
+    "amap_lat": 27.333203,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B025705PGP",
+    "amap_name": "政和县外屯卫生院",
+    "amap_address": "外屯乡",
+    "amap_area": "",
+    "amap_type": "医疗保健服务;综合医院;卫生院",
+    "amap_distance": 388.59,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.99209841748433,
+    "cgcs_lat": 27.33517298184602,
+    "amap_lon": 118.996937,
+    "amap_lat": 27.331932,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B025706U16",
+    "amap_name": "政和县外屯派出所",
+    "amap_address": "937乡道附近",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;公检法机构;公安警察",
+    "amap_distance": 394.83,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.99214130340842,
+    "cgcs_lat": 27.334710940379164,
+    "amap_lon": 118.99698,
+    "amap_lat": 27.33147,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFLB7DAF",
+    "amap_name": "政和县外屯乡综治中心",
+    "amap_address": "政和县总医院外屯分院东侧",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;乡镇级政府及事业单位",
+    "amap_distance": 404.25,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.99192900488241,
+    "cgcs_lat": 27.33524548333269,
+    "amap_lon": 118.996767,
+    "amap_lat": 27.332004,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0IUOR5J90",
+    "amap_name": "外屯乡外屯村退役军人服务站",
+    "amap_address": "外屯乡外屯村北兴路42号",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;乡镇以下级政府及事业单位",
+    "amap_distance": 527.01,
+    "amap_businessarea": {
+      "keytag": "政府机关",
+      "tel": "13459913242",
+      "rectag": "政府机关"
+    },
+    "cgcs_lon": 118.99073321243475,
+    "cgcs_lat": 27.334937178478302,
+    "amap_lon": 118.995567,
+    "amap_lat": 27.331692,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0IUOR7GRC",
+    "amap_name": "政和县外屯乡洋屯村退役军人服务站",
+    "amap_address": "外屯乡洋屯村鱼山8号",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;乡镇以下级政府及事业单位",
+    "amap_distance": 4107.99,
+    "amap_businessarea": {
+      "opentime_today": "08:00-12:00 14:00-18:00",
+      "keytag": "政府机关",
+      "tel": "18065770339",
+      "rectag": "政府机关",
+      "opentime_week": "周一至周日 08:00-12:00，14:00-18:00"
+    },
+    "cgcs_lon": 119.02846100848419,
+    "cgcs_lat": 27.358765974700617,
+    "amap_lon": 119.033423,
+    "amap_lat": 27.355635,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0IUOR792D",
+    "amap_name": "外屯乡湖屯村退役军人服务站",
+    "amap_address": "外屯乡湖屯村西中路46-1号",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;乡镇以下级政府及事业单位",
+    "amap_distance": 5444.0,
+    "amap_businessarea": {
+      "opentime_today": "08:30-11:30 14:30-17:30",
+      "keytag": "政府机关",
+      "tel": "15159900578",
+      "rectag": "政府机关",
+      "opentime_week": "周一至周日 08:30-11:30，14:30-17:30"
+    },
+    "cgcs_lon": 119.03878330645722,
+    "cgcs_lat": 27.36654540712424,
+    "amap_lon": 119.043775,
+    "amap_lat": 27.363441,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0IUOR6E05",
+    "amap_name": "外屯乡吴场村退役军人服务站",
+    "amap_address": "外屯乡吴场村富竹坑1-1号",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;乡镇以下级政府及事业单位",
+    "amap_distance": 9397.55,
+    "amap_businessarea": {
+      "keytag": "政府机关",
+      "tel": "13305995205;13850911580",
+      "rectag": "政府机关",
+      "opentime_week": "周一至周五 08:00-12:00，15:00-18:00"
+    },
+    "cgcs_lon": 119.07489520539094,
+    "cgcs_lat": 27.382879368769757,
+    "amap_lon": 119.079955,
+    "amap_lat": 27.379835,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0IU7HMJ2A",
+    "amap_name": "外屯乡下坪村退役军人服务站",
+    "amap_address": "外屯乡下坪村村委会",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;乡镇以下级政府及事业单位",
+    "amap_distance": 10549.43,
+    "amap_businessarea": {
+      "keytag": "政府机关",
+      "tel": "13559336863",
+      "rectag": "政府机关"
+    },
+    "cgcs_lon": 119.0990052098522,
+    "cgcs_lat": 27.360216433321213,
+    "amap_lon": 119.104072,
+    "amap_lat": 27.357175,
+    "source": "name_poi"
+  }
+]

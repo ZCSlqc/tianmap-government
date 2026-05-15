@@ -1,0 +1,159 @@
+[
+  {
+    "amap_id": "B0J2675590",
+    "amap_name": "小天朝",
+    "amap_address": "沿河路与河桐巷交叉口东240米",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 79.64,
+    "amap_businessarea": "九华中路",
+    "cgcs_lon": 118.37857520060585,
+    "cgcs_lat": 31.320423262351436,
+    "amap_lon": 118.383984,
+    "amap_lat": 31.318573,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0I0NLC0DX",
+    "amap_name": "CHAGEE霸王茶姬(芜湖古城花街店)",
+    "amap_address": "大砻坊街道吉城花街1-48铺一楼",
+    "amap_area": "",
+    "amap_type": "餐饮服务;冷饮店;冷饮店",
+    "amap_distance": 106.42,
+    "amap_businessarea": "九华中路",
+    "cgcs_lon": 118.37756771839598,
+    "cgcs_lat": 31.321196763209592,
+    "amap_lon": 118.382976,
+    "amap_lat": 31.319346,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0HKARNLQ1",
+    "amap_name": "六朝居老面(芜湖古城店)",
+    "amap_address": "东内街与罗家闸交叉口西南180米",
+    "amap_area": "",
+    "amap_type": "餐饮服务;快餐厅;快餐厅",
+    "amap_distance": 107.85,
+    "amap_businessarea": "九华中路",
+    "cgcs_lon": 118.37760667275006,
+    "cgcs_lat": 31.321435643886748,
+    "amap_lon": 118.383015,
+    "amap_lat": 31.319585,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0H121CAE5",
+    "amap_name": "上花街糖水铺(芜湖古城店)",
+    "amap_address": "东内街芜湖古城铁盒精酿对面",
+    "amap_area": "",
+    "amap_type": "餐饮服务;餐饮相关场所;餐饮相关",
+    "amap_distance": 123.41,
+    "amap_businessarea": "九华中路",
+    "cgcs_lon": 118.37758665810075,
+    "cgcs_lat": 31.321725552938737,
+    "amap_lon": 118.382995,
+    "amap_lat": 31.319875,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0JAT7NVYO",
+    "amap_name": "古茗(芜湖古城店)",
+    "amap_address": "环城北路23号芜湖古城南门湾1-02",
+    "amap_area": "",
+    "amap_type": "餐饮服务;冷饮店;冷饮店",
+    "amap_distance": 124.51,
+    "amap_businessarea": "九华中路",
+    "cgcs_lon": 118.37741784178802,
+    "cgcs_lat": 31.320850011661957,
+    "amap_lon": 118.382826,
+    "amap_lat": 31.318999,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFLKLPXJ",
+    "amap_name": "芜湖古城",
+    "amap_address": "",
+    "amap_area": "243961.626741",
+    "amap_type": "110200",
+    "amap_distance": 0.0,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.37876594626131,
+    "cgcs_lat": 31.322023526805467,
+    "amap_lon": 118.384175,
+    "amap_lat": 31.320174,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "B0M60GLCJV",
+    "amap_name": "芜湖古城-地下停车场",
+    "amap_address": "大砻坊公共服务中心环城北路21号芜湖古城",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 76.28,
+    "amap_businessarea": {
+      "keytag": "地下停车场",
+      "rectag": "地下停车场"
+    },
+    "cgcs_lon": 118.37910778687313,
+    "cgcs_lat": 31.321723381709596,
+    "amap_lon": 118.384517,
+    "amap_lat": 31.319874,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0LAD99HVL",
+    "amap_name": "古城隐民宿(芜湖古城步行街店)",
+    "amap_address": "大砻坊街道古城花街1-24号门面",
+    "amap_area": "",
+    "amap_type": "住宿服务;住宿服务相关;住宿服务相关",
+    "amap_distance": 126.96,
+    "amap_businessarea": {
+      "keytag": "舒适型",
+      "rating": "4.7",
+      "tel": "19565752956",
+      "rectag": "舒适型"
+    },
+    "cgcs_lon": 118.37759064996197,
+    "cgcs_lat": 31.321787526899953,
+    "amap_lon": 118.382999,
+    "amap_lat": 31.319937,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0GKX7ECI9",
+    "amap_name": "芜湖古城长虹门",
+    "amap_address": "沿河路芜湖古城南城门",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 184.51,
+    "amap_businessarea": {
+      "keytag": "观景点",
+      "rating": "4.4",
+      "tel": "0553-5816688",
+      "rectag": "观景点"
+    },
+    "cgcs_lon": 118.37727700732702,
+    "cgcs_lat": 31.319996441456627,
+    "amap_lon": 118.382685,
+    "amap_lat": 31.318145,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0KG6SMZXY",
+    "amap_name": "芜湖古城宣春门地下停车场",
+    "amap_address": "环城东路82-27",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 204.23,
+    "amap_businessarea": {
+      "keytag": "地下停车场",
+      "rectag": "地下停车场",
+      "parking_type": "地下"
+    },
+    "cgcs_lon": 118.38040507551516,
+    "cgcs_lat": 31.32224226104485,
+    "amap_lon": 118.385815,
+    "amap_lat": 31.320394,
+    "source": "name_poi"
+  }
+]

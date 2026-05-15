@@ -1,0 +1,146 @@
+[
+  {
+    "amap_id": "B01670038O",
+    "amap_name": "永乐宫",
+    "amap_address": "永乐北路128号",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;国家级景点",
+    "amap_distance": 225.63,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 110.68771567008669,
+    "cgcs_lat": 34.72183367241541,
+    "amap_lon": 110.693119,
+    "amap_lat": 34.720687,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFKWCPFS",
+    "amap_name": "永乐宫游客服务中心",
+    "amap_address": "永乐北街230永乐宫内(东侧)",
+    "amap_area": "",
+    "amap_type": "生活服务;信息咨询中心;服务中心",
+    "amap_distance": 226.94,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 110.6882451391571,
+    "cgcs_lat": 34.72190567829545,
+    "amap_lon": 110.69365,
+    "amap_lat": 34.72076,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFI9SD6M",
+    "amap_name": "永乐宫-古魏城遗址",
+    "amap_address": "永乐北路永乐宫内(西侧)",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 240.59,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 110.68709946107573,
+    "cgcs_lat": 34.72171986408813,
+    "amap_lon": 110.692501,
+    "amap_lat": 34.720572,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0GD2STMEZ",
+    "amap_name": "永乐宫(东门)",
+    "amap_address": "永乐北路128号永乐宫内(东侧)",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 254.74,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 110.68864600200097,
+    "cgcs_lat": 34.72176311931146,
+    "amap_lon": 110.694052,
+    "amap_lat": 34.720618,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B016700FDC",
+    "amap_name": "龙泉村",
+    "amap_address": "芮城县",
+    "amap_area": "",
+    "amap_type": "地名地址信息;普通地名;村庄级地名",
+    "amap_distance": 487.88,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 110.68293624707648,
+    "cgcs_lat": 34.726104070090464,
+    "amap_lon": 110.688326,
+    "amap_lat": 34.724953,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0KRKL83O0",
+    "amap_name": "永乐宫-三清殿",
+    "amap_address": "永乐北路230号永乐宫内(北侧)",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;寺庙道观",
+    "amap_distance": 4.45,
+    "amap_businessarea": {
+      "opentime_today": "08:00-18:00",
+      "keytag": "文物古迹",
+      "rating": "3.7",
+      "rectag": "文物古迹",
+      "opentime_week": "08:00-18:00(17:30停止检票)"
+    },
+    "cgcs_lon": 110.68750808296232,
+    "cgcs_lat": 34.72382510815868,
+    "amap_lon": 110.692911,
+    "amap_lat": 34.72268,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0LRXC0UJZ",
+    "amap_name": "无极殿",
+    "amap_address": "永乐宫游客服务中心北侧210米",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;寺庙道观",
+    "amap_distance": 9.91,
+    "amap_businessarea": {
+      "keytag": "文物古迹",
+      "rating": "2.9",
+      "rectag": "文物古迹"
+    },
+    "cgcs_lon": 110.68756492317186,
+    "cgcs_lat": 34.72377905313651,
+    "amap_lon": 110.692968,
+    "amap_lat": 34.722634,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0J25LIZ30",
+    "amap_name": "无极门",
+    "amap_address": "永乐北路128号永乐宫内(北侧)",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 98.16,
+    "amap_businessarea": {
+      "keytag": "道观",
+      "rating": "3.2",
+      "rectag": "道观"
+    },
+    "cgcs_lon": 110.68777838005003,
+    "cgcs_lat": 34.72300243166063,
+    "amap_lon": 110.693182,
+    "amap_lat": 34.721857,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0KRKLB6YP",
+    "amap_name": "永乐宫-重阳殿",
+    "amap_address": "永乐北路128号永乐宫",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 147.9,
+    "amap_businessarea": {
+      "keytag": "文物古迹",
+      "rating": "3.4",
+      "rectag": "文物古迹"
+    },
+    "cgcs_lon": 110.68764979471466,
+    "cgcs_lat": 34.72253311106393,
+    "amap_lon": 110.693053,
+    "amap_lat": 34.721387,
+    "source": "name_poi"
+  }
+]

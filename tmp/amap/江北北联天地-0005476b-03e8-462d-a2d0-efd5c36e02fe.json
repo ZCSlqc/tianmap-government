@@ -1,0 +1,169 @@
+[
+  {
+    "amap_id": "B0GRB7G03K",
+    "amap_name": "聚智园(建设中)",
+    "amap_address": "高新区",
+    "amap_area": "",
+    "amap_type": "商务住宅;商务住宅相关;商务住宅相关",
+    "amap_distance": 198.89,
+    "amap_businessarea": "江北新区直管区",
+    "cgcs_lon": 118.69386578422474,
+    "cgcs_lat": 32.194828723208424,
+    "amap_lon": 118.699049,
+    "amap_lat": 32.19272,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFG1NH70",
+    "amap_name": "南京生物医药谷(学府路园区)",
+    "amap_address": "沿江街道星火北路20号",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;医药公司",
+    "amap_distance": 326.38,
+    "amap_businessarea": "江北新区直管区",
+    "cgcs_lon": 118.69283021705903,
+    "cgcs_lat": 32.19019373641084,
+    "amap_lon": 118.698011,
+    "amap_lat": 32.188084,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0H33X2VI9",
+    "amap_name": "中共南京市江北新区生命健康产业发展工作委员会",
+    "amap_address": "药谷大道20号",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;政府机关相关",
+    "amap_distance": 332.36,
+    "amap_businessarea": "江北新区直管区",
+    "cgcs_lon": 118.6928781297547,
+    "cgcs_lat": 32.19012964726017,
+    "amap_lon": 118.698059,
+    "amap_lat": 32.18802,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0K0GS3ANF",
+    "amap_name": "聚攸淮南牛肉汤(南京信息工程大学南苑校区店)",
+    "amap_address": "高新区永锦路41号创客公寓",
+    "amap_area": "",
+    "amap_type": "餐饮服务;中餐厅;中餐厅",
+    "amap_distance": 334.72,
+    "amap_businessarea": "江北新区直管区",
+    "cgcs_lon": 118.69243945096012,
+    "cgcs_lat": 32.19590323819593,
+    "amap_lon": 118.69762,
+    "amap_lat": 32.193792,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0LB3U8MSC",
+    "amap_name": "库迪咖啡(南信大南苑店)",
+    "amap_address": "盘城街道创客公寓二期4栋104",
+    "amap_area": "",
+    "amap_type": "餐饮服务;餐饮相关场所;餐饮相关",
+    "amap_distance": 338.87,
+    "amap_businessarea": "江北新区直管区",
+    "cgcs_lon": 118.69271789736018,
+    "cgcs_lat": 32.196011790992294,
+    "amap_lon": 118.697899,
+    "amap_lat": 32.193901,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0IU6L21I5",
+    "amap_name": "北联永康广场(建设中)",
+    "amap_address": "兰新路",
+    "amap_area": "",
+    "amap_type": "商务住宅;商务住宅相关;商务住宅相关",
+    "amap_distance": 2217.9,
+    "amap_businessarea": {
+      "keytag": "商务住宅,商务住宅相关,商务住宅相关",
+      "business_area": "江北新区直管区"
+    },
+    "cgcs_lon": 118.70725304699423,
+    "cgcs_lat": 32.17677404937651,
+    "amap_lon": 118.712458,
+    "amap_lat": 32.174688,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0LBXSJBYZ",
+    "amap_name": "北联新星里治安岗亭",
+    "amap_address": "学府路1号",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;公检法机构;社会治安机构",
+    "amap_distance": 2295.46,
+    "amap_businessarea": {
+      "keytag": "公检法机构",
+      "business_area": "江北新区直管区",
+      "rectag": "公检法机构"
+    },
+    "cgcs_lon": 118.70918007876597,
+    "cgcs_lat": 32.17715463064416,
+    "amap_lon": 118.714388,
+    "amap_lat": 32.175071,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0L1B7ZKX9",
+    "amap_name": "十足便利店(南京北联广场店)",
+    "amap_address": "江北新区兰新路与学府路交叉口北联广场商业街1栋1F-126",
+    "amap_area": "",
+    "amap_type": "购物服务;便民商店/便利店;便民商店/便利店",
+    "amap_distance": 2345.05,
+    "amap_businessarea": {
+      "opentime_today": "24小时营业",
+      "keytag": "综合超市",
+      "rating": "4.1",
+      "business_area": "沿江",
+      "tel": "18735545697",
+      "rectag": "日用品",
+      "opentime_week": "周一至周日 00:00-24:00"
+    },
+    "cgcs_lon": 118.70980416785807,
+    "cgcs_lat": 32.17701782824242,
+    "amap_lon": 118.715013,
+    "amap_lat": 32.174935,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0K31URX7K",
+    "amap_name": "旺财猫狗有限公司(高新北联永泰广场新星里店)",
+    "amap_address": "江北新区兰新路47号北联新星里4幢107号商铺",
+    "amap_area": "",
+    "amap_type": "公司企业;公司企业;公司企业",
+    "amap_distance": 2462.06,
+    "amap_businessarea": {
+      "opentime_today": "10:00-21:00",
+      "keytag": "宠物店",
+      "rating": "4.1",
+      "business_area": "江北新区",
+      "tel": "18118990003;18521597891",
+      "rectag": "宠物美容",
+      "opentime_week": "周一至周日 10:00-21:00"
+    },
+    "cgcs_lon": 118.71117122598473,
+    "cgcs_lat": 32.17663709742568,
+    "amap_lon": 118.716382,
+    "amap_lat": 32.174556,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0JGT7S8II",
+    "amap_name": "北联永康广场项目生活区",
+    "amap_address": "高科五路1号",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;宿舍",
+    "amap_distance": 2759.55,
+    "amap_businessarea": {
+      "keytag": "宿舍",
+      "business_area": "江北新区直管区",
+      "rectag": "宿舍"
+    },
+    "cgcs_lon": 118.70325317764464,
+    "cgcs_lat": 32.16956934276643,
+    "amap_lon": 118.708451,
+    "amap_lat": 32.167479,
+    "source": "name_poi"
+  }
+]

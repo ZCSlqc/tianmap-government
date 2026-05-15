@@ -1,0 +1,132 @@
+[
+  {
+    "amap_id": "B02280N4VK",
+    "amap_name": "锥子山",
+    "amap_address": "龙子湖区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;自然地名;山",
+    "amap_distance": 35.71,
+    "amap_businessarea": "大学城",
+    "cgcs_lon": 117.4446103964408,
+    "cgcs_lat": 32.9179398190513,
+    "amap_lon": 117.450413,
+    "amap_lat": 32.916187,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B022801GFV",
+    "amap_name": "锥子山森林公园",
+    "amap_address": "胜利东路400号",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 232.16,
+    "amap_businessarea": "大学城",
+    "cgcs_lon": 117.44605256765506,
+    "cgcs_lat": 32.91973461433578,
+    "amap_lon": 117.451852,
+    "amap_lat": 32.91798,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0L36H9M10",
+    "amap_name": "栖岩寺后山水库",
+    "amap_address": "东海大道",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 367.26,
+    "amap_businessarea": "大学城",
+    "cgcs_lon": 117.44136032312322,
+    "cgcs_lat": 32.916530296216294,
+    "amap_lon": 117.44717,
+    "amap_lat": 32.914783,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0I6FUKOD6",
+    "amap_name": "临街院门(临街院门)",
+    "amap_address": "蚌埠盛鑫玻璃器皿有限公司东北侧200米",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 380.95,
+    "amap_businessarea": "大学城",
+    "cgcs_lon": 117.44260261526138,
+    "cgcs_lat": 32.92063199665223,
+    "amap_lon": 117.44841,
+    "amap_lat": 32.918885,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0HB2UWIKN",
+    "amap_name": "安徽科海压缩机制造有限公司(南门)",
+    "amap_address": "锥子山路安徽科海压缩机制造有限公司",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 401.4,
+    "amap_businessarea": "大学城",
+    "cgcs_lon": 117.44223280436567,
+    "cgcs_lat": 32.920625273966714,
+    "amap_lon": 117.448041,
+    "amap_lat": 32.918879,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFIY77W2",
+    "amap_name": "蚌埠市人工影响天气办公室",
+    "amap_address": "蚌埠市气象局东门西80米",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;地市级政府及事业单位",
+    "amap_distance": 5463.28,
+    "amap_businessarea": {
+      "keytag": "政府机关",
+      "rectag": "政府机关"
+    },
+    "cgcs_lon": 117.38675249736183,
+    "cgcs_lat": 32.92184952664349,
+    "amap_lon": 117.392603,
+    "amap_lat": 32.920148,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0LDTD24G7",
+    "amap_name": "吉利雷达新能源皮卡(蚌埠合宏店)",
+    "amap_address": "黄山大道8008号",
+    "amap_area": "",
+    "amap_type": "汽车销售;汽车销售;汽车销售",
+    "amap_distance": 12953.25,
+    "amap_businessarea": {
+      "opentime_today": "08:30-17:30",
+      "keytag": "汽车销售",
+      "rating": "4.1",
+      "tel": "13865013352",
+      "rectag": "汽车销售",
+      "opentime_week": "周一至周日 08:30-17:30"
+    },
+    "cgcs_lon": 117.30848637053492,
+    "cgcs_lat": 32.898136581458616,
+    "amap_lon": 117.314175,
+    "amap_lat": 32.896303,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFGA2GPJ",
+    "amap_name": "蚌埠盈通汽车销售服务有限公司",
+    "amap_address": "迎宾大道国际汽车城北侧",
+    "amap_area": "",
+    "amap_type": "汽车销售;吉利特约销售;吉利销售|汽车维修;吉利特约维修;吉利维修",
+    "amap_distance": 14130.22,
+    "amap_businessarea": {
+      "opentime_today": "08:30-18:00",
+      "keytag": "4S店",
+      "rating": "4.6",
+      "alias": "蚌埠盈通",
+      "tel": "0552-3227333;0552-3227555",
+      "rectag": "服务周到",
+      "opentime_week": "周一至周日 08:30-18:00"
+    },
+    "cgcs_lon": 117.30598489801375,
+    "cgcs_lat": 32.867988753644966,
+    "amap_lon": 117.3116643,
+    "amap_lat": 32.86613125,
+    "source": "name_poi"
+  }
+]

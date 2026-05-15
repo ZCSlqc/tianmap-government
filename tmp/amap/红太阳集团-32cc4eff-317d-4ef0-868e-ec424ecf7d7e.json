@@ -1,0 +1,129 @@
+[
+  {
+    "amap_id": "B0I3ZRVG0U",
+    "amap_name": "南京红太阳食品有限公司",
+    "amap_address": "古檀大道18号",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 66.83,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.94544910584243,
+    "cgcs_lat": 31.356515959376605,
+    "amap_lon": 118.950475,
+    "amap_lat": 31.354375,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFI951WO",
+    "amap_name": "红太阳总部基地",
+    "amap_address": "高淳区开发区古檀大道18号",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 70.53,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.94628595729334,
+    "cgcs_lat": 31.356626162276466,
+    "amap_lon": 118.951314,
+    "amap_lat": 31.354487,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFGWQPPF",
+    "amap_name": "南京康聚医疗器械有限公司",
+    "amap_address": "古柏开发区花山路27号",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;医药公司",
+    "amap_distance": 101.46,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.946594274705,
+    "cgcs_lat": 31.35536192537024,
+    "amap_lon": 118.951623,
+    "amap_lat": 31.353223,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFJ49PXF",
+    "amap_name": "红太阳世界村",
+    "amap_address": "古柏镇古檀大道18号",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 139.1,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.94490045190445,
+    "cgcs_lat": 31.35696695129229,
+    "amap_lon": 118.949925,
+    "amap_lat": 31.354825,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFG0W0UI",
+    "amap_name": "南京麒麟集团(花山路)",
+    "amap_address": "高淳经济开发区花山路25号",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 163.34,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.94551809715499,
+    "cgcs_lat": 31.354647434011536,
+    "amap_lon": 118.950544,
+    "amap_lat": 31.352506,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFLOSJ47",
+    "amap_name": "红太阳集团有限公司",
+    "amap_address": "双高路188号",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;医药公司",
+    "amap_distance": 1710.76,
+    "amap_businessarea": {
+      "opentime_today": "08:00-17:30",
+      "keytag": "公司",
+      "rectag": "公司",
+      "opentime_week": "周一至周日 08:00-17:30"
+    },
+    "cgcs_lon": 118.92859289948977,
+    "cgcs_lat": 31.352016181703966,
+    "amap_lon": 118.933582,
+    "amap_lat": 31.349844,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0HBLG9XLZ",
+    "amap_name": "南京红太阳股份有限公司停车场(出入口)",
+    "amap_address": "竹山南路589号",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;停车场出入口",
+    "amap_distance": 62990.42,
+    "amap_businessarea": {
+      "keytag": "停车场入口",
+      "business_area": "竹山路沿线",
+      "rectag": "停车场入口"
+    },
+    "cgcs_lon": 118.8494009560246,
+    "cgcs_lat": 31.91813998980905,
+    "amap_lon": 118.854456,
+    "amap_lat": 31.915995,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFFFQ2SS",
+    "amap_name": "南京红太阳股份有限公司",
+    "amap_address": "竹山南路589号",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司|购物服务;购物相关场所;购物相关场所",
+    "amap_distance": 62995.17,
+    "amap_businessarea": {
+      "opentime_today": "08:00-20:00",
+      "keytag": "公司",
+      "business_area": "竹山路沿线",
+      "rectag": "公司",
+      "opentime_week": "周一至周日 08:00-20:00"
+    },
+    "cgcs_lon": 118.85033761415048,
+    "cgcs_lat": 31.91830052395327,
+    "amap_lon": 118.855391,
+    "amap_lat": 31.916154,
+    "source": "name_poi"
+  }
+]

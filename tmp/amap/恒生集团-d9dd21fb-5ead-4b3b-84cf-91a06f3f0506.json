@@ -1,0 +1,158 @@
+[
+  {
+    "amap_id": "B0IA1YRMIL",
+    "amap_name": "一鸣真鲜奶吧(杭州滨江数智恒生中心店)",
+    "amap_address": "长河街道滨兴路1888号数智恒生中心C112",
+    "amap_area": "",
+    "amap_type": "餐饮服务;餐饮相关场所;餐饮相关",
+    "amap_distance": 86.71,
+    "amap_businessarea": "长河",
+    "cgcs_lon": 120.18127852591151,
+    "cgcs_lat": 30.194266591690788,
+    "amap_lon": 120.185875,
+    "amap_lat": 30.191875,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0HKHRDF8I",
+    "amap_name": "恒生电子",
+    "amap_address": "江南大道1610号",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 87.72,
+    "amap_businessarea": "长河",
+    "cgcs_lon": 120.18126849802256,
+    "cgcs_lat": 30.19425357419245,
+    "amap_lon": 120.185865,
+    "amap_lat": 30.191862,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0HBOGJL6H",
+    "amap_name": "数智恒生中心",
+    "amap_address": "滨兴路1888号",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 97.85,
+    "amap_businessarea": "长河",
+    "cgcs_lon": 120.1811802541695,
+    "cgcs_lat": 30.194119421062048,
+    "amap_lon": 120.185777,
+    "amap_lat": 30.191728,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0MACUW75P",
+    "amap_name": "数智恒生中心D座",
+    "amap_address": "滨兴路1882号",
+    "amap_area": "",
+    "amap_type": "商务住宅;商务住宅相关;商务住宅相关",
+    "amap_distance": 161.65,
+    "amap_businessarea": "长河",
+    "cgcs_lon": 120.18158752880771,
+    "cgcs_lat": 30.192925210227667,
+    "amap_lon": 120.186183,
+    "amap_lat": 30.190533,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "BZA3QQ01RG",
+    "amap_name": "江南大道永久河无名桥1",
+    "amap_address": "滨江区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;桥",
+    "amap_distance": 201.45,
+    "amap_businessarea": "长河",
+    "cgcs_lon": 120.18189916598529,
+    "cgcs_lat": 30.19608062526108,
+    "amap_lon": 120.186494,
+    "amap_lat": 30.193688,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0GRPOMZ4S",
+    "amap_name": "滨江互联网小镇",
+    "amap_address": "",
+    "amap_area": "3222562.186493",
+    "amap_type": "120100",
+    "amap_distance": 0.0,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 120.19254830345847,
+    "cgcs_lat": 30.19115422205825,
+    "amap_lon": 120.197113,
+    "amap_lat": 30.188743,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "B0LGOR7ZBG",
+    "amap_name": "恒生总部大厦",
+    "amap_address": "滨兴路与支业路交叉口东北260米",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 160.88,
+    "amap_businessarea": {
+      "keytag": "写字楼",
+      "business_area": "长河",
+      "rectag": "写字楼"
+    },
+    "cgcs_lon": 120.18052637047066,
+    "cgcs_lat": 30.194015242842656,
+    "amap_lon": 120.185125,
+    "amap_lat": 30.191625,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFG8LWM7",
+    "amap_name": "恒生大厦B座",
+    "amap_address": "江南大道3588号(诚业路地铁站C口步行380米)",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 2122.49,
+    "amap_businessarea": {
+      "keytag": "写字楼",
+      "business_area": "江南",
+      "rectag": "写字楼"
+    },
+    "cgcs_lon": 120.16113233228863,
+    "cgcs_lat": 30.18856734733542,
+    "amap_lon": 120.165788,
+    "amap_lat": 30.186213,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B023B09W3T",
+    "amap_name": "恒生大厦(园支一路)",
+    "amap_address": "江南大道3588号(诚业路地铁站C口步行420米)",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼|公司企业;公司;公司|商务住宅;产业园区;产业园区",
+    "amap_distance": 2137.83,
+    "amap_businessarea": {
+      "keytag": "写字楼",
+      "business_area": "江南",
+      "rectag": "写字楼"
+    },
+    "cgcs_lon": 120.16110227369649,
+    "cgcs_lat": 30.188197307233523,
+    "amap_lon": 120.165758,
+    "amap_lat": 30.185843,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFHEJUS8",
+    "amap_name": "恒生大厦A座",
+    "amap_address": "江南大道3588号恒生大厦(园支一路)",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 2150.39,
+    "amap_businessarea": {
+      "keytag": "写字楼",
+      "business_area": "江南",
+      "rectag": "写字楼"
+    },
+    "cgcs_lon": 120.16100098025453,
+    "cgcs_lat": 30.188103122323717,
+    "amap_lon": 120.165657,
+    "amap_lat": 30.185749,
+    "source": "name_poi"
+  }
+]

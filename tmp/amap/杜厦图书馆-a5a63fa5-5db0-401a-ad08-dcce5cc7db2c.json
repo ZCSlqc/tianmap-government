@@ -1,0 +1,120 @@
+[
+  {
+    "amap_id": "B00190Z024",
+    "amap_name": "南京大学仙林校区杜厦图书馆",
+    "amap_address": "仙林大道163号南京大学仙林校区内",
+    "amap_area": "",
+    "amap_type": "科教文化服务;图书馆;图书馆",
+    "amap_distance": 5.43,
+    "amap_businessarea": "仙林",
+    "cgcs_lon": 118.95497916400967,
+    "cgcs_lat": 32.116304624031216,
+    "amap_lon": 118.9601,
+    "amap_lat": 32.114147,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0MBDHGI54",
+    "amap_name": "大众书局(南京大学仙林校区校园店)",
+    "amap_address": "仙林大道163号",
+    "amap_area": "",
+    "amap_type": "购物服务;专卖店;书店",
+    "amap_distance": 29.8,
+    "amap_businessarea": "仙林",
+    "cgcs_lon": 118.95475381444378,
+    "cgcs_lat": 32.11641718847956,
+    "amap_lon": 118.959874,
+    "amap_lat": 32.114259,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFGKWOOI",
+    "amap_name": "报告厅(杜厦图书馆)",
+    "amap_address": "仙林大道163号杜厦图书馆F1层",
+    "amap_area": "",
+    "amap_type": "科教文化服务;图书馆;图书馆",
+    "amap_distance": 31.2,
+    "amap_businessarea": "仙林",
+    "cgcs_lon": 118.95470697466223,
+    "cgcs_lat": 32.1161662512142,
+    "amap_lon": 118.959827,
+    "amap_lat": 32.114008,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFGKWOOW",
+    "amap_name": "典藏(杜厦图书馆)",
+    "amap_address": "仙林大道163号杜厦图书馆F1层",
+    "amap_area": "",
+    "amap_type": "科教文化服务;图书馆;图书馆",
+    "amap_distance": 57.8,
+    "amap_businessarea": "仙林",
+    "cgcs_lon": 118.95459525726064,
+    "cgcs_lat": 32.11664561425535,
+    "amap_lon": 118.959715,
+    "amap_lat": 32.114487,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFGKWOY9",
+    "amap_name": "南京大学信息检索教学中心",
+    "amap_address": "仙林大道163号杜厦图书馆F5层",
+    "amap_area": "",
+    "amap_type": "科教文化服务;学校;高等院校",
+    "amap_distance": 63.01,
+    "amap_businessarea": "仙林",
+    "cgcs_lon": 118.95555743325411,
+    "cgcs_lat": 32.116595283369826,
+    "amap_lon": 118.96068,
+    "amap_lat": 32.114439,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B00190CVRT",
+    "amap_name": "南京大学仙林校区",
+    "amap_address": "",
+    "amap_area": "2213658.650955",
+    "amap_type": "141201",
+    "amap_distance": 0.0,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.95328957490977,
+    "cgcs_lat": 32.121722717171295,
+    "amap_lon": 118.958406,
+    "amap_lat": 32.11956,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "B0FFGPM7TL",
+    "amap_name": "公共厕所(杜厦图书馆)",
+    "amap_address": "仙林大道163号杜厦图书馆F1层",
+    "amap_area": "",
+    "amap_type": "公共设施;公共厕所;公共厕所",
+    "amap_distance": 58.9,
+    "amap_businessarea": {
+      "keytag": "公厕",
+      "rectag": "公厕"
+    },
+    "cgcs_lon": 118.95561431116357,
+    "cgcs_lat": 32.11609404592273,
+    "amap_lon": 118.960737,
+    "amap_lat": 32.113938,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFGPM9H4",
+    "amap_name": "公共厕所",
+    "amap_address": "仙林大道163号杜厦图书馆F2层",
+    "amap_area": "",
+    "amap_type": "公共设施;公共厕所;公共厕所",
+    "amap_distance": 60.07,
+    "amap_businessarea": {
+      "keytag": "公厕",
+      "rectag": "公厕"
+    },
+    "cgcs_lon": 118.95563126018091,
+    "cgcs_lat": 32.11610300653477,
+    "amap_lon": 118.960754,
+    "amap_lat": 32.113947,
+    "source": "name_poi"
+  }
+]

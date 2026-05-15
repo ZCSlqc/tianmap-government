@@ -1,0 +1,150 @@
+[
+  {
+    "amap_id": "B00180JAJW",
+    "amap_name": "新恒基国际大厦(大西路)",
+    "amap_address": "西顺城街170-1号(怀远门地铁站C口步行80米)",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 11.4,
+    "amap_businessarea": "大西",
+    "cgcs_lon": 123.44133685041615,
+    "cgcs_lat": 41.79533893974792,
+    "amap_lon": 123.447443,
+    "amap_lat": 41.797741,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "BX10017611",
+    "amap_name": "怀远门地铁站C口",
+    "amap_address": "1号线",
+    "amap_area": "",
+    "amap_type": "交通设施服务;地铁站;出入口",
+    "amap_distance": 56.66,
+    "amap_businessarea": "大西",
+    "cgcs_lon": 123.44134592909174,
+    "cgcs_lat": 41.79492297092356,
+    "amap_lon": 123.447452,
+    "amap_lat": 41.797325,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFG7N564",
+    "amap_name": "沈阳大西电子市场北厅",
+    "amap_address": "万寿寺街123号(怀远门地铁站C口步行220米)",
+    "amap_area": "",
+    "amap_type": "购物服务;家电电子卖场;数码电子",
+    "amap_distance": 69.74,
+    "amap_businessarea": "大西",
+    "cgcs_lon": 123.44056413122227,
+    "cgcs_lat": 41.79552245716081,
+    "amap_lon": 123.446672,
+    "amap_lat": 41.797926,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0GUJ7RX8Z",
+    "amap_name": "沈阳沈河洁雅口腔门诊部",
+    "amap_address": "西顺城街168-3号(AB轴)",
+    "amap_area": "",
+    "amap_type": "医疗保健服务;专科医院;口腔医院",
+    "amap_distance": 71.14,
+    "amap_businessarea": "大西",
+    "cgcs_lon": 123.44189300127181,
+    "cgcs_lat": 41.79595499619572,
+    "amap_lon": 123.447998,
+    "amap_lat": 41.798356,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "BV10052114",
+    "amap_name": "怀远门(地铁站)",
+    "amap_address": "1号线",
+    "amap_area": "",
+    "amap_type": "交通设施服务;地铁站;地铁站",
+    "amap_distance": 100.67,
+    "amap_businessarea": "大西",
+    "cgcs_lon": 123.44114854685398,
+    "cgcs_lat": 41.7945446041749,
+    "amap_lon": 123.447255,
+    "amap_lat": 41.796947,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0HRPS58NY",
+    "amap_name": "新恒基国际大厦地下停车场",
+    "amap_address": "西顺城街170-1号(怀远门地铁站C口步行180米)",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 44.06,
+    "amap_businessarea": {
+      "opentime_today": "24小时营业",
+      "keytag": "地下停车场",
+      "rectag": "地下停车场",
+      "parking_type": "地下",
+      "opentime_week": "周一至周日 00:00-24:00"
+    },
+    "cgcs_lon": 123.44183291216459,
+    "cgcs_lat": 41.79563288974305,
+    "amap_lon": 123.447938,
+    "amap_lat": 41.798034,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0HRPS48CZ",
+    "amap_name": "新恒基国际大厦地下停车场(出入口)",
+    "amap_address": "西顺城街170-1号新恒基国际大厦地下停车场",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;停车场出入口",
+    "amap_distance": 51.77,
+    "amap_businessarea": {
+      "keytag": "停车场入口",
+      "business_area": "沈阳金融商贸经济技术开发区",
+      "rectag": "停车场入口"
+    },
+    "cgcs_lon": 123.44187098621424,
+    "cgcs_lat": 41.79571196120512,
+    "amap_lon": 123.447976,
+    "amap_lat": 41.798113,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0HRPS5KQQ",
+    "amap_name": "新恒基国际大厦地面停车场(出入口)",
+    "amap_address": "西顺城街170-1号新恒基国际大厦停车场",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;停车场出入口",
+    "amap_distance": 51.77,
+    "amap_businessarea": {
+      "keytag": "停车场入口",
+      "business_area": "沈阳金融商贸经济技术开发区",
+      "rectag": "停车场入口",
+      "parking_type": "地面"
+    },
+    "cgcs_lon": 123.44187098621424,
+    "cgcs_lat": 41.79571196120512,
+    "amap_lon": 123.447976,
+    "amap_lat": 41.798113,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0HRPS4N5B",
+    "amap_name": "新恒基国际大厦停车场",
+    "amap_address": "西顺城街170-1号(怀远门地铁站C口步行80米)",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 52.79,
+    "amap_businessarea": {
+      "opentime_today": "24小时营业",
+      "keytag": "地面停车场",
+      "business_area": "沈阳金融商贸经济技术开发区",
+      "rectag": "地面停车场",
+      "parking_type": "地面",
+      "opentime_week": "周一至周日 00:00-24:00"
+    },
+    "cgcs_lon": 123.44190915082395,
+    "cgcs_lat": 41.795150053794075,
+    "amap_lon": 123.448014,
+    "amap_lat": 41.797551,
+    "source": "name_poi"
+  }
+]

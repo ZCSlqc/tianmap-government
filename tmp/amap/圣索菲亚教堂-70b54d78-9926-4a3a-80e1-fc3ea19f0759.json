@@ -1,0 +1,143 @@
+[
+  {
+    "amap_id": "B01C305G2A",
+    "amap_name": "圣·索菲亚教堂",
+    "amap_address": "透笼街88号",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;教堂",
+    "amap_distance": 2.69,
+    "amap_businessarea": "兆麟",
+    "cgcs_lon": 126.62127441414091,
+    "cgcs_lat": 45.76819868328774,
+    "amap_lon": 126.627215,
+    "amap_lat": 45.770125,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFG265XB",
+    "amap_name": "索菲亚广场-八角亭",
+    "amap_address": "透笼街88号索菲亚广场(西南角)",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 54.15,
+    "amap_businessarea": "兆麟",
+    "cgcs_lon": 126.62069745920317,
+    "cgcs_lat": 45.76788926542404,
+    "amap_lon": 126.626637,
+    "amap_lat": 45.769815,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B01C30285B",
+    "amap_name": "哈尔滨建筑艺术馆",
+    "amap_address": "透笼街88号索菲亚广场",
+    "amap_area": "",
+    "amap_type": "科教文化服务;展览馆;展览馆",
+    "amap_distance": 56.05,
+    "amap_businessarea": "兆麟",
+    "cgcs_lon": 126.62112958668538,
+    "cgcs_lat": 45.76869199020515,
+    "amap_lon": 126.62707,
+    "amap_lat": 45.770618,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0HRM7HR0P",
+    "amap_name": "建筑艺术广场",
+    "amap_address": "透笼街88号",
+    "amap_area": "",
+    "amap_type": "风景名胜;公园广场;城市广场",
+    "amap_distance": 56.39,
+    "amap_businessarea": "兆麟",
+    "cgcs_lon": 126.6210437368318,
+    "cgcs_lat": 45.768682087209775,
+    "amap_lon": 126.626984,
+    "amap_lat": 45.770608,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B01C30J89Z",
+    "amap_name": "索菲亚广场",
+    "amap_address": "透笼街88号",
+    "amap_area": "",
+    "amap_type": "风景名胜;公园广场;城市广场",
+    "amap_distance": 56.57,
+    "amap_businessarea": "兆麟",
+    "cgcs_lon": 126.62114056670116,
+    "cgcs_lat": 45.76869797910339,
+    "amap_lon": 126.627081,
+    "amap_lat": 45.770624,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B01C303Y04",
+    "amap_name": "曼哈顿商厦",
+    "amap_address": "",
+    "amap_area": "14744.334258",
+    "amap_type": "120203",
+    "amap_distance": 49.94,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 126.62150515676265,
+    "cgcs_lat": 45.7672901589552,
+    "amap_lon": 126.627446,
+    "amap_lat": 45.769217,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "B0FFK477UL",
+    "amap_name": "索菲亚教堂旅游服务处",
+    "amap_address": "透笼街88号圣·索菲亚教堂(西南角)",
+    "amap_area": "",
+    "amap_type": "生活服务;售票处;公园景点售票处",
+    "amap_distance": 42.84,
+    "amap_businessarea": {
+      "opentime_today": "08:30-17:00",
+      "keytag": "售票处",
+      "rating": "3.8",
+      "rectag": "售票处",
+      "opentime_week": "周一至周日 08:30-17:00"
+    },
+    "cgcs_lon": 126.62086516590622,
+    "cgcs_lat": 45.767924081913314,
+    "amap_lon": 126.626805,
+    "amap_lat": 45.76985,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0KKUHIG6I",
+    "amap_name": "圣·索菲亚教堂四季沐歌温暖驿站",
+    "amap_address": "石头道街与地段街交叉口西南80米",
+    "amap_area": "",
+    "amap_type": "生活服务;生活服务场所;生活服务场所|风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 99.15,
+    "amap_businessarea": {
+      "keytag": "基督教堂",
+      "rating": "3.6",
+      "rectag": "基督教堂"
+    },
+    "cgcs_lon": 126.62133017455561,
+    "cgcs_lat": 45.769089867588896,
+    "amap_lon": 126.627271,
+    "amap_lat": 45.771016,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0KDXRSLWR",
+    "amap_name": "卓罡娅摄影工作室(金太阳买手商城圣索菲亚教堂店)",
+    "amap_address": "地段街128号金太阳精品商城F3层",
+    "amap_area": "",
+    "amap_type": "生活服务;摄影冲印店;摄影冲印",
+    "amap_distance": 106.4,
+    "amap_businessarea": {
+      "cost": "201.00",
+      "keytag": "写真",
+      "rating": "3.4",
+      "rectag": "写真"
+    },
+    "cgcs_lon": 126.62188321035639,
+    "cgcs_lat": 45.76904820385364,
+    "amap_lon": 126.627825,
+    "amap_lat": 45.770975,
+    "source": "name_poi"
+  }
+]

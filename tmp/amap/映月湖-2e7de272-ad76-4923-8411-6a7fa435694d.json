@@ -1,0 +1,146 @@
+[
+  {
+    "amap_id": "B0HAK4GHMW",
+    "amap_name": "滨水平台",
+    "amap_address": "安镇街道和祥路333号映月天地商业广场",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 117.92,
+    "amap_businessarea": "查桥",
+    "cgcs_lon": 120.44739274407961,
+    "cgcs_lat": 31.592221727536707,
+    "amap_lon": 120.452007,
+    "amap_lat": 31.590411,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFL2CYGB",
+    "amap_name": "逸趣园",
+    "amap_address": "和祥路333号映月湖中央公园(西侧)",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 130.13,
+    "amap_businessarea": "查桥",
+    "cgcs_lon": 120.44516940725727,
+    "cgcs_lat": 31.59103019270396,
+    "amap_lon": 120.44979,
+    "amap_lat": 31.589224,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFFDG0WD",
+    "amap_name": "映月湖中央公园",
+    "amap_address": "和祥路333号(映月湖公园地铁站4号口步行230米)",
+    "amap_area": "",
+    "amap_type": "风景名胜;公园广场;公园",
+    "amap_distance": 133.67,
+    "amap_businessarea": "查桥",
+    "cgcs_lon": 120.44728254514068,
+    "cgcs_lat": 31.59077655625159,
+    "amap_lon": 120.451897,
+    "amap_lat": 31.588966,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "BX10020858",
+    "amap_name": "映月湖公园地铁站6B口",
+    "amap_address": "2号线",
+    "amap_area": "",
+    "amap_type": "交通设施服务;地铁站;出入口",
+    "amap_distance": 156.6,
+    "amap_businessarea": "查桥",
+    "cgcs_lon": 120.44598781931016,
+    "cgcs_lat": 31.590284891506574,
+    "amap_lon": 120.450606,
+    "amap_lat": 31.588477,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0HUYAR7PO",
+    "amap_name": "方香茶艺(映月天地商业广场店)",
+    "amap_address": "映月天地商业广场4-104号",
+    "amap_area": "",
+    "amap_type": "餐饮服务;茶艺馆;茶艺馆",
+    "amap_distance": 159.6,
+    "amap_businessarea": "查桥",
+    "cgcs_lon": 120.4467858956891,
+    "cgcs_lat": 31.59304642591834,
+    "amap_lon": 120.451402,
+    "amap_lat": 31.591237,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0G3V4BGNT",
+    "amap_name": "映月广场",
+    "amap_address": "和祥路333号映月湖中央公园(西南角)",
+    "amap_area": "",
+    "amap_type": "风景名胜;公园广场;城市广场",
+    "amap_distance": 180.17,
+    "amap_businessarea": {
+      "opentime_today": "24小时营业",
+      "keytag": "广场",
+      "rating": "3.9",
+      "rectag": "广场",
+      "opentime_week": "周一至周日 00:00-24:00"
+    },
+    "cgcs_lon": 120.44612824622367,
+    "cgcs_lat": 31.590037190630373,
+    "amap_lon": 120.450746,
+    "amap_lat": 31.588229,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "BX10020856",
+    "amap_name": "映月湖公园地铁站6A口",
+    "amap_address": "2号线",
+    "amap_area": "",
+    "amap_type": "交通设施服务;地铁站;出入口",
+    "amap_distance": 183.72,
+    "amap_businessarea": {
+      "keytag": "地铁站出入口",
+      "rectag": "地铁站出入口"
+    },
+    "cgcs_lon": 120.44636292907245,
+    "cgcs_lat": 31.589997675946854,
+    "amap_lon": 120.45098,
+    "amap_lat": 31.588189,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "BX10020855",
+    "amap_name": "映月湖公园地铁站7号口",
+    "amap_address": "2号线",
+    "amap_area": "",
+    "amap_type": "交通设施服务;地铁站;出入口",
+    "amap_distance": 184.1,
+    "amap_businessarea": {
+      "keytag": "地铁站出入口",
+      "rectag": "地铁站出入口"
+    },
+    "cgcs_lon": 120.44575617116041,
+    "cgcs_lat": 31.590064426720264,
+    "amap_lon": 120.450375,
+    "amap_lat": 31.588257,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFGPGH02",
+    "amap_name": "映月湖中央公园西停车场",
+    "amap_address": "和祥路333号映月湖中央公园内(西侧)",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 188.81,
+    "amap_businessarea": {
+      "opentime_today": "24小时营业",
+      "keytag": "地面停车场",
+      "rectag": "地面停车场",
+      "parking_type": "地面",
+      "opentime_week": "周一至周日 00:00-24:00"
+    },
+    "cgcs_lon": 120.44499797522444,
+    "cgcs_lat": 31.59037887419081,
+    "amap_lon": 120.449619,
+    "amap_lat": 31.588573,
+    "source": "name_poi"
+  }
+]

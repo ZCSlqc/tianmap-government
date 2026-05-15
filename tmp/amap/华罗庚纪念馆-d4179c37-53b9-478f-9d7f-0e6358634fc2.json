@@ -1,0 +1,72 @@
+[
+  {
+    "amap_id": "B020705DPJ",
+    "name": "愚池公园",
+    "address": "西城街道城南风景区",
+    "area": "",
+    "type": "风景名胜;公园广场;公园",
+    "distance": 20.15,
+    "businessarea": "[]",
+    "lon": 119.56102088248113,
+    "lat": 31.737198508632666,
+    "amap_lon": 119.565972,
+    "amap_lat": 31.735076,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0GDRUBWD2",
+    "name": "华罗庚纪念馆",
+    "address": "金城镇城南风景区愚池公园徽名居A-F幢",
+    "area": "",
+    "type": "风景名胜;风景名胜;纪念馆",
+    "distance": 40.43,
+    "businessarea": "[]",
+    "lon": 119.56125034505068,
+    "lat": 31.737607875365704,
+    "amap_lon": 119.566201,
+    "amap_lat": 31.735485,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0KD7AV5ES",
+    "name": "金坛非物质文化遗产保护中心",
+    "address": "沿河东路20号",
+    "area": "",
+    "type": "政府机构及社会团体;政府及社会团体相关;政府及社会团体相关",
+    "distance": 90.92,
+    "businessarea": "[]",
+    "lon": 119.56034642625876,
+    "lat": 31.736912521560036,
+    "amap_lon": 119.565299,
+    "amap_lat": 31.734791,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B020702XKK",
+    "name": "金坛区文物管理委员会",
+    "address": "沿河东路金坛市博物馆",
+    "area": "",
+    "type": "政府机构及社会团体;政府机关;区县级政府及事业单位",
+    "distance": 138.3,
+    "businessarea": "[]",
+    "lon": 119.56257817327668,
+    "lat": 31.73772869994353,
+    "amap_lon": 119.567526,
+    "amap_lat": 31.735604,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0K6SS50B4",
+    "name": "金坛景泰蓝非遗工坊",
+    "address": "徽派建筑群",
+    "area": "",
+    "type": "风景名胜;风景名胜;风景名胜",
+    "distance": 148.8,
+    "businessarea": "[]",
+    "lon": 119.55971101374367,
+    "lat": 31.73687560037827,
+    "amap_lon": 119.564665,
+    "amap_lat": 31.734755,
+    "source": "geo_poi"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "amap_id": "B03910NGCS",
+    "amap_name": "华山北站(进站口)",
+    "amap_address": "北环路与华岳大道(北段)交叉口北200米",
+    "amap_area": "",
+    "amap_type": "交通设施服务;火车站;进站口/检票口",
+    "amap_distance": 92.24,
+    "amap_businessarea": "太华路",
+    "cgcs_lon": 110.09309831128594,
+    "cgcs_lat": 34.58291769108132,
+    "amap_lon": 110.098556,
+    "amap_lat": 34.581877,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0391016SJ",
+    "amap_name": "华山北站",
+    "amap_address": "华岳大道",
+    "amap_area": "",
+    "amap_type": "交通设施服务;火车站;火车站",
+    "amap_distance": 108.54,
+    "amap_businessarea": "太华路",
+    "cgcs_lon": 110.09318832567716,
+    "cgcs_lat": 34.58276781284281,
+    "amap_lon": 110.098646,
+    "amap_lat": 34.581727,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B03910NA53",
+    "amap_name": "华山北站(出站口)",
+    "amap_address": "华山北站1层",
+    "amap_area": "",
+    "amap_type": "交通设施服务;火车站;出站口",
+    "amap_distance": 136.63,
+    "amap_businessarea": "太华路",
+    "cgcs_lon": 110.0938133536676,
+    "cgcs_lat": 34.58262794170786,
+    "amap_lon": 110.099271,
+    "amap_lat": 34.581587,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFG8FEYE",
+    "amap_name": "华山北站站前广场",
+    "amap_address": "华岳大道(北段)附近",
+    "amap_area": "",
+    "amap_type": "风景名胜;公园广场;城市广场",
+    "amap_distance": 175.72,
+    "amap_businessarea": "太华路",
+    "cgcs_lon": 110.09305138074363,
+    "cgcs_lat": 34.58216829469817,
+    "amap_lon": 110.098509,
+    "amap_lat": 34.581127,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFIW7249",
+    "amap_name": "川湘小炒手工面馆(北环路店)",
+    "amap_address": "北环路与华岳大道交叉口东北140米",
+    "amap_area": "",
+    "amap_type": "餐饮服务;中餐厅;中餐厅",
+    "amap_distance": 211.11,
+    "amap_businessarea": "太华路",
+    "cgcs_lon": 110.09409442546074,
+    "cgcs_lat": 34.581998461631734,
+    "amap_lon": 110.099552,
+    "amap_lat": 34.580957,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFG6K0PI",
+    "amap_name": "佳惠超市(华山北站店)",
+    "amap_address": "华岳大道华山北站附近",
+    "amap_area": "",
+    "amap_type": "购物服务;便民商店/便利店;便民商店/便利店",
+    "amap_distance": 148.86,
+    "amap_businessarea": {
+      "opentime_today": "06:30-22:15",
+      "keytag": "日杂店",
+      "rating": "3.5",
+      "rectag": "日杂店",
+      "opentime_week": "周一至周日 06:30-22:15"
+    },
+    "cgcs_lon": 110.09399536650008,
+    "cgcs_lat": 34.582577989864895,
+    "amap_lon": 110.099453,
+    "amap_lat": 34.581537,
+    "source": "name_poi"
+  }
+]

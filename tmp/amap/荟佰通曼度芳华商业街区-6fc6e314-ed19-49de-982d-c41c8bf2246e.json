@@ -1,0 +1,152 @@
+[
+  {
+    "amap_id": "B0I2VU2RZK",
+    "amap_name": "庆功冰煮羊烤全羊店(荟佰通曼度芳华)",
+    "amap_address": "秦淮大道辅路与新华路交叉口西南140米",
+    "amap_area": "",
+    "amap_type": "餐饮服务;中餐厅;火锅店",
+    "amap_distance": 10.23,
+    "amap_businessarea": "永阳",
+    "cgcs_lon": 119.03806706104017,
+    "cgcs_lat": 31.66736644630005,
+    "amap_lon": 119.043428,
+    "amap_lat": 31.665524,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0LR0KLNRJ",
+    "amap_name": "永利温泉",
+    "amap_address": "永阳街道秦淮大道206号",
+    "amap_area": "",
+    "amap_type": "住宿服务;宾馆酒店;宾馆酒店",
+    "amap_distance": 157.93,
+    "amap_businessarea": "永阳",
+    "cgcs_lon": 119.03803303101972,
+    "cgcs_lat": 31.668694585106525,
+    "amap_lon": 119.043394,
+    "amap_lat": 31.666852,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0I2NMLQFI",
+    "amap_name": "陌上轻雅酒店(南京溧水地铁站店)",
+    "amap_address": "秦淮大道206号(溧水地铁站3号口步行390米)",
+    "amap_area": "",
+    "amap_type": "住宿服务;宾馆酒店;宾馆酒店",
+    "amap_distance": 161.81,
+    "amap_businessarea": "永阳",
+    "cgcs_lon": 119.03820555079231,
+    "cgcs_lat": 31.668724190369517,
+    "amap_lon": 119.043567,
+    "amap_lat": 31.666882,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "BX10025117",
+    "amap_name": "溧水地铁站3号口",
+    "amap_address": "S7号线/宁溧线",
+    "amap_area": "",
+    "amap_type": "交通设施服务;地铁站;出入口",
+    "amap_distance": 213.01,
+    "amap_businessarea": "永阳",
+    "cgcs_lon": 119.03941351949219,
+    "cgcs_lat": 31.66574131079112,
+    "amap_lon": 119.044778,
+    "amap_lat": 31.663902,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B00190Z912",
+    "amap_name": "林海酒店(秦淮大道)",
+    "amap_address": "秦淮北路28号(溧水地铁站3号口步行390米)",
+    "amap_area": "",
+    "amap_type": "住宿服务;宾馆酒店;宾馆酒店",
+    "amap_distance": 229.61,
+    "amap_businessarea": "永阳",
+    "cgcs_lon": 119.03930051740295,
+    "cgcs_lat": 31.66904571416569,
+    "amap_lon": 119.044665,
+    "amap_lat": 31.667206,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0H10SV68Q",
+    "amap_name": "荟佰通·曼度芳华",
+    "amap_address": "秦淮大道206号(溧水地铁站3号口步行340米)",
+    "amap_area": "",
+    "amap_type": "购物服务;购物相关场所;购物相关场所",
+    "amap_distance": 68.2,
+    "amap_businessarea": {
+      "keytag": "购物服务,购物相关场所,购物相关场所",
+      "rating": "3.4",
+      "tel": "025-56206165"
+    },
+    "cgcs_lon": 119.03834524601594,
+    "cgcs_lat": 31.66785883062045,
+    "amap_lon": 119.043707,
+    "amap_lat": 31.666017,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0019078DO",
+    "amap_name": "通济街商业广场",
+    "amap_address": "通济街商业广场步行街与庙巷交叉口西80米",
+    "amap_area": "",
+    "amap_type": "购物服务;特色商业街;特色商业街",
+    "amap_distance": 1732.95,
+    "amap_businessarea": {
+      "opentime_today": "09:00-20:30",
+      "keytag": "商场",
+      "rating": "4.6",
+      "business_area": "永阳",
+      "alias": "通济街商业广场步行街",
+      "tel": "17327987051",
+      "rectag": "商场",
+      "opentime_week": "周一至周日 09:00-20:30"
+    },
+    "cgcs_lon": 119.02305741656821,
+    "cgcs_lat": 31.658387912398346,
+    "amap_lon": 119.028372,
+    "amap_lat": 31.656508,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "BZAIQG001N",
+    "amap_name": "商业街",
+    "amap_address": "溧水区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;道路名",
+    "amap_distance": 20515.96,
+    "amap_businessarea": {
+      "keytag": "道路",
+      "rectag": "道路"
+    },
+    "cgcs_lon": 118.99762861886433,
+    "cgcs_lat": 31.485527630626645,
+    "amap_lon": 119.002838,
+    "amap_lat": 31.483562,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFFA2NYL",
+    "amap_name": "森林摩尔商业街区(暂停营业)",
+    "amap_address": "中山门大街301号(钟灵街地铁站2A口步行140米)",
+    "amap_area": "",
+    "amap_type": "购物服务;特色商业街;特色商业街",
+    "amap_distance": 44657.78,
+    "amap_businessarea": {
+      "opentime_today": "10:00-22:00",
+      "keytag": "特色商业街",
+      "rating": "4.4",
+      "business_area": "孝陵卫",
+      "tel": "025-84390033;025-87761888",
+      "rectag": "春节亲子",
+      "opentime_week": "周一至周日 10:00-22:00"
+    },
+    "cgcs_lon": 118.86143252431366,
+    "cgcs_lat": 32.04074372264878,
+    "amap_lon": 118.866479,
+    "amap_lat": 32.038553,
+    "source": "name_poi"
+  }
+]

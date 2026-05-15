@@ -1,0 +1,152 @@
+[
+  {
+    "amap_id": "B0FFM4W6M4",
+    "name": "万都广场A幢",
+    "address": "清蒲路与茶浦弄交叉口西北80米",
+    "area": "",
+    "type": "商务住宅;楼宇;商务写字楼",
+    "distance": 9.84,
+    "businessarea": "清凉",
+    "lon": 119.95373397438449,
+    "lat": 31.763420332423845,
+    "amap_lon": 119.958447,
+    "amap_lat": 31.761347,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0L2SS5AXX",
+    "name": "喜悦门酒店-大堂",
+    "address": "天宁街道和平中路388号万都商业广场(常州同济桥店)",
+    "area": "",
+    "type": "住宿服务;住宿服务相关;住宿服务相关",
+    "distance": 15.86,
+    "businessarea": "清凉",
+    "lon": 119.95387971919077,
+    "lat": 31.763255966707,
+    "amap_lon": 119.958593,
+    "amap_lat": 31.761183,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0KK9HD1GR",
+    "name": "喜悦门酒店常州同济桥万都商业广场店大堂",
+    "address": "喜悦门酒店(常州青果巷清凉寺地铁站店)",
+    "area": "",
+    "type": "住宿服务;宾馆酒店;宾馆酒店",
+    "distance": 19.53,
+    "businessarea": "清凉",
+    "lon": 119.95377291953355,
+    "lat": 31.763225214446493,
+    "amap_lon": 119.958486,
+    "amap_lat": 31.761152,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFK0EQME",
+    "name": "喜悦门酒店(常州青果巷清凉寺地铁站店)",
+    "address": "和平中路388号万都广场A座",
+    "area": "",
+    "type": "住宿服务;宾馆酒店;宾馆酒店",
+    "distance": 22.72,
+    "businessarea": "清凉",
+    "lon": 119.95390867054832,
+    "lat": 31.763198890702217,
+    "amap_lon": 119.958622,
+    "amap_lat": 31.761126,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B02070VO3J",
+    "name": "万都商业广场(常州同济桥店)",
+    "address": "天宁街道和平中路388号",
+    "area": "",
+    "type": "购物服务;商场;购物中心",
+    "distance": 75.86,
+    "businessarea": "清凉",
+    "lon": 119.95435278125035,
+    "lat": 31.763910934913387,
+    "amap_lon": 119.959067,
+    "amap_lat": 31.761839,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFIXL797",
+    "name": "常州群光旅馆",
+    "address": "光华路7号(清凉大厦隔壁)",
+    "area": "",
+    "type": "住宿服务;旅馆招待所;旅馆招待所",
+    "distance": 453.0,
+    "businessarea": {
+      "keytag": "旅馆",
+      "rating": "4.0",
+      "business_area": "清凉",
+      "tel": "15951222020;18861100858",
+      "rectag": "低价实惠"
+    },
+    "lon": 119.95736926549304,
+    "lat": 31.760647196309808,
+    "amap_lon": 119.962089,
+    "amap_lat": 31.758583,
+    "source": "name_search"
+  },
+  {
+    "amap_id": "B0K2MDRH7R",
+    "name": "如家睿柏云酒店(常州万象城店)",
+    "address": "茶山街道和平中路381号",
+    "area": "",
+    "type": "住宿服务;宾馆酒店;宾馆酒店",
+    "distance": 673.21,
+    "businessarea": {
+      "keytag": "经济型",
+      "rating": "4.2",
+      "business_area": "清凉",
+      "tel": "0519-88150009",
+      "rectag": "经济型"
+    },
+    "lon": 119.95414374790455,
+    "lat": 31.757338561967607,
+    "amap_lon": 119.958857,
+    "amap_lat": 31.755267,
+    "source": "name_search"
+  },
+  {
+    "amap_id": "B020700060",
+    "name": "常瑞宾馆",
+    "address": "晋陵南路9号",
+    "area": "",
+    "type": "住宿服务;宾馆酒店;三星级宾馆",
+    "distance": 883.98,
+    "businessarea": {
+      "keytag": "舒适型",
+      "rating": "4.6",
+      "business_area": "清凉",
+      "tel": "0519-86183801;0519-86183888",
+      "rectag": "会议酒店"
+    },
+    "lon": 119.94814925238346,
+    "lat": 31.75708714234665,
+    "amap_lon": 119.952852,
+    "amap_lat": 31.755002,
+    "source": "name_search"
+  },
+  {
+    "amap_id": "B020705LQA",
+    "name": "常州兰庭宾馆",
+    "address": "乾盛兰庭13幢A3-1号",
+    "area": "",
+    "type": "住宿服务;宾馆酒店;宾馆酒店",
+    "distance": 951.74,
+    "businessarea": {
+      "keytag": "经济型",
+      "rating": "4.1",
+      "business_area": "兰陵",
+      "tel": "0519-85503350;13092502882",
+      "rectag": "低价实惠"
+    },
+    "lon": 119.94391512044662,
+    "lat": 31.764731024857436,
+    "amap_lon": 119.948612,
+    "amap_lat": 31.762636,
+    "source": "name_search"
+  }
+]

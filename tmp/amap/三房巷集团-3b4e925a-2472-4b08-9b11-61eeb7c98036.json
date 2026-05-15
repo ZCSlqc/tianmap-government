@@ -1,0 +1,145 @@
+[
+  {
+    "amap_id": "B0HG0X4FFC",
+    "amap_name": "SANFAME",
+    "amap_address": "世纪大道与宏昌路交叉口东南220米",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 24.21,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 120.39442913802841,
+    "cgcs_lat": 31.85079328914649,
+    "amap_lon": 120.399157,
+    "amap_lat": 31.849013,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFFA547F",
+    "amap_name": "三房巷集团",
+    "amap_address": "周庄镇三房巷路1号",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 31.86,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 120.39395093431412,
+    "cgcs_lat": 31.850978397324223,
+    "amap_lon": 120.398679,
+    "amap_lat": 31.849198,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFKWQM1T",
+    "amap_name": "三房巷集团(南1门)",
+    "amap_address": "周庄镇三房巷路1号三房巷集团",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 146.56,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 120.39373996445465,
+    "cgcs_lat": 31.84974219366645,
+    "amap_lon": 120.398468,
+    "amap_lat": 31.847962,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFKHS57N",
+    "amap_name": "三房巷集团(南门)",
+    "amap_address": "周庄镇三房巷路1号三房巷集团",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 149.29,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 120.39494544474609,
+    "cgcs_lat": 31.849754021439182,
+    "amap_lon": 120.399673,
+    "amap_lat": 31.847974,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "BV11341225",
+    "amap_name": "三房巷科技大楼(公交站)",
+    "amap_address": "江阴212路江阴213路",
+    "amap_area": "",
+    "amap_type": "交通设施服务;公交车站;公交车站相关",
+    "amap_distance": 175.53,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 120.39243440379394,
+    "cgcs_lat": 31.85109471439848,
+    "amap_lon": 120.397163,
+    "amap_lat": 31.849314,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0L27RL0RM",
+    "amap_name": "三房巷集团有限公司停车场",
+    "amap_address": "周庄镇三房巷路1号三房巷集团",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 141.83,
+    "amap_businessarea": {
+      "keytag": "停车场",
+      "rectag": "停车场"
+    },
+    "cgcs_lon": 120.39479838034424,
+    "cgcs_lat": 31.84977504341889,
+    "amap_lon": 120.399526,
+    "amap_lat": 31.847995,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFH0FNT1",
+    "amap_name": "三房巷文化广场",
+    "amap_address": "三房巷路与世纪大道交叉口东240米",
+    "amap_area": "",
+    "amap_type": "风景名胜;公园广场;城市广场",
+    "amap_distance": 226.93,
+    "amap_businessarea": {
+      "opentime_today": "24小时营业",
+      "keytag": "广场",
+      "rating": "3.4",
+      "rectag": "广场",
+      "opentime_week": "周一至周日 00:00-24:00"
+    },
+    "cgcs_lon": 120.3946143764923,
+    "cgcs_lat": 31.848949908256856,
+    "amap_lon": 120.399342,
+    "amap_lat": 31.84717,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFGH7871",
+    "amap_name": "三房巷办公大楼",
+    "amap_address": "周庄镇",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 523.58,
+    "amap_businessarea": {
+      "keytag": "写字楼",
+      "rectag": "写字楼"
+    },
+    "cgcs_lon": 120.39977403890664,
+    "cgcs_lat": 31.85038107795059,
+    "amap_lon": 120.404499,
+    "amap_lat": 31.848601,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B01FE0K43X",
+    "amap_name": "三房巷农民新村",
+    "amap_address": "澄杨路1397号",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;住宅小区",
+    "amap_distance": 652.47,
+    "amap_businessarea": {
+      "keytag": "住宅区",
+      "alias": "三房巷",
+      "tel": "15052155523",
+      "rectag": "住宅区"
+    },
+    "cgcs_lon": 120.39979168529048,
+    "cgcs_lat": 31.854518883224685,
+    "amap_lon": 120.404517,
+    "amap_lat": 31.852738,
+    "source": "name_poi"
+  }
+]

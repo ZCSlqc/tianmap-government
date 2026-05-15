@@ -1,0 +1,165 @@
+[
+  {
+    "amap_id": "B0FFGCBXEO",
+    "amap_name": "朱雀国际家具城(光大路)",
+    "amap_address": "光大路与朱雀大街北段交叉口西20米",
+    "amap_area": "",
+    "amap_type": "购物服务;家居建材市场;家具城",
+    "amap_distance": 29.24,
+    "amap_businessarea": "长安路",
+    "cgcs_lon": 108.93416755222316,
+    "cgcs_lat": 34.23724568186194,
+    "amap_lon": 108.938812,
+    "amap_lat": 34.235643,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0HG21434J",
+    "amap_name": "吉祥架子床",
+    "amap_address": "朱雀大街北段辅路与光大路交叉口西北20米",
+    "amap_area": "",
+    "amap_type": "购物服务;家居建材市场;家具城",
+    "amap_distance": 29.89,
+    "amap_businessarea": "长安路",
+    "cgcs_lon": 108.93415957075845,
+    "cgcs_lat": 34.23727368453283,
+    "amap_lon": 108.938804,
+    "amap_lat": 34.235671,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B001D06AQ6",
+    "amap_name": "博越家具店",
+    "amap_address": "光大路朱雀国际家具城2005-2009号",
+    "amap_area": "",
+    "amap_type": "购物服务;家居建材市场;家具城",
+    "amap_distance": 42.01,
+    "amap_businessarea": "长安路",
+    "cgcs_lon": 108.93402791423283,
+    "cgcs_lat": 34.23726490349024,
+    "amap_lon": 108.938672,
+    "amap_lat": 34.235662,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B001D06F5I",
+    "amap_name": "福乐家居生活馆(光大路店)",
+    "amap_address": "光大路朱雀国际家具城1003-1008",
+    "amap_area": "",
+    "amap_type": "购物服务;家居建材市场;家居建材市场",
+    "amap_distance": 44.76,
+    "amap_businessarea": "长安路",
+    "cgcs_lon": 108.9340279252337,
+    "cgcs_lat": 34.2371289540889,
+    "amap_lon": 108.938672,
+    "amap_lat": 34.235526,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B001D0WL8W",
+    "amap_name": "西安体育学院含光校区(东门)",
+    "amap_address": "含光路65号西安体育学院含光校区",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 77.41,
+    "amap_businessarea": "长安路",
+    "cgcs_lon": 108.93410167179772,
+    "cgcs_lat": 34.23788755068168,
+    "amap_lon": 108.938746,
+    "amap_lat": 34.236285,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "BZBFO801S8",
+    "amap_name": "朱雀大街出口(二环南路西段西向)",
+    "amap_address": "碑林区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;城市快速路出口",
+    "amap_distance": 661.05,
+    "amap_businessarea": {
+      "keytag": "快速出口",
+      "business_area": "长安路",
+      "alias": "含光路出口(二环南路西段西向)",
+      "rectag": "快速出口"
+    },
+    "cgcs_lon": 108.93736640034368,
+    "cgcs_lat": 34.23181223168362,
+    "amap_lon": 108.942019,
+    "amap_lat": 34.230213,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "BZBFO801VZ",
+    "amap_name": "朱雀大街北段",
+    "amap_address": "碑林区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;道路名",
+    "amap_distance": 664.65,
+    "amap_businessarea": {
+      "keytag": "道路",
+      "business_area": "长安路",
+      "alias": "朱雀大街",
+      "rectag": "道路"
+    },
+    "cgcs_lon": 108.93441441859207,
+    "cgcs_lat": 34.24326501563545,
+    "amap_lon": 108.93906,
+    "amap_lat": 34.241665,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0IA3PJDIU",
+    "amap_name": "朱雀大街",
+    "amap_address": "雁塔区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;道路名",
+    "amap_distance": 718.93,
+    "amap_businessarea": {
+      "keytag": "城市主干路",
+      "alias": "朱雀大街南段",
+      "rectag": "城市主干路"
+    },
+    "cgcs_lon": 108.93446429992554,
+    "cgcs_lat": 34.230792575065564,
+    "amap_lon": 108.939109,
+    "amap_lat": 34.229188,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFI68AYN",
+    "amap_name": "朱雀大街316",
+    "amap_address": "朱雀大街316号",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;住宅小区",
+    "amap_distance": 766.68,
+    "amap_businessarea": {
+      "opentime_today": "24小时营业",
+      "keytag": "住宅区",
+      "rectag": "住宅区",
+      "opentime_week": "周一至周日 00:00-24:00"
+    },
+    "cgcs_lon": 108.93370929750229,
+    "cgcs_lat": 34.230392957850235,
+    "amap_lon": 108.938352,
+    "amap_lat": 34.228787,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B001D0W7TE",
+    "amap_name": "朱雀大街",
+    "amap_address": "碑林区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;道路名",
+    "amap_distance": 811.44,
+    "amap_businessarea": {
+      "keytag": "道路",
+      "business_area": "长安路",
+      "rectag": "道路"
+    },
+    "cgcs_lon": 108.93442129315872,
+    "cgcs_lat": 34.24458850245819,
+    "amap_lon": 108.939067,
+    "amap_lat": 34.242989,
+    "source": "name_poi"
+  }
+]

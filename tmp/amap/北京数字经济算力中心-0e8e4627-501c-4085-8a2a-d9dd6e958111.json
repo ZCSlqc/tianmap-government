@@ -1,0 +1,103 @@
+[
+  {
+    "amap_id": "B000A7BBYG",
+    "amap_name": "恒通国际商务园",
+    "amap_address": "酒仙桥路10号",
+    "amap_area": "",
+    "amap_type": "商务住宅;产业园区;产业园区",
+    "amap_distance": 47.0,
+    "amap_businessarea": "酒仙桥",
+    "cgcs_lon": 116.48854897634851,
+    "cgcs_lat": 39.97712958370993,
+    "amap_lon": 116.494585,
+    "amap_lat": 39.97837,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0IAPAOCNM",
+    "amap_name": "之所ICC",
+    "amap_address": "酒仙桥路10号恒通国际商务园",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 55.28,
+    "amap_businessarea": "酒仙桥",
+    "cgcs_lon": 116.48867143077439,
+    "cgcs_lat": 39.97720794451345,
+    "amap_lon": 116.494707,
+    "amap_lat": 39.978448,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFL1VMT2",
+    "amap_name": "中央大厦B座",
+    "amap_address": "UBP北街与UBP西街交叉口东南180米",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 68.02,
+    "amap_businessarea": "酒仙桥",
+    "cgcs_lon": 116.48784133433537,
+    "cgcs_lat": 39.97681549448463,
+    "amap_lon": 116.49388,
+    "amap_lat": 39.978058,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0K1GUS95M",
+    "amap_name": "恒通室内高尔夫球馆",
+    "amap_address": "酒仙桥中路10号",
+    "amap_area": "",
+    "amap_type": "体育休闲服务;高尔夫相关;高尔夫练习场",
+    "amap_distance": 77.16,
+    "amap_businessarea": "酒仙桥",
+    "cgcs_lon": 116.48772993741845,
+    "cgcs_lat": 39.9766151718605,
+    "amap_lon": 116.493769,
+    "amap_lat": 39.977858,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0I1RD3NXS",
+    "amap_name": "恒通国际商务园B23C座",
+    "amap_address": "恒通国际商务园B23号楼",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼|商务住宅;产业园区;产业园区",
+    "amap_distance": 80.33,
+    "amap_businessarea": "酒仙桥",
+    "cgcs_lon": 116.48949966866499,
+    "cgcs_lat": 39.97642843894991,
+    "amap_lon": 116.495532,
+    "amap_lat": 39.977666,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B000A8VXAV",
+    "amap_name": "中央大厦(UBP北街)",
+    "amap_address": "",
+    "amap_area": "14115.121011",
+    "amap_type": "120201",
+    "amap_distance": 50.14,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 116.48759441352148,
+    "cgcs_lat": 39.97670176622425,
+    "amap_lon": 116.493634,
+    "amap_lat": 39.977945,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "B0JUL7T0MK",
+    "amap_name": "北京光子一号金融算力中心",
+    "amap_address": "神威北大街722号",
+    "amap_area": "",
+    "amap_type": "金融保险服务;金融保险服务机构;金融保险机构",
+    "amap_distance": 30448.38,
+    "amap_businessarea": {
+      "keytag": "公司",
+      "rectag": "公司"
+    },
+    "cgcs_lon": 116.8449687105979,
+    "cgcs_lat": 39.9713438844442,
+    "amap_lon": 116.850938,
+    "amap_lat": 39.97244,
+    "source": "name_poi"
+  }
+]

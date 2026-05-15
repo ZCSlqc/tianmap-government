@@ -1,0 +1,123 @@
+[
+  {
+    "amap_id": "B0G05AJDUT",
+    "amap_name": "宣城站(西进站口)",
+    "amap_address": [],
+    "amap_area": "",
+    "amap_type": "交通设施服务;火车站;进站口/检票口",
+    "amap_distance": 17.44,
+    "amap_businessarea": "状元南路",
+    "cgcs_lon": 118.76852067721711,
+    "cgcs_lat": 30.94901616033641,
+    "amap_lon": 118.773635,
+    "amap_lat": 30.946791,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0G05AKVPV",
+    "amap_name": "宣城站(西出站口)",
+    "amap_address": [],
+    "amap_area": "",
+    "amap_type": "交通设施服务;火车站;出站口",
+    "amap_distance": 76.96,
+    "amap_businessarea": "状元南路",
+    "cgcs_lon": 118.76889907589224,
+    "cgcs_lat": 30.948540765353755,
+    "amap_lon": 118.774013,
+    "amap_lat": 30.946315,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFJGBGUH",
+    "amap_name": "宣城站",
+    "amap_address": "叠嶂东路110号",
+    "amap_area": "",
+    "amap_type": "交通设施服务;火车站;火车站",
+    "amap_distance": 91.92,
+    "amap_businessarea": "状元南路",
+    "cgcs_lon": 118.76934940948958,
+    "cgcs_lat": 30.949646503923677,
+    "amap_lon": 118.774463,
+    "amap_lat": 30.947421,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0GRP1LLQS",
+    "amap_name": "宣城站(东出站口)",
+    "amap_address": [],
+    "amap_area": "",
+    "amap_type": "交通设施服务;火车站;出站口",
+    "amap_distance": 209.08,
+    "amap_businessarea": "状元南路",
+    "cgcs_lon": 118.77054256072428,
+    "cgcs_lat": 30.949979378526965,
+    "amap_lon": 118.775655,
+    "amap_lat": 30.947753,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFKBW2SK",
+    "amap_name": "宣城站(东进站口)",
+    "amap_address": [],
+    "amap_area": "",
+    "amap_type": "交通设施服务;火车站;进站口/检票口",
+    "amap_distance": 209.9,
+    "amap_businessarea": "状元南路",
+    "cgcs_lon": 118.77012809864623,
+    "cgcs_lat": 30.95049669530386,
+    "amap_lon": 118.775241,
+    "amap_lat": 30.948271,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0JDZMBN93",
+    "amap_name": "宣城站-西售票处",
+    "amap_address": "叠嶂东路48号",
+    "amap_area": "",
+    "amap_type": "生活服务;售票处;售票处",
+    "amap_distance": 73.14,
+    "amap_businessarea": {
+      "keytag": "售票",
+      "rectag": "售票"
+    },
+    "cgcs_lon": 118.76896112931058,
+    "cgcs_lat": 30.948603781725087,
+    "amap_lon": 118.774075,
+    "amap_lat": 30.946378,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0L0MA8WIF",
+    "amap_name": "宣城站西广场网约车上客点",
+    "amap_address": "宣城站",
+    "amap_area": "",
+    "amap_type": "交通设施服务;上下客区;网约车",
+    "amap_distance": 74.26,
+    "amap_businessarea": {
+      "keytag": "交通设施服务,上下客区,网约车"
+    },
+    "cgcs_lon": 118.7678300485186,
+    "cgcs_lat": 30.94892763361656,
+    "amap_lon": 118.772945,
+    "amap_lat": 30.946703,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0GR4HGTYX",
+    "amap_name": "宣城站西广场",
+    "amap_address": "张果路与叠嶂东路交汇处",
+    "amap_area": "",
+    "amap_type": "风景名胜;公园广场;城市广场",
+    "amap_distance": 90.19,
+    "amap_businessarea": {
+      "keytag": "站前广场",
+      "tel": "0563-2113362",
+      "rectag": "站前广场"
+    },
+    "cgcs_lon": 118.76797922046143,
+    "cgcs_lat": 30.94852099760463,
+    "amap_lon": 118.773094,
+    "amap_lat": 30.946296,
+    "source": "name_poi"
+  }
+]

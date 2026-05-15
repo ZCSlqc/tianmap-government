@@ -1,0 +1,157 @@
+[
+  {
+    "amap_id": "B0FFI1P6KO",
+    "amap_name": "佛造像佛法僧三宝",
+    "amap_address": "新模范马路84号",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 35.33,
+    "amap_businessarea": "新民路",
+    "cgcs_lon": 118.76422869138752,
+    "cgcs_lat": 32.07927008465258,
+    "amap_lon": 118.769449,
+    "amap_lat": 32.077222,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B00190YOKN",
+    "amap_name": "苏海大厦",
+    "amap_address": "新模范马路90号",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 35.94,
+    "amap_businessarea": "新民路",
+    "cgcs_lon": 118.76377836559712,
+    "cgcs_lat": 32.07904772344293,
+    "amap_lon": 118.768999,
+    "amap_lat": 32.077,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B001909J3A",
+    "amap_name": "中国工商银行(虹桥支行)",
+    "amap_address": "新模范马路90号苏海大厦F1层",
+    "amap_area": "",
+    "amap_type": "金融保险服务;银行;中国工商银行",
+    "amap_distance": 37.84,
+    "amap_businessarea": "新民路",
+    "cgcs_lon": 118.76388544961023,
+    "cgcs_lat": 32.079021791763765,
+    "amap_lon": 118.769106,
+    "amap_lat": 32.076974,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFJVN54D",
+    "amap_name": "江苏省退役军人事务厅",
+    "amap_address": "新模范马路90号",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;省直辖市级政府及事业单位",
+    "amap_distance": 47.66,
+    "amap_businessarea": "新民路",
+    "cgcs_lon": 118.76344510721242,
+    "cgcs_lat": 32.07912751320755,
+    "amap_lon": 118.768666,
+    "amap_lat": 32.07708,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFFHBYRQ",
+    "amap_name": "清沐酒店(南京三牌楼大街虹桥地铁站店)",
+    "amap_address": "三牌楼大街2号(柏楠烧烤苏海大厦)",
+    "amap_area": "",
+    "amap_type": "住宿服务;宾馆酒店;经济型连锁酒店",
+    "amap_distance": 49.35,
+    "amap_businessarea": "新民路",
+    "cgcs_lon": 118.7633460139333,
+    "cgcs_lat": 32.07933849165861,
+    "amap_lon": 118.768567,
+    "amap_lat": 32.077291,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B00190B6FM",
+    "amap_name": "模范马路小区",
+    "amap_address": "",
+    "amap_area": "8236.021933",
+    "amap_type": "120302",
+    "amap_distance": 20.92,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.76388036522548,
+    "cgcs_lat": 32.079891975033426,
+    "amap_lon": 118.769101,
+    "amap_lat": 32.077844,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "B0K1RM1PWL",
+    "amap_name": "江苏省退役军人事务厅停车场(出入口)",
+    "amap_address": "新模范马路90号",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;停车场出入口",
+    "amap_distance": 49.3,
+    "amap_businessarea": {
+      "keytag": "停车场入口",
+      "rectag": "停车场入口"
+    },
+    "cgcs_lon": 118.76346612790627,
+    "cgcs_lat": 32.07907351583606,
+    "amap_lon": 118.768687,
+    "amap_lat": 32.077026,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0GRKH4J14",
+    "amap_name": "南京市鼓楼区退役军人事务局",
+    "amap_address": "山西路120号成套大厦10层",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;区县级政府及事业单位",
+    "amap_distance": 1118.51,
+    "amap_businessarea": {
+      "keytag": "政府机关",
+      "business_area": "湖南路",
+      "rectag": "政府机关",
+      "opentime_week": "周一至周五 09:00-12:00，14:00-18:00"
+    },
+    "cgcs_lon": 118.76541255763024,
+    "cgcs_lat": 32.06935879722714,
+    "amap_lon": 118.770631,
+    "amap_lat": 32.067312,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0GRKS41R1",
+    "amap_name": "玄武区退役军人事务局",
+    "amap_address": "珠江路683号",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;区县级政府及事业单位",
+    "amap_distance": 5723.65,
+    "amap_businessarea": {
+      "keytag": "政府机关",
+      "rectag": "政府机关",
+      "opentime_week": "周一至周五 09:00-11:30，14:00-18:00"
+    },
+    "cgcs_lon": 118.81191260135627,
+    "cgcs_lat": 32.047890748042995,
+    "amap_lon": 118.817056,
+    "amap_lat": 32.045784,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0IU4ZG0B4",
+    "amap_name": "玄武区退役军人事务局关工委",
+    "amap_address": "玄武区退役军人之家",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府及社会团体相关;政府及社会团体相关",
+    "amap_distance": 5748.22,
+    "amap_businessarea": {
+      "keytag": "政府机关",
+      "rectag": "政府机关"
+    },
+    "cgcs_lon": 118.81212104645701,
+    "cgcs_lat": 32.04775810031439,
+    "amap_lon": 118.817264,
+    "amap_lat": 32.045651,
+    "source": "name_poi"
+  }
+]

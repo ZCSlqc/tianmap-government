@@ -1,0 +1,90 @@
+[
+  {
+    "amap_id": "B00155KSDE",
+    "amap_name": "上海站",
+    "amap_address": "秣陵路303号",
+    "amap_area": "",
+    "amap_type": "交通设施服务;火车站;火车站",
+    "amap_distance": 26.73,
+    "amap_businessarea": "不夜城",
+    "cgcs_lon": 121.45118973504199,
+    "cgcs_lat": 31.25153875358694,
+    "amap_lon": 121.455768,
+    "amap_lat": 31.24965,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFFSVFK8",
+    "amap_name": "上海站6候车室",
+    "amap_address": "秣陵路303号上海站2F层(上海火车站地铁站入口旁)",
+    "amap_area": "",
+    "amap_type": "交通设施服务;火车站;候车室",
+    "amap_distance": 36.97,
+    "amap_businessarea": "不夜城",
+    "cgcs_lon": 121.45143340884538,
+    "cgcs_lat": 31.251269417659532,
+    "amap_lon": 121.456011,
+    "amap_lat": 31.24938,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0L1F9155G",
+    "amap_name": "上海站(1检票口)",
+    "amap_address": "秣陵路303号上海站2F层(上海火车站地铁站入口旁)",
+    "amap_area": "",
+    "amap_type": "交通设施服务;火车站;进站口/检票口",
+    "amap_distance": 46.59,
+    "amap_businessarea": "不夜城",
+    "cgcs_lon": 121.45151363023768,
+    "cgcs_lat": 31.25119163188406,
+    "amap_lon": 121.456091,
+    "amap_lat": 31.249302,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFFSW9HM",
+    "amap_name": "上海站8候车室",
+    "amap_address": "秣陵路303号上海站2F层(上海火车站地铁站8号口旁)",
+    "amap_area": "",
+    "amap_type": "交通设施服务;火车站;候车室",
+    "amap_distance": 52.18,
+    "amap_businessarea": "不夜城",
+    "cgcs_lon": 121.45154769212371,
+    "cgcs_lat": 31.251531557200074,
+    "amap_lon": 121.456125,
+    "amap_lat": 31.249642,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFFSV0SP",
+    "amap_name": "上海站5候车室",
+    "amap_address": "秣陵路303号上海站2F层",
+    "amap_area": "",
+    "amap_type": "交通设施服务;火车站;候车室",
+    "amap_distance": 52.76,
+    "amap_businessarea": "不夜城",
+    "cgcs_lon": 121.45058612909651,
+    "cgcs_lat": 31.251590390450644,
+    "amap_lon": 121.455166,
+    "amap_lat": 31.249703,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "BV11557854",
+    "amap_name": "大上海(公交站)",
+    "amap_address": "北票6路",
+    "amap_area": "",
+    "amap_type": "交通设施服务;公交车站;公交车站相关",
+    "amap_distance": 1172895.54,
+    "amap_businessarea": {
+      "keytag": "公交站",
+      "business_area": "冠山",
+      "rectag": "公交站"
+    },
+    "cgcs_lon": 120.7718290830454,
+    "cgcs_lat": 41.80670574062852,
+    "amap_lon": 120.777265,
+    "amap_lat": 41.80889,
+    "source": "name_poi"
+  }
+]

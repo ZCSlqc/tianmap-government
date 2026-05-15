@@ -1,0 +1,139 @@
+[
+  {
+    "amap_id": "B0FFFHCGOY",
+    "amap_name": "沈阳市图书馆自习室",
+    "amap_address": "青年大街205号(市图书馆地铁站B口步行290米)",
+    "amap_area": "",
+    "amap_type": "科教文化服务;图书馆;图书馆",
+    "amap_distance": 28.54,
+    "amap_businessarea": "五里河",
+    "cgcs_lon": 123.43205584483871,
+    "cgcs_lat": 41.758208631775915,
+    "amap_lon": 123.438175,
+    "amap_lat": 41.760625,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFG7R0G9",
+    "amap_name": "沈阳市古籍保护中心",
+    "amap_address": "青年大街205号(市图书馆地铁站C口步行320米)",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;地市级政府及事业单位",
+    "amap_distance": 30.31,
+    "amap_businessarea": "五里河",
+    "cgcs_lon": 123.43257675929817,
+    "cgcs_lat": 41.75809945955275,
+    "amap_lon": 123.438695,
+    "amap_lat": 41.760515,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B00180JB5N",
+    "amap_name": "沈阳市图书馆",
+    "amap_address": "青年大街205号(近沈阳科学宫)",
+    "amap_area": "",
+    "amap_type": "科教文化服务;图书馆;图书馆",
+    "amap_distance": 33.23,
+    "amap_businessarea": "五里河",
+    "cgcs_lon": 123.4319887278635,
+    "cgcs_lat": 41.75822452579639,
+    "amap_lon": 123.438108,
+    "amap_lat": 41.760641,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0018165RQ",
+    "amap_name": "沈阳市沈河区儿童活动中心实验幼儿园",
+    "amap_address": "青年大街207号(沈阳市城市规划馆)",
+    "amap_area": "",
+    "amap_type": "科教文化服务;学校;幼儿园",
+    "amap_distance": 83.71,
+    "amap_businessarea": "五里河",
+    "cgcs_lon": 123.43275016862245,
+    "cgcs_lat": 41.757342788918066,
+    "amap_lon": 123.438868,
+    "amap_lat": 41.759758,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0M60YLRPC",
+    "amap_name": "夏宫鸿艺会议中心",
+    "amap_address": "青年大街209-3号(市图书馆地铁站C口步行120米)",
+    "amap_area": "",
+    "amap_type": "科教文化服务;会展中心;会展中心",
+    "amap_distance": 194.0,
+    "amap_businessarea": "五里河",
+    "cgcs_lon": 123.43090414412761,
+    "cgcs_lat": 41.756556976381695,
+    "amap_lon": 123.437025,
+    "amap_lat": 41.758975,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B001808C2F",
+    "amap_name": "沈阳儿童活动中心",
+    "amap_address": "",
+    "amap_area": "13355.028532",
+    "amap_type": "080300|140800",
+    "amap_distance": 49.12,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 123.43200490422286,
+    "cgcs_lat": 41.75716962626849,
+    "amap_lon": 123.438124,
+    "amap_lat": 41.759586,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "B0FFG7R0R4",
+    "amap_name": "沈阳市图书馆学会",
+    "amap_address": "青年大街205号(市图书馆地铁站B口步行310米)",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;社会团体;行业协会",
+    "amap_distance": 31.51,
+    "amap_businessarea": {
+      "keytag": "社会团体",
+      "business_area": "五里河",
+      "rectag": "社会团体"
+    },
+    "cgcs_lon": 123.43257675929817,
+    "cgcs_lat": 41.75809945955275,
+    "amap_lon": 123.438695,
+    "amap_lat": 41.760515,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFH9GM3F",
+    "amap_name": "沈阳图书馆地下停车场(出入口)",
+    "amap_address": "市图书馆地铁站B口步行270米",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;停车场出入口",
+    "amap_distance": 93.36,
+    "amap_businessarea": {
+      "keytag": "停车场入口",
+      "business_area": "五里河",
+      "rectag": "停车场入口"
+    },
+    "cgcs_lon": 123.43135862245714,
+    "cgcs_lat": 41.75851253004449,
+    "amap_lon": 123.437479,
+    "amap_lat": 41.76093,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "BV10049589",
+    "amap_name": "市图书馆(地铁站)",
+    "amap_address": "(在建)6号线;2号线",
+    "amap_area": "",
+    "amap_type": "交通设施服务;地铁站;地铁站",
+    "amap_distance": 228.63,
+    "amap_businessarea": {
+      "keytag": "地铁站",
+      "rectag": "地铁站"
+    },
+    "cgcs_lon": 123.42952177062541,
+    "cgcs_lat": 41.75763384204903,
+    "amap_lon": 123.435645,
+    "amap_lat": 41.760054,
+    "source": "name_poi"
+  }
+]

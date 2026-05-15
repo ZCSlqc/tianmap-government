@@ -1,0 +1,142 @@
+[
+  {
+    "amap_id": "BZDWRC002G",
+    "amap_name": "南二路",
+    "amap_address": "铁西区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;道路名",
+    "amap_distance": 67.74,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 123.22311374566691,
+    "cgcs_lat": 41.7646107736187,
+    "amap_lon": 123.228918,
+    "amap_lat": 41.766875,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFKZUGBZ",
+    "amap_name": "国家工业泵质量监督检验中心",
+    "amap_address": "经济技术开发区开发大路16号甲沈鼓集团",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;政府机关相关",
+    "amap_distance": 199.48,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 123.2219394701155,
+    "cgcs_lat": 41.76354293629548,
+    "amap_lon": 123.227744,
+    "amap_lat": 41.765808,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B00180K7F9",
+    "amap_name": "北方重工集团有限公司北区(1号门)",
+    "amap_address": "北方重工集团有限公司(北区)",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 210.57,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 123.22174840180273,
+    "cgcs_lat": 41.76349878722883,
+    "amap_lon": 123.227553,
+    "amap_lat": 41.765764,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "BX10017584",
+    "amap_name": "十三号街地铁站B口",
+    "amap_address": "1号线",
+    "amap_area": "",
+    "amap_type": "交通设施服务;地铁站;出入口",
+    "amap_distance": 213.66,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 123.2239941766456,
+    "cgcs_lat": 41.7634624961602,
+    "amap_lon": 123.229798,
+    "amap_lat": 41.765726,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0HR37DXIJ",
+    "amap_name": "沈阳市公安局驻北方重工警务工作站",
+    "amap_address": "开发大路与十三号街交叉口东140米",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;公检法机构;社会治安机构",
+    "amap_distance": 221.8,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 123.22154432513808,
+    "cgcs_lat": 41.76346562572588,
+    "amap_lon": 123.227349,
+    "amap_lat": 41.765731,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFIAYH1E",
+    "amap_name": "北方重工集团有限公司",
+    "amap_address": "",
+    "amap_area": "951323.599718",
+    "amap_type": "170200",
+    "amap_distance": 0.0,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 123.22155223399659,
+    "cgcs_lat": 41.771507141345076,
+    "amap_lon": 123.227358,
+    "amap_lat": 41.773773,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "B0FFGE8IWH",
+    "amap_name": "北方重工集团有限公司(北区)",
+    "amap_address": "沈阳经济技术开发区开发大路16号甲-沈阳鼓风机集团南3门近",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 188.27,
+    "amap_businessarea": {
+      "keytag": "公司",
+      "rectag": "公司"
+    },
+    "cgcs_lon": 123.22257070846496,
+    "cgcs_lat": 41.763510431512174,
+    "amap_lon": 123.228375,
+    "amap_lat": 41.765775,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0HR1ZCYNJ",
+    "amap_name": "方大集团",
+    "amap_address": "北方重工集团有限公司2号门西390米",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 197.13,
+    "amap_businessarea": {
+      "opentime_today": "09:00-18:00",
+      "keytag": "公司",
+      "rectag": "公司",
+      "opentime_week": "周一至周日 09:00-18:00"
+    },
+    "cgcs_lon": 123.22228561035851,
+    "cgcs_lat": 41.7634712130565,
+    "amap_lon": 123.22809,
+    "amap_lat": 41.765736,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFHBT3EA",
+    "amap_name": "十三号街-道路停车位",
+    "amap_address": "十三号街北方重工集团有限公司传动设备分公司",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;路边停车场",
+    "amap_distance": 700.72,
+    "amap_businessarea": {
+      "opentime_today": "24小时营业",
+      "keytag": "路边停车场",
+      "rectag": "路边停车场",
+      "parking_type": "路边",
+      "opentime_week": "周一至周日 00:00-24:00"
+    },
+    "cgcs_lon": 123.21994358502715,
+    "cgcs_lat": 41.77110382529919,
+    "amap_lon": 123.22575,
+    "amap_lat": 41.773371,
+    "source": "name_poi"
+  }
+]

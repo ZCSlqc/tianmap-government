@@ -1,0 +1,89 @@
+[
+  {
+    "amap_id": "B0FFF589ZU",
+    "amap_name": "南京博尔迈兴机械设备有限公司",
+    "amap_address": "菲尼克斯路70号总部基地24栋",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 63.78,
+    "amap_businessarea": "双龙大道",
+    "cgcs_lon": 118.82683743587768,
+    "cgcs_lat": 31.934887708678772,
+    "amap_lon": 118.831939,
+    "amap_lat": 31.932779,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0LAKSJJER",
+    "amap_name": "百家臻园(东门)",
+    "amap_address": "百家臻园(小龙湾地铁站出入口步行490米)",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 68.16,
+    "amap_businessarea": "双龙大道",
+    "cgcs_lon": 118.82565998056914,
+    "cgcs_lat": 31.93446040401993,
+    "amap_lon": 118.830764,
+    "amap_lat": 31.932354,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0GKXHEHBS",
+    "amap_name": "江宁开发区总部基地22栋",
+    "amap_address": "菲尼克斯路江宁开发区总部基地",
+    "amap_area": "",
+    "amap_type": "地名地址信息;门牌信息;楼栋号",
+    "amap_distance": 113.41,
+    "amap_businessarea": "双龙大道",
+    "cgcs_lon": 118.8270157730312,
+    "cgcs_lat": 31.93533014272946,
+    "amap_lon": 118.832117,
+    "amap_lat": 31.933221,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0I07CPYMN",
+    "amap_name": "百家臻园",
+    "amap_address": "菲尼克斯路与凤凰十路交汇处",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;住宅小区",
+    "amap_distance": 114.31,
+    "amap_businessarea": "双龙大道",
+    "cgcs_lon": 118.82517294103563,
+    "cgcs_lat": 31.934533506223307,
+    "amap_lon": 118.830278,
+    "amap_lat": 31.932428,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B001917A18",
+    "amap_name": "江宁开发区总部基地",
+    "amap_address": "江宁开发区菲尼克斯路70号",
+    "amap_area": "",
+    "amap_type": "商务住宅;产业园区;产业园区",
+    "amap_distance": 121.63,
+    "amap_businessarea": "双龙大道",
+    "cgcs_lon": 118.82738569668416,
+    "cgcs_lat": 31.933772483840414,
+    "amap_lon": 118.832486,
+    "amap_lat": 31.931663,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0L3USH94X",
+    "amap_name": "南栖仙策",
+    "amap_address": "菲尼克斯路68号(小龙湾地铁站西北口步行460米)",
+    "amap_area": "",
+    "amap_type": "公司企业;公司企业;公司企业",
+    "amap_distance": 40.94,
+    "amap_businessarea": {
+      "keytag": "公司企业,公司企业,公司企业",
+      "business_area": "开发区"
+    },
+    "cgcs_lon": 118.82619815262679,
+    "cgcs_lat": 31.934113335403477,
+    "amap_lon": 118.831301,
+    "amap_lat": 31.932006,
+    "source": "name_poi"
+  }
+]

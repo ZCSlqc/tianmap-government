@@ -1,0 +1,144 @@
+[
+  {
+    "amap_id": "B0K0GS3ANF",
+    "amap_name": "聚攸淮南牛肉汤(南京信息工程大学南苑校区店)",
+    "amap_address": "高新区永锦路41号创客公寓",
+    "amap_area": "",
+    "amap_type": "餐饮服务;中餐厅;中餐厅",
+    "amap_distance": 74.92,
+    "amap_businessarea": "江北新区直管区",
+    "cgcs_lon": 118.69243945096012,
+    "cgcs_lat": 32.19590323819593,
+    "amap_lon": 118.69762,
+    "amap_lat": 32.193792,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0LB3U8MSC",
+    "amap_name": "库迪咖啡(南信大南苑店)",
+    "amap_address": "盘城街道创客公寓二期4栋104",
+    "amap_area": "",
+    "amap_type": "餐饮服务;餐饮相关场所;餐饮相关",
+    "amap_distance": 78.8,
+    "amap_businessarea": "江北新区直管区",
+    "cgcs_lon": 118.69271789736018,
+    "cgcs_lat": 32.196011790992294,
+    "amap_lon": 118.697899,
+    "amap_lat": 32.193901,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0K2CL56AY",
+    "amap_name": "南京信息工程大学南苑(毓园)校区",
+    "amap_address": "永锦路与永丰老街交叉口西南240米",
+    "amap_area": "",
+    "amap_type": "科教文化服务;科教文化场所;科教文化场所",
+    "amap_distance": 104.43,
+    "amap_businessarea": "江北新区直管区",
+    "cgcs_lon": 118.69311104231299,
+    "cgcs_lat": 32.19698928287137,
+    "amap_lon": 118.698293,
+    "amap_lat": 32.194879,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0HB7M1JNI",
+    "amap_name": "创客公寓",
+    "amap_address": "高新区永锦路41号",
+    "amap_area": "",
+    "amap_type": "商务住宅;商务住宅相关;商务住宅相关",
+    "amap_distance": 113.78,
+    "amap_businessarea": "江北新区直管区",
+    "cgcs_lon": 118.69160411814744,
+    "cgcs_lat": 32.19561659433785,
+    "amap_lon": 118.696783,
+    "amap_lat": 32.193504,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0K3XD3O2D",
+    "amap_name": "南苑餐厅",
+    "amap_address": "永丰老街与盘城南路交叉口正南方向325米左右南信大南苑校区三楼",
+    "amap_area": "",
+    "amap_type": "餐饮服务;中餐厅;中餐厅",
+    "amap_distance": 115.17,
+    "amap_businessarea": "江北新区直管区",
+    "cgcs_lon": 118.6932926998487,
+    "cgcs_lat": 32.19688496765516,
+    "amap_lon": 118.698475,
+    "amap_lat": 32.194775,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0L1KNTNF4",
+    "amap_name": "南京信息工程大学南苑留学生宿舍",
+    "amap_address": "永锦路与永丰老街交叉口西南360米",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;宿舍",
+    "amap_distance": 19.95,
+    "amap_businessarea": {
+      "keytag": "宿舍",
+      "business_area": "江北新区",
+      "rectag": "宿舍"
+    },
+    "cgcs_lon": 118.69210606134581,
+    "cgcs_lat": 32.19636386234593,
+    "amap_lon": 118.697286,
+    "amap_lat": 32.194252,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0K3DSOJUX",
+    "amap_name": "南京信息工程大学院士林",
+    "amap_address": "龙山北路6号",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 1206.33,
+    "amap_businessarea": {
+      "keytag": "风景名胜,风景名胜,风景名胜",
+      "rating": "3.2",
+      "business_area": "江北新区直管区"
+    },
+    "cgcs_lon": 118.70292368645427,
+    "cgcs_lat": 32.20241388750749,
+    "amap_lon": 118.708124,
+    "amap_lat": 32.200318,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFFDXONV",
+    "amap_name": "南京信息工程大学文园",
+    "amap_address": "万家坝路与万新路交叉口南240米",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;宿舍",
+    "amap_distance": 1390.88,
+    "amap_businessarea": {
+      "keytag": "宿舍",
+      "business_area": "江北新区",
+      "rectag": "宿舍"
+    },
+    "cgcs_lon": 118.70213970621136,
+    "cgcs_lat": 32.20577248859254,
+    "amap_lon": 118.707339,
+    "amap_lat": 32.203675,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFJ4U0EM",
+    "amap_name": "南京信息工程大学西区",
+    "amap_address": "宁六路219号南京信息工程大学",
+    "amap_area": "",
+    "amap_type": "科教文化服务;学校;高等院校",
+    "amap_distance": 1473.72,
+    "amap_businessarea": {
+      "keytag": "高等教育",
+      "business_area": "江北新区直管区",
+      "rectag": "高等教育"
+    },
+    "cgcs_lon": 118.70476644523998,
+    "cgcs_lat": 32.204390574598335,
+    "amap_lon": 118.70997,
+    "amap_lat": 32.202297,
+    "source": "name_poi"
+  }
+]

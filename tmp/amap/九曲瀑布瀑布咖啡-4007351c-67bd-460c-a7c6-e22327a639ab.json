@@ -1,0 +1,173 @@
+[
+  {
+    "amap_id": "B0JUBAGASL",
+    "amap_name": "瀑布乐园",
+    "amap_address": "山川乡安吉瀑布乐园(巴厘岛版)西北侧100米",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 62.74,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 119.6756905353362,
+    "cgcs_lat": 30.43885732510772,
+    "amap_lon": 119.680557,
+    "amap_lat": 30.436345,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0JUFCVB26",
+    "amap_name": "云下飞瀑休闲营地",
+    "amap_address": "山川乡大里村秧田坞自然村",
+    "amap_area": "",
+    "amap_type": "体育休闲服务;体育休闲服务场所;体育休闲服务场所",
+    "amap_distance": 78.15,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 119.67654533593135,
+    "cgcs_lat": 30.438056903828215,
+    "amap_lon": 119.681413,
+    "amap_lat": 30.435546,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B023C02H58",
+    "amap_name": "战岭坑",
+    "amap_address": "安吉县",
+    "amap_area": "",
+    "amap_type": "地名地址信息;普通地名;村庄级地名",
+    "amap_distance": 539.5,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 119.68058464588341,
+    "cgcs_lat": 30.435773910258476,
+    "amap_lon": 119.685458,
+    "amap_lat": 30.43327,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0L2ZR4EUE",
+    "amap_name": "红房子土菜馆",
+    "amap_address": "山川乡大里村战岭坑南87米",
+    "amap_area": "",
+    "amap_type": "餐饮服务;中餐厅;中餐厅",
+    "amap_distance": 561.05,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 119.68049581306533,
+    "cgcs_lat": 30.43531018292163,
+    "amap_lon": 119.685369,
+    "amap_lat": 30.432806,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0LRDD5BRV",
+    "amap_name": "金肉肉饭店",
+    "amap_address": "山川乡大里村秧田坞30号",
+    "amap_area": "",
+    "amap_type": "餐饮服务;中餐厅;中餐厅",
+    "amap_distance": 587.59,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 119.68073048790757,
+    "cgcs_lat": 30.43518277974554,
+    "amap_lon": 119.685604,
+    "amap_lat": 30.432679,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0H227JEZ6",
+    "amap_name": "瀑布咖啡(暂停营业)",
+    "amap_address": "山川乡大里村秧田坞自然村88号",
+    "amap_area": "",
+    "amap_type": "餐饮服务;咖啡厅;咖啡厅",
+    "amap_distance": 19.49,
+    "amap_businessarea": {
+      "opentime_today": "08:30-19:30",
+      "cost": "89.00",
+      "keytag": "咖啡",
+      "rating": "4.8",
+      "tel": "18954211434",
+      "tag": "美式咖啡",
+      "rectag": "咖啡",
+      "opentime_week": "周一至周日 08:30-19:30"
+    },
+    "cgcs_lon": 119.6757285116642,
+    "cgcs_lat": 30.438475344108436,
+    "amap_lon": 119.680595,
+    "amap_lat": 30.435963,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0LROMWMC9",
+    "amap_name": "瀑布餐厅",
+    "amap_address": "山川乡大里村战岭坑南87米",
+    "amap_area": "",
+    "amap_type": "餐饮服务;中餐厅;中餐厅",
+    "amap_distance": 561.2,
+    "amap_businessarea": {
+      "keytag": "中餐",
+      "rating": "3.4",
+      "tel": "18267266009",
+      "rectag": "中餐"
+    },
+    "cgcs_lon": 119.68049581306533,
+    "cgcs_lat": 30.43531018292163,
+    "amap_lon": 119.685369,
+    "amap_lat": 30.432806,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0KRK9F8AF",
+    "amap_name": "瀑布群",
+    "amap_address": "天荒坪镇大溪村九龙峡景区",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 5096.28,
+    "amap_businessarea": {
+      "keytag": "自然风光",
+      "rating": "3.6",
+      "rectag": "自然风光"
+    },
+    "cgcs_lon": 119.62385321985003,
+    "cgcs_lat": 30.447710036314284,
+    "amap_lon": 119.628652,
+    "amap_lat": 30.445111,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0KRJ9DQF7",
+    "amap_name": "龙潭瀑布",
+    "amap_address": "山川乡马家弄村安吉灵溪山景区",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 5297.33,
+    "amap_businessarea": {
+      "keytag": "冰川瀑布",
+      "rating": "3.9",
+      "rectag": "冰川瀑布"
+    },
+    "cgcs_lon": 119.64593545591629,
+    "cgcs_lat": 30.478487868441906,
+    "amap_lon": 119.650761,
+    "amap_lat": 30.47593,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0KU2C4KQN",
+    "amap_name": "瀑布咖啡(安吉·星空营地店)",
+    "amap_address": "天荒坪镇大溪村香炉山自然村038号-2",
+    "amap_area": "",
+    "amap_type": "餐饮服务;咖啡厅;咖啡厅",
+    "amap_distance": 8557.91,
+    "amap_businessarea": {
+      "opentime_today": "09:30-18:30",
+      "cost": "79.00",
+      "keytag": "咖啡",
+      "rating": "4.6",
+      "tel": "19235826697",
+      "tag": "烤肉",
+      "rectag": "咖啡",
+      "opentime_week": "周一至周日 09:30-18:30"
+    },
+    "cgcs_lon": 119.5913050024116,
+    "cgcs_lat": 30.462837796063024,
+    "amap_lon": 119.596102,
+    "amap_lat": 30.460223,
+    "source": "name_poi"
+  }
+]

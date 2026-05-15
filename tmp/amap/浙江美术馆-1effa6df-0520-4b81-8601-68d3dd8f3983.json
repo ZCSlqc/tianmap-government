@@ -1,0 +1,172 @@
+[
+  {
+    "amap_id": "B0FFGATR8L",
+    "amap_name": "浙江美术馆(北门)",
+    "amap_address": "南山路138号浙江美术馆",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 60.33,
+    "amap_businessarea": "西湖",
+    "cgcs_lon": 120.1521120067704,
+    "cgcs_lat": 30.233935299331243,
+    "amap_lon": 120.156798,
+    "amap_lat": 30.2316,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFG4FUZV",
+    "amap_name": "浙江美术馆(南门)",
+    "amap_address": "美术馆街与南山路交叉口东120米",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院正门",
+    "amap_distance": 72.3,
+    "amap_businessarea": "西湖",
+    "cgcs_lon": 120.15218330590682,
+    "cgcs_lat": 30.23282950209174,
+    "amap_lon": 120.156869,
+    "amap_lat": 30.230494,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFIPEWRB",
+    "amap_name": "下沉广场",
+    "amap_address": "美术馆后街浙江美术馆",
+    "amap_area": "",
+    "amap_type": "风景名胜;公园广场;城市广场",
+    "amap_distance": 106.68,
+    "amap_businessarea": "西湖",
+    "cgcs_lon": 120.15134079204832,
+    "cgcs_lat": 30.23374993407027,
+    "amap_lon": 120.156029,
+    "amap_lat": 30.231416,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFFV5RH2",
+    "amap_name": "浙江美术馆(西门)",
+    "amap_address": "南山路138号浙江美术馆",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 125.94,
+    "amap_businessarea": "西湖",
+    "cgcs_lon": 120.15108908264429,
+    "cgcs_lat": 30.233549499558865,
+    "amap_lon": 120.155778,
+    "amap_lat": 30.231216,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B023B18YRM",
+    "amap_name": "长桥别墅",
+    "amap_address": "南山路138号",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;别墅|风景名胜;风景名胜;风景名胜",
+    "amap_distance": 140.94,
+    "amap_businessarea": "西湖",
+    "cgcs_lon": 120.15116235975884,
+    "cgcs_lat": 30.232763683139975,
+    "amap_lon": 120.155851,
+    "amap_lat": 30.23043,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B023B0BMJ6",
+    "amap_name": "浙江美术馆",
+    "amap_address": "",
+    "amap_area": "20938.124146",
+    "amap_type": "140400",
+    "amap_distance": 0.0,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 120.15220833197579,
+    "cgcs_lat": 30.233384509387264,
+    "amap_lon": 120.156894,
+    "amap_lat": 30.231049,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "B023B13L9M",
+    "amap_name": "杭州西湖风景名胜区",
+    "amap_address": "",
+    "amap_area": "49444798.921550",
+    "amap_type": "110202",
+    "amap_distance": 0.0,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 120.11658420719543,
+    "cgcs_lat": 30.224977098712984,
+    "amap_lon": 120.121358,
+    "amap_lat": 30.222692,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "B0H3DCS9E7",
+    "amap_name": "浙江美术馆停车场",
+    "amap_address": "南山路138号浙江美术馆",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;专用停车场",
+    "amap_distance": 56.53,
+    "amap_businessarea": {
+      "keytag": "地面停车场",
+      "rectag": "地面停车场",
+      "parking_type": "地面",
+      "opentime_week": "周六至周日 00:00-24:00"
+    },
+    "cgcs_lon": 120.15288526921717,
+    "cgcs_lat": 30.23371270306624,
+    "amap_lon": 120.157569,
+    "amap_lat": 30.231376,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "BV11163467",
+    "amap_name": "浙江美术馆(公交站)",
+    "amap_address": "浙江美术馆接驳专线",
+    "amap_area": "",
+    "amap_type": "交通设施服务;公交车站;公交车站相关",
+    "amap_distance": 56.92,
+    "amap_businessarea": {
+      "keytag": "公交站",
+      "business_area": "西湖旅游区中心片区",
+      "rectag": "公交站"
+    },
+    "cgcs_lon": 120.15211501834001,
+    "cgcs_lat": 30.233901307042917,
+    "amap_lon": 120.156801,
+    "amap_lat": 30.231566,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0H3DCTLEN",
+    "amap_name": "浙江美术馆停车场(出入口)",
+    "amap_address": "浙江美术馆停车场",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;停车场出入口",
+    "amap_distance": 60.52,
+    "amap_businessarea": {
+      "keytag": "停车场入口",
+      "rectag": "停车场入口"
+    },
+    "cgcs_lon": 120.15211200668645,
+    "cgcs_lat": 30.233936299262922,
+    "amap_lon": 120.156798,
+    "amap_lat": 30.231601,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "BV09414041",
+    "amap_name": "浙江美术馆内(北门)(公交站)",
+    "amap_address": "浙江美术馆接驳专线",
+    "amap_area": "",
+    "amap_type": "交通设施服务;公交车站;公交车站相关",
+    "amap_distance": 60.78,
+    "amap_businessarea": {
+      "keytag": "公交站",
+      "business_area": "西湖旅游区中心片区",
+      "rectag": "公交站"
+    },
+    "cgcs_lon": 120.15211300933979,
+    "cgcs_lat": 30.2339393008543,
+    "amap_lon": 120.156799,
+    "amap_lat": 30.231604,
+    "source": "name_poi"
+  }
+]

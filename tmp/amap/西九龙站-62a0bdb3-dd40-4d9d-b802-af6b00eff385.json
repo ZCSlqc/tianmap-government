@@ -1,0 +1,131 @@
+[
+  {
+    "amap_id": "B0H3D5QOTM",
+    "name": "招商永隆银行(高铁香港站分行)",
+    "address": "汇民道与汇翔道交叉口西80米(高铁站G层)",
+    "area": "",
+    "type": "金融保险服务;银行;银行",
+    "distance": 9.15,
+    "businessarea": "油麻地",
+    "lon": 114.16532547334177,
+    "lat": 22.30435776639151,
+    "amap_lon": 114.170289,
+    "amap_lat": 22.301611,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFIVMZTX",
+    "name": "香港西九龙站",
+    "address": "柯士甸道西3号",
+    "area": "",
+    "type": "交通设施服务;火车站;火车站",
+    "distance": 45.35,
+    "businessarea": "油麻地",
+    "lon": 114.16544282129168,
+    "lat": 22.303881872182092,
+    "amap_lon": 114.170406,
+    "amap_lat": 22.301135,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0HRDYUELZ",
+    "name": "万宁(西九龙站店)",
+    "address": "尖沙咀柯士甸道西3号香港西九龙站售票大堂B1-2号铺",
+    "area": "",
+    "type": "购物服务;超级市场;万宁超市",
+    "distance": 59.53,
+    "businessarea": {
+      "opentime_today": "08:30-20:30",
+      "keytag": "化妆品",
+      "rating": "4.4",
+      "business_area": "油麻地",
+      "tel": "+852-27912077",
+      "rectag": "化妆品",
+      "opentime_week": "周一至周日 08:30-20:30"
+    },
+    "lon": 114.16575361628465,
+    "lat": 22.304616637978146,
+    "amap_lon": 114.170716,
+    "amap_lat": 22.301869,
+    "source": "name_search"
+  },
+  {
+    "amap_id": "BX09908790",
+    "name": "柯士甸地铁站C出入口",
+    "address": "屯马线",
+    "area": "",
+    "type": "交通设施服务;地铁站;出入口",
+    "distance": 69.08,
+    "businessarea": "油麻地",
+    "lon": 114.16600030848053,
+    "lat": 22.304236011499505,
+    "amap_lon": 114.170962,
+    "amap_lat": 22.301488,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0J3A6KFK3",
+    "name": "香江冰室",
+    "address": "尖沙咀柯士甸道西3号西九龙高铁站0B2层10号美食广场内",
+    "area": "",
+    "type": "餐饮服务;冷饮店;冷饮店",
+    "distance": 70.83,
+    "businessarea": "油麻地",
+    "lon": 114.16581282700432,
+    "lat": 22.303822556633243,
+    "amap_lon": 114.170775,
+    "amap_lat": 22.301075,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0J0C7CSKJ",
+    "name": "香港西九龙站(出站口)",
+    "address": "香港西九龙站",
+    "area": "",
+    "type": "交通设施服务;火车站;出站口",
+    "distance": 81.27,
+    "businessarea": "油麻地",
+    "lon": 114.16582988028951,
+    "lat": 22.303710561541983,
+    "amap_lon": 114.170792,
+    "amap_lat": 22.300963,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0LKRC5ZF9",
+    "name": "高铁香港段西九龙站停车场",
+    "address": "高铁香港段西九龙站的地下库B2",
+    "area": "",
+    "type": "交通设施服务;停车场;公共停车场",
+    "distance": 106.16,
+    "businessarea": {
+      "keytag": "停车场",
+      "business_area": "油麻地",
+      "rectag": "停车场"
+    },
+    "lon": 114.16438796757365,
+    "lat": 22.303847872371254,
+    "amap_lon": 114.169354,
+    "amap_lat": 22.301103,
+    "source": "name_search"
+  },
+  {
+    "amap_id": "B0J0C7E9LL",
+    "name": "香港西九龙站停车场",
+    "address": "连翔道与柯士甸道西交叉口东北60米",
+    "area": "",
+    "type": "交通设施服务;停车场;公共停车场",
+    "distance": 109.86,
+    "businessarea": {
+      "keytag": "停车场",
+      "business_area": "油麻地",
+      "rectag": "停车场",
+      "parking_type": "地下"
+    },
+    "lon": 114.16445516010597,
+    "lat": 22.30367995823151,
+    "amap_lon": 114.169421,
+    "amap_lat": 22.300935,
+    "source": "name_search"
+  }
+]

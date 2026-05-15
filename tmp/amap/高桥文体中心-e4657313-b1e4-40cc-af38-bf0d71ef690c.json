@@ -1,0 +1,173 @@
+[
+  {
+    "amap_id": "B0IGKRLO3X",
+    "amap_name": "中国建设银行(宁波高桥支行)",
+    "amap_address": "高桥镇汇贤路298号1-1、1-2、3-1、3-2",
+    "amap_area": "",
+    "amap_type": "金融保险服务;金融保险服务机构;金融保险机构",
+    "amap_distance": 130.75,
+    "amap_businessarea": "望春",
+    "cgcs_lon": 121.47222291062158,
+    "cgcs_lat": 29.903404959738083,
+    "amap_lon": 121.476625,
+    "amap_lat": 29.901026,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0H1CS3IIO",
+    "amap_name": "宁波高桥开元名庭酒店(奥体中心店)",
+    "amap_address": "高桥镇汇贤路298号",
+    "amap_area": "",
+    "amap_type": "住宿服务;宾馆酒店;宾馆酒店",
+    "amap_distance": 131.83,
+    "amap_businessarea": "望春",
+    "cgcs_lon": 121.47256504931667,
+    "cgcs_lat": 29.903200919489493,
+    "amap_lon": 121.476966,
+    "amap_lat": 29.900821,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFH2SRBN",
+    "amap_name": "宁波易达海盛纺织品有限公司",
+    "amap_address": "高桥镇高峰工业区江岸路38号",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 153.63,
+    "amap_businessarea": "望春",
+    "cgcs_lon": 121.47037003842445,
+    "cgcs_lat": 29.90146893615967,
+    "amap_lon": 121.474778,
+    "amap_lat": 29.899095,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFK8TXEA",
+    "amap_name": "熙悦公馆",
+    "amap_address": "汇贤路296号",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;住宅小区",
+    "amap_distance": 160.14,
+    "amap_businessarea": "望春",
+    "cgcs_lon": 121.47264127660013,
+    "cgcs_lat": 29.903484119104082,
+    "amap_lon": 121.477042,
+    "amap_lat": 29.901104,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0I3J99J50",
+    "amap_name": "海曙区高桥镇人大代表联络站",
+    "amap_address": "高桥商会大厦南门旁",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;乡镇级政府及事业单位",
+    "amap_distance": 165.19,
+    "amap_businessarea": "望春",
+    "cgcs_lon": 121.47154967454281,
+    "cgcs_lat": 29.903845076005243,
+    "amap_lon": 121.475954,
+    "amap_lat": 29.901468,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0JR4H5CDX",
+    "amap_name": "高桥镇文体中心",
+    "amap_address": "汇贤路412号",
+    "amap_area": "",
+    "amap_type": "科教文化服务;科教文化场所;科教文化场所",
+    "amap_distance": 26.16,
+    "amap_businessarea": {
+      "keytag": "团建拓展",
+      "rating": "4.3",
+      "rectag": "团建拓展"
+    },
+    "cgcs_lon": 121.4718507806791,
+    "cgcs_lat": 29.902330975816685,
+    "amap_lon": 121.476254,
+    "amap_lat": 29.899953,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0L0GR40UF",
+    "amap_name": "开迈斯汽车充电站(宁波市高桥文体中心站)",
+    "amap_address": "高桥镇汇贤路高桥文体中心西侧地面停车场",
+    "amap_area": "",
+    "amap_type": "汽车服务;充电站;充电站",
+    "amap_distance": 130.86,
+    "amap_businessarea": {
+      "opentime_today": "24小时营业",
+      "keytag": "充电站",
+      "rating": "3.8",
+      "business_area": "海曙印象城",
+      "tel": "4006657666",
+      "rectag": "充电站",
+      "opentime_week": "周一至周日 00:00-24:00"
+    },
+    "cgcs_lon": 121.47046221051656,
+    "cgcs_lat": 29.903014119698742,
+    "amap_lon": 121.47487,
+    "amap_lat": 29.90064,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0J3TDJ5M7",
+    "amap_name": "高桥文体中心直流站",
+    "amap_address": "江岸路与高桥路交叉口北180米",
+    "amap_area": "",
+    "amap_type": "体育休闲服务;体育休闲服务场所;体育休闲服务场所",
+    "amap_distance": 170.11,
+    "amap_businessarea": {
+      "keytag": "体育休闲服务,体育休闲服务场所,体育休闲服务场所",
+      "rating": "3.7",
+      "business_area": "海曙印象城"
+    },
+    "cgcs_lon": 121.47071196466284,
+    "cgcs_lat": 29.90368277550183,
+    "amap_lon": 121.475119,
+    "amap_lat": 29.901308,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0GKHAXTLE",
+    "amap_name": "胜时体育少儿篮球体适能中心",
+    "amap_address": "梁祝文化园梧桐里D3负一层",
+    "amap_area": "",
+    "amap_type": "体育休闲服务;运动场馆;篮球场馆",
+    "amap_distance": 1045.2,
+    "amap_businessarea": {
+      "opentime_today": "09:00-23:30",
+      "keytag": "篮球场",
+      "rating": "3.8",
+      "tel": "0574-87320568",
+      "rectag": "篮球场",
+      "opentime_week": "周一至周日 09:00-23:30"
+    },
+    "cgcs_lon": 121.47920281608182,
+    "cgcs_lat": 29.90904150574853,
+    "amap_lon": 121.483582,
+    "amap_lat": 29.906643,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFIGCD8R",
+    "amap_name": "芦港健身中心",
+    "amap_address": "高桥镇新桥清沁家园芦港文化大礼堂二楼",
+    "amap_area": "",
+    "amap_type": "体育休闲服务;运动场馆;健身中心",
+    "amap_distance": 1784.76,
+    "amap_businessarea": {
+      "opentime_today": "10:00-22:00",
+      "cost": "74.00",
+      "keytag": "健身房",
+      "rating": "4.4",
+      "business_area": "望春",
+      "rectag": "健身房",
+      "opentime_week": "周一至周日 10:00-22:00"
+    },
+    "cgcs_lon": 121.4879974893607,
+    "cgcs_lat": 29.89495696175368,
+    "amap_lon": 121.492345,
+    "amap_lat": 29.892532,
+    "source": "name_poi"
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "amap_id": "B0HUHALTQ0",
+    "amap_name": "上饶天佑文化公园",
+    "amap_address": "望江路与天佑大道交叉口西北180米",
+    "amap_area": "",
+    "amap_type": "风景名胜;公园广场;公园",
+    "amap_distance": 7.15,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.00276295620962,
+    "cgcs_lat": 28.490327866554548,
+    "amap_lon": 118.007909,
+    "amap_lat": 28.487104,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B031900PXH",
+    "amap_name": "侯家",
+    "amap_address": "信州区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;普通地名;村庄级地名",
+    "amap_distance": 83.74,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.0026942203213,
+    "cgcs_lat": 28.489568332024188,
+    "amap_lon": 118.00784,
+    "amap_lat": 28.486344,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0K3ZZFXTU",
+    "amap_name": "站前花城",
+    "amap_address": "天佑大道12号",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;住宅小区",
+    "amap_distance": 148.77,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.00403628264786,
+    "cgcs_lat": 28.489699240569266,
+    "amap_lon": 118.009186,
+    "amap_lat": 28.486479,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0K1YZ80PQ",
+    "amap_name": "刘一捞火锅食材配送中心",
+    "amap_address": "灵溪街道站前大道浙商大厦四号楼608",
+    "amap_area": "",
+    "amap_type": "科教文化服务;培训机构;培训机构",
+    "amap_distance": 235.07,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.00050153112356,
+    "cgcs_lat": 28.491191416763513,
+    "amap_lon": 118.005641,
+    "amap_lat": 28.487961,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFKZPMGB",
+    "amap_name": "上饶电竞产业广场",
+    "amap_address": "站前大道与天佑路交口",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 245.34,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.000308227594,
+    "cgcs_lat": 28.489651526929183,
+    "amap_lon": 118.005447,
+    "amap_lat": 28.48642,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFGJX0T4",
+    "amap_name": "天佑中学",
+    "amap_address": "园丁路369号",
+    "amap_area": "",
+    "amap_type": "科教文化服务;学校;中学",
+    "amap_distance": 87954.51,
+    "amap_businessarea": {
+      "keytag": "高级中学",
+      "tel": "0793-7368100",
+      "rectag": "高级中学"
+    },
+    "cgcs_lon": 117.85709879404736,
+    "cgcs_lat": 29.273490769516634,
+    "amap_lon": 117.862172,
+    "amap_lat": 29.270622,
+    "source": "name_poi"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "amap_id": "B0FFIT8ZPP",
+    "amap_name": "厦门中心",
+    "amap_address": "海沧大道551号",
+    "amap_area": "",
+    "amap_type": "商务住宅;商务住宅相关;商务住宅相关",
+    "amap_distance": 91.64,
+    "amap_businessarea": "钟林路",
+    "cgcs_lon": 118.03288916979493,
+    "cgcs_lat": 24.47651391944041,
+    "amap_lon": 118.037806,
+    "amap_lat": 24.473791,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0GUTPGPGF",
+    "amap_name": "东南航运中心",
+    "amap_address": "海沧大道与沧桐路交叉口西南100米",
+    "amap_area": "",
+    "amap_type": "生活服务;物流速递;物流速递",
+    "amap_distance": 159.28,
+    "amap_businessarea": "钟林路",
+    "cgcs_lon": 118.03361364943372,
+    "cgcs_lat": 24.47539595539353,
+    "amap_lon": 118.038532,
+    "amap_lat": 24.472675,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "BZ86Q900PY",
+    "amap_name": "沧桐路",
+    "amap_address": "海沧区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;道路名",
+    "amap_distance": 165.75,
+    "amap_businessarea": "钟林路",
+    "cgcs_lon": 118.03265163294094,
+    "cgcs_lat": 24.477425656264632,
+    "amap_lon": 118.037568,
+    "amap_lat": 24.474702,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0H1USWB3X",
+    "amap_name": "厦门中心E座办公楼地下停车场",
+    "amap_address": "沧桐路与海沧大道交叉口西北100米",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 179.67,
+    "amap_businessarea": "钟林路",
+    "cgcs_lon": 118.03378318447642,
+    "cgcs_lat": 24.476693756504552,
+    "amap_lon": 118.038702,
+    "amap_lat": 24.473973,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0H1USW3KW",
+    "amap_name": "厦门中心E座办公楼地下停车场(出入口)",
+    "amap_address": "沧桐路与海沧大道交叉口西北100米",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;停车场出入口",
+    "amap_distance": 179.96,
+    "amap_businessarea": "钟林路",
+    "cgcs_lon": 118.03377520047127,
+    "cgcs_lat": 24.476714779451864,
+    "amap_lon": 118.038694,
+    "amap_lat": 24.473994,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0LR37F2MB",
+    "amap_name": "厦门中心D栋",
+    "amap_address": "海沧大道551号厦门中心",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 201.73,
+    "amap_businessarea": {
+      "keytag": "商务住宅,楼宇,商务写字楼"
+    },
+    "cgcs_lon": 118.03148922402713,
+    "cgcs_lat": 24.47771259719461,
+    "amap_lon": 118.036403,
+    "amap_lat": 24.474986,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFHPOBRX",
+    "amap_name": "厦门中心大厦商务中心",
+    "amap_address": "海沧大道551号",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 225.11,
+    "amap_businessarea": {
+      "keytag": "写字楼",
+      "tel": "0592-6896666;0592-6898777",
+      "rectag": "写字楼"
+    },
+    "cgcs_lon": 118.03256407290625,
+    "cgcs_lat": 24.474006305092566,
+    "amap_lon": 118.03748,
+    "amap_lat": 24.471283,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFKQGBQ3",
+    "amap_name": "厦门中心F座",
+    "amap_address": "海沧大道569号",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 304.53,
+    "amap_businessarea": {
+      "keytag": "写字楼",
+      "rectag": "写字楼"
+    },
+    "cgcs_lon": 118.034506530605,
+    "cgcs_lat": 24.477770177044764,
+    "amap_lon": 118.039427,
+    "amap_lat": 24.475051,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B02500S947",
+    "amap_name": "厦门绿发中心(建设中)",
+    "amap_address": "鹭江道501号",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 3969.06,
+    "amap_businessarea": {
+      "keytag": "写字楼",
+      "business_area": "鹭江",
+      "alias": "厦门绿发大厦|厦门绿发新时代广场",
+      "rectag": "写字楼"
+    },
+    "cgcs_lon": 118.07020930068128,
+    "cgcs_lat": 24.467426362474722,
+    "amap_lon": 118.075181,
+    "amap_lat": 24.464772,
+    "source": "name_poi"
+  }
+]

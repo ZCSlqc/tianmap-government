@@ -1,0 +1,173 @@
+[
+  {
+    "amap_id": "B0FFL260WR",
+    "amap_name": "斯巴斯塔楼",
+    "amap_address": "成高子镇027县道北50米",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 71.6,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 126.89037894514908,
+    "cgcs_lat": 45.66876536727151,
+    "amap_lon": 126.896366,
+    "amap_lat": 45.670707,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFMEZBPJ",
+    "amap_name": "哈尔滨伏尔加庄园(南1门)",
+    "amap_address": "成高子镇民强村(哈城公路16公里处)哈尔滨伏尔加庄园",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 74.29,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 126.89039394929887,
+    "cgcs_lat": 45.668726362282385,
+    "amap_lon": 126.896381,
+    "amap_lat": 45.670668,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0HAOZI70W",
+    "amap_name": "哈尔滨伏尔加庄园(西门)",
+    "amap_address": "成高子镇民强村(哈城公路16公里处)哈尔滨伏尔加庄园",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 91.34,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 126.89061695614721,
+    "cgcs_lat": 45.66847835711236,
+    "amap_lon": 126.896604,
+    "amap_lat": 45.67042,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFJJBI0B",
+    "amap_name": "思家田园铁锅炖",
+    "amap_address": "哈成路16公路处",
+    "amap_area": "",
+    "amap_type": "餐饮服务;中餐厅;中餐厅",
+    "amap_distance": 156.06,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 126.88926210298933,
+    "cgcs_lat": 45.66851704610302,
+    "amap_lon": 126.895249,
+    "amap_lat": 45.670459,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0HRSZPE9L",
+    "amap_name": "哈尔滨伏尔加庄园停车场",
+    "amap_address": "哈成路16公路处",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 188.37,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 126.89315535465776,
+    "cgcs_lat": 45.66854175812284,
+    "amap_lon": 126.899143,
+    "amap_lat": 45.670483,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B01C317XIL",
+    "amap_name": "哈尔滨伏尔加庄园",
+    "amap_address": "",
+    "amap_area": "709375.022150",
+    "amap_type": "100000|080401|110000",
+    "amap_distance": 0.0,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 126.89356211161807,
+    "cgcs_lat": 45.66923394079951,
+    "amap_lon": 126.89955,
+    "amap_lat": 45.671175,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "B0MBNOUEXP",
+    "amap_name": "哈尔滨伏尔加庄园游客中心地上停车场",
+    "amap_address": "成高子镇民强村(哈城公路16公里处)哈尔滨伏尔加庄园",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 96.15,
+    "amap_businessarea": {
+      "keytag": "停车场",
+      "rectag": "停车场"
+    },
+    "cgcs_lon": 126.89077494251605,
+    "cgcs_lat": 45.66840637407976,
+    "amap_lon": 126.896762,
+    "amap_lat": 45.670348,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFJ29GFU",
+    "amap_name": "哈尔滨伏尔加庄园内部停车场",
+    "amap_address": "成高子镇民强村(哈城公路16公里处)哈尔滨伏尔加庄园",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;专用停车场",
+    "amap_distance": 100.6,
+    "amap_businessarea": {
+      "keytag": "地面停车场",
+      "rectag": "地面停车场",
+      "parking_type": "地面"
+    },
+    "cgcs_lon": 126.89000201085119,
+    "cgcs_lat": 45.66865725963272,
+    "amap_lon": 126.895989,
+    "amap_lat": 45.670599,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0M6N6DMAS",
+    "amap_name": "哈尔滨伏尔加庄园西门地上停车场",
+    "amap_address": "成高子镇民强村(哈城公路16公里处)哈尔滨伏尔加庄园",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 122.48,
+    "amap_businessarea": {
+      "keytag": "停车场",
+      "rectag": "停车场"
+    },
+    "cgcs_lon": 126.88959904380594,
+    "cgcs_lat": 45.66871417434905,
+    "amap_lon": 126.895586,
+    "amap_lat": 45.670656,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFLNB6MB",
+    "amap_name": "哈尔滨伏尔加庄园内部停车场(出入口)",
+    "amap_address": "哈尔滨伏尔加庄园内部停车场",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;停车场出入口",
+    "amap_distance": 129.6,
+    "amap_businessarea": {
+      "keytag": "停车场入口",
+      "rectag": "停车场入口",
+      "parking_type": "地面"
+    },
+    "cgcs_lon": 126.88987906965922,
+    "cgcs_lat": 45.66837717155152,
+    "amap_lon": 126.895866,
+    "amap_lat": 45.670319,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0K14C2T4G",
+    "amap_name": "哈尔滨伏尔加庄园-办公楼",
+    "amap_address": "哈成路16公路处",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 148.32,
+    "amap_businessarea": {
+      "keytag": "写字楼",
+      "rectag": "写字楼"
+    },
+    "cgcs_lon": 126.89118152092152,
+    "cgcs_lat": 45.67058691390233,
+    "amap_lon": 126.897169,
+    "amap_lat": 45.672528,
+    "source": "name_poi"
+  }
+]

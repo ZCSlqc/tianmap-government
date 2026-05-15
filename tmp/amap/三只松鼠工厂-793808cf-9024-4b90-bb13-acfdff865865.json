@@ -1,0 +1,130 @@
+[
+  {
+    "amap_id": "B0FFMGVECB",
+    "amap_name": "安徽松鼠小贱电子商务有限公司",
+    "amap_address": "三只松鼠股份有限公司西南门旁",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 17.32,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.3518230141014,
+    "cgcs_lat": 31.253594749666657,
+    "amap_lon": 118.357197,
+    "amap_lat": 31.251685,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFJ7T0GJ",
+    "amap_name": "三只松鼠股份有限公司(西南门)",
+    "amap_address": "安徽松鼠小贱电子商务有限公司",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 44.33,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.35198579328144,
+    "cgcs_lat": 31.253348599745415,
+    "amap_lon": 118.35736,
+    "amap_lat": 31.251439,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0LR5DA8UA",
+    "amap_name": "三只松鼠股份有限公司(南2门)",
+    "amap_address": "三只松鼠(久盛路店)",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 88.73,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.3524830608581,
+    "cgcs_lat": 31.25327184850018,
+    "amap_lon": 118.357858,
+    "amap_lat": 31.251363,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "BV09481253",
+    "amap_name": "长江南路珩琅山路南(公交站)",
+    "amap_address": "206路特6路",
+    "amap_area": "",
+    "amap_type": "交通设施服务;公交车站;公交车站相关",
+    "amap_distance": 215.03,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.35021231835775,
+    "cgcs_lat": 31.2551166678236,
+    "amap_lon": 118.355584,
+    "amap_lat": 31.253205,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0JKJLER9N",
+    "amap_name": "三只松鼠股份有限公司C区",
+    "amap_address": "久盛路8号",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 218.28,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.35048718971396,
+    "cgcs_lat": 31.251926625432294,
+    "amap_lon": 118.355859,
+    "amap_lat": 31.250014,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFHFXDEH",
+    "amap_name": "三只松鼠(久盛路店)",
+    "amap_address": "久盛路与漳河路交叉口西北220米",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 249.36,
+    "amap_businessarea": {
+      "opentime_today": "09:00-18:00",
+      "keytag": "零食",
+      "rating": "4.4",
+      "rectag": "零食",
+      "opentime_week": "周一至周日 09:00-18:00"
+    },
+    "cgcs_lon": 118.35426441988211,
+    "cgcs_lat": 31.253758869189227,
+    "amap_lon": 118.359642,
+    "amap_lat": 31.251853,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0KRKD8VVZ",
+    "amap_name": "三只松鼠物流中心",
+    "amap_address": "三只松鼠无为工厂店(三只松鼠安徽省无为市产业园店)北侧190米",
+    "amap_area": "",
+    "amap_type": "生活服务;物流速递;物流速递",
+    "amap_distance": 36992.54,
+    "amap_businessarea": {
+      "keytag": "物流集散中心",
+      "rating": "4.4",
+      "rectag": "物流集散中心"
+    },
+    "cgcs_lon": 117.96948198397351,
+    "cgcs_lat": 31.3135863114344,
+    "amap_lon": 117.974775,
+    "amap_lat": 31.311475,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFKLB856",
+    "amap_name": "三只松鼠健康食品城",
+    "amap_address": "无为经济开发区福贸路与福东路交叉口西北角",
+    "amap_area": "",
+    "amap_type": "商务住宅;产业园区;产业园区",
+    "amap_distance": 37058.78,
+    "amap_businessarea": {
+      "opentime_today": "07:00-22:00",
+      "keytag": "工业园区",
+      "rating": "4.3",
+      "rectag": "工业园区",
+      "opentime_week": "周一至周日 07:00-22:00"
+    },
+    "cgcs_lon": 117.9687400351422,
+    "cgcs_lat": 31.313420434791578,
+    "amap_lon": 117.974031,
+    "amap_lat": 31.311307,
+    "source": "name_poi"
+  }
+]

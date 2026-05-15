@@ -1,0 +1,173 @@
+[
+  {
+    "amap_id": "B0FFH35BC1",
+    "amap_name": "浙江能源集团办公楼",
+    "amap_address": "欧美中心南路与欧美中心东路交叉口东140米",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 21.82,
+    "amap_businessarea": "古翠文一片区",
+    "cgcs_lon": 120.13409533176609,
+    "cgcs_lat": 30.27438137993222,
+    "amap_lon": 120.138834,
+    "amap_lat": 30.272079,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B023B08BJN",
+    "amap_name": "浙江省能源集团有限公司(天目山路)",
+    "amap_address": "天目山路152号",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 21.86,
+    "amap_businessarea": "古翠文一片区",
+    "cgcs_lon": 120.13409533185065,
+    "cgcs_lat": 30.27438038002743,
+    "amap_lon": 120.138834,
+    "amap_lat": 30.272078,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0J0Z66BFN",
+    "amap_name": "澜奢酒店(西湖黄龙体育中心店)",
+    "amap_address": "天目山路160号",
+    "amap_area": "",
+    "amap_type": "住宿服务;住宿服务相关;住宿服务相关",
+    "amap_distance": 63.2,
+    "amap_businessarea": "古翠文一片区",
+    "cgcs_lon": 120.13359610742508,
+    "cgcs_lat": 30.273978693081055,
+    "amap_lon": 120.138336,
+    "amap_lat": 30.271677,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0MBCUO4PF",
+    "amap_name": "高玩电竞民宿(杭州黄龙体育中心店)",
+    "amap_address": "天目山路160号国际花园东写字楼203室",
+    "amap_area": "",
+    "amap_type": "住宿服务;住宿服务相关;住宿服务相关",
+    "amap_distance": 64.58,
+    "amap_businessarea": "古翠文一片区",
+    "cgcs_lon": 120.13346076211657,
+    "cgcs_lat": 30.274042491530473,
+    "amap_lon": 120.138201,
+    "amap_lat": 30.271741,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFGEE4SQ",
+    "amap_name": "世贸丽晶城初阳苑",
+    "amap_address": "天目山路148号",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;住宅小区",
+    "amap_distance": 66.38,
+    "amap_businessarea": "古翠文一片区",
+    "cgcs_lon": 120.1338937639309,
+    "cgcs_lat": 30.27508001980367,
+    "amap_lon": 120.138633,
+    "amap_lat": 30.272778,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFH89FZZ",
+    "amap_name": "国际花园",
+    "amap_address": "",
+    "amap_area": "9086.889381",
+    "amap_type": "120302",
+    "amap_distance": 18.06,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 120.13318004384583,
+    "cgcs_lat": 30.274219070763813,
+    "amap_lon": 120.137921,
+    "amap_lat": 30.271918,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "B023B03781",
+    "amap_name": "世贸丽晶城",
+    "amap_address": "",
+    "amap_area": "33949.101526",
+    "amap_type": "120302",
+    "amap_distance": 46.74,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 120.13359592611582,
+    "cgcs_lat": 30.276122487917256,
+    "amap_lon": 120.138336,
+    "amap_lat": 30.273821,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "B023B1DKVO",
+    "amap_name": "浙江省农业生态与能源办公室",
+    "amap_address": "教工路93号",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;省直辖市级政府及事业单位",
+    "amap_distance": 1048.04,
+    "amap_businessarea": {
+      "keytag": "政府机关",
+      "business_area": "杭州国家高新技术产业开发区",
+      "rectag": "政府机关"
+    },
+    "cgcs_lon": 120.13071919103335,
+    "cgcs_lat": 30.283520701948547,
+    "amap_lon": 120.135467,
+    "amap_lat": 30.281224,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFL84VRK",
+    "amap_name": "浙江省能源业联合会",
+    "amap_address": "黄龙万科中心A座11层(文三路地铁站E2口步行50米)",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;社会团体;行业协会",
+    "amap_distance": 1067.32,
+    "amap_businessarea": {
+      "keytag": "社会团体",
+      "business_area": "西湖",
+      "rectag": "社会团体"
+    },
+    "cgcs_lon": 120.12382263005875,
+    "cgcs_lat": 30.278520426259778,
+    "amap_lon": 120.128586,
+    "amap_lat": 30.276232,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B023B1DPT8",
+    "amap_name": "浙江省能源摄影协会",
+    "amap_address": "莫干山路583号煤开大楼F1层",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;社会团体;行业协会",
+    "amap_distance": 2111.95,
+    "amap_businessarea": {
+      "keytag": "社会团体",
+      "business_area": "杭州国家高新技术产业开发区",
+      "rectag": "社会团体"
+    },
+    "cgcs_lon": 120.13927220960096,
+    "cgcs_lat": 30.292945357848488,
+    "amap_lon": 120.143999,
+    "amap_lat": 30.290637,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B023B08BNY",
+    "amap_name": "浙江省能源监察总队",
+    "amap_address": "河东路249号(潮王路地铁站C口步行100米)",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;省直辖市级政府及事业单位",
+    "amap_distance": 2792.92,
+    "amap_businessarea": {
+      "keytag": "政府机关",
+      "business_area": "朝晖",
+      "tel": "0571-88080133",
+      "rectag": "政府机关"
+    },
+    "cgcs_lon": 120.15390128619475,
+    "cgcs_lat": 30.292726368453277,
+    "amap_lon": 120.158587,
+    "amap_lat": 30.290393,
+    "source": "name_poi"
+  }
+]

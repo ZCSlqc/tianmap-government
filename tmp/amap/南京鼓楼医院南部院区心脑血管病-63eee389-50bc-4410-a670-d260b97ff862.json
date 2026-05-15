@@ -1,0 +1,103 @@
+[
+  {
+    "amap_id": "B0MATCVV9U",
+    "amap_name": "南京鼓楼医院南部院区住院部",
+    "amap_address": "高山路与竹山路交叉口西南100米",
+    "amap_area": "",
+    "amap_type": "医疗保健服务;综合医院;综合医院",
+    "amap_distance": 22.8,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 119.01166902389966,
+    "cgcs_lat": 31.724442730733397,
+    "amap_lon": 119.016951,
+    "amap_lat": 31.722526,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0MATHWFP9",
+    "amap_name": "南京鼓楼医院南部院区门诊",
+    "amap_address": "高山路与竹山路交叉口西南160米",
+    "amap_area": "",
+    "amap_type": "医疗保健服务;综合医院;综合医院",
+    "amap_distance": 44.05,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 119.01119671855331,
+    "cgcs_lat": 31.724114082075634,
+    "amap_lon": 119.016477,
+    "amap_lat": 31.722196,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0KDRS26BR",
+    "amap_name": "南京颐养中心园区(北门)",
+    "amap_address": "群力大道88号南京颐养中心CCRC社区",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 112.3,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 119.01046031872731,
+    "cgcs_lat": 31.72413224887692,
+    "amap_lon": 119.015738,
+    "amap_lat": 31.722212,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0KGDZRNMX",
+    "amap_name": "竹山路-道路停车位",
+    "amap_address": "群力大道与高山路交叉口东360米",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;路边停车场",
+    "amap_distance": 112.94,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 119.01227284115762,
+    "cgcs_lat": 31.725096031627892,
+    "amap_lon": 119.017557,
+    "amap_lat": 31.723181,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0KGDZRG28",
+    "amap_name": "竹山路-道路停车位",
+    "amap_address": "群力大道与高山路交叉口东380米",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;路边停车场",
+    "amap_distance": 123.52,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 119.01235654129378,
+    "cgcs_lat": 31.725162794114834,
+    "amap_lon": 119.017641,
+    "amap_lat": 31.723248,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0KDBCXC3O",
+    "amap_name": "南京鼓楼医院(南部院区)",
+    "amap_address": "",
+    "amap_area": "107430.875340",
+    "amap_type": "090100",
+    "amap_distance": 0.0,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 119.01192824298057,
+    "cgcs_lat": 31.723034830096708,
+    "amap_lon": 119.017211,
+    "amap_lat": 31.721119,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "B0LKL4774R",
+    "amap_name": "南京鼓楼医院心脑血管病医院(南部院区)-急诊部",
+    "amap_address": "高山路与竹山路交叉口西南100米",
+    "amap_area": "",
+    "amap_type": "医疗保健服务;医疗保健服务场所;医疗保健服务场所",
+    "amap_distance": 25.96,
+    "amap_businessarea": {
+      "keytag": "门诊",
+      "rectag": "门诊"
+    },
+    "cgcs_lon": 119.01174774385366,
+    "cgcs_lat": 31.724475503580834,
+    "amap_lon": 119.01703,
+    "amap_lat": 31.722559,
+    "source": "name_poi"
+  }
+]

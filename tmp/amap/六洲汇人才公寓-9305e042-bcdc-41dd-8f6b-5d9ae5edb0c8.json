@@ -1,0 +1,130 @@
+[
+  {
+    "amap_id": "B0HA9RAEQ8",
+    "amap_name": "六洲荟·人才公寓",
+    "amap_address": "康乐路199号",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;住宅小区",
+    "amap_distance": 16.95,
+    "amap_businessarea": "淳溪",
+    "cgcs_lon": 118.8890586382133,
+    "cgcs_lat": 31.33252634915878,
+    "amap_lon": 118.894017,
+    "amap_lat": 31.330326,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFKMJ7UY",
+    "amap_name": "高淳区农业农村局",
+    "amap_address": "康乐路186号",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;区县级政府及事业单位",
+    "amap_distance": 75.81,
+    "amap_businessarea": "淳溪",
+    "cgcs_lon": 118.88934378569789,
+    "cgcs_lat": 31.331746720427464,
+    "amap_lon": 118.894302,
+    "amap_lat": 31.329546,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFGYPKMN",
+    "amap_name": "高淳区林业局",
+    "amap_address": "湖北路18号",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;区县级政府及事业单位",
+    "amap_distance": 76.79,
+    "amap_businessarea": "淳溪",
+    "cgcs_lon": 118.88948881925361,
+    "cgcs_lat": 31.331803745616934,
+    "amap_lon": 118.894447,
+    "amap_lat": 31.329603,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B00190Z2JC",
+    "amap_name": "中共高淳区农业局委员会",
+    "amap_address": "湖北路18号",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;区县级政府及事业单位",
+    "amap_distance": 76.79,
+    "amap_businessarea": "淳溪",
+    "cgcs_lon": 118.88948881925361,
+    "cgcs_lat": 31.331803745616934,
+    "amap_lon": 118.894447,
+    "amap_lat": 31.329603,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B00190Z206",
+    "amap_name": "南京市高淳区水产局",
+    "amap_address": "湖北路18号",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;区县级政府及事业单位",
+    "amap_distance": 76.79,
+    "amap_businessarea": "淳溪",
+    "cgcs_lon": 118.88948881925361,
+    "cgcs_lat": 31.331803745616934,
+    "amap_lon": 118.894447,
+    "amap_lat": 31.329603,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0IRG79QDR",
+    "amap_name": "高淳贝拉月子会所(六洲荟·人才公寓店)",
+    "amap_address": "康乐路199号六洲荟人才公寓",
+    "amap_area": "",
+    "amap_type": "生活服务;美容美发店;美容美发店",
+    "amap_distance": 8.17,
+    "amap_businessarea": {
+      "cost": "27660.00",
+      "keytag": "月子会所",
+      "rating": "4.4",
+      "business_area": "淳溪",
+      "rectag": "月子会所"
+    },
+    "cgcs_lon": 118.88906864870515,
+    "cgcs_lat": 31.332439383543875,
+    "amap_lon": 118.894027,
+    "amap_lat": 31.330239,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0K6N56990",
+    "amap_name": "南京鑫雅瑜伽",
+    "amap_address": "淳溪街道康乐路195号六洲荟人才公寓",
+    "amap_area": "",
+    "amap_type": "体育休闲服务;运动场馆;健身中心",
+    "amap_distance": 57.9,
+    "amap_businessarea": {
+      "cost": "84.00",
+      "keytag": "瑜伽",
+      "rating": "4.0",
+      "business_area": "淳溪",
+      "rectag": "瑜伽"
+    },
+    "cgcs_lon": 118.88962079132129,
+    "cgcs_lat": 31.332509533794983,
+    "amap_lon": 118.894579,
+    "amap_lat": 31.330309,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0LRDM5KBX",
+    "amap_name": "六洲荟人才公寓-地下停车场",
+    "amap_address": "康乐路199号六洲荟·人才公寓",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;专用停车场",
+    "amap_distance": 58.22,
+    "amap_businessarea": {
+      "keytag": "地下停车场",
+      "business_area": "淳溪",
+      "rectag": "地下停车场"
+    },
+    "cgcs_lon": 118.88958177284911,
+    "cgcs_lat": 31.332605487530714,
+    "amap_lon": 118.89454,
+    "amap_lat": 31.330405,
+    "source": "name_poi"
+  }
+]

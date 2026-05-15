@@ -1,0 +1,147 @@
+[
+  {
+    "amap_id": "B0L3P5GA2C",
+    "amap_name": "雨花滨河体育公园",
+    "amap_address": "滨河北路和七贤街交叉口",
+    "amap_area": "",
+    "amap_type": "风景名胜;公园广场;公园",
+    "amap_distance": 36.94,
+    "amap_businessarea": "西善桥",
+    "cgcs_lon": 118.73078537694113,
+    "cgcs_lat": 31.95146819231498,
+    "amap_lon": 118.735996,
+    "amap_lat": 31.949452,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFFPFIB2",
+    "amap_name": "福润雅居福润园北区37号楼",
+    "amap_address": "许家88",
+    "amap_area": "",
+    "amap_type": "地名地址信息;门牌信息;楼栋号",
+    "amap_distance": 91.11,
+    "amap_businessarea": "西善桥",
+    "cgcs_lon": 118.72956918346274,
+    "cgcs_lat": 31.951765945025254,
+    "amap_lon": 118.734779,
+    "amap_lat": 31.949749,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFFPE3GS",
+    "amap_name": "福润雅居福润园北区13号楼",
+    "amap_address": "许家88",
+    "amap_area": "",
+    "amap_type": "地名地址信息;门牌信息;楼栋号",
+    "amap_distance": 146.74,
+    "amap_businessarea": "西善桥",
+    "cgcs_lon": 118.72892864813197,
+    "cgcs_lat": 31.951760325934156,
+    "amap_lon": 118.734138,
+    "amap_lat": 31.949743,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B00190BBPW",
+    "amap_name": "福润雅居福润园",
+    "amap_address": "龙淮路福润雅居许家88号",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;住宅小区",
+    "amap_distance": 294.5,
+    "amap_businessarea": "西善桥",
+    "cgcs_lon": 118.72745873553015,
+    "cgcs_lat": 31.952219363994352,
+    "amap_lon": 118.732667,
+    "amap_lat": 31.950201,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFLOSC2V",
+    "amap_name": "福润雅居福润园北区36号楼",
+    "amap_address": "许家88",
+    "amap_area": "",
+    "amap_type": "地名地址信息;门牌信息;楼栋号",
+    "amap_distance": 303.72,
+    "amap_businessarea": "西善桥",
+    "cgcs_lon": 118.72884652506828,
+    "cgcs_lat": 31.95375483239643,
+    "amap_lon": 118.734056,
+    "amap_lat": 31.951737,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0L346ECCJ",
+    "amap_name": "滨河体育公园运动场",
+    "amap_address": "福润雅居福润园南门往东200米",
+    "amap_area": "",
+    "amap_type": "体育休闲服务;运动场馆;综合体育馆",
+    "amap_distance": 14.06,
+    "amap_businessarea": {
+      "keytag": "体育场馆",
+      "rating": "4.2",
+      "rectag": "体育场馆",
+      "opentime_week": "周一至周五09:00-17:00；周六09:00-16:00；周日及法定节假日09:00-22:00"
+    },
+    "cgcs_lon": 118.73036567759873,
+    "cgcs_lat": 31.951252373137013,
+    "amap_lon": 118.735576,
+    "amap_lat": 31.949236,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0LKYX59OP",
+    "amap_name": "滨河体育公园公共洗手间",
+    "amap_address": "滨河北路与七贤街交叉口西20米",
+    "amap_area": "",
+    "amap_type": "公共设施;公共厕所;公共厕所",
+    "amap_distance": 52.31,
+    "amap_businessarea": {
+      "keytag": "公厕",
+      "business_area": "西善桥",
+      "rectag": "公厕"
+    },
+    "cgcs_lon": 118.73046455649256,
+    "cgcs_lat": 31.951841453028504,
+    "amap_lon": 118.735675,
+    "amap_lat": 31.949825,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0LKYB3GKI",
+    "amap_name": "滨河体育公园公共洗手间",
+    "amap_address": "滨河北路与七贤街交叉口东南60米",
+    "amap_area": "",
+    "amap_type": "公共设施;公共厕所;公共厕所",
+    "amap_distance": 77.98,
+    "amap_businessarea": {
+      "keytag": "公厕",
+      "rectag": "公厕"
+    },
+    "cgcs_lon": 118.73123508537965,
+    "cgcs_lat": 31.95145695027376,
+    "amap_lon": 118.736446,
+    "amap_lat": 31.949441,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0KA9LNUQS",
+    "amap_name": "滨河体育公园儿童乐园",
+    "amap_address": "江宁开发区滨河体育公园(西北角)",
+    "amap_area": "",
+    "amap_type": "体育休闲服务;休闲场所;游乐场",
+    "amap_distance": 9980.07,
+    "amap_businessarea": {
+      "cost": "34.00",
+      "keytag": "儿童乐园",
+      "rating": "4.3",
+      "business_area": "双龙大道",
+      "tel": "025-52110160",
+      "rectag": "儿童乐园"
+    },
+    "cgcs_lon": 118.83129472101966,
+    "cgcs_lat": 31.9249017757258,
+    "amap_lon": 118.836386,
+    "amap_lat": 31.922787,
+    "source": "name_poi"
+  }
+]

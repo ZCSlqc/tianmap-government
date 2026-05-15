@@ -1,0 +1,108 @@
+[
+  {
+    "amap_id": "BZAOQE00JF",
+    "amap_name": "天凤路",
+    "amap_address": "雨花台区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;道路名",
+    "amap_distance": 76.1,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.72094802103031,
+    "cgcs_lat": 31.92806494100601,
+    "amap_lon": 118.726148,
+    "amap_lat": 31.926047,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0IG7SPZNB",
+    "amap_name": "南京殡仪馆(南京市殡葬管理处西)地下停车场(出入口)",
+    "amap_address": "南京殡仪馆(南京市殡葬管理处西)地下停车场",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;停车场出入口",
+    "amap_distance": 83.14,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.72106989126597,
+    "cgcs_lat": 31.928073834971734,
+    "amap_lon": 118.72627,
+    "amap_lat": 31.926056,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0IG7SO73B",
+    "amap_name": "南京殡仪馆(南京市殡葬管理处西)地下停车场",
+    "amap_address": "铁心桥街道大定坊大周路206号南京殡仪馆",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 83.14,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.72106989126597,
+    "cgcs_lat": 31.928073834971734,
+    "amap_lon": 118.72627,
+    "amap_lat": 31.926056,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0G0PSC5X8",
+    "amap_name": "南京殡仪馆服务中心",
+    "amap_address": "大周路与元和路交叉口西280米",
+    "amap_area": "",
+    "amap_type": "生活服务;生活服务场所;生活服务场所",
+    "amap_distance": 101.82,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.72162437923872,
+    "cgcs_lat": 31.92734218587621,
+    "amap_lon": 118.726825,
+    "amap_lat": 31.925325,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B00190ZKJ9",
+    "amap_name": "南京殡仪馆",
+    "amap_address": "铁心桥街道大定坊大周路206号",
+    "amap_area": "",
+    "amap_type": "生活服务;丧葬设施;殡仪馆",
+    "amap_distance": 156.84,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.71951353606617,
+    "cgcs_lat": 31.928565362422468,
+    "amap_lon": 118.724712,
+    "amap_lat": 31.926546,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0IG7SPZNA",
+    "amap_name": "南京殡仪馆(南京市殡葬管理处西)地面停车场(入口)",
+    "amap_address": "南京殡仪馆(南京市殡葬管理处西)地面停车场",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;停车场入口",
+    "amap_distance": 158.28,
+    "amap_businessarea": {
+      "keytag": "停车场入口",
+      "rectag": "停车场入口",
+      "parking_type": "地面"
+    },
+    "cgcs_lon": 118.7216554345848,
+    "cgcs_lat": 31.92639194626338,
+    "amap_lon": 118.726856,
+    "amap_lat": 31.924375,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0IG7SOLZP",
+    "amap_name": "南京殡仪馆(南京市殡葬管理处西)地面停车场",
+    "amap_address": "铁心桥街道大定坊大周路206号南京殡仪馆",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 171.13,
+    "amap_businessarea": {
+      "keytag": "地面停车场",
+      "rectag": "地面停车场",
+      "parking_type": "地面"
+    },
+    "cgcs_lon": 118.72173136521417,
+    "cgcs_lat": 31.926294858999817,
+    "amap_lon": 118.726932,
+    "amap_lat": 31.924278,
+    "source": "name_poi"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "amap_id": "B023E0Y50X",
+    "amap_name": "怡咖啡自助餐(宁波香格里拉店)",
+    "amap_address": "豫源街88号香格里拉大酒店2楼(近江东北路)",
+    "amap_area": "",
+    "amap_type": "餐饮服务;咖啡厅;咖啡厅",
+    "amap_distance": 46.43,
+    "amap_businessarea": "南门",
+    "cgcs_lon": 121.55754050138222,
+    "cgcs_lat": 29.87022432386686,
+    "amap_lon": 121.561672,
+    "amap_lat": 29.86762,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B023E0ZSM1",
+    "amap_name": "香宫中餐厅(宁波香格里拉大酒店)",
+    "amap_address": "豫源街88号宁波香格里拉大酒店1层",
+    "amap_area": "",
+    "amap_type": "餐饮服务;中餐厅;广东菜(粤菜)",
+    "amap_distance": 46.43,
+    "amap_businessarea": "南门",
+    "cgcs_lon": 121.55754050138222,
+    "cgcs_lat": 29.87022432386686,
+    "amap_lon": 121.561672,
+    "amap_lat": 29.86762,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0KDTM221A",
+    "amap_name": "宁波香格里拉大酒店大堂",
+    "amap_address": "豫源街88号宁波香格里拉大酒店",
+    "amap_area": "",
+    "amap_type": "住宿服务;宾馆酒店;五星级宾馆",
+    "amap_distance": 51.64,
+    "amap_businessarea": "南门",
+    "cgcs_lon": 121.55774691718892,
+    "cgcs_lat": 29.87015365424434,
+    "amap_lon": 121.561878,
+    "amap_lat": 29.867549,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFF61MRE",
+    "amap_name": "香格里拉大堂酒廊",
+    "amap_address": "豫源街88号宁波香格里拉大酒店9层",
+    "amap_area": "",
+    "amap_type": "体育休闲服务;体育休闲服务场所;体育休闲服务场所",
+    "amap_distance": 55.84,
+    "amap_businessarea": "南门",
+    "cgcs_lon": 121.55753950642108,
+    "cgcs_lat": 29.870135327886405,
+    "amap_lon": 121.561671,
+    "amap_lat": 29.867531,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B023E072QL",
+    "amap_name": "清莲园",
+    "amap_address": "江东北路35号(江厦桥东地铁站B口步行480米)",
+    "amap_area": "",
+    "amap_type": "风景名胜;公园广场;公园",
+    "amap_distance": 124.75,
+    "amap_businessarea": "南门",
+    "cgcs_lon": 121.55692516543162,
+    "cgcs_lat": 29.8715102616386,
+    "amap_lon": 121.561058,
+    "amap_lat": 29.868907,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B023E058KZ",
+    "amap_name": "宁波香格里拉大酒店",
+    "amap_address": "",
+    "amap_area": "19575.307346",
+    "amap_type": "100102|050000",
+    "amap_distance": 0.0,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 121.55754552653785,
+    "cgcs_lat": 29.870032343897382,
+    "amap_lon": 121.561677,
+    "amap_lat": 29.867428,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "B0J1VM69LT",
+    "amap_name": "宁波香格里拉御庭公寓",
+    "amap_address": "豫源街88号5-9楼",
+    "amap_area": "",
+    "amap_type": "商务住宅;商务住宅相关;商务住宅相关",
+    "amap_distance": 32.89,
+    "amap_businessarea": {
+      "keytag": "商务住宅,商务住宅相关,商务住宅相关",
+      "tel": "0574-87998808"
+    },
+    "cgcs_lon": 121.55776894775991,
+    "cgcs_lat": 29.870319678496614,
+    "amap_lon": 121.5619,
+    "amap_lat": 29.867715,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0L6RNYR5T",
+    "amap_name": "宁波香格里拉大酒店·宴会厅",
+    "amap_address": "豫源街88号香格里拉大酒店一楼",
+    "amap_area": "",
+    "amap_type": "餐饮服务;餐饮相关场所;餐饮相关",
+    "amap_distance": 67.56,
+    "amap_businessarea": {
+      "keytag": "江浙菜",
+      "rating": "4.3",
+      "business_area": "彩虹广场",
+      "rectag": "江浙菜"
+    },
+    "cgcs_lon": 121.55760865431287,
+    "cgcs_lat": 29.87000544544289,
+    "amap_lon": 121.56174,
+    "amap_lat": 29.867401,
+    "source": "name_poi"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "amap_id": "B0LDC7TQCA",
+    "amap_name": "光环花园(建设中)",
+    "amap_address": "应天大街与虹悦路交叉口东320米",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 27.01,
+    "amap_businessarea": "赛虹桥",
+    "cgcs_lon": 118.76680901227,
+    "cgcs_lat": 32.0123680369801,
+    "amap_lon": 118.772021,
+    "amap_lat": 32.010333,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "BZAPQF04FG",
+    "amap_name": "南珍珠巷",
+    "amap_address": "秦淮区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;道路名",
+    "amap_distance": 95.03,
+    "amap_businessarea": "赛虹桥",
+    "cgcs_lon": 118.76749564842959,
+    "cgcs_lat": 32.012130535115936,
+    "amap_lon": 118.772707,
+    "amap_lat": 32.010095,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0L0AUC5SO",
+    "amap_name": "南京光环花园城岗亭",
+    "amap_address": "应天大街510-4",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;公检法机构;社会治安机构",
+    "amap_distance": 184.72,
+    "amap_businessarea": "赛虹桥",
+    "cgcs_lon": 118.76723653631873,
+    "cgcs_lat": 32.01080902035557,
+    "amap_lon": 118.772448,
+    "amap_lat": 32.008774,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0K197E0EU",
+    "amap_name": "安庆小吃",
+    "amap_address": "应天大街与虹悦路交叉口东180米",
+    "amap_area": "",
+    "amap_type": "餐饮服务;中餐厅;中餐厅",
+    "amap_distance": 230.17,
+    "amap_businessarea": "赛虹桥",
+    "cgcs_lon": 118.76494358510206,
+    "cgcs_lat": 32.01077525038462,
+    "amap_lon": 118.770157,
+    "amap_lat": 32.008742,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B001906QH2",
+    "amap_name": "泰顺江南春面馆",
+    "amap_address": "应天大街387-28号",
+    "amap_area": "",
+    "amap_type": "餐饮服务;中餐厅;中餐厅",
+    "amap_distance": 237.25,
+    "amap_businessarea": "赛虹桥",
+    "cgcs_lon": 118.76475943212607,
+    "cgcs_lat": 32.01083112963159,
+    "amap_lon": 118.769973,
+    "amap_lat": 32.008798,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFKVSUHQ",
+    "amap_name": "越城天地",
+    "amap_address": "",
+    "amap_area": "297071.373113",
+    "amap_type": "120302",
+    "amap_distance": 0.0,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.76628951034166,
+    "cgcs_lat": 32.01290575321548,
+    "amap_lon": 118.771502,
+    "amap_lat": 32.010871,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "B0L2B7LVJL",
+    "amap_name": "越城天地E区",
+    "amap_address": "应天大街与虹悦路交叉口东300米",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;住宅小区",
+    "amap_distance": 64.71,
+    "amap_businessarea": {
+      "keytag": "住宅区",
+      "rectag": "住宅区"
+    },
+    "cgcs_lon": 118.76631252978693,
+    "cgcs_lat": 32.012909772000405,
+    "amap_lon": 118.771525,
+    "amap_lat": 32.010875,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0MGMU9LAI",
+    "amap_name": "越城天地-地下停车场",
+    "amap_address": "窑湾街31号越城天地",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 66.23,
+    "amap_businessarea": {
+      "keytag": "地下停车场",
+      "rectag": "地下停车场"
+    },
+    "cgcs_lon": 118.76624347105279,
+    "cgcs_lat": 32.012902716850846,
+    "amap_lon": 118.771456,
+    "amap_lat": 32.010868,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0L10RE03J",
+    "amap_name": "春野咖啡",
+    "amap_address": "越城天地商业街6号楼春野咖啡",
+    "amap_area": "",
+    "amap_type": "餐饮服务;咖啡厅;咖啡厅",
+    "amap_distance": 127.77,
+    "amap_businessarea": {
+      "opentime_today": "09:00-21:00",
+      "cost": "37.00",
+      "keytag": "咖啡",
+      "rating": "4.4",
+      "tel": "13245885515",
+      "rectag": "咖啡",
+      "opentime_week": "周一至周日 09:00-21:00"
+    },
+    "cgcs_lon": 118.76525172725547,
+    "cgcs_lat": 32.011948746805416,
+    "amap_lon": 118.770465,
+    "amap_lat": 32.009915,
+    "source": "name_poi"
+  }
+]

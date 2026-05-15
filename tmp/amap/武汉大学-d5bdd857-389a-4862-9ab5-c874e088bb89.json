@@ -1,0 +1,162 @@
+[
+  {
+    "amap_id": "B0G3D93DM3",
+    "amap_name": "武汉大学保卫一分部(文理学部)",
+    "amap_address": "珞珈山街道八一路299号武汉大学",
+    "amap_area": "",
+    "amap_type": "科教文化服务;学校;高等院校",
+    "amap_distance": 15.97,
+    "amap_businessarea": "武汉大学珞珈山",
+    "cgcs_lon": 114.36106570236011,
+    "cgcs_lat": 30.538999547190713,
+    "amap_lon": 114.366596,
+    "amap_lat": 30.536678,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B001B1DI4N",
+    "amap_name": "武汉大学采购与招标管理中心",
+    "amap_address": "珞珈山街道八一路299号武汉大学",
+    "amap_area": "",
+    "amap_type": "科教文化服务;学校;高等院校",
+    "amap_distance": 42.94,
+    "amap_businessarea": "武汉大学珞珈山",
+    "cgcs_lon": 114.36100574172107,
+    "cgcs_lat": 30.539254543220906,
+    "amap_lon": 114.366536,
+    "amap_lat": 30.536933,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B001B1DIFU",
+    "amap_name": "武汉大学财务部",
+    "amap_address": "珞珈山16号武汉大学",
+    "amap_area": "",
+    "amap_type": "科教文化服务;学校;高等院校",
+    "amap_distance": 47.7,
+    "amap_businessarea": "武汉大学珞珈山",
+    "cgcs_lon": 114.36078097377987,
+    "cgcs_lat": 30.53925484689353,
+    "amap_lon": 114.366311,
+    "amap_lat": 30.536933,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0J0379OX4",
+    "amap_name": "武汉大学国内合作部",
+    "amap_address": "梅园综合楼(东南楼)二楼",
+    "amap_area": "",
+    "amap_type": "科教文化服务;学校;高等院校",
+    "amap_distance": 50.8,
+    "amap_businessarea": "武汉大学珞珈山",
+    "cgcs_lon": 114.36140234412531,
+    "cgcs_lat": 30.539163041174042,
+    "amap_lon": 114.366933,
+    "amap_lat": 30.536842,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0L0CHYQ0I",
+    "amap_name": "武汉大学社会主义学院",
+    "amap_address": "梅园一路与人文路交叉口西40米",
+    "amap_area": "",
+    "amap_type": "科教文化服务;科教文化场所;科教文化场所",
+    "amap_distance": 58.49,
+    "amap_businessarea": "武汉大学珞珈山",
+    "cgcs_lon": 114.36128944447127,
+    "cgcs_lat": 30.539330136726,
+    "amap_lon": 114.36682,
+    "amap_lat": 30.537009,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B001B0IZY1",
+    "amap_name": "武汉大学",
+    "amap_address": "",
+    "amap_area": "2659104.014857",
+    "amap_type": "141201",
+    "amap_distance": 0.0,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 114.35898594392658,
+    "cgcs_lat": 30.53856755230357,
+    "amap_lon": 114.364514,
+    "amap_lat": 30.536243,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "B001B1H3EO",
+    "amap_name": "武汉大学行政楼",
+    "amap_address": "珞珈山16号武汉大学文体路附近",
+    "amap_area": "",
+    "amap_type": "科教文化服务;学校;学校",
+    "amap_distance": 99.59,
+    "amap_businessarea": {
+      "keytag": "教学楼",
+      "business_area": "珞珈山",
+      "rectag": "教学楼"
+    },
+    "cgcs_lon": 114.36088282361878,
+    "cgcs_lat": 30.539767538448054,
+    "amap_lon": 114.366413,
+    "amap_lat": 30.537446,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFF35L8W",
+    "amap_name": "武汉大学-教1楼",
+    "amap_address": "珞珈山16号武汉大学",
+    "amap_area": "",
+    "amap_type": "科教文化服务;学校;高等院校",
+    "amap_distance": 133.45,
+    "amap_businessarea": {
+      "keytag": "教学楼",
+      "business_area": "珞珈山",
+      "rectag": "教学楼"
+    },
+    "cgcs_lon": 114.35983694185455,
+    "cgcs_lat": 30.539530046857443,
+    "amap_lon": 114.365366,
+    "amap_lat": 30.537207,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B001B1BXF3",
+    "amap_name": "武汉大学马克思主义学院",
+    "amap_address": "珞珈山16号武汉大学",
+    "amap_area": "",
+    "amap_type": "科教文化服务;学校;高等院校",
+    "amap_distance": 218.56,
+    "amap_businessarea": {
+      "keytag": "学院",
+      "business_area": "珞珈山",
+      "tel": "027-68756091",
+      "rectag": "学院"
+    },
+    "cgcs_lon": 114.36233629442575,
+    "cgcs_lat": 30.540474368524208,
+    "amap_lon": 114.367868,
+    "amap_lat": 30.538155,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFHUAEM0",
+    "amap_name": "武汉大学文理学部",
+    "amap_address": "八一路299号武汉大学内",
+    "amap_area": "",
+    "amap_type": "科教文化服务;学校;高等院校",
+    "amap_distance": 371.09,
+    "amap_businessarea": {
+      "keytag": "高等教育",
+      "rating": "4.4",
+      "business_area": "珞珈山",
+      "alias": "武汉大学1区",
+      "tel": "027-68755114",
+      "rectag": "高等教育"
+    },
+    "cgcs_lon": 114.35739679501778,
+    "cgcs_lat": 30.537669116766846,
+    "amap_lon": 114.362923,
+    "amap_lat": 30.535342,
+    "source": "name_poi"
+  }
+]

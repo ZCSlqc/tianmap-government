@@ -1,0 +1,110 @@
+[
+  {
+    "amap_id": "B0FFGOF7VT",
+    "amap_name": "光大环保能源(南京)有限公司",
+    "amap_address": [],
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 58.52,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.56355128497053,
+    "cgcs_lat": 31.765972955502793,
+    "amap_lon": 118.56856,
+    "amap_lat": 31.763828,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFGOF7LD",
+    "amap_name": "光大环保能源(南京)有限公司(东北门)",
+    "amap_address": "光大环保能源(南京)有限公司",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 312.18,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.56462581752989,
+    "cgcs_lat": 31.768232632840206,
+    "amap_lon": 118.569633,
+    "amap_lat": 31.766086,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0I2DZQK1Q",
+    "amap_name": "光大环保能源(南京)有限公司内部地面停车场",
+    "amap_address": [],
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;专用停车场",
+    "amap_distance": 315.65,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.56464684855553,
+    "cgcs_lat": 31.768258662669073,
+    "amap_lon": 118.569654,
+    "amap_lat": 31.766112,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0I2DZRESK",
+    "amap_name": "光大环保能源(南京)有限公司内部地面停车场(出入口)",
+    "amap_address": "光大环保能源(南京)有限公司内部地面停车场",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;停车场出入口",
+    "amap_distance": 315.65,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.56464684855553,
+    "cgcs_lat": 31.768258662669073,
+    "amap_lon": 118.569654,
+    "amap_lat": 31.766112,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0H65SNSKI",
+    "amap_name": "南京江南灰渣填埋场(西北门)",
+    "amap_address": "南京江南灰渣填埋场",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 361.7,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.56618328408442,
+    "cgcs_lat": 31.767571428233165,
+    "amap_lon": 118.571188,
+    "amap_lat": 31.765423,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFHCL38G",
+    "amap_name": "光大再生能源(南京)有限公司",
+    "amap_address": "东坝镇新源路1号",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 70250.71,
+    "amap_businessarea": {
+      "opentime_today": "24小时营业",
+      "keytag": "公司",
+      "rectag": "公司",
+      "opentime_week": "周一至周日 00:00-24:00"
+    },
+    "cgcs_lon": 119.0731194695332,
+    "cgcs_lat": 31.306987488295473,
+    "amap_lon": 119.078516,
+    "amap_lat": 31.305141,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0HG9ZR54O",
+    "amap_name": "六合垃圾焚烧厂",
+    "amap_address": "茉莉绿色能源有限公司北侧160米",
+    "amap_area": "",
+    "amap_type": "公司企业;公司企业;公司企业",
+    "amap_distance": 79956.55,
+    "amap_businessarea": {
+      "keytag": "垃圾处理",
+      "rating": "4.3",
+      "business_area": "江北新区",
+      "rectag": "垃圾处理"
+    },
+    "cgcs_lon": 118.74848623000828,
+    "cgcs_lat": 32.46934756365066,
+    "amap_lon": 118.75375,
+    "amap_lat": 32.467283,
+    "source": "name_poi"
+  }
+]

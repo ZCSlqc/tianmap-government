@@ -1,0 +1,72 @@
+[
+  {
+    "amap_id": "B015D003RC",
+    "amap_name": "山西应县木塔景区-佛宫寺释迦塔",
+    "amap_address": "佛宫寺",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;寺庙道观",
+    "amap_distance": 10.86,
+    "amap_businessarea": "塔南路",
+    "cgcs_lon": 113.18196213343062,
+    "cgcs_lat": 39.5652120121216,
+    "amap_lon": 113.188918,
+    "amap_lat": 39.566377,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B015D00MZ0",
+    "amap_name": "应县木塔",
+    "amap_address": "应元街1号",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;国家级景点",
+    "amap_distance": 23.15,
+    "amap_businessarea": "塔南路",
+    "cgcs_lon": 113.18187494019394,
+    "cgcs_lat": 39.56529983578758,
+    "amap_lon": 113.188831,
+    "amap_lat": 39.566465,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFFEY063",
+    "amap_name": "佛宫寺",
+    "amap_address": "应元街1号应县木塔",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;寺庙道观",
+    "amap_distance": 36.59,
+    "amap_businessarea": "塔南路",
+    "cgcs_lon": 113.18195016214503,
+    "cgcs_lat": 39.564807096695034,
+    "amap_lon": 113.188906,
+    "amap_lat": 39.565972,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFGB5RKB",
+    "amap_name": "山西应县木塔景区-小西天",
+    "amap_address": "辽代文化城佛宫寺内(北侧)",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 47.92,
+    "amap_businessarea": "塔南路",
+    "cgcs_lon": 113.18197611658292,
+    "cgcs_lat": 39.56555894633737,
+    "amap_lon": 113.188932,
+    "amap_lat": 39.566724,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFGB489J",
+    "amap_name": "山西应县木塔景区-鼓楼",
+    "amap_address": "佛宫寺",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 48.95,
+    "amap_businessarea": "塔南路",
+    "cgcs_lon": 113.1817868318153,
+    "cgcs_lat": 39.56473182881304,
+    "amap_lon": 113.188743,
+    "amap_lat": 39.565897,
+    "source": "geo_poi"
+  }
+]

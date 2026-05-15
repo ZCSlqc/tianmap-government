@@ -1,0 +1,141 @@
+[
+  {
+    "amap_id": "B0KU2AKCEV",
+    "amap_name": "华昌龙谷(入口)",
+    "amap_address": "龙谷路9号华昌龙谷",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院正门",
+    "amap_distance": 174.26,
+    "amap_businessarea": "江北新区直管区",
+    "cgcs_lon": 118.677173801197,
+    "cgcs_lat": 32.13657550294211,
+    "amap_lon": 118.682317,
+    "amap_lat": 32.134447,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0J2YKBQA9",
+    "amap_name": "陆公园出口商店",
+    "amap_address": "龙谷路9号华昌龙谷",
+    "amap_area": "",
+    "amap_type": "购物服务;购物相关场所;购物相关场所",
+    "amap_distance": 184.48,
+    "amap_businessarea": "江北新区直管区",
+    "cgcs_lon": 118.67728156751222,
+    "cgcs_lat": 32.136553296623184,
+    "amap_lon": 118.682425,
+    "amap_lat": 32.134425,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0KKSMTUNY",
+    "amap_name": "华昌龙谷乐园-B馆",
+    "amap_address": "营盘山路与云出路交叉口北320米",
+    "amap_area": "",
+    "amap_type": "体育休闲服务;休闲场所;游乐场",
+    "amap_distance": 191.21,
+    "amap_businessarea": "江北新区直管区",
+    "cgcs_lon": 118.67543570994319,
+    "cgcs_lat": 32.13555658428953,
+    "amap_lon": 118.680575,
+    "amap_lat": 32.133425,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0H367XY3W",
+    "amap_name": "华昌龙谷风暴水世界",
+    "amap_address": "龙谷路9号华昌龙谷内",
+    "amap_area": "",
+    "amap_type": "体育休闲服务;休闲场所;水上活动中心",
+    "amap_distance": 214.82,
+    "amap_businessarea": "江北新区直管区",
+    "cgcs_lon": 118.67597319560643,
+    "cgcs_lat": 32.13916724552108,
+    "amap_lon": 118.681114,
+    "amap_lat": 32.137036,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0KUH57H3I",
+    "amap_name": "华昌龙谷(5号门)",
+    "amap_address": "龙谷路9号华昌龙谷",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 240.97,
+    "amap_businessarea": "江北新区直管区",
+    "cgcs_lon": 118.6737124960604,
+    "cgcs_lat": 32.135746885191104,
+    "amap_lon": 118.678848,
+    "amap_lat": 32.133612,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFHN1LBD",
+    "amap_name": "华昌龙谷",
+    "amap_address": "",
+    "amap_area": "413253.109354",
+    "amap_type": "080501",
+    "amap_distance": 0.0,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.6751850769739,
+    "cgcs_lat": 32.13756843544952,
+    "amap_lon": 118.680324,
+    "amap_lat": 32.135436,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "B0KUASDBG9",
+    "amap_name": "龙之谷工友超市",
+    "amap_address": "龙谷路9号华昌龙谷",
+    "amap_area": "",
+    "amap_type": "购物服务;便民商店/便利店;便民商店/便利店",
+    "amap_distance": 26.15,
+    "amap_businessarea": {
+      "keytag": "便利店",
+      "rating": "3.5",
+      "business_area": "江北新区",
+      "rectag": "便利店"
+    },
+    "cgcs_lon": 118.67543553099706,
+    "cgcs_lat": 32.13750695055743,
+    "amap_lon": 118.680575,
+    "amap_lat": 32.135375,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0L3R1OWDF",
+    "amap_name": "华昌龙谷乐园-D馆",
+    "amap_address": "龙谷路9号华昌龙谷",
+    "amap_area": "",
+    "amap_type": "购物服务;购物相关场所;购物相关场所",
+    "amap_distance": 179.42,
+    "amap_businessarea": {
+      "keytag": "购物服务,购物相关场所,购物相关场所",
+      "rating": "3.1",
+      "business_area": "江北新区直管区"
+    },
+    "cgcs_lon": 118.67468706781311,
+    "cgcs_lat": 32.13873559586294,
+    "amap_lon": 118.679825,
+    "amap_lat": 32.136602,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0JR3SDRB6",
+    "amap_name": "华昌龙谷游客服务中心",
+    "amap_address": "龙谷路9号华昌龙谷",
+    "amap_area": "",
+    "amap_type": "生活服务;信息咨询中心;服务中心",
+    "amap_distance": 189.32,
+    "amap_businessarea": {
+      "keytag": "生活服务,信息咨询中心,服务中心",
+      "rating": "4.4",
+      "business_area": "江北新区"
+    },
+    "cgcs_lon": 118.67750997523856,
+    "cgcs_lat": 32.1375640578127,
+    "amap_lon": 118.682654,
+    "amap_lat": 32.135436,
+    "source": "name_poi"
+  }
+]

@@ -1,0 +1,153 @@
+[
+  {
+    "amap_id": "B0LGACLPXH",
+    "amap_name": "江苏方测建筑工程技术有限公司",
+    "amap_address": "云林路与月塘路交叉口西120米",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 90.92,
+    "amap_businessarea": "江北新区直管区",
+    "cgcs_lon": 118.57936201280553,
+    "cgcs_lat": 32.03053904071888,
+    "amap_lon": 118.584375,
+    "amap_lat": 32.028325,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0LAZ5Z5KU",
+    "amap_name": "南京原子制造研究所",
+    "amap_address": "江浦街道云林路14号未蓝科技园",
+    "amap_area": "",
+    "amap_type": "科教文化服务;科教文化场所;科教文化场所",
+    "amap_distance": 95.78,
+    "amap_businessarea": "江北新区直管区",
+    "cgcs_lon": 118.57958719074847,
+    "cgcs_lat": 32.030565178631015,
+    "amap_lon": 118.5846,
+    "amap_lat": 32.028351,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0JKK5DYZ1",
+    "amap_name": "未蓝科技园",
+    "amap_address": "月塘路",
+    "amap_area": "",
+    "amap_type": "商务住宅;产业园区;产业园区",
+    "amap_distance": 95.85,
+    "amap_businessarea": "江北新区直管区",
+    "cgcs_lon": 118.57957718324403,
+    "cgcs_lat": 32.0305601716741,
+    "amap_lon": 118.58459,
+    "amap_lat": 32.028346,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "BZAPQD00O1",
+    "amap_name": "月塘路",
+    "amap_address": "浦口区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;道路名",
+    "amap_distance": 273.86,
+    "amap_businessarea": "江北新区直管区",
+    "cgcs_lon": 118.58096733829721,
+    "cgcs_lat": 32.029428678492124,
+    "amap_lon": 118.585979,
+    "amap_lat": 32.027214,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0K6NA0RNB",
+    "amap_name": "浦口高新区海桥路配建高中中建八局项目部内部地面停车场(出入口)",
+    "amap_address": "浦口高新区海桥路配建高中中建八局项目部内部地面停车场",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;停车场出入口",
+    "amap_distance": 447.01,
+    "amap_businessarea": "江北新区直管区",
+    "cgcs_lon": 118.58384805034892,
+    "cgcs_lat": 32.03097733935785,
+    "amap_lon": 118.588858,
+    "amap_lat": 32.028761,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B001905144",
+    "amap_name": "南京林业大学(新庄校区)",
+    "amap_address": "龙蟠路159号",
+    "amap_area": "",
+    "amap_type": "科教文化服务;学校;高等院校",
+    "amap_distance": 22655.54,
+    "amap_businessarea": {
+      "keytag": "大学",
+      "rating": "5.0",
+      "business_area": "锁金村",
+      "tel": "025-85427320",
+      "rectag": "大学"
+    },
+    "cgcs_lon": 118.81182238145841,
+    "cgcs_lat": 32.08100585317073,
+    "amap_lon": 118.816969,
+    "amap_lat": 32.078892,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0LAVS7I2H",
+    "amap_name": "南京南大工程检测有限公司(栖霞实验室)",
+    "amap_address": "八卦洲街道鹂岛路270号",
+    "amap_area": "",
+    "amap_type": "公司企业;公司企业;公司企业",
+    "amap_distance": 25915.33,
+    "amap_businessarea": {
+      "opentime_today": "08:30-12:00 13:30-17:30",
+      "keytag": "公司",
+      "business_area": "江北新区",
+      "tel": "19951757606",
+      "rectag": "公司",
+      "opentime_week": "周一至周五 08:30-12:00,13:30-17:30；周六 09:00-12:00,14:00-17:00"
+    },
+    "cgcs_lon": 118.78896678682032,
+    "cgcs_lat": 32.18204377835183,
+    "amap_lon": 118.794166,
+    "amap_lat": 32.179949,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFFRR965",
+    "amap_name": "南京熊猫电子股份有限公司(恒通大道)",
+    "amap_address": "恒通大道1号",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;机械电子",
+    "amap_distance": 28700.07,
+    "amap_businessarea": {
+      "opentime_today": "24小时营业",
+      "keytag": "电子厂",
+      "rating": "3.5",
+      "tel": "025-85757186",
+      "rectag": "电子厂",
+      "opentime_week": "周一至周日 00:00-24:00"
+    },
+    "cgcs_lon": 118.84967948338891,
+    "cgcs_lat": 32.149372929123594,
+    "amap_lon": 118.854755,
+    "amap_lat": 32.147177,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFFA24HW",
+    "amap_name": "南京中雪胶粘带制造有限公司",
+    "amap_address": "科建路1188号",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 29435.88,
+    "amap_businessarea": {
+      "opentime_today": "08:00-18:00",
+      "keytag": "公司",
+      "rectag": "公司",
+      "opentime_week": "周一至周日 08:00-18:00"
+    },
+    "cgcs_lon": 118.86912922927715,
+    "cgcs_lat": 31.934531597075306,
+    "amap_lon": 118.874156,
+    "amap_lat": 31.932356,
+    "source": "name_poi"
+  }
+]

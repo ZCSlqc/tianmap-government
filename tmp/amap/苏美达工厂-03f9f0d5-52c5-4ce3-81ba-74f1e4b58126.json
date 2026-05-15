@@ -1,0 +1,171 @@
+[
+  {
+    "amap_id": "B00190CW1X",
+    "amap_name": "江苏苏美达能源控股有限公司",
+    "amap_address": "星火路1号",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 8.24,
+    "amap_businessarea": "江北新区直管区",
+    "cgcs_lon": 118.69272136024351,
+    "cgcs_lat": 32.16931659293109,
+    "amap_lon": 118.6979,
+    "amap_lat": 32.16721,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFFFQ1HG",
+    "amap_name": "江苏苏美达五金工具有限公司(西门)",
+    "amap_address": "星火路1号江苏苏美达五金工具有限公司",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 86.1,
+    "amap_businessarea": "江北新区直管区",
+    "cgcs_lon": 118.69187205454999,
+    "cgcs_lat": 32.16897395304232,
+    "amap_lon": 118.697049,
+    "amap_lat": 32.166866,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFG4I9P8",
+    "amap_name": "南京航海航标装备总厂(南门)",
+    "amap_address": "浦口高新开发区新科三路22号南京航仪船用设备有限公司",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 125.29,
+    "amap_businessarea": "江北新区直管区",
+    "cgcs_lon": 118.6929697812975,
+    "cgcs_lat": 32.17035035298292,
+    "amap_lon": 118.698149,
+    "amap_lat": 32.168244,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFHC2F0S",
+    "amap_name": "江苏辉伦太阳能科技有限公司(东门)",
+    "amap_address": "新科四路与高科九路交叉口西20米",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 133.19,
+    "amap_businessarea": "江北新区直管区",
+    "cgcs_lon": 118.6936247017135,
+    "cgcs_lat": 32.1683159336078,
+    "amap_lon": 118.698805,
+    "amap_lat": 32.166211,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFM9JPME",
+    "amap_name": "江苏苏美达五金工具有限公司",
+    "amap_address": "高新技术开发区星火路1号",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;商业贸易",
+    "amap_distance": 135.12,
+    "amap_businessarea": "江北新区直管区",
+    "cgcs_lon": 118.6918840967004,
+    "cgcs_lat": 32.16826181377132,
+    "amap_lon": 118.697061,
+    "amap_lat": 32.166154,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0LK6CL34X",
+    "amap_name": "南京市锦江风管加工厂",
+    "amap_address": "云龙山路68号苏美达国际大厦",
+    "amap_area": "",
+    "amap_type": "公司企业;工厂;工厂",
+    "amap_distance": 19441.35,
+    "amap_businessarea": {
+      "keytag": "工厂",
+      "business_area": "中央商场",
+      "tel": "18555365302",
+      "rectag": "工厂"
+    },
+    "cgcs_lon": 118.73825431969367,
+    "cgcs_lat": 31.998263976639787,
+    "amap_lon": 118.743473,
+    "amap_lat": 31.99624,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0JGPAFQT7",
+    "amap_name": "南京苏美达创锦服饰科技有限公司六合分公司",
+    "amap_address": "六合经济开发区浦六路珠港花苑对面",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 19677.76,
+    "amap_businessarea": {
+      "opentime_today": "09:30-18:00",
+      "keytag": "服装厂",
+      "business_area": "龙池",
+      "rectag": "服装厂",
+      "opentime_week": "周一至周日 09:30-18:00"
+    },
+    "cgcs_lon": 118.80552763285678,
+    "cgcs_lat": 32.3185849574406,
+    "amap_lon": 118.810709,
+    "amap_lat": 32.31645,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFKX5DDQ",
+    "amap_name": "江苏苏美达创星纺织品有限公司",
+    "amap_address": "后蒋路1号",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 23657.74,
+    "amap_businessarea": {
+      "opentime_today": "08:00-18:30",
+      "keytag": "公司",
+      "business_area": "江北新区",
+      "tel": "025-57686555",
+      "rectag": "公司",
+      "opentime_week": "周一至周日 08:00-18:30"
+    },
+    "cgcs_lon": 118.75976510935534,
+    "cgcs_lat": 32.3748518017836,
+    "amap_lon": 118.765016,
+    "amap_lat": 32.372774,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFFLJCZW",
+    "amap_name": "南京苏美达创锦服饰科技有限公司",
+    "amap_address": "方州路与复兴路交叉口西北260米",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 25597.99,
+    "amap_businessarea": {
+      "opentime_today": "07:30-18:00",
+      "keytag": "服装厂",
+      "business_area": "江北新区",
+      "tel": "025-57669766",
+      "rectag": "服装厂",
+      "opentime_week": "周一至周日 07:30-18:00"
+    },
+    "cgcs_lon": 118.82933199347414,
+    "cgcs_lat": 32.36879492940436,
+    "amap_lon": 118.834468,
+    "amap_lat": 32.366616,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0K635NJ8C",
+    "amap_name": "南京苏美达创元制衣有限公司第一分公司",
+    "amap_address": "圩田李路与东吴路交叉口东240米",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 27684.47,
+    "amap_businessarea": {
+      "keytag": "公司",
+      "business_area": "江北新区",
+      "rectag": "公司"
+    },
+    "cgcs_lon": 118.91557825207178,
+    "cgcs_lat": 32.33193602656711,
+    "amap_lon": 118.920637,
+    "amap_lat": 32.329687,
+    "source": "name_poi"
+  }
+]

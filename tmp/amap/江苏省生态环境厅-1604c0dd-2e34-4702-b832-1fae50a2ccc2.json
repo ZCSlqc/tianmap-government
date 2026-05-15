@@ -1,0 +1,150 @@
+[
+  {
+    "amap_id": "B0FFF9ZEHF",
+    "amap_name": "江苏省环境科学研究院",
+    "amap_address": "江东北路176环境科研实验楼1802室",
+    "amap_area": "",
+    "amap_type": "科教文化服务;科研机构;科研机构",
+    "amap_distance": 25.29,
+    "amap_businessarea": "江东",
+    "cgcs_lon": 118.73508774391266,
+    "cgcs_lat": 32.050933011635905,
+    "amap_lon": 118.74031,
+    "amap_lat": 32.048896,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFJRY3XC",
+    "amap_name": "江苏省生态环境厅",
+    "amap_address": "江东北路176号",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;省直辖市级政府及事业单位",
+    "amap_distance": 64.36,
+    "amap_businessarea": "江东",
+    "cgcs_lon": 118.73502184984272,
+    "cgcs_lat": 32.05012885717436,
+    "amap_lon": 118.740244,
+    "amap_lat": 32.048092,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B00190BU9S",
+    "amap_name": "汉江路小学",
+    "amap_address": "汉江路99号",
+    "amap_area": "",
+    "amap_type": "科教文化服务;学校;小学",
+    "amap_distance": 83.36,
+    "amap_businessarea": "江东",
+    "cgcs_lon": 118.73594838160378,
+    "cgcs_lat": 32.05058561960351,
+    "amap_lon": 118.741171,
+    "amap_lat": 32.048549,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0IKVSFP4Z",
+    "amap_name": "心田花开(龙江校区)",
+    "amap_address": "江东北路163号辰龙广场1楼心田花开",
+    "amap_area": "",
+    "amap_type": "科教文化服务;培训机构;培训机构",
+    "amap_distance": 121.38,
+    "amap_businessarea": "江东",
+    "cgcs_lon": 118.73585633081457,
+    "cgcs_lat": 32.05157387258765,
+    "amap_lon": 118.741079,
+    "amap_lat": 32.049537,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0G14NAP9W",
+    "amap_name": "耐雀健康管理中心(龙江店)",
+    "amap_address": "江东北路198号四楼B室",
+    "amap_area": "",
+    "amap_type": "医疗保健服务;医疗保健服务场所;医疗保健服务场所",
+    "amap_distance": 125.02,
+    "amap_businessarea": "江东",
+    "cgcs_lon": 118.73505467668019,
+    "cgcs_lat": 32.05183022454581,
+    "amap_lon": 118.740277,
+    "amap_lat": 32.049793,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0IRBUWJFO",
+    "amap_name": "江苏省生态环境厅地面停车场(出入口)",
+    "amap_address": "江东北路与渔港路交叉口东北80米",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;停车场出入口",
+    "amap_distance": 44.93,
+    "amap_businessarea": {
+      "keytag": "停车场入口",
+      "business_area": "龙江",
+      "rectag": "停车场入口",
+      "parking_type": "地面"
+    },
+    "cgcs_lon": 118.73467198606342,
+    "cgcs_lat": 32.05049907650307,
+    "amap_lon": 118.739894,
+    "amap_lat": 32.048462,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0IRBU0HML",
+    "amap_name": "江苏省生态环境厅地面停车场",
+    "amap_address": "江东北路与渔港路交叉口东80米",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 60.9,
+    "amap_businessarea": {
+      "opentime_today": "24小时营业",
+      "keytag": "地面停车场",
+      "business_area": "清凉门",
+      "rectag": "地面停车场",
+      "parking_type": "地面",
+      "opentime_week": "周一至周日 00:00-24:00"
+    },
+    "cgcs_lon": 118.73471098910422,
+    "cgcs_lat": 32.05025800717784,
+    "amap_lon": 118.739933,
+    "amap_lat": 32.048221,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0MBAC9T4X",
+    "amap_name": "江苏省生态环境厅地上停车场",
+    "amap_address": "汉江路与江东北路交叉口东80米",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 75.6,
+    "amap_businessarea": {
+      "keytag": "停车场",
+      "business_area": "江东",
+      "rectag": "停车场"
+    },
+    "cgcs_lon": 118.73545253774591,
+    "cgcs_lat": 32.05131195959377,
+    "amap_lon": 118.740675,
+    "amap_lat": 32.049275,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFKRPWK6",
+    "amap_name": "南京市建邺生态环境局",
+    "amap_address": "嵩山路20号",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;区县级政府及事业单位",
+    "amap_distance": 3837.95,
+    "amap_businessarea": {
+      "keytag": "政府机关",
+      "business_area": "南苑",
+      "alias": "建邺区环境保护局",
+      "tel": "025-86468936",
+      "rectag": "政府机关"
+    },
+    "cgcs_lon": 118.74580424069157,
+    "cgcs_lat": 32.0173254640211,
+    "amap_lon": 118.751026,
+    "amap_lat": 32.015298,
+    "source": "name_poi"
+  }
+]

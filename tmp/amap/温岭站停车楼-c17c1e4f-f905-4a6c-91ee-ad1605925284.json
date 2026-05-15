@@ -1,0 +1,161 @@
+[
+  {
+    "amap_id": "B0H6PRSJME",
+    "amap_name": "温岭站停车楼",
+    "amap_address": "大溪镇利岙村站前路1号温岭站",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 8.23,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 121.32174826808476,
+    "cgcs_lat": 28.484538085799336,
+    "amap_lon": 121.326062,
+    "amap_lat": 28.48142,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFGSWEL2",
+    "amap_name": "牧潘河桥",
+    "amap_address": "温岭市",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;桥",
+    "amap_distance": 91.82,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 121.3225784026658,
+    "cgcs_lat": 28.48483739441649,
+    "amap_lon": 121.326894,
+    "amap_lat": 28.481721,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFMEKM20",
+    "amap_name": "泽国镇珠山村卫生室",
+    "amap_address": "珠山村B区2幢15号",
+    "amap_area": "",
+    "amap_type": "医疗保健服务;诊所;诊所",
+    "amap_distance": 111.31,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 121.32160750868535,
+    "cgcs_lat": 28.48545804673697,
+    "amap_lon": 121.325921,
+    "amap_lat": 28.48234,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0KR6CVWMN",
+    "amap_name": "珠山村B区",
+    "amap_address": "泽国镇珠山村卫生室东北侧80米",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;住宅小区",
+    "amap_distance": 170.12,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 121.32210736056686,
+    "cgcs_lat": 28.485958920315852,
+    "amap_lon": 121.326422,
+    "amap_lat": 28.482842,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFGQPOM9",
+    "amap_name": "牧之河二桥",
+    "amap_address": "温岭市",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;桥",
+    "amap_distance": 188.61,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 121.32296467686027,
+    "cgcs_lat": 28.48315121733978,
+    "amap_lon": 121.327281,
+    "amap_lat": 28.480035,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B024006UXW",
+    "amap_name": "温岭站",
+    "amap_address": "",
+    "amap_area": "116289.953585",
+    "amap_type": "150200",
+    "amap_distance": 0.0,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 121.3211088311718,
+    "cgcs_lat": 28.48268192993897,
+    "amap_lon": 121.325421,
+    "amap_lat": 28.479562,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "B0HGPMRE48",
+    "amap_name": "温岭站停车楼(入口)",
+    "amap_address": "温岭站停车楼",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;停车场入口",
+    "amap_distance": 35.4,
+    "amap_businessarea": {
+      "keytag": "停车场入口",
+      "rectag": "停车场入口"
+    },
+    "cgcs_lon": 121.32140603973203,
+    "cgcs_lat": 28.484378794761703,
+    "amap_lon": 121.325719,
+    "amap_lat": 28.48126,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0KGTDD3TR",
+    "amap_name": "四方租车",
+    "amap_address": "温岭站停车楼",
+    "amap_area": "",
+    "amap_type": "汽车服务;汽车租赁;汽车租赁",
+    "amap_distance": 40.79,
+    "amap_businessarea": {
+      "opentime_today": "09:00-20:00",
+      "keytag": "汽车租赁",
+      "rating": "3.8",
+      "tel": "13705761987",
+      "rectag": "汽车租赁",
+      "opentime_week": "周一至周五 09:00-20:00；周六至周日 09:00-20:00"
+    },
+    "cgcs_lon": 121.32156171271838,
+    "cgcs_lat": 28.48414357525522,
+    "amap_lon": 121.325875,
+    "amap_lat": 28.481025,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0H33CVBDE",
+    "amap_name": "温岭站停车楼(出口)",
+    "amap_address": "温岭站停车楼(温岭火车站地铁站A2口步行420米)",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;停车场出口",
+    "amap_distance": 43.48,
+    "amap_businessarea": {
+      "keytag": "停车场出口",
+      "rectag": "停车场出口"
+    },
+    "cgcs_lon": 121.32168837594948,
+    "cgcs_lat": 28.484859092954515,
+    "amap_lon": 121.326002,
+    "amap_lat": 28.481741,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0L04LYEWN",
+    "amap_name": "温岭站北侧停车场",
+    "amap_address": "泽国镇珠山村卫生室东南侧",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 103.3,
+    "amap_businessarea": {
+      "opentime_today": "24小时营业",
+      "keytag": "停车场",
+      "rectag": "停车场",
+      "parking_type": "其他",
+      "opentime_week": "周一至周日 00:00-24:00"
+    },
+    "cgcs_lon": 121.32168234710014,
+    "cgcs_lat": 28.485400922561993,
+    "amap_lon": 121.325996,
+    "amap_lat": 28.482283,
+    "source": "name_poi"
+  }
+]

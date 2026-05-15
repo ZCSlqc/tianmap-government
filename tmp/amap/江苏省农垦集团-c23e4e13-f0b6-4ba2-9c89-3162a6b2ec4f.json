@@ -1,0 +1,164 @@
+[
+  {
+    "amap_id": "B0G2MMXHS9",
+    "amap_name": "南京奥体博览中心中山精品酒店",
+    "amap_address": "楠溪江东街97号",
+    "amap_area": "",
+    "amap_type": "住宿服务;宾馆酒店;宾馆酒店",
+    "amap_distance": 21.78,
+    "amap_businessarea": "元通",
+    "cgcs_lon": 118.72307855696882,
+    "cgcs_lat": 31.996361777493714,
+    "amap_lon": 118.728287,
+    "amap_lat": 31.99433,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFL8L54M",
+    "amap_name": "苏垦大厦",
+    "amap_address": "恒山路136号",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 22.88,
+    "amap_businessarea": "元通",
+    "cgcs_lon": 118.723089546696,
+    "cgcs_lat": 31.996356767377254,
+    "amap_lon": 118.728298,
+    "amap_lat": 31.994325,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFKF8PUX",
+    "amap_name": "招商银行(南京分行营业部)",
+    "amap_address": "庐山路199号招银大厦裙楼1层",
+    "amap_area": "",
+    "amap_type": "金融保险服务;银行;招商银行",
+    "amap_distance": 73.13,
+    "amap_businessarea": "元通",
+    "cgcs_lon": 118.72262793157432,
+    "cgcs_lat": 31.997117323021715,
+    "amap_lon": 118.727836,
+    "amap_lat": 31.995085,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFF9ZY52",
+    "amap_name": "招银大厦(楠溪江东街)",
+    "amap_address": "庐山路199号",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 88.29,
+    "amap_businessarea": "元通",
+    "cgcs_lon": 118.72217240171565,
+    "cgcs_lat": 31.996978673061733,
+    "amap_lon": 118.72738,
+    "amap_lat": 31.994946,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFJIED55",
+    "amap_name": "诺阁雅餐厅(金奥·缤润汇店)",
+    "amap_address": "楠溪江东街83号金奥·缤润汇F1层",
+    "amap_area": "",
+    "amap_type": "餐饮服务;中餐厅;中餐厅",
+    "amap_distance": 129.43,
+    "amap_businessarea": "元通",
+    "cgcs_lon": 118.72383689430465,
+    "cgcs_lat": 31.995638001859973,
+    "amap_lon": 118.729046,
+    "amap_lat": 31.993607,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFK15MRZ",
+    "amap_name": "江苏农垦工程项目建设管理有限公司",
+    "amap_address": "恒山路136号苏垦大厦F2层",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;建筑公司",
+    "amap_distance": 50.16,
+    "amap_businessarea": {
+      "keytag": "公司",
+      "business_area": "元通",
+      "rectag": "公司"
+    },
+    "cgcs_lon": 118.72315350757636,
+    "cgcs_lat": 31.996104657057057,
+    "amap_lon": 118.728362,
+    "amap_lat": 31.994073,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0LD976GCR",
+    "amap_name": "江苏农垦清洁能源有限公司",
+    "amap_address": "嘉陵江东街8号科技创新综合体B5幢8层",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 1809.74,
+    "amap_businessarea": {
+      "keytag": "公司",
+      "tel": "025-83695516",
+      "rectag": "公司"
+    },
+    "cgcs_lon": 118.7314931123192,
+    "cgcs_lat": 31.98191682892666,
+    "amap_lon": 118.736707,
+    "amap_lat": 31.979894,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0K12K2ROV",
+    "amap_name": "江苏农垦土地资源开发有限公司",
+    "amap_address": "金鱼嘴基金街区B区南区5栋15楼",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 1814.82,
+    "amap_businessarea": {
+      "keytag": "公司",
+      "rectag": "公司"
+    },
+    "cgcs_lon": 118.7316080403449,
+    "cgcs_lat": 31.9819147695376,
+    "amap_lon": 118.736822,
+    "amap_lat": 31.979892,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0L31SUT2A",
+    "amap_name": "江苏农垦食品供应链管理有限公司",
+    "amap_address": "珠江路2-4号",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 8172.44,
+    "amap_businessarea": {
+      "keytag": "食品公司",
+      "business_area": "新街口",
+      "tel": "025-86815808;025-86815817",
+      "rectag": "食品公司",
+      "opentime_week": "周一至周五 08:30-17:30"
+    },
+    "cgcs_lon": 118.77978096284018,
+    "cgcs_lat": 32.05207110009105,
+    "amap_lon": 118.784982,
+    "amap_lat": 32.050014,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0M6OZLXWM",
+    "amap_name": "江苏省农垦集团有限公司",
+    "amap_address": "珠江路4号(珠江路地铁站4号口步行210米)",
+    "amap_area": "",
+    "amap_type": "公司企业;公司企业;公司企业",
+    "amap_distance": 8186.79,
+    "amap_businessarea": {
+      "keytag": "公司",
+      "business_area": "新街口",
+      "tel": "025-58716981",
+      "rectag": "公司"
+    },
+    "cgcs_lon": 118.78011843054286,
+    "cgcs_lat": 32.051991491052256,
+    "amap_lon": 118.785319,
+    "amap_lat": 32.049934,
+    "source": "name_poi"
+  }
+]

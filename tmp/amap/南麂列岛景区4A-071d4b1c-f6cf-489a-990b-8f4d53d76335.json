@@ -1,0 +1,162 @@
+[
+  {
+    "amap_id": "B02410WFL0",
+    "amap_name": "下百亩坪",
+    "amap_address": "平阳县",
+    "amap_area": "",
+    "amap_type": "地名地址信息;普通地名;村庄级地名",
+    "amap_distance": 202.05,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 121.07470201499062,
+    "cgcs_lat": 27.465368921064897,
+    "amap_lon": 121.079002,
+    "amap_lat": 27.462357,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B024104JHN",
+    "amap_name": "南麂列岛",
+    "amap_address": "平阳县",
+    "amap_area": "",
+    "amap_type": "地名地址信息;自然地名;岛屿",
+    "amap_distance": 306.43,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 121.07530026848895,
+    "cgcs_lat": 27.4664413142285,
+    "amap_lon": 121.079601,
+    "amap_lat": 27.46343,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B024100ITP",
+    "amap_name": "南麂岛",
+    "amap_address": "平阳县",
+    "amap_area": "",
+    "amap_type": "地名地址信息;自然地名;岛屿",
+    "amap_distance": 340.97,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 121.07375891522308,
+    "cgcs_lat": 27.46783352805721,
+    "amap_lon": 121.078058,
+    "amap_lat": 27.464821,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B02410WFKV",
+    "amap_name": "平顶山",
+    "amap_address": "平阳县",
+    "amap_area": "",
+    "amap_type": "地名地址信息;普通地名;村庄级地名",
+    "amap_distance": 352.43,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 121.07111919990521,
+    "cgcs_lat": 27.467742080634196,
+    "amap_lon": 121.075415,
+    "amap_lat": 27.464727,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B02410WFKZ",
+    "amap_name": "上百亩坪村",
+    "amap_address": "平阳县",
+    "amap_area": "",
+    "amap_type": "地名地址信息;普通地名;村庄级地名",
+    "amap_distance": 358.64,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 121.07628038156561,
+    "cgcs_lat": 27.464259719693285,
+    "amap_lon": 121.080582,
+    "amap_lat": 27.461249,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B02410YN7V",
+    "amap_name": "温州南麂岛",
+    "amap_address": "",
+    "amap_area": "6570745.786866",
+    "amap_type": "110202",
+    "amap_distance": 0.0,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 121.07048125358972,
+    "cgcs_lat": 27.464966997561604,
+    "amap_lon": 121.074776,
+    "amap_lat": 27.461951,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "B0LR3AC881",
+    "amap_name": "南麂列岛国家级自然保护区",
+    "amap_address": "南麂镇温州南麂岛内(东侧)",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;国家级景点",
+    "amap_distance": 877.6,
+    "amap_businessarea": {
+      "opentime_today": "24小时营业",
+      "keytag": "风景名胜,风景名胜,国家级景点",
+      "rating": "3.3",
+      "opentime_week": "周一至周日 00:00-24:00"
+    },
+    "cgcs_lon": 121.08158952145034,
+    "cgcs_lat": 27.4644091427553,
+    "amap_lon": 121.085896,
+    "amap_lat": 27.461402,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0H33KNGWL",
+    "amap_name": "虎屿",
+    "amap_address": "南麂列岛",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;海滩",
+    "amap_distance": 1166.77,
+    "amap_businessarea": {
+      "keytag": "风景名胜,风景名胜,海滩",
+      "rating": "3.5",
+      "tel": "0577-63653991"
+    },
+    "cgcs_lon": 121.06385274777372,
+    "cgcs_lat": 27.457972608060633,
+    "amap_lon": 121.068137,
+    "amap_lat": 27.454948,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFH6KSZB",
+    "amap_name": "三盘尾",
+    "amap_address": "南麂山列岛",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 2189.21,
+    "amap_businessarea": {
+      "opentime_today": "24小时营业",
+      "keytag": "景区",
+      "rating": "4.1",
+      "rectag": "景区",
+      "opentime_week": "周一至周日 00:00-24:00"
+    },
+    "cgcs_lon": 121.09395514105874,
+    "cgcs_lat": 27.459274258818013,
+    "amap_lon": 121.098267,
+    "amap_lat": 27.45627,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFFP4WPC",
+    "amap_name": "温州门屿",
+    "amap_address": "南麂山列岛",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 2387.99,
+    "amap_businessarea": {
+      "keytag": "自然风光",
+      "rating": "3.7",
+      "tel": "0577-63653991",
+      "rectag": "自然风光"
+    },
+    "cgcs_lon": 121.06190501124033,
+    "cgcs_lat": 27.445647588047986,
+    "amap_lon": 121.066185,
+    "amap_lat": 27.442619,
+    "source": "name_poi"
+  }
+]

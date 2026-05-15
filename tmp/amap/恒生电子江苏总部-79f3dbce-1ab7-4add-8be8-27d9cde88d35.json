@@ -1,0 +1,72 @@
+[
+  {
+    "amap_id": "B0J0JRS37I",
+    "amap_name": "恒生电子江苏总部",
+    "amap_address": "宜悦街与庐山路交叉口东80米",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;机械电子",
+    "amap_distance": 77.39,
+    "amap_businessarea": "元通",
+    "cgcs_lon": 118.70820563169902,
+    "cgcs_lat": 31.981447081967968,
+    "amap_lon": 118.713394,
+    "amap_lat": 31.979403,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFI3YU2L",
+    "amap_name": "汇金中心门面房",
+    "amap_address": "庐山路与江山大街辅路交叉口西南160米",
+    "amap_area": "",
+    "amap_type": "商务住宅;商务住宅相关;商务住宅相关",
+    "amap_distance": 165.8,
+    "amap_businessarea": "元通",
+    "cgcs_lon": 118.70776219929078,
+    "cgcs_lat": 31.98263593055823,
+    "amap_lon": 118.71295,
+    "amap_lat": 31.980591,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0ID2BSX36",
+    "amap_name": "安庆馄饨(升龙汇金中心店)",
+    "amap_address": "庐山路与宜悦街交叉口西60米",
+    "amap_area": "",
+    "amap_type": "餐饮服务;中餐厅;中餐厅",
+    "amap_distance": 223.23,
+    "amap_businessarea": "元通",
+    "cgcs_lon": 118.70667295766461,
+    "cgcs_lat": 31.981892191567102,
+    "amap_lon": 118.711859,
+    "amap_lat": 31.979846,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0I6HU4RE9",
+    "amap_name": "兰州牛肉拉面(升龙汇金店)",
+    "amap_address": "江山大街以南江东南路与恒河路汇金中心C幢2室",
+    "amap_area": "",
+    "amap_type": "餐饮服务;中餐厅;清真菜馆",
+    "amap_distance": 225.65,
+    "amap_businessarea": "元通",
+    "cgcs_lon": 118.70664799637088,
+    "cgcs_lat": 31.981897225955155,
+    "amap_lon": 118.711834,
+    "amap_lat": 31.979851,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0L30ULPAO",
+    "amap_name": "南京能利芯科技有限公司",
+    "amap_address": "沙洲街道永初路8号阿里巴巴江苏总部T4栋601室",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 226.98,
+    "amap_businessarea": "元通",
+    "cgcs_lon": 118.70856525937167,
+    "cgcs_lat": 31.979578188808393,
+    "amap_lon": 118.713754,
+    "amap_lat": 31.977535,
+    "source": "geo_poi"
+  }
+]

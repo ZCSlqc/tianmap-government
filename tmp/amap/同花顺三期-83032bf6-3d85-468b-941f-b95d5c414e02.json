@@ -1,0 +1,148 @@
+[
+  {
+    "amap_id": "B0LA4U5XKN",
+    "amap_name": "同花顺三期振丰建设工地",
+    "amap_address": "溪沁街10号",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 124.01,
+    "amap_businessarea": "西溪",
+    "cgcs_lon": 120.04487955057537,
+    "cgcs_lat": 30.295495010428915,
+    "amap_lon": 120.049675,
+    "amap_lat": 30.293175,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0G3TDOWUK",
+    "amap_name": "中国电信浙江创新园(南门)",
+    "amap_address": "溪沁路8号中国电信浙江创新园",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 168.89,
+    "amap_businessarea": "西溪",
+    "cgcs_lon": 120.04449210233125,
+    "cgcs_lat": 30.2959017739709,
+    "amap_lon": 120.049287,
+    "amap_lat": 30.293581,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0MAXRN0BB",
+    "amap_name": "八方篮球(建设中)",
+    "amap_address": "八方图书馆1楼",
+    "amap_area": "",
+    "amap_type": "体育休闲服务;运动场馆;篮球场馆",
+    "amap_distance": 175.92,
+    "amap_businessarea": "西溪",
+    "cgcs_lon": 120.04383136404157,
+    "cgcs_lat": 30.292997485397397,
+    "amap_lon": 120.048625,
+    "amap_lat": 30.290675,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0H3MS8HRE",
+    "amap_name": "浙江省公众信息产业有限公司",
+    "amap_address": "五常街道溪沁街8号浙江电信创新园3号楼",
+    "amap_area": "",
+    "amap_type": "公司企业;公司企业;公司企业",
+    "amap_distance": 204.83,
+    "amap_businessarea": "西溪",
+    "cgcs_lon": 120.04552054360269,
+    "cgcs_lat": 30.29608661862158,
+    "amap_lon": 120.050317,
+    "amap_lat": 30.293768,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0H2F5MIZL",
+    "amap_name": "五常街道邱桥社区居委会",
+    "amap_address": "八方城1幢113室",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;乡镇以下级政府及事业单位",
+    "amap_distance": 244.09,
+    "amap_businessarea": "西溪",
+    "cgcs_lon": 120.04231570417764,
+    "cgcs_lat": 30.29362166768482,
+    "amap_lon": 120.047107,
+    "amap_lat": 30.291296,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFGY7HQ7",
+    "amap_name": "浙江核新同花顺保险经纪有限公司",
+    "amap_address": "同顺街18号同花顺F1层",
+    "amap_area": "",
+    "amap_type": "金融保险服务;金融保险服务机构;金融保险机构",
+    "amap_distance": 301.16,
+    "amap_businessarea": {
+      "keytag": "保险",
+      "rectag": "保险"
+    },
+    "cgcs_lon": 120.04162172079957,
+    "cgcs_lat": 30.294911040928138,
+    "amap_lon": 120.046412,
+    "amap_lat": 30.292584,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFHOA6TX",
+    "amap_name": "同花顺新大楼总部",
+    "amap_address": "同顺街18号同花顺F1层",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 305.43,
+    "amap_businessarea": {
+      "opentime_today": "10:00-22:00",
+      "keytag": "公司",
+      "tel": "0571-88911818",
+      "rectag": "公司",
+      "opentime_week": "周一至周日 10:00-22:00"
+    },
+    "cgcs_lon": 120.04156282305549,
+    "cgcs_lat": 30.29484317777061,
+    "amap_lon": 120.046353,
+    "amap_lat": 30.292516,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0KRM93GVD",
+    "amap_name": "同花顺云软件有限公司",
+    "amap_address": "同顺街与邱桥路交叉口东240米",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;网络科技",
+    "amap_distance": 310.12,
+    "amap_businessarea": {
+      "opentime_today": "09:00-17:30",
+      "keytag": "公司",
+      "business_area": "五常街道",
+      "rectag": "公司",
+      "opentime_week": "周一至周日 09:00-17:30"
+    },
+    "cgcs_lon": 120.0415489346467,
+    "cgcs_lat": 30.293800323038344,
+    "amap_lon": 120.046339,
+    "amap_lat": 30.291473,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFGDY3WV",
+    "amap_name": "同花顺",
+    "amap_address": "同顺街18号",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 319.86,
+    "amap_businessarea": {
+      "opentime_today": "08:00-22:00",
+      "keytag": "写字楼",
+      "rectag": "写字楼",
+      "opentime_week": "周一至周日 08:00-22:00"
+    },
+    "cgcs_lon": 120.04138812335574,
+    "cgcs_lat": 30.294686579416194,
+    "amap_lon": 120.046178,
+    "amap_lat": 30.292359,
+    "source": "name_poi"
+  }
+]

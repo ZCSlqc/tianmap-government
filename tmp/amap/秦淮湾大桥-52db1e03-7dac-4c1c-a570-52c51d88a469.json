@@ -1,0 +1,142 @@
+[
+  {
+    "amap_id": "B0IRFR9BFL",
+    "amap_name": "秦淮湾大桥",
+    "amap_address": "秦淮区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;桥",
+    "amap_distance": 2.99,
+    "amap_businessarea": "光华路",
+    "cgcs_lon": 118.83552824020704,
+    "cgcs_lat": 31.99373531178894,
+    "amap_lon": 118.840617,
+    "amap_lat": 31.991597,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0L6Z939VK",
+    "amap_name": "天印大道",
+    "amap_address": "秦淮区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;道路名",
+    "amap_distance": 273.45,
+    "amap_businessarea": "光华路",
+    "cgcs_lon": 118.832891710219,
+    "cgcs_lat": 31.994727716082938,
+    "amap_lon": 118.837986,
+    "amap_lat": 31.992594,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFGBETYN",
+    "amap_name": "中共广洋村总支部委员会",
+    "amap_address": "承天大道辅路与G42沪蓉高速入口交叉口东北80米",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;乡镇以下级政府及事业单位",
+    "amap_distance": 423.16,
+    "amap_businessarea": "光华路",
+    "cgcs_lon": 118.83196466220778,
+    "cgcs_lat": 31.996034308112442,
+    "amap_lon": 118.837061,
+    "amap_lat": 31.993902,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B00190A1VZ",
+    "amap_name": "南圩",
+    "amap_address": "秦淮区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;普通地名;村庄级地名",
+    "amap_distance": 431.79,
+    "amap_businessarea": "光华路",
+    "cgcs_lon": 118.83966475694609,
+    "cgcs_lat": 31.99203034544512,
+    "amap_lon": 118.844745,
+    "amap_lat": 31.989885,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFL51LZI",
+    "amap_name": "中铁四局集团有限公司南京南部新城-经理部",
+    "amap_address": "丫洋路与广洋路交叉口东150米",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 459.76,
+    "amap_businessarea": "光华路",
+    "cgcs_lon": 118.83193355333584,
+    "cgcs_lat": 31.99651836254753,
+    "amap_lon": 118.83703,
+    "amap_lat": 31.994386,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0019185U3",
+    "amap_name": "秦淮河大桥",
+    "amap_address": "秦淮区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;桥",
+    "amap_distance": 489.11,
+    "amap_businessarea": {
+      "keytag": "桥",
+      "rectag": "桥"
+    },
+    "cgcs_lon": 118.83527932931382,
+    "cgcs_lat": 31.998145878808085,
+    "amap_lon": 118.840369,
+    "amap_lat": 31.996007,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFI8S1DO",
+    "amap_name": "外秦淮河大桥",
+    "amap_address": "秦淮区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;桥",
+    "amap_distance": 2432.21,
+    "amap_businessarea": {
+      "keytag": "桥",
+      "business_area": "光华路",
+      "rectag": "桥"
+    },
+    "cgcs_lon": 118.82439209880789,
+    "cgcs_lat": 32.01350920186407,
+    "amap_lon": 118.829506,
+    "amap_lat": 32.011387,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0IAYRYVDV",
+    "amap_name": "国淮桥",
+    "amap_address": "秦淮区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;桥",
+    "amap_distance": 3041.66,
+    "amap_businessarea": {
+      "keytag": "桥",
+      "business_area": "光华路",
+      "rectag": "桥"
+    },
+    "cgcs_lon": 118.81501810794023,
+    "cgcs_lat": 32.014870964002554,
+    "amap_lon": 118.820152,
+    "amap_lat": 32.012766,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B001911JOA",
+    "amap_name": "雨花桥",
+    "amap_address": "秦淮区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;桥",
+    "amap_distance": 4876.49,
+    "amap_businessarea": {
+      "keytag": "桥",
+      "rectag": "桥"
+    },
+    "cgcs_lon": 118.78724894018985,
+    "cgcs_lat": 32.00924114144694,
+    "amap_lon": 118.792435,
+    "amap_lat": 32.007184,
+    "source": "name_poi"
+  }
+]

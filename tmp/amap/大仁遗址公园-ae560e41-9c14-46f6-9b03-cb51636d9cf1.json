@@ -1,0 +1,131 @@
+[
+  {
+    "amap_id": "B0JGYUY0A5",
+    "amap_name": "大仁遗址公园",
+    "amap_address": "经十六路",
+    "amap_area": "",
+    "amap_type": "风景名胜;公园广场;公园",
+    "amap_distance": 32.93,
+    "amap_businessarea": "郭杜",
+    "cgcs_lon": 108.84028098636111,
+    "cgcs_lat": 34.144912252297935,
+    "amap_lon": 108.844895,
+    "amap_lat": 34.143307,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0KKCSOGLG",
+    "amap_name": "西安国际医学中心北院区神经内十科",
+    "amap_address": "西太公路777号",
+    "amap_area": "",
+    "amap_type": "医疗保健服务;医疗保健服务场所;医疗保健服务场所",
+    "amap_distance": 291.88,
+    "amap_businessarea": "郭杜",
+    "cgcs_lon": 108.83865827722607,
+    "cgcs_lat": 34.14687679400826,
+    "amap_lon": 108.843275,
+    "amap_lat": 34.145275,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0G1PNFT77",
+    "amap_name": "西安国际医学中心医院(6号门)",
+    "amap_address": "西太路777号西安国际医学中心医院",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 318.26,
+    "amap_businessarea": "郭杜",
+    "cgcs_lon": 108.83727436661741,
+    "cgcs_lat": 34.14316938627079,
+    "amap_lon": 108.841893,
+    "amap_lat": 34.141569,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0J1XSVYE6",
+    "amap_name": "西安国际医学中心医院泌尿病医院",
+    "amap_address": "西太路777号西安国际医学中心医院",
+    "amap_area": "",
+    "amap_type": "医疗保健服务;综合医院;三级甲等医院",
+    "amap_distance": 322.54,
+    "amap_businessarea": "郭杜",
+    "cgcs_lon": 108.83675641326022,
+    "cgcs_lat": 34.144668015912444,
+    "amap_lon": 108.841376,
+    "amap_lat": 34.143069,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0JUPZULBK",
+    "amap_name": "西安国际医学中心整形美容医院",
+    "amap_address": "西太路777号北区C栋",
+    "amap_area": "",
+    "amap_type": "医疗保健服务;专科医院;整形美容|医疗保健服务;综合医院;三级甲等医院",
+    "amap_distance": 326.49,
+    "amap_businessarea": "郭杜",
+    "cgcs_lon": 108.83836379249885,
+    "cgcs_lat": 34.14709220391761,
+    "amap_lon": 108.842981,
+    "amap_lat": 34.145491,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0JAOCUYWE",
+    "amap_name": "大仁攀岩",
+    "amap_address": "郭杜街道纬三十街大仁遗址公园",
+    "amap_area": "",
+    "amap_type": "体育休闲服务;运动场馆;运动场所",
+    "amap_distance": 115.52,
+    "amap_businessarea": {
+      "opentime_today": "12:00-20:00",
+      "cost": "131.00",
+      "keytag": "攀岩",
+      "rating": "4.4",
+      "business_area": "西安高新技术产业开发区",
+      "tel": "13072932505",
+      "rectag": "攀岩",
+      "opentime_week": "周一至周五 12:00-20:00；周六至周日 10:00-20:00"
+    },
+    "cgcs_lon": 108.84141279717899,
+    "cgcs_lat": 34.144204450414314,
+    "amap_lon": 108.846025,
+    "amap_lat": 34.142597,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0M6VPI8RX",
+    "amap_name": "大仁遗址公园南侧地上停车场",
+    "amap_address": "纬三十路与经十六路交叉口东20米",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 226.08,
+    "amap_businessarea": {
+      "keytag": "停车场",
+      "business_area": "西安高新技术产业开发区",
+      "rectag": "停车场"
+    },
+    "cgcs_lon": 108.84146298429062,
+    "cgcs_lat": 34.1428329356687,
+    "amap_lon": 108.846075,
+    "amap_lat": 34.141225,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0KDFZTK2Y",
+    "amap_name": "隆瀚城",
+    "amap_address": "西沣路240号",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;住宅小区",
+    "amap_distance": 727.17,
+    "amap_businessarea": {
+      "keytag": "住宅区",
+      "business_area": "西安高新技术产业开发区",
+      "rectag": "住宅区"
+    },
+    "cgcs_lon": 108.84439472148037,
+    "cgcs_lat": 34.139027104155325,
+    "amap_lon": 108.849002,
+    "amap_lat": 34.137413,
+    "source": "name_poi"
+  }
+]

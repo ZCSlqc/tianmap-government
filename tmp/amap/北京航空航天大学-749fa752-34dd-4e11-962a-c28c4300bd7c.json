@@ -1,0 +1,129 @@
+[
+  {
+    "amap_id": "B0I29SG7D0",
+    "amap_name": "北京航空航天大学杭州创新研究院(北门)",
+    "amap_address": "长河街道炬航弄99号",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 40.66,
+    "amap_businessarea": "闻堰",
+    "cgcs_lon": 120.17973940236644,
+    "cgcs_lat": 30.153924288000244,
+    "amap_lon": 120.184337,
+    "amap_lat": 30.151534,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0KG956OIY",
+    "amap_name": "杭州炬航中心剧场",
+    "amap_address": "炬航弄99号",
+    "amap_area": "",
+    "amap_type": "体育休闲服务;影剧院;剧场",
+    "amap_distance": 53.76,
+    "amap_businessarea": "闻堰",
+    "cgcs_lon": 120.17918877701423,
+    "cgcs_lat": 30.15420427626074,
+    "amap_lon": 120.183788,
+    "amap_lat": 30.151815,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0LANUW79K",
+    "amap_name": "北京航空航天大学大科学装置研究院",
+    "amap_address": "长河街道炬航弄99号",
+    "amap_area": "",
+    "amap_type": "科教文化服务;科研机构;科研机构",
+    "amap_distance": 67.9,
+    "amap_businessarea": "闻堰",
+    "cgcs_lon": 120.17994604651551,
+    "cgcs_lat": 30.15339467896812,
+    "amap_lon": 120.184543,
+    "amap_lat": 30.151004,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0I29HKH39",
+    "amap_name": "北京航空航天大学杭州创新研究院",
+    "amap_address": "长河街道炬航弄99号",
+    "amap_area": "",
+    "amap_type": "科教文化服务;科教文化场所;科教文化场所",
+    "amap_distance": 82.11,
+    "amap_businessarea": "闻堰",
+    "cgcs_lon": 120.17971038862439,
+    "cgcs_lat": 30.153070259325826,
+    "amap_lon": 120.184308,
+    "amap_lat": 30.15068,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0LGO56O0P",
+    "amap_name": "杭州极弱磁场国家重大科技基础设施研究院",
+    "amap_address": "北航杭州研究生院(白马湖园区)4号楼",
+    "amap_area": "",
+    "amap_type": "科教文化服务;科研机构;科研机构",
+    "amap_distance": 86.18,
+    "amap_businessarea": "闻堰",
+    "cgcs_lon": 120.17977758499535,
+    "cgcs_lat": 30.153057382006747,
+    "amap_lon": 120.184375,
+    "amap_lat": 30.150667,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0K0YLIOSJ",
+    "amap_name": "北京航空航天大学杭州创新研究院会议中心",
+    "amap_address": "炬航弄99号",
+    "amap_area": "",
+    "amap_type": "科教文化服务;会展中心;会展中心",
+    "amap_distance": 65.75,
+    "amap_businessarea": {
+      "keytag": "会展中心",
+      "tel": "18520488189",
+      "rectag": "会展中心"
+    },
+    "cgcs_lon": 120.17909048395376,
+    "cgcs_lat": 30.1542850944747,
+    "amap_lon": 120.18369,
+    "amap_lat": 30.151896,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0L3H78NLF",
+    "amap_name": "北京航空航天大学杭州创新研究院7号楼",
+    "amap_address": "长河街道炬航弄99号北京航空航天大学杭州创新研究院",
+    "amap_area": "",
+    "amap_type": "科教文化服务;科研机构;科研机构",
+    "amap_distance": 78.2,
+    "amap_businessarea": {
+      "keytag": "教学楼",
+      "rectag": "教学楼"
+    },
+    "cgcs_lon": 120.17951081025016,
+    "cgcs_lat": 30.153045896461357,
+    "amap_lon": 120.184109,
+    "amap_lat": 30.150656,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0KG7NTYK1",
+    "amap_name": "北京航空航天大学杭州创新研究院·体育馆·篮球·羽毛球",
+    "amap_address": "长河街道炬航弄99号",
+    "amap_area": "",
+    "amap_type": "体育休闲服务;运动场馆;羽毛球场",
+    "amap_distance": 156.17,
+    "amap_businessarea": {
+      "opentime_today": "10:00-22:00",
+      "keytag": "羽毛球馆",
+      "rating": "4.3",
+      "alias": "北航杭研院·体育馆·篮球·羽毛球",
+      "tel": "0571-28881100",
+      "rectag": "羽毛球馆",
+      "opentime_week": "周一至周日 10:00-22:00"
+    },
+    "cgcs_lon": 120.18069024193103,
+    "cgcs_lat": 30.152940042256798,
+    "amap_lon": 120.185285,
+    "amap_lat": 30.150548,
+    "source": "name_poi"
+  }
+]

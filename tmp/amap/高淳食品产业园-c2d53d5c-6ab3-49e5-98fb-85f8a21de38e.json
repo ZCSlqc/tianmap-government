@@ -1,0 +1,165 @@
+[
+  {
+    "amap_id": "B0M67UXUI6",
+    "amap_name": "南京牛氏运昌食品有限公司",
+    "amap_address": "高淳区经济开发区韩棠路66号",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 273.82,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.91809825356086,
+    "cgcs_lat": 31.38929799563865,
+    "amap_lon": 118.923075,
+    "amap_lat": 31.387125,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFGQAZUI",
+    "amap_name": "韩棠路",
+    "amap_address": "高淳区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;道路名",
+    "amap_distance": 380.24,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.91910691941754,
+    "cgcs_lat": 31.390151757841082,
+    "amap_lon": 118.924085,
+    "amap_lat": 31.38798,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0KRHZRX88",
+    "amap_name": "南京高淳区牛氏运昌中建四局项目部",
+    "amap_address": "韩棠路301县",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 396.97,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.9188731339425,
+    "cgcs_lat": 31.391076723485547,
+    "amap_lon": 118.923851,
+    "amap_lat": 31.388905,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFFDDV29",
+    "amap_name": "上袁",
+    "amap_address": "高淳区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;普通地名;村庄级地名",
+    "amap_distance": 412.09,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.91109441277732,
+    "cgcs_lat": 31.39050525535874,
+    "amap_lon": 118.916064,
+    "amap_lat": 31.388327,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFIATKS9",
+    "amap_name": "凤山中学",
+    "amap_address": "桠阳线与韩棠线交叉口西140米",
+    "amap_area": "",
+    "amap_type": "科教文化服务;学校;中学",
+    "amap_distance": 479.02,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.91822478791899,
+    "cgcs_lat": 31.39280685996269,
+    "amap_lon": 118.923202,
+    "amap_lat": 31.390635,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFJYHNIT",
+    "amap_name": "南京神农园食品产业有限公司",
+    "amap_address": "洪蓝街道平安西路57号",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 25150.43,
+    "amap_businessarea": {
+      "opentime_today": "07:30-18:00",
+      "keytag": "食品公司",
+      "business_area": "洪蓝",
+      "rectag": "食品公司",
+      "opentime_week": "周一至周日 07:30-18:00"
+    },
+    "cgcs_lon": 118.97768940264451,
+    "cgcs_lat": 31.609780966418263,
+    "amap_lon": 118.982838,
+    "amap_lat": 31.607767,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0K1PSG3ND",
+    "amap_name": "上宸食品",
+    "amap_address": "白马镇食品园大道20号农高区食品加工产业园",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 31927.08,
+    "amap_businessarea": {
+      "keytag": "公司",
+      "rectag": "公司"
+    },
+    "cgcs_lon": 119.17601625195468,
+    "cgcs_lat": 31.570909991545772,
+    "amap_lon": 119.181325,
+    "amap_lat": 31.569025,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0H1VUS8PY",
+    "amap_name": "农高区食品加工产业园",
+    "amap_address": "白马镇食品园大道20号",
+    "amap_area": "",
+    "amap_type": "商务住宅;产业园区;产业园区",
+    "amap_distance": 31976.4,
+    "amap_businessarea": {
+      "keytag": "工业园区",
+      "rectag": "工业园区"
+    },
+    "cgcs_lon": 119.17685207979153,
+    "cgcs_lat": 31.570732543111863,
+    "amap_lon": 119.182159,
+    "amap_lat": 31.568846,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFGFWHZO",
+    "amap_name": "美国绿世界集团",
+    "amap_address": "白马镇(江苏白马现代农业高新技术产业园区)食品园大道6号",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 32093.81,
+    "amap_businessarea": {
+      "opentime_today": "08:00-18:00",
+      "keytag": "公司",
+      "rectag": "公司",
+      "opentime_week": "周一至周日 08:00-18:00"
+    },
+    "cgcs_lon": 119.17839740907965,
+    "cgcs_lat": 31.570777372470186,
+    "amap_lon": 119.183701,
+    "amap_lat": 31.568888,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFGBFJDN",
+    "amap_name": "江苏座上客食品工业有限公司",
+    "amap_address": "柘塘街道经济开发区宁溧高科技产业园幸福路11号",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 40093.67,
+    "amap_businessarea": {
+      "opentime_today": "08:00-20:00",
+      "keytag": "食品公司",
+      "tel": "18061706999",
+      "rectag": "食品公司",
+      "opentime_week": "周一至周日 08:00-20:00"
+    },
+    "cgcs_lon": 118.95832774803544,
+    "cgcs_lat": 31.7490657430994,
+    "amap_lon": 118.963425,
+    "amap_lat": 31.746991,
+    "source": "name_poi"
+  }
+]

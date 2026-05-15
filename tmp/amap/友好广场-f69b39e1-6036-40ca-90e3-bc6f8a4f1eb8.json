@@ -1,0 +1,137 @@
+[
+  {
+    "amap_id": "B0FFGB4RFW",
+    "amap_name": "友好广场-水晶球",
+    "amap_address": "友好广场(友好广场地铁站C2口步行60米)",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 1.38,
+    "amap_businessarea": "延安路",
+    "cgcs_lon": 121.63465508251754,
+    "cgcs_lat": 38.919400505412554,
+    "amap_lon": 121.639629,
+    "amap_lat": 38.92021,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B019B01480",
+    "amap_name": "友好广场",
+    "amap_address": "友好路158号(近一德街)(友好广场地铁站C1口旁)",
+    "amap_area": "",
+    "amap_type": "风景名胜;公园广场;城市广场",
+    "amap_distance": 3.19,
+    "amap_businessarea": "延安路",
+    "cgcs_lon": 121.63461215126767,
+    "cgcs_lat": 38.919424556332125,
+    "amap_lon": 121.639586,
+    "amap_lat": 38.920234,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "BX10015982",
+    "amap_name": "友好广场地铁站C2口",
+    "amap_address": "2号线",
+    "amap_area": "",
+    "amap_type": "交通设施服务;地铁站;出入口",
+    "amap_distance": 56.08,
+    "amap_businessarea": "延安路",
+    "cgcs_lon": 121.63420287319366,
+    "cgcs_lat": 38.919036405796156,
+    "amap_lon": 121.639176,
+    "amap_lat": 38.919845,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "BX10015983",
+    "amap_name": "友好广场地铁站C1口",
+    "amap_address": "2号线",
+    "amap_area": "",
+    "amap_type": "交通设施服务;地铁站;出入口",
+    "amap_distance": 57.0,
+    "amap_businessarea": "延安路",
+    "cgcs_lon": 121.6339891760161,
+    "cgcs_lat": 38.91947546695809,
+    "amap_lon": 121.638962,
+    "amap_lat": 38.920284,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B019B02BF4",
+    "amap_name": "平安银行(大连友好广场支行)",
+    "amap_address": "大连市中山区友好路130号",
+    "amap_area": "",
+    "amap_type": "金融保险服务;银行;平安银行",
+    "amap_distance": 61.31,
+    "amap_businessarea": "延安路",
+    "cgcs_lon": 121.63508041949078,
+    "cgcs_lat": 38.918974110063346,
+    "amap_lon": 121.640055,
+    "amap_lat": 38.919784,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B019B011E8",
+    "amap_name": "友好大厦",
+    "amap_address": "",
+    "amap_area": "5538.788503",
+    "amap_type": "120201",
+    "amap_distance": 41.12,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 121.6352551745707,
+    "cgcs_lat": 38.91854009981069,
+    "amap_lon": 121.64023,
+    "amap_lat": 38.91935,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "BV10101797",
+    "amap_name": "友好广场(公交站)",
+    "amap_address": "15路;15路加车;16路;19路;23路;30路;30路加车;405路;409路;531路;701路;701路区间;702路;702路加车;703路;708路;708路(加车);708路区间车;710路;710路(区间车);712路;901路;大连机场巴士",
+    "amap_area": "",
+    "amap_type": "交通设施服务;公交车站;公交车站相关",
+    "amap_distance": 24.49,
+    "amap_businessarea": {
+      "keytag": "公交站",
+      "rectag": "公交站"
+    },
+    "cgcs_lon": 121.6347359697574,
+    "cgcs_lat": 38.91920449875356,
+    "amap_lon": 121.63971,
+    "amap_lat": 38.920014,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFHVH1ZE",
+    "amap_name": "友好广场与友好路交叉口",
+    "amap_address": "中山区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;路口名",
+    "amap_distance": 25.81,
+    "amap_businessarea": {
+      "keytag": "道路交叉口",
+      "rectag": "道路交叉口"
+    },
+    "cgcs_lon": 121.63467108035046,
+    "cgcs_lat": 38.9191826103831,
+    "amap_lon": 121.639645,
+    "amap_lat": 38.919992,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFGQS5AQ",
+    "amap_name": "友好广场",
+    "amap_address": "中山区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;道路名",
+    "amap_distance": 28.79,
+    "amap_businessarea": {
+      "keytag": "道路",
+      "rectag": "道路"
+    },
+    "cgcs_lon": 121.63436854123765,
+    "cgcs_lat": 38.919552849260334,
+    "amap_lon": 121.639342,
+    "amap_lat": 38.920362,
+    "source": "name_poi"
+  }
+]

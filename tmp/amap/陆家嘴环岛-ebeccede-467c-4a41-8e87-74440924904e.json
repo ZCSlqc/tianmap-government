@@ -1,0 +1,163 @@
+[
+  {
+    "amap_id": "B0FFIXZD19",
+    "amap_name": "明珠环岛",
+    "amap_address": "浦东新区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;环岛名",
+    "amap_distance": 4.73,
+    "amap_businessarea": "陆家嘴",
+    "cgcs_lon": 121.49610201839228,
+    "cgcs_lat": 31.24023687061833,
+    "amap_lon": 121.500532,
+    "amap_lat": 31.23822,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0LRVSK092",
+    "amap_name": "花园",
+    "amap_address": "世纪大道1号东方明珠广播电视塔(东南角)",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 66.0,
+    "amap_businessarea": "陆家嘴",
+    "cgcs_lon": 121.49584504958995,
+    "cgcs_lat": 31.24074287017046,
+    "amap_lon": 121.500276,
+    "amap_lat": 31.238727,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B00155DLW1",
+    "amap_name": "东方明珠广播电视塔(1号门)",
+    "amap_address": "世纪大道1号东方明珠电视塔",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院正门",
+    "amap_distance": 86.13,
+    "amap_businessarea": "陆家嘴",
+    "cgcs_lon": 121.49607084349053,
+    "cgcs_lat": 31.240975441416374,
+    "amap_lon": 121.500501,
+    "amap_lat": 31.238959,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "BX10019780",
+    "amap_name": "陆家嘴地铁站1号口",
+    "amap_address": "2号线",
+    "amap_area": "",
+    "amap_type": "交通设施服务;地铁站;出入口",
+    "amap_distance": 107.14,
+    "amap_businessarea": "陆家嘴",
+    "cgcs_lon": 121.49705239828761,
+    "cgcs_lat": 31.24076547907327,
+    "amap_lon": 121.501479,
+    "amap_lat": 31.238746,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0LRCHF7MH",
+    "amap_name": "飞越中国·沉浸式科技馆(正大广场店)",
+    "amap_address": "陆家嘴西路168号正大广场2层(斐乐隔壁)",
+    "amap_area": "",
+    "amap_type": "科教文化服务;科教文化场所;科教文化场所",
+    "amap_distance": 109.88,
+    "amap_businessarea": "陆家嘴",
+    "cgcs_lon": 121.49539252954476,
+    "cgcs_lat": 31.239440106358234,
+    "amap_lon": 121.499825,
+    "amap_lat": 31.237425,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0L6358L2D",
+    "amap_name": "睿柏·云酒店",
+    "amap_address": "三厂镇中华中路6号",
+    "amap_area": "",
+    "amap_type": "住宿服务;宾馆酒店;宾馆酒店",
+    "amap_distance": 76149.02,
+    "amap_businessarea": {
+      "keytag": "舒适型",
+      "rating": "4.8",
+      "tel": "0513-80786888",
+      "rectag": "舒适型"
+    },
+    "cgcs_lon": 121.24891589078534,
+    "cgcs_lat": 31.893536467075947,
+    "amap_lon": 121.253399,
+    "amap_lat": 31.891576,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0IBCL13VE",
+    "amap_name": "陆家嘴国泰",
+    "amap_address": "桃坞路1号浦发银行大厦1层",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 104914.75,
+    "amap_businessarea": {
+      "keytag": "公司",
+      "business_area": "虹桥",
+      "rectag": "公司"
+    },
+    "cgcs_lon": 120.85629537577896,
+    "cgcs_lat": 32.01193171723816,
+    "amap_lon": 120.860548,
+    "amap_lat": 32.009787,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFHI1WIJ",
+    "amap_name": "陆家嘴国泰人寿保险有限责任公司江苏分公司南通营销服务部",
+    "amap_address": "桃坞路1号浦发银行大厦11楼1101",
+    "amap_area": "",
+    "amap_type": "金融保险服务;保险公司;保险公司",
+    "amap_distance": 104920.31,
+    "amap_businessarea": {
+      "opentime_today": "09:00-18:00",
+      "keytag": "保险",
+      "business_area": "虹桥",
+      "rectag": "保险",
+      "opentime_week": "周一至周日 09:00-18:00"
+    },
+    "cgcs_lon": 120.85613110664963,
+    "cgcs_lat": 32.01189346623293,
+    "amap_lon": 120.860384,
+    "amap_lat": 32.009749,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0LK1ABR99",
+    "amap_name": "陆家嘴1期停车场",
+    "amap_address": "华江中路与通城路交叉口西100米",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;专用停车场",
+    "amap_distance": 128583.46,
+    "amap_businessarea": {
+      "keytag": "停车场",
+      "rectag": "停车场"
+    },
+    "cgcs_lon": 120.57827925148536,
+    "cgcs_lat": 32.093770476547945,
+    "amap_lon": 120.582525,
+    "amap_lat": 32.091575,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0LD4KINEF",
+    "amap_name": "陆家嘴彩票店",
+    "amap_address": "华江中路与通城路交叉口西100米",
+    "amap_area": "",
+    "amap_type": "生活服务;彩票彩券销售点;彩票彩券销售点",
+    "amap_distance": 128583.46,
+    "amap_businessarea": {
+      "keytag": "彩票销售点",
+      "rectag": "彩票销售点"
+    },
+    "cgcs_lon": 120.57827925148536,
+    "cgcs_lat": 32.093770476547945,
+    "amap_lon": 120.582525,
+    "amap_lat": 32.091575,
+    "source": "name_poi"
+  }
+]

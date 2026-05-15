@@ -1,0 +1,140 @@
+[
+  {
+    "amap_id": "B0FFH2H21Y",
+    "amap_name": "八一公园-假山",
+    "amap_address": "百花洲街道民德路106号八一公园内(北侧)",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 53.22,
+    "amap_businessarea": "叠山路",
+    "cgcs_lon": 115.89217899571244,
+    "cgcs_lat": 28.68395677675683,
+    "amap_lon": 115.897021,
+    "amap_lat": 28.680589,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0K03D5TT4",
+    "amap_name": "品凯口腔连锁",
+    "amap_address": "民德路106号",
+    "amap_area": "",
+    "amap_type": "医疗保健服务;专科医院;口腔医院",
+    "amap_distance": 76.17,
+    "amap_businessarea": "叠山路",
+    "cgcs_lon": 115.89162062177415,
+    "cgcs_lat": 28.68379675071885,
+    "amap_lon": 115.896463,
+    "amap_lat": 28.680429,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0317053E9",
+    "amap_name": "八一公园(北门)",
+    "amap_address": "百花洲街道民德路106号八一公园",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 95.62,
+    "amap_businessarea": "叠山路",
+    "cgcs_lon": 115.89160759032137,
+    "cgcs_lat": 28.684083577367005,
+    "amap_lon": 115.89645,
+    "amap_lat": 28.680716,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFFDRVWC",
+    "amap_name": "百花洲",
+    "amap_address": "民德路106号八一公园内",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 96.34,
+    "amap_businessarea": "叠山路",
+    "cgcs_lon": 115.89204200258341,
+    "cgcs_lat": 28.682664514899106,
+    "amap_lon": 115.896884,
+    "amap_lat": 28.679296,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFH2IL0P",
+    "amap_name": "八一公园-旋转木马",
+    "amap_address": "苏圃路八一公园内",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 100.65,
+    "amap_businessarea": "叠山路",
+    "cgcs_lon": 115.89266742333308,
+    "cgcs_lat": 28.682642651336167,
+    "amap_lon": 115.897509,
+    "amap_lat": 28.679274,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B031704QZN",
+    "amap_name": "八一公园",
+    "amap_address": "",
+    "amap_area": "159949.264738",
+    "amap_type": "110101|200300",
+    "amap_distance": 0.0,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 115.89278455492762,
+    "cgcs_lat": 28.681931093872407,
+    "amap_lon": 115.897626,
+    "amap_lat": 28.678562,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "B0ID7CIWW9",
+    "amap_name": "八一公园游船码头售票处",
+    "amap_address": "百花洲",
+    "amap_area": "",
+    "amap_type": "生活服务;售票处;售票处",
+    "amap_distance": 82.33,
+    "amap_businessarea": {
+      "keytag": "售票处",
+      "rectag": "售票处"
+    },
+    "cgcs_lon": 115.89182883824101,
+    "cgcs_lat": 28.682886337544346,
+    "amap_lon": 115.896671,
+    "amap_lat": 28.679518,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0L31ZV9DW",
+    "amap_name": "八一公园北门停车场",
+    "amap_address": "东湖路3号",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 94.6,
+    "amap_businessarea": {
+      "keytag": "停车场",
+      "business_area": "叠山路",
+      "rectag": "停车场"
+    },
+    "cgcs_lon": 115.89154455185096,
+    "cgcs_lat": 28.684004609743674,
+    "amap_lon": 115.896387,
+    "amap_lat": 28.680637,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0KK0CEFRO",
+    "amap_name": "八一公园拳咚咚店",
+    "amap_address": "八一公园游乐场附近",
+    "amap_area": "",
+    "amap_type": "体育休闲服务;运动场馆;运动场所",
+    "amap_distance": 114.3,
+    "amap_businessarea": {
+      "keytag": "武术搏击",
+      "rating": "3.6",
+      "tel": "13870055009",
+      "rectag": "武术健身"
+    },
+    "cgcs_lon": 115.89247030678926,
+    "cgcs_lat": 28.682468717251155,
+    "amap_lon": 115.897312,
+    "amap_lat": 28.6791,
+    "source": "name_poi"
+  }
+]

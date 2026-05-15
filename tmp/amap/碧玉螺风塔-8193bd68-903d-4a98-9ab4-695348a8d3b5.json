@@ -1,0 +1,133 @@
+[
+  {
+    "amap_id": "B0FFFE0XJR",
+    "amap_name": "神骏桥",
+    "amap_address": "滨湖区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;桥",
+    "amap_distance": 124.37,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 120.1253998178581,
+    "cgcs_lat": 31.506436842383945,
+    "amap_lon": 120.130266,
+    "amap_lat": 31.504647,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFH27ST2",
+    "amap_name": "芦苇荡生态农庄",
+    "amap_address": "雪堰镇太湖头",
+    "amap_area": "",
+    "amap_type": "体育休闲服务;体育休闲服务场所;体育休闲服务场所",
+    "amap_distance": 303.74,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 120.12340034624012,
+    "cgcs_lat": 31.50608651626462,
+    "amap_lon": 120.128271,
+    "amap_lat": 31.504299,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFGQBHLW",
+    "amap_name": "佛笑桥",
+    "amap_address": "滨湖区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;桥",
+    "amap_distance": 328.29,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 120.12698426367216,
+    "cgcs_lat": 31.508935452374665,
+    "amap_lon": 120.131847,
+    "amap_lat": 31.507144,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFG85DR0",
+    "amap_name": "顾我桥",
+    "amap_address": "滨湖区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;桥",
+    "amap_distance": 383.82,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 120.12361403490618,
+    "cgcs_lat": 31.5036691214448,
+    "amap_lon": 120.128484,
+    "amap_lat": 31.501881,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFLJ8CA7",
+    "amap_name": "无锡市太湖闸站工程管理处直湖港闸站管理所",
+    "amap_address": "芙蓉南路与龙山路交叉口西南500米",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;政府机关相关",
+    "amap_distance": 396.95,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 120.12371682820269,
+    "cgcs_lat": 31.508582523294674,
+    "amap_lon": 120.128587,
+    "amap_lat": 31.506795,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0J65SK6A4",
+    "amap_name": "碧玉珠宝商行(勤德家园店)",
+    "amap_address": "勤业路勤德家园4-6号",
+    "amap_area": "",
+    "amap_type": "购物服务;专卖店;珠宝首饰工艺品",
+    "amap_distance": 35875.25,
+    "amap_businessarea": {
+      "opentime_today": "10:00-20:00",
+      "keytag": "珠宝首饰",
+      "rating": "3.2",
+      "business_area": "勤业路",
+      "tel": "18651211718",
+      "rectag": "珠宝首饰",
+      "opentime_week": "周一至周日 10:00-20:00"
+    },
+    "cgcs_lon": 119.93181979871892,
+    "cgcs_lat": 31.783336266347643,
+    "amap_lon": 119.936504,
+    "amap_lat": 31.781217,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0H2DZD7L9",
+    "amap_name": "碧玉小吃店",
+    "amap_address": "上庄路149-16号",
+    "amap_area": "",
+    "amap_type": "餐饮服务;中餐厅;中餐厅",
+    "amap_distance": 59977.93,
+    "amap_businessarea": {
+      "opentime_today": "04:30-11:30",
+      "keytag": "小吃快餐",
+      "rating": "3.3",
+      "tel": "18101498617",
+      "tag": "稀饭",
+      "rectag": "小吃快餐",
+      "opentime_week": "周一至周日 04:30-11:30"
+    },
+    "cgcs_lon": 119.56604954445415,
+    "cgcs_lat": 31.756149311245803,
+    "amap_lon": 119.570992,
+    "amap_lat": 31.754018,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0L2L9PRSU",
+    "amap_name": "江苏碧玉谷新材料科技有限公司停车场",
+    "amap_address": "昆仑街道北郊工业园中心路A座1号碧玉谷新型复合材料开发有限公司",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 64254.23,
+    "amap_businessarea": {
+      "keytag": "停车场",
+      "rectag": "停车场"
+    },
+    "cgcs_lon": 119.45036884737749,
+    "cgcs_lat": 31.49512852222997,
+    "amap_lon": 119.455679,
+    "amap_lat": 31.493285,
+    "source": "name_poi"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "amap_id": "B00181C34L",
+    "amap_name": "辽宁省人事考试中心",
+    "amap_address": "太原北街2号综合楼B座",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;省直辖市级政府及事业单位",
+    "amap_distance": 52.76,
+    "amap_businessarea": "太原街",
+    "cgcs_lon": 123.40068530288953,
+    "cgcs_lat": 41.80117076686769,
+    "amap_lon": 123.406835,
+    "amap_lat": 41.803617,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B00180JLS5",
+    "amap_name": "省政府机关太原街集中办公区",
+    "amap_address": "太原北街2号",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 109.31,
+    "amap_businessarea": "太原街",
+    "cgcs_lon": 123.4017541756193,
+    "cgcs_lat": 41.800968998189724,
+    "amap_lon": 123.407904,
+    "amap_lat": 41.803415,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0018165G9",
+    "amap_name": "沈阳市朝鲜族第六中学",
+    "amap_address": "西塔街敦化一路20号",
+    "amap_area": "",
+    "amap_type": "科教文化服务;学校;中学",
+    "amap_distance": 137.48,
+    "amap_businessarea": "太原街",
+    "cgcs_lon": 123.40102400587556,
+    "cgcs_lat": 41.80286278816068,
+    "amap_lon": 123.407174,
+    "amap_lat": 41.805309,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B00180JUGG",
+    "amap_name": "辽宁省林业和草原局",
+    "amap_address": "太原北街辽宁省林业厅",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;省直辖市级政府及事业单位",
+    "amap_distance": 143.32,
+    "amap_businessarea": "太原街",
+    "cgcs_lon": 123.40215315266828,
+    "cgcs_lat": 41.80084709889771,
+    "amap_lon": 123.408303,
+    "amap_lat": 41.803293,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFIV15M1",
+    "amap_name": "辽宁省住房和城乡建设厅",
+    "amap_address": "太原北街2号",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;省直辖市级政府及事业单位",
+    "amap_distance": 145.92,
+    "amap_businessarea": "太原街",
+    "cgcs_lon": 123.40217415337312,
+    "cgcs_lat": 41.80082910471524,
+    "amap_lon": 123.408324,
+    "amap_lat": 41.803275,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFJY565L",
+    "amap_name": "辽宁省卫生健康委员会",
+    "amap_address": "太原北街2号",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府及社会团体相关;政府及社会团体相关",
+    "amap_distance": 144.44,
+    "amap_businessarea": {
+      "opentime_today": "08:30-11:30 13:00-17:00",
+      "keytag": "政府机关",
+      "business_area": "太原街",
+      "rectag": "政府机关",
+      "opentime_week": "周一至周五 08:30-11:30,13:00-17:00"
+    },
+    "cgcs_lon": 123.40210216620514,
+    "cgcs_lat": 41.80078408779819,
+    "amap_lon": 123.408252,
+    "amap_lat": 41.80323,
+    "source": "name_poi"
+  }
+]

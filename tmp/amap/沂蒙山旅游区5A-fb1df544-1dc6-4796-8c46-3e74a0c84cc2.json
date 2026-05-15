@@ -1,0 +1,141 @@
+[
+  {
+    "amap_id": "B0FFLG3U7X",
+    "amap_name": "沂蒙山旅游区云蒙景区-拴马石",
+    "amap_address": "桃墟镇花果庄村云蒙景区沂蒙山地质公园云蒙景区内",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 52.95,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 117.95442913266129,
+    "cgcs_lat": 35.55183800759243,
+    "amap_lon": 117.960101,
+    "amap_lat": 35.551586,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFL1CCNV",
+    "amap_name": "玉兔石",
+    "amap_address": "桃墟镇花果庄村云蒙景区沂蒙山地质公园云蒙景区内",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 76.19,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 117.95487499738056,
+    "cgcs_lat": 35.55223867231122,
+    "amap_lon": 117.960548,
+    "amap_lat": 35.551988,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFGAEUQ0",
+    "amap_name": "听松石",
+    "amap_address": "沂蒙山云蒙景区(蒙山国家森林公园)内",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 77.96,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 117.95489595453346,
+    "cgcs_lat": 35.55215767339168,
+    "amap_lon": 117.960569,
+    "amap_lat": 35.551907,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFGAI1Z1",
+    "amap_name": "山东蒙阴蒙山云蒙旅游区-好汉坡",
+    "amap_address": "桃墟镇花果庄村蒙山国家森林公园内",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 78.62,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 117.95408800116292,
+    "cgcs_lat": 35.55148605439936,
+    "amap_lon": 117.959759,
+    "amap_lat": 35.551233,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFKYF3SU",
+    "amap_name": "天马巡山",
+    "amap_address": "桃墟镇花果庄村云蒙景区沂蒙山地质公园云蒙景区内",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 79.97,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 117.95491889533606,
+    "cgcs_lat": 35.55218360110844,
+    "amap_lon": 117.960592,
+    "amap_lat": 35.551933,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFFX2K0Q",
+    "amap_name": "沂蒙山云蒙景区(蒙山国家森林公园)",
+    "amap_address": "",
+    "amap_area": "6663197.759192",
+    "amap_type": "110202",
+    "amap_distance": 0.0,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 117.95152194510318,
+    "cgcs_lat": 35.55302512690311,
+    "amap_lon": 117.957187,
+    "amap_lat": 35.552767,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "B0FFGAJO9Q",
+    "amap_name": "沂蒙山旅游区云蒙景区-中天门",
+    "amap_address": "桃墟镇花果庄村蒙山国家森林公园内",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 256.68,
+    "amap_businessarea": {
+      "keytag": "名山大川",
+      "rating": "3.9",
+      "tel": "0539-4552178",
+      "rectag": "名山大川"
+    },
+    "cgcs_lon": 117.95313798056114,
+    "cgcs_lat": 35.55439446043946,
+    "amap_lon": 117.958807,
+    "amap_lat": 35.554141,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFGA6RFJ",
+    "amap_name": "沂蒙山旅游区云蒙景区-悬崖漫步",
+    "amap_address": "桃墟镇花果庄村蒙山国家森林公园森林游乐园内",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 821.99,
+    "amap_businessarea": {
+      "keytag": "名山丘陵",
+      "rating": "3.3",
+      "rectag": "名山丘陵"
+    },
+    "cgcs_lon": 117.96104366504699,
+    "cgcs_lat": 35.556919173510316,
+    "amap_lon": 117.966733,
+    "amap_lat": 35.556687,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFG9X91Y",
+    "amap_name": "沂蒙山旅游区云蒙景区南门",
+    "amap_address": "沂蒙山旅游区云蒙景区-孔子登临处东南侧250米",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;海滩",
+    "amap_distance": 1057.13,
+    "amap_businessarea": {
+      "keytag": "门",
+      "rating": "4.0",
+      "rectag": "门"
+    },
+    "cgcs_lon": 117.94327325674504,
+    "cgcs_lat": 35.54856997649183,
+    "amap_lon": 117.94892,
+    "amap_lat": 35.548291,
+    "source": "name_poi"
+  }
+]

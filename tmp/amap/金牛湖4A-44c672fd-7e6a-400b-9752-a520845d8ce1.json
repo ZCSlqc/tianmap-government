@@ -1,0 +1,167 @@
+[
+  {
+    "amap_id": "B00190A5EB",
+    "amap_name": "路营",
+    "amap_address": "六合区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;普通地名;村庄级地名",
+    "amap_distance": 970.64,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.98652634522128,
+    "cgcs_lat": 32.484437620982995,
+    "amap_lon": 118.991788,
+    "amap_lat": 32.482355,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFFGZT81",
+    "amap_name": "茶园",
+    "amap_address": "南京金牛湖风景区",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 972.34,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.98422964112973,
+    "cgcs_lat": 32.47489822838562,
+    "amap_lon": 118.989482,
+    "amap_lat": 32.472807,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFI1XODG",
+    "amap_name": "金牛湖湖景木屋",
+    "amap_address": "金牛湖景区内(近放牧亭)",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 1004.61,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.97347624140367,
+    "cgcs_lat": 32.4726342242234,
+    "amap_lon": 118.97869,
+    "amap_lat": 32.470511,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFFGZLRV",
+    "amap_name": "放牧亭",
+    "amap_address": "南京金牛湖风景区",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 1007.08,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.97342143262121,
+    "cgcs_lat": 32.47262738214941,
+    "amap_lon": 118.978635,
+    "amap_lat": 32.470504,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFFGZI47",
+    "amap_name": "鉴镜亭",
+    "amap_address": "南京金牛湖风景区",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 1030.05,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.97699595090626,
+    "cgcs_lat": 32.47189217542872,
+    "amap_lon": 118.982222,
+    "amap_lat": 32.469779,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0K229E6PW",
+    "amap_name": "南京金牛湖风景区-观景平台",
+    "amap_address": "南京金牛湖风景区",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 1134.3,
+    "amap_businessarea": {
+      "keytag": "自然风光",
+      "rating": "3.3",
+      "business_area": "江北新区",
+      "rectag": "自然风光"
+    },
+    "cgcs_lon": 118.98189042501348,
+    "cgcs_lat": 32.47181474668458,
+    "amap_lon": 118.987134,
+    "amap_lat": 32.469716,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFF3M6GC",
+    "amap_name": "金牛湖度假酒店(南京野生动物王国店)",
+    "amap_address": "金牛湖街道金牛湖路188号",
+    "amap_area": "",
+    "amap_type": "住宿服务;宾馆酒店;宾馆酒店",
+    "amap_distance": 1262.64,
+    "amap_businessarea": {
+      "keytag": "度假酒店",
+      "rating": "4.0",
+      "business_area": "江北新区",
+      "tel": "025-57566098",
+      "rectag": "度假酒店"
+    },
+    "cgcs_lon": 118.9643897144075,
+    "cgcs_lat": 32.48507821448278,
+    "amap_lon": 118.969574,
+    "amap_lat": 32.482932,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFFEC4F2",
+    "amap_name": "金牛湖水库",
+    "amap_address": "六合区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;自然地名;湖泊",
+    "amap_distance": 1298.14,
+    "amap_businessarea": {
+      "keytag": "湖泊",
+      "business_area": "江北新区",
+      "rectag": "湖泊"
+    },
+    "cgcs_lon": 118.99048732912294,
+    "cgcs_lat": 32.47862865154426,
+    "amap_lon": 118.995763,
+    "amap_lat": 32.476557,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFL19FZC",
+    "amap_name": "金牛湖风景区-观景台",
+    "amap_address": "南京金牛湖风景区",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;观景点",
+    "amap_distance": 1385.15,
+    "amap_businessarea": {
+      "keytag": "湖泊河流",
+      "rating": "3.5",
+      "business_area": "江北新区",
+      "rectag": "湖泊河流"
+    },
+    "cgcs_lon": 118.96602350780064,
+    "cgcs_lat": 32.472839972452014,
+    "amap_lon": 118.971212,
+    "amap_lat": 32.470696,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFFGZI4I",
+    "amap_name": "金牛湖风景区水上码头",
+    "amap_address": "南京金牛湖风景区",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 1390.65,
+    "amap_businessarea": {
+      "keytag": "景区",
+      "rating": "3.6",
+      "business_area": "江北新区",
+      "rectag": "景区"
+    },
+    "cgcs_lon": 118.96580820517241,
+    "cgcs_lat": 32.47297253298734,
+    "amap_lon": 118.970996,
+    "amap_lat": 32.470828,
+    "source": "name_poi"
+  }
+]

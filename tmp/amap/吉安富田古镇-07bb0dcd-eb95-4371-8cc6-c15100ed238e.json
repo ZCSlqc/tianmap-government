@@ -1,0 +1,164 @@
+[
+  {
+    "amap_id": "B031C01DF0",
+    "amap_name": "文氏宗祠",
+    "amap_address": "富田路",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;寺庙道观",
+    "amap_distance": 113.81,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 115.24831596590678,
+    "cgcs_lat": 26.81020843258253,
+    "amap_lon": 115.253345,
+    "amap_lat": 26.806807,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0I69A6IR8",
+    "amap_name": "富田村村委会",
+    "amap_address": [],
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;乡镇以下级政府及事业单位",
+    "amap_distance": 146.95,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 115.24945459525748,
+    "cgcs_lat": 26.810978138593875,
+    "amap_lon": 115.254484,
+    "amap_lat": 26.807577,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B031C01DKI",
+    "amap_name": "王氏宗祠",
+    "amap_address": "富田路",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;寺庙道观",
+    "amap_distance": 152.71,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 115.25081526029611,
+    "cgcs_lat": 26.80950407145118,
+    "amap_lon": 115.255845,
+    "amap_lat": 26.806103,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B031C02U6H",
+    "amap_name": "文天祥故里",
+    "amap_address": "富田路附近",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;纪念馆",
+    "amap_distance": 201.17,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 115.24832088660253,
+    "cgcs_lat": 26.81125527911663,
+    "amap_lon": 115.25335,
+    "amap_lat": 26.807854,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFGKZIHJ",
+    "amap_name": "富田街",
+    "amap_address": "青原区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;普通地名;村庄级地名",
+    "amap_distance": 294.88,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 115.24648333214215,
+    "cgcs_lat": 26.810539573546766,
+    "amap_lon": 115.251512,
+    "amap_lat": 26.807138,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0LKN7Q4W1",
+    "amap_name": "青原区富田村",
+    "amap_address": "",
+    "amap_area": "",
+    "amap_type": "商务住宅;商务住宅相关;商务住宅相关",
+    "amap_distance": 166.36,
+    "amap_businessarea": {
+      "keytag": "住宅区",
+      "rectag": "住宅区"
+    },
+    "cgcs_lon": 115.24999542403795,
+    "cgcs_lat": 26.81102602805017,
+    "amap_lon": 115.255025,
+    "amap_lat": 26.807625,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B031C01L9X",
+    "amap_name": "中共富田村支部委员会",
+    "amap_address": "富田中学",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;乡镇以下级政府及事业单位",
+    "amap_distance": 511.36,
+    "amap_businessarea": {
+      "keytag": "党委会",
+      "alias": "中共富田村支委(富田路)",
+      "rectag": "党委会"
+    },
+    "cgcs_lon": 115.25021111663135,
+    "cgcs_lat": 26.814205513938056,
+    "amap_lon": 115.255241,
+    "amap_lat": 26.810805,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFGJAAPP",
+    "amap_name": "富田景区",
+    "amap_address": "富田镇距市中心城区50余公里",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 581.79,
+    "amap_businessarea": {
+      "opentime_today": "08:30-17:30",
+      "keytag": "文物古迹",
+      "rating": "4.0",
+      "rectag": "文物古迹",
+      "opentime_week": "1/1-12/31 08:30-17:30开放"
+    },
+    "cgcs_lon": 115.24394254863306,
+    "cgcs_lat": 26.811801439992,
+    "amap_lon": 115.248971,
+    "amap_lat": 26.8084,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B031C001MK",
+    "amap_name": "吉安市青原区富田中心卫生院",
+    "amap_address": "福田镇文山路",
+    "amap_area": "",
+    "amap_type": "医疗保健服务;综合医院;卫生院",
+    "amap_distance": 675.52,
+    "amap_businessarea": {
+      "keytag": "卫生院",
+      "rectag": "卫生院"
+    },
+    "cgcs_lon": 115.25086678757273,
+    "cgcs_lat": 26.81559515991428,
+    "amap_lon": 115.255897,
+    "amap_lat": 26.812195,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFGJOVC2",
+    "amap_name": "中国邮政集团公司吉安市富田邮政所(富田邮政所)",
+    "amap_address": "文山路与富田路交叉口西300米",
+    "amap_area": "",
+    "amap_type": "生活服务;邮局;邮政速递",
+    "amap_distance": 790.77,
+    "amap_businessarea": {
+      "opentime_today": "08:00-17:30",
+      "keytag": "邮局",
+      "rating": "3.9",
+      "rectag": "邮局",
+      "opentime_week": "周一至周日 08:00-17:30"
+    },
+    "cgcs_lon": 115.24821950303019,
+    "cgcs_lat": 26.816737475941093,
+    "amap_lon": 115.253249,
+    "amap_lat": 26.813337,
+    "source": "name_poi"
+  }
+]

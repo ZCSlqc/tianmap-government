@@ -1,0 +1,166 @@
+[
+  {
+    "amap_id": "B0FFJ4AESV",
+    "amap_name": "石湫街道城市管理执法中队",
+    "amap_address": "新河南路与塘铜线交叉口西南240米",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;乡镇级政府及事业单位",
+    "amap_distance": 212.0,
+    "amap_businessarea": "石湫",
+    "cgcs_lon": 118.90676281536624,
+    "cgcs_lat": 31.64726600806762,
+    "amap_lon": 118.911752,
+    "amap_lat": 31.645119,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFG0PND9",
+    "amap_name": "敏宝车行",
+    "amap_address": "石湫镇石湫路14号(爱尔健康厨房)",
+    "amap_area": "",
+    "amap_type": "购物服务;专卖店;自行车专卖店",
+    "amap_distance": 239.17,
+    "amap_businessarea": "石湫",
+    "cgcs_lon": 118.90721330882417,
+    "cgcs_lat": 31.64971586155544,
+    "amap_lon": 118.912203,
+    "amap_lat": 31.647569,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "BZAKQG005D",
+    "amap_name": "三五桥",
+    "amap_address": "溧水区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;桥",
+    "amap_distance": 248.41,
+    "amap_businessarea": "石湫",
+    "cgcs_lon": 118.90546327488856,
+    "cgcs_lat": 31.650753639811594,
+    "amap_lon": 118.910452,
+    "amap_lat": 31.648606,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "BV11402242",
+    "amap_name": "石湫岔路口(公交站)",
+    "amap_address": "溧水331路",
+    "amap_area": "",
+    "amap_type": "交通设施服务;公交车站;公交车站相关",
+    "amap_distance": 283.07,
+    "amap_businessarea": "石湫",
+    "cgcs_lon": 118.90808682203912,
+    "cgcs_lat": 31.648570406206606,
+    "amap_lon": 118.913077,
+    "amap_lat": 31.646424,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFFDDV6I",
+    "amap_name": "石湫村",
+    "amap_address": "溧水区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;普通地名;村庄级地名",
+    "amap_distance": 295.02,
+    "amap_businessarea": "石湫",
+    "cgcs_lon": 118.90421490163361,
+    "cgcs_lat": 31.65108610016378,
+    "amap_lon": 118.909203,
+    "amap_lat": 31.648938,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0H3PC359H",
+    "amap_name": "南京艺术学院国际博物馆学院",
+    "amap_address": "北京西路74号南京艺术学院",
+    "amap_area": "",
+    "amap_type": "科教文化服务;学校;高等院校",
+    "amap_distance": 48190.45,
+    "amap_businessarea": {
+      "keytag": "学院",
+      "business_area": "虎踞北路",
+      "rectag": "学院"
+    },
+    "cgcs_lon": 118.74839322783735,
+    "cgcs_lat": 32.06205074220292,
+    "amap_lon": 118.753619,
+    "amap_lat": 32.060013,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFLJUI7D",
+    "amap_name": "南京艺术学院设计学院",
+    "amap_address": "北京西路74号南京艺术学院",
+    "amap_area": "",
+    "amap_type": "科教文化服务;学校;高等院校",
+    "amap_distance": 48285.98,
+    "amap_businessarea": {
+      "keytag": "学院",
+      "business_area": "虎踞北路",
+      "rectag": "学院"
+    },
+    "cgcs_lon": 118.74828313557829,
+    "cgcs_lat": 32.06292592175896,
+    "amap_lon": 118.753509,
+    "amap_lat": 32.060888,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B001911N9U",
+    "amap_name": "南京艺术学院逸夫图书馆",
+    "amap_address": "北京西路74号南京艺术学院",
+    "amap_area": "",
+    "amap_type": "科教文化服务;图书馆;图书馆",
+    "amap_distance": 48425.59,
+    "amap_businessarea": {
+      "opentime_today": "08:30-21:30",
+      "keytag": "图书馆",
+      "business_area": "虎踞北路",
+      "tel": "025-83498461",
+      "rectag": "图书馆",
+      "opentime_week": "周一至周日 08:30-21:30"
+    },
+    "cgcs_lon": 118.74887106438763,
+    "cgcs_lat": 32.064410323721695,
+    "amap_lon": 118.754097,
+    "amap_lat": 32.062372,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFH2KXIL",
+    "amap_name": "南京艺术学院紫金文创研究院",
+    "amap_address": "北京西路74号南京艺术学院",
+    "amap_area": "",
+    "amap_type": "科教文化服务;科研机构;科研机构",
+    "amap_distance": 48457.71,
+    "amap_businessarea": {
+      "keytag": "学院",
+      "business_area": "虎踞北路",
+      "rectag": "学院"
+    },
+    "cgcs_lon": 118.74892504168821,
+    "cgcs_lat": 32.06472940138265,
+    "amap_lon": 118.754151,
+    "amap_lat": 32.062691,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0J6P51Z1J",
+    "amap_name": "南京艺术学院体育馆",
+    "amap_address": "北京西路74号南京艺术学院",
+    "amap_area": "",
+    "amap_type": "体育休闲服务;运动场馆;综合体育馆",
+    "amap_distance": 48464.81,
+    "amap_businessarea": {
+      "keytag": "综合场馆",
+      "rating": "3.8",
+      "business_area": "虎踞北路",
+      "rectag": "综合场馆"
+    },
+    "cgcs_lon": 118.74692891835332,
+    "cgcs_lat": 32.06424708789388,
+    "amap_lon": 118.752155,
+    "amap_lat": 32.062209,
+    "source": "name_poi"
+  }
+]

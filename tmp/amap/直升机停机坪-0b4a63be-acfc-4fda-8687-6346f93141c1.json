@@ -1,0 +1,139 @@
+[
+  {
+    "amap_id": "B0KUPUADGM",
+    "amap_name": "上海龙华直升机场",
+    "amap_address": "龙腾大道2500号",
+    "amap_area": "",
+    "amap_type": "交通设施服务;机场相关;直升机场",
+    "amap_distance": 32.05,
+    "amap_businessarea": "龙华",
+    "cgcs_lon": 121.46021548259353,
+    "cgcs_lat": 31.167875402796806,
+    "amap_lon": 121.464761,
+    "amap_lat": 31.165925,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0L6A70K0V",
+    "amap_name": "高而远智航飞行俱乐部·无人机培训",
+    "amap_address": "龙腾大道2500号",
+    "amap_area": "",
+    "amap_type": "科教文化服务;培训机构;培训机构",
+    "amap_distance": 114.7,
+    "amap_businessarea": "龙华",
+    "cgcs_lon": 121.45986133099656,
+    "cgcs_lat": 31.16899494260975,
+    "amap_lon": 121.464408,
+    "amap_lat": 31.167046,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0L2TO44Z8",
+    "amap_name": "Plusone咖啡(西岸店)",
+    "amap_address": "龙腾大道2596号(云锦路地铁站3号口步行450米)",
+    "amap_area": "",
+    "amap_type": "餐饮服务;咖啡厅;咖啡厅",
+    "amap_distance": 132.48,
+    "amap_businessarea": "龙华",
+    "cgcs_lon": 121.45873202480625,
+    "cgcs_lat": 31.16862133894147,
+    "amap_lon": 121.463282,
+    "amap_lat": 31.166675,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0J3R71VTO",
+    "amap_name": "上海油罐艺术公园1号罐",
+    "amap_address": "龙腾大道2398号",
+    "amap_area": "",
+    "amap_type": "科教文化服务;科教文化场所;科教文化场所",
+    "amap_distance": 140.13,
+    "amap_businessarea": "龙华",
+    "cgcs_lon": 121.45870005110585,
+    "cgcs_lat": 31.167220981516824,
+    "amap_lon": 121.46325,
+    "amap_lat": 31.165274,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFHUD4BQ",
+    "amap_name": "上海油罐艺术中心",
+    "amap_address": "龙腾大道2380号",
+    "amap_area": "",
+    "amap_type": "科教文化服务;美术馆;美术馆",
+    "amap_distance": 166.76,
+    "amap_businessarea": "龙华",
+    "cgcs_lon": 121.45977428890517,
+    "cgcs_lat": 31.16646902711532,
+    "amap_lon": 121.464321,
+    "amap_lat": 31.164519,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0LKXAJICI",
+    "amap_name": "Helicopter Landing Site 直升机停机坪",
+    "amap_address": "Sai Kung",
+    "amap_area": "",
+    "amap_type": "体育休闲服务;体育休闲服务场所;体育休闲服务场所",
+    "amap_distance": 1199761.59,
+    "amap_businessarea": {
+      "keytag": "体育休闲服务,体育休闲服务场所,体育休闲服务场所",
+      "rating": "3.4"
+    },
+    "cgcs_lon": 114.36997057896802,
+    "cgcs_lat": 22.3983510881074,
+    "amap_lon": 114.374899,
+    "amap_lat": 22.395661,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0K279Y0LM",
+    "amap_name": "浪茄训练中心直升机坪",
+    "amap_address": "Sai Kung,香港",
+    "amap_area": "",
+    "amap_type": "交通设施服务;交通服务相关;交通服务相关",
+    "amap_distance": 1201500.65,
+    "amap_businessarea": {
+      "keytag": "交通设施服务,交通服务相关,交通服务相关"
+    },
+    "cgcs_lon": 114.37520393489575,
+    "cgcs_lat": 22.375992745164428,
+    "amap_lon": 114.380134,
+    "amap_lat": 22.373311,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0LKXZK4YF",
+    "amap_name": "直升机停机坪",
+    "amap_address": "香港西贡市",
+    "amap_area": "",
+    "amap_type": "体育休闲服务;体育休闲服务场所;体育休闲服务场所",
+    "amap_distance": 1207468.83,
+    "amap_businessarea": {
+      "keytag": "体育休闲服务,体育休闲服务场所,体育休闲服务场所",
+      "rating": "3.1"
+    },
+    "cgcs_lon": 114.2743124428795,
+    "cgcs_lat": 22.375113919352717,
+    "amap_lon": 114.279124,
+    "amap_lat": 22.372272,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0K3MHNEZY",
+    "amap_name": "直升机停机坪",
+    "amap_address": "香港大榄荃锦自然教育径",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;国家级景点",
+    "amap_distance": 1214797.74,
+    "amap_businessarea": {
+      "keytag": "风景名胜,风景名胜,国家级景点",
+      "rating": "3.2"
+    },
+    "cgcs_lon": 114.10061109533694,
+    "cgcs_lat": 22.4076041891769,
+    "amap_lon": 114.105719,
+    "amap_lat": 22.404925,
+    "source": "name_poi"
+  }
+]

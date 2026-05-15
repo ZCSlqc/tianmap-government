@@ -1,0 +1,124 @@
+[
+  {
+    "amap_id": "B0FFK09WXW",
+    "amap_name": "龙泉古镇·戏剧幻城",
+    "amap_address": "槐安西路与山前大道交汇处东南角250米",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 76.98,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 114.3355223403315,
+    "cgcs_lat": 38.01970374863751,
+    "amap_lon": 114.34178,
+    "amap_lat": 38.020488,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0JGVS5UUN",
+    "amap_name": "龙泉古镇-望景楼",
+    "amap_address": "上庄镇槐安西路与山前大道交叉口东南180米",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 204.52,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 114.33266340540489,
+    "cgcs_lat": 38.018952912486995,
+    "amap_lon": 114.338916,
+    "amap_lat": 38.019732,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0IRTUCQSR",
+    "amap_name": "龙泉古镇·戏剧幻城2号停车场",
+    "amap_address": "岗东街与山前大道交叉口南100米",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 267.02,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 114.33198851389376,
+    "cgcs_lat": 38.01961332116153,
+    "amap_lon": 114.33824,
+    "amap_lat": 38.020391,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "BV11163402",
+    "amap_name": "新庄新村(公交站)",
+    "amap_address": "304班线304路304路(中以农科小镇)335路",
+    "amap_area": "",
+    "amap_type": "交通设施服务;公交车站;公交车站相关",
+    "amap_distance": 306.48,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 114.33617896823533,
+    "cgcs_lat": 38.02174797385801,
+    "amap_lon": 114.342438,
+    "amap_lat": 38.022533,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0H3RSEKBS",
+    "amap_name": "地面停车场",
+    "amap_address": "槐安路与山前大道交叉口南行200米路西",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 308.42,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 114.33175710606982,
+    "cgcs_lat": 38.01805842477914,
+    "amap_lon": 114.338008,
+    "amap_lat": 38.018836,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0JA2CC3K5",
+    "amap_name": "龙泉古镇水乡影视城",
+    "amap_address": "上庄镇淮西路898号龙泉古镇望江楼二楼",
+    "amap_area": "",
+    "amap_type": "体育休闲服务;娱乐场所;娱乐场所",
+    "amap_distance": 86.25,
+    "amap_businessarea": {
+      "keytag": "体育休闲服务,娱乐场所,娱乐场所",
+      "rating": "4.2"
+    },
+    "cgcs_lon": 114.33402401724805,
+    "cgcs_lat": 38.019028384922876,
+    "amap_lon": 114.340279,
+    "amap_lat": 38.01981,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0K0UASUYV",
+    "amap_name": "龙泉古镇游乐场",
+    "amap_address": "槐安西路与山前大道交叉口东420米",
+    "amap_area": "",
+    "amap_type": "体育休闲服务;休闲场所;游乐场",
+    "amap_distance": 150.68,
+    "amap_businessarea": {
+      "keytag": "游乐园",
+      "rating": "4.0",
+      "rectag": "游乐园"
+    },
+    "cgcs_lon": 114.3366973706704,
+    "cgcs_lat": 38.0193014991037,
+    "amap_lon": 114.342957,
+    "amap_lat": 38.020088,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0JK7RL78L",
+    "amap_name": "龙泉古镇·戏剧幻城售票处",
+    "amap_address": "龙泉古镇·戏剧幻城内(西侧)",
+    "amap_area": "",
+    "amap_type": "生活服务;售票处;售票处",
+    "amap_distance": 223.31,
+    "amap_businessarea": {
+      "keytag": "售票处",
+      "rectag": "售票处"
+    },
+    "cgcs_lon": 114.33248673212,
+    "cgcs_lat": 38.01881421437586,
+    "amap_lon": 114.338739,
+    "amap_lat": 38.019593,
+    "source": "name_poi"
+  }
+]

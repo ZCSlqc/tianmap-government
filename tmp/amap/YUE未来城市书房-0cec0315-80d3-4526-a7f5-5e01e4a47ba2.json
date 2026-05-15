@@ -1,0 +1,93 @@
+[
+  {
+    "amap_id": "B0FFJ8AAYO",
+    "amap_name": "B座",
+    "amap_address": "新华路178号南京市江北新区图书馆",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 12.52,
+    "amap_businessarea": "西厂门",
+    "cgcs_lon": 118.74414297549642,
+    "cgcs_lat": 32.2257509202205,
+    "amap_lon": 118.749384,
+    "amap_lat": 32.223684,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFIWFFZB",
+    "amap_name": "大厂图书馆A座",
+    "amap_address": "新华路与健民路交叉口东200米",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 32.15,
+    "amap_businessarea": "西厂门",
+    "cgcs_lon": 118.74379303094854,
+    "cgcs_lat": 32.225490904442665,
+    "amap_lon": 118.749034,
+    "amap_lat": 32.223424,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0J6KH9NUR",
+    "amap_name": "江北新区图书馆(新华路馆)",
+    "amap_address": "新华路178号",
+    "amap_area": "",
+    "amap_type": "科教文化服务;图书馆;图书馆",
+    "amap_distance": 33.25,
+    "amap_businessarea": "西厂门",
+    "cgcs_lon": 118.74382703233815,
+    "cgcs_lat": 32.225440896556655,
+    "amap_lon": 118.749068,
+    "amap_lat": 32.223374,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0GUX670KB",
+    "amap_name": "南京市江北新区图书馆A座",
+    "amap_address": "新华路与健民路交叉口东北180米",
+    "amap_area": "",
+    "amap_type": "科教文化服务;图书馆;图书馆",
+    "amap_distance": 36.66,
+    "amap_businessarea": "西厂门",
+    "cgcs_lon": 118.74372503596263,
+    "cgcs_lat": 32.22550891030168,
+    "amap_lon": 118.748966,
+    "amap_lat": 32.223442,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFG3NR0J",
+    "amap_name": "江北新区大厂街道社区卫生服务中心",
+    "amap_address": "大厂街道新华路206号",
+    "amap_area": "",
+    "amap_type": "医疗保健服务;综合医院;卫生院",
+    "amap_distance": 45.47,
+    "amap_businessarea": "西厂门",
+    "cgcs_lon": 118.74446893821168,
+    "cgcs_lat": 32.225890926574635,
+    "amap_lon": 118.74971,
+    "amap_lat": 32.223824,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFM93ALE",
+    "amap_name": "未来书房(B座店)",
+    "amap_address": "新华路178号B座F1层",
+    "amap_area": "",
+    "amap_type": "购物服务;专卖店;书店",
+    "amap_distance": 11.65,
+    "amap_businessarea": {
+      "opentime_today": "08:30-21:00",
+      "keytag": "书店",
+      "rating": "4.0",
+      "business_area": "江北新区直管区",
+      "rectag": "书店",
+      "opentime_week": "周二至周日 08:30-21:00"
+    },
+    "cgcs_lon": 118.74406798089542,
+    "cgcs_lat": 32.22575992436488,
+    "amap_lon": 118.749309,
+    "amap_lat": 32.223693,
+    "source": "name_poi"
+  }
+]

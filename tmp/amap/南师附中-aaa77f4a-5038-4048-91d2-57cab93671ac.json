@@ -1,0 +1,148 @@
+[
+  {
+    "amap_id": "B0KUYC391X",
+    "amap_name": "南京师范大学附属中学数字城学校",
+    "amap_address": "星野路36号",
+    "amap_area": "",
+    "amap_type": "科教文化服务;学校;中学",
+    "amap_distance": 25.94,
+    "amap_businessarea": "铁心桥",
+    "cgcs_lon": 118.76655003529707,
+    "cgcs_lat": 31.966250179660985,
+    "amap_lon": 118.771758,
+    "amap_lat": 31.964226,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0JDDCOU0X",
+    "amap_name": "上海宝冶集团徐工中学项目部",
+    "amap_address": "龙翔路518号",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 106.49,
+    "amap_businessarea": "铁心桥",
+    "cgcs_lon": 118.766353796058,
+    "cgcs_lat": 31.967002199716116,
+    "amap_lon": 118.771562,
+    "amap_lat": 31.964978,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0IA3ASAN4",
+    "amap_name": "荷雨路",
+    "amap_address": "雨花台区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;道路名",
+    "amap_distance": 141.33,
+    "amap_businessarea": "铁心桥",
+    "cgcs_lon": 118.76649689103256,
+    "cgcs_lat": 31.96731538352946,
+    "amap_lon": 118.771705,
+    "amap_lat": 31.965291,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0IK4ALI7J",
+    "amap_name": "中铁龙湖宸阅府1栋",
+    "amap_address": "数字大道519号",
+    "amap_area": "",
+    "amap_type": "地名地址信息;门牌信息;楼栋号",
+    "amap_distance": 167.96,
+    "amap_businessarea": "铁心桥",
+    "cgcs_lon": 118.7677272000333,
+    "cgcs_lat": 31.965022843942624,
+    "amap_lon": 118.772934,
+    "amap_lat": 31.962998,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0IA67C67Q",
+    "amap_name": "中铁龙湖宸阅府",
+    "amap_address": "数字大道519号",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;住宅小区",
+    "amap_distance": 206.44,
+    "amap_businessarea": "铁心桥",
+    "cgcs_lon": 118.7684628516742,
+    "cgcs_lat": 31.965384543040972,
+    "amap_lon": 118.773669,
+    "amap_lat": 31.963359,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0KDXAZE7I",
+    "amap_name": "南京师范大学附属中学雨花台学校",
+    "amap_address": "南京医药健康产业园B-5-101仁恒城市星光",
+    "amap_area": "",
+    "amap_type": "科教文化服务;学校;中学",
+    "amap_distance": 3009.24,
+    "amap_businessarea": {
+      "keytag": "高级中学",
+      "business_area": "小行",
+      "rectag": "高级中学"
+    },
+    "cgcs_lon": 118.73847002134286,
+    "cgcs_lat": 31.979048477813254,
+    "amap_lon": 118.743687,
+    "amap_lat": 31.977029,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0019074W7",
+    "amap_name": "南京师范大学附属中学新城初级中学",
+    "amap_address": "黄山路123号",
+    "amap_area": "",
+    "amap_type": "科教文化服务;学校;中学",
+    "amap_distance": 5042.64,
+    "amap_businessarea": {
+      "keytag": "中学",
+      "business_area": "中央商场",
+      "tel": "025-86478021",
+      "rectag": "中学"
+    },
+    "cgcs_lon": 118.73181318245379,
+    "cgcs_lat": 32.00066099940541,
+    "amap_lon": 118.737029,
+    "amap_lat": 31.998634,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B00190BTM1",
+    "amap_name": "南京师范大学附属中学新城小学南校区",
+    "amap_address": "楠溪江东街82号",
+    "amap_area": "",
+    "amap_type": "科教文化服务;学校;小学|生活服务;生活服务场所;生活服务场所",
+    "amap_distance": 5153.57,
+    "amap_businessarea": {
+      "keytag": "小学",
+      "business_area": "元通",
+      "tel": "025-87796904",
+      "rectag": "小学"
+    },
+    "cgcs_lon": 118.72510765486878,
+    "cgcs_lat": 31.996384199825158,
+    "amap_lon": 118.730318,
+    "amap_lat": 31.994354,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFFAJZD2",
+    "amap_name": "南京师范大学附属中学(新城初级中学黄山路分校)",
+    "amap_address": "河西中央商务区黄山路与嘉陵江东街交口",
+    "amap_area": "",
+    "amap_type": "科教文化服务;学校;中学",
+    "amap_distance": 5182.74,
+    "amap_businessarea": {
+      "keytag": "初级中学",
+      "business_area": "元通",
+      "alias": "新城初级中学黄山路分校",
+      "tel": "025-86478211",
+      "rectag": "初级中学"
+    },
+    "cgcs_lon": 118.71811963827496,
+    "cgcs_lat": 31.988181348182565,
+    "amap_lon": 118.723322,
+    "amap_lat": 31.986147,
+    "source": "name_poi"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "amap_id": "B0K3KYLFYK",
+    "amap_name": "江清月近人实景演艺游船码头",
+    "amap_address": "江滨中路与步行街交叉口东北40米",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 101.16,
+    "amap_businessarea": "建德",
+    "cgcs_lon": 119.29632551634552,
+    "cgcs_lat": 29.49632800477679,
+    "amap_lon": 119.301407,
+    "amap_lat": 29.493807,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFI6ZANQ",
+    "amap_name": "建德新安江城东集散中心旅游码头",
+    "amap_address": "江滨路旁边",
+    "amap_area": "",
+    "amap_type": "交通设施服务;交通服务相关;交通服务相关",
+    "amap_distance": 106.31,
+    "amap_businessarea": "建德",
+    "cgcs_lon": 119.29624865615023,
+    "cgcs_lat": 29.496248167050844,
+    "amap_lon": 119.30133,
+    "amap_lat": 29.493727,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFKOSRDG",
+    "amap_name": "新安江景区双江街旅游码头",
+    "amap_address": "新安江街道步行街",
+    "amap_area": "",
+    "amap_type": "交通设施服务;港口码头;港口码头",
+    "amap_distance": 111.97,
+    "amap_businessarea": "建德",
+    "cgcs_lon": 119.29638242498677,
+    "cgcs_lat": 29.496243948782944,
+    "amap_lon": 119.301464,
+    "amap_lat": 29.493723,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0HRPY3YBO",
+    "amap_name": "贵阳烙锅丝娃娃(江干新安江旅游休闲特色街店)",
+    "amap_address": "新安江街道江滨中路643号",
+    "amap_area": "",
+    "amap_type": "餐饮服务;餐饮相关场所;餐饮相关",
+    "amap_distance": 120.31,
+    "amap_businessarea": "建德",
+    "cgcs_lon": 119.29586233871385,
+    "cgcs_lat": 29.496059885365582,
+    "amap_lon": 119.300943,
+    "amap_lat": 29.493538,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFG73F1I",
+    "amap_name": "中国石化焦山加油站",
+    "amap_address": "新安江街道新安江路1号",
+    "amap_area": "",
+    "amap_type": "汽车服务;加油站;中国石化",
+    "amap_distance": 131.3,
+    "amap_businessarea": "建德",
+    "cgcs_lon": 119.29514439042111,
+    "cgcs_lat": 29.49814612140047,
+    "amap_lon": 119.300224,
+    "amap_lat": 29.495624,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFK0NI9J",
+    "amap_name": "建德苞茶品牌管理与服务中心",
+    "amap_address": "新安江旅游休闲特色街(建德新安江景区店)",
+    "amap_area": "",
+    "amap_type": "购物服务;专卖店;专营店|公司企业;公司;公司",
+    "amap_distance": 129.28,
+    "amap_businessarea": {
+      "opentime_today": "08:00-20:00",
+      "keytag": "公司",
+      "rating": "4.1",
+      "tel": "13805703163",
+      "rectag": "公司",
+      "opentime_week": "周一至周日 08:00-20:00"
+    },
+    "cgcs_lon": 119.29580843801631,
+    "cgcs_lat": 29.495983008075967,
+    "amap_lon": 119.300889,
+    "amap_lat": 29.493461,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFMEO50Y",
+    "amap_name": "公共厕所(步行街)",
+    "amap_address": "·新安江旅游休闲特色街",
+    "amap_area": "",
+    "amap_type": "公共设施;公共厕所;公共厕所",
+    "amap_distance": 174.63,
+    "amap_businessarea": {
+      "opentime_today": "24小时营业",
+      "keytag": "公厕",
+      "rectag": "旅游厕所",
+      "opentime_week": "周一至周日 00:00-24:00"
+    },
+    "cgcs_lon": 119.29535724135819,
+    "cgcs_lat": 29.495636899521376,
+    "amap_lon": 119.300437,
+    "amap_lat": 29.493114,
+    "source": "name_poi"
+  }
+]

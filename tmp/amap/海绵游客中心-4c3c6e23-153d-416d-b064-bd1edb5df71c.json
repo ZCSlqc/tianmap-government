@@ -1,0 +1,172 @@
+[
+  {
+    "amap_id": "B0L12STIGU",
+    "amap_name": "湖北战狼飞行学院",
+    "amap_address": "礼和路与团结大道交叉口东北340米",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 33.92,
+    "amap_businessarea": "冶金",
+    "cgcs_lon": 114.39374153312961,
+    "cgcs_lat": 30.610450819403773,
+    "amap_lon": 114.399291,
+    "amap_lat": 30.608181,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0KAH5YZ8F",
+    "amap_name": "海绵公园",
+    "amap_address": "团结大道1410号",
+    "amap_area": "",
+    "amap_type": "风景名胜;公园广场;公园",
+    "amap_distance": 186.78,
+    "amap_businessarea": "冶金",
+    "cgcs_lon": 114.39355063494294,
+    "cgcs_lat": 30.608583593349923,
+    "amap_lon": 114.3991,
+    "amap_lat": 30.606313,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0IAZZS2SZ",
+    "amap_name": "东方尚锦B区",
+    "amap_address": "礼和路与团结大道交叉口东北240米",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;住宅小区",
+    "amap_distance": 194.92,
+    "amap_businessarea": "冶金",
+    "cgcs_lon": 114.39162689616545,
+    "cgcs_lat": 30.61101797208199,
+    "amap_lon": 114.397177,
+    "amap_lat": 30.608748,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0KUPY43LQ",
+    "amap_name": "东方尚锦",
+    "amap_address": "礼和路与团结大道交叉口北300米",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;住宅小区",
+    "amap_distance": 242.74,
+    "amap_businessarea": "冶金",
+    "cgcs_lon": 114.39151381481803,
+    "cgcs_lat": 30.61165674101938,
+    "amap_lon": 114.397064,
+    "amap_lat": 30.609387,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B001B1H5FE",
+    "amap_name": "和平派出所",
+    "amap_address": "团结大道1400号",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;公检法机构;公安警察",
+    "amap_distance": 295.97,
+    "amap_businessarea": "冶金",
+    "cgcs_lon": 114.39136207526349,
+    "cgcs_lat": 30.608310117672715,
+    "amap_lon": 114.396912,
+    "amap_lat": 30.606039,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFFCLOJG",
+    "amap_name": "武汉欢乐谷游客中心",
+    "amap_address": "欢乐大道196号武汉欢乐谷",
+    "amap_area": "",
+    "amap_type": "生活服务;信息咨询中心;服务中心",
+    "amap_distance": 1591.58,
+    "amap_businessarea": {
+      "opentime_today": "09:00-21:00",
+      "keytag": "游客中心",
+      "business_area": "欢乐大道",
+      "tel": "027-88518861",
+      "rectag": "游客中心",
+      "opentime_week": "周一至周日 09:00-21:00"
+    },
+    "cgcs_lon": 114.38875871573649,
+    "cgcs_lat": 30.596493529338833,
+    "amap_lon": 114.394308,
+    "amap_lat": 30.594217,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFG2BM3R",
+    "amap_name": "东湖落雁景区游客中心",
+    "amap_address": "沿湖大道16号",
+    "amap_area": "",
+    "amap_type": "生活服务;信息咨询中心;服务中心",
+    "amap_distance": 6289.13,
+    "amap_businessarea": {
+      "opentime_today": "08:00-18:30",
+      "keytag": "游客中心",
+      "tel": "027-86430007",
+      "rectag": "游客中心",
+      "opentime_week": "周一至周日 08:00-18:30"
+    },
+    "cgcs_lon": 114.43240549413949,
+    "cgcs_lat": 30.56462016015059,
+    "amap_lon": 114.437901,
+    "amap_lat": 30.562305,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0M69DAQ5W",
+    "amap_name": "黎黄陂路游客中心",
+    "amap_address": "黎黄陂路3号",
+    "amap_area": "",
+    "amap_type": "生活服务;信息咨询中心;服务中心",
+    "amap_distance": 9662.14,
+    "amap_businessarea": {
+      "opentime_today": "10:00-21:00",
+      "keytag": "游客中心",
+      "business_area": "大智路",
+      "rectag": "游客中心",
+      "opentime_week": "周一至周日 10:00-21:00"
+    },
+    "cgcs_lon": 114.29572842724892,
+    "cgcs_lat": 30.58909306256569,
+    "amap_lon": 114.301167,
+    "amap_lat": 30.586674,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0HBXLRC5U",
+    "amap_name": "解放公园游客服务中心",
+    "amap_address": "解放大道1861号解放公园(西南角)",
+    "amap_area": "",
+    "amap_type": "生活服务;信息咨询中心;服务中心",
+    "amap_distance": 9912.23,
+    "amap_businessarea": {
+      "keytag": "游客中心",
+      "business_area": "劳动",
+      "rectag": "游客中心"
+    },
+    "cgcs_lon": 114.29011156941507,
+    "cgcs_lat": 30.608586341035924,
+    "amap_lon": 114.295545,
+    "amap_lat": 30.606166,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0H0VR28VJ",
+    "amap_name": "昙华林游客中心停车场",
+    "amap_address": "昙华林游客服务中心(螃蟹岬地铁站E口步行280米)",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 10159.3,
+    "amap_businessarea": {
+      "opentime_today": "24小时营业",
+      "keytag": "立体停车场",
+      "business_area": "小东门",
+      "rectag": "立体停车场",
+      "parking_type": "地下",
+      "opentime_week": "周一至周日 00:00-24:00"
+    },
+    "cgcs_lon": 114.31041841982653,
+    "cgcs_lat": 30.55338215453039,
+    "amap_lon": 114.315875,
+    "amap_lat": 30.550976,
+    "source": "name_poi"
+  }
+]

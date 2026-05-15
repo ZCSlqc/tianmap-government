@@ -1,0 +1,140 @@
+[
+  {
+    "amap_id": "B02F38TCRX",
+    "amap_name": "创维半导体设计大厦",
+    "amap_address": "高新南四道18号(高新园地铁站D口步行470米)",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 5.62,
+    "amap_businessarea": "科技园",
+    "cgcs_lon": 113.94809092138252,
+    "cgcs_lat": 22.540022328158106,
+    "amap_lon": 113.952981,
+    "amap_lat": 22.537026,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFFA298B",
+    "amap_name": "荟食广场",
+    "amap_address": "创维半导体设计大厦裙楼B1层106F2",
+    "amap_area": "",
+    "amap_type": "购物服务;商场;普通商场",
+    "amap_distance": 6.33,
+    "amap_businessarea": "科技园",
+    "cgcs_lon": 113.94808293405463,
+    "cgcs_lat": 22.540025345303288,
+    "amap_lon": 113.952973,
+    "amap_lat": 22.537029,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0JK2LV5ZU",
+    "amap_name": "赛亚齿科",
+    "amap_address": "创维半导体设计大厦裙楼荟食广场1F层124B",
+    "amap_area": "",
+    "amap_type": "医疗保健服务;专科医院;口腔医院",
+    "amap_distance": 21.13,
+    "amap_businessarea": "科技园",
+    "cgcs_lon": 113.94829658037104,
+    "cgcs_lat": 22.54016387269982,
+    "amap_lon": 113.953187,
+    "amap_lat": 22.537168,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFFEIWEG",
+    "amap_name": "招商银行(深圳创维大厦支行)",
+    "amap_address": "深圳市南山区高新南四道创维半导体设计大厦东座101-120",
+    "amap_area": "",
+    "amap_type": "金融保险服务;银行;招商银行",
+    "amap_distance": 34.82,
+    "amap_businessarea": "科技园",
+    "cgcs_lon": 113.94833451059107,
+    "cgcs_lat": 22.540295782121582,
+    "amap_lon": 113.953225,
+    "amap_lat": 22.5373,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFG4F41D",
+    "amap_name": "创维半导体设计大厦-裙楼",
+    "amap_address": "高新南三道与科技南十路交叉口西南60米",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 49.42,
+    "amap_businessarea": "科技园",
+    "cgcs_lon": 113.94855715119772,
+    "cgcs_lat": 22.540262298403533,
+    "amap_lon": 113.953448,
+    "amap_lat": 22.537267,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFG4IPQQ",
+    "amap_name": "创维半导体设计大厦东座",
+    "amap_address": "",
+    "amap_area": "1363.003373",
+    "amap_type": "120201",
+    "amap_distance": 15.56,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 113.94856913163058,
+    "cgcs_lat": 22.540263272157492,
+    "amap_lon": 113.95346,
+    "amap_lat": 22.537268,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "B0LRG6SSAE",
+    "amap_name": "汇德大厦",
+    "amap_address": "科技南十路与高新南三道交叉口西南60米",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 55.03,
+    "amap_businessarea": {
+      "keytag": "写字楼",
+      "business_area": "大冲",
+      "rectag": "写字楼"
+    },
+    "cgcs_lon": 113.94868395985029,
+    "cgcs_lat": 22.540020035626952,
+    "amap_lon": 113.953575,
+    "amap_lat": 22.537025,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0L16ZQYAZ",
+    "amap_name": "深圳航天科技创新研究院大厦D座",
+    "amap_address": "粤海街道科技南十路6号(高新园地铁站D口步行370米)",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 146.94,
+    "amap_businessarea": {
+      "keytag": "写字楼",
+      "business_area": "科技园",
+      "rectag": "写字楼"
+    },
+    "cgcs_lon": 113.9493827657452,
+    "cgcs_lat": 22.540718454434707,
+    "amap_lon": 113.954275,
+    "amap_lat": 22.537725,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFFA27K8",
+    "amap_name": "哈尔滨工业大学大厦",
+    "amap_address": "科技南十路6号(高新园地铁站D口步行240米)",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 162.11,
+    "amap_businessarea": {
+      "keytag": "写字楼",
+      "business_area": "科技园",
+      "rectag": "写字楼"
+    },
+    "cgcs_lon": 113.94955448089753,
+    "cgcs_lat": 22.540712074167804,
+    "amap_lon": 113.954447,
+    "amap_lat": 22.537719,
+    "source": "name_poi"
+  }
+]

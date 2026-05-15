@@ -1,0 +1,130 @@
+[
+  {
+    "amap_id": "B0FFGQ71X0",
+    "amap_name": "沈家桥",
+    "amap_address": "高淳区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;桥",
+    "amap_distance": 80.35,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.82348513496623,
+    "cgcs_lat": 31.26831877794086,
+    "amap_lon": 118.828534,
+    "amap_lat": 31.266181,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFFDDVAT",
+    "amap_name": "张沈",
+    "amap_address": "高淳区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;普通地名;村庄级地名",
+    "amap_distance": 122.41,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.82269746988203,
+    "cgcs_lat": 31.26835328123215,
+    "amap_lon": 118.827748,
+    "amap_lat": 31.266217,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0GR6HZ125",
+    "amap_name": "砖墙镇退役军人服务站",
+    "amap_address": "砖墙镇文体教中心三楼(永北路)",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;乡镇级政府及事业单位",
+    "amap_distance": 153.0,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.82467160587521,
+    "cgcs_lat": 31.268674858340958,
+    "amap_lon": 118.829718,
+    "amap_lat": 31.266535,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFGK5NSY",
+    "amap_name": "高淳区砖墙中学(东南门)",
+    "amap_address": "双永线与长河街交叉口西40米",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 232.18,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.82496816943328,
+    "cgcs_lat": 31.269370120548576,
+    "amap_lon": 118.830014,
+    "amap_lat": 31.26723,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFGK95UL",
+    "amap_name": "砖墙中心小学(西门)",
+    "amap_address": "砖墙镇永成路10号砖墙中心小学",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 237.61,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.8243421872666,
+    "cgcs_lat": 31.265559568500073,
+    "amap_lon": 118.829389,
+    "amap_lat": 31.263419,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0LBXK6KQI",
+    "amap_name": "砖墙镇体育公园",
+    "amap_address": "双永线与长河街交叉口西南200米",
+    "amap_area": "",
+    "amap_type": "风景名胜;公园广场;公园",
+    "amap_distance": 79.7,
+    "amap_businessarea": {
+      "opentime_today": "24小时营业",
+      "keytag": "社区公园",
+      "rating": "3.1",
+      "rectag": "社区公园",
+      "opentime_week": "周一至周日 00:00-24:00"
+    },
+    "cgcs_lon": 118.82394210344172,
+    "cgcs_lat": 31.2682686590131,
+    "amap_lon": 118.82899,
+    "amap_lat": 31.26613,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0J0B7UGIZ",
+    "amap_name": "特来电汽车充电站(特来电砖墙体育中心充电站)",
+    "amap_address": "砖墙镇体育中心停车场",
+    "amap_area": "",
+    "amap_type": "汽车服务;充电站;充电站",
+    "amap_distance": 106.82,
+    "amap_businessarea": {
+      "opentime_today": "24小时营业",
+      "keytag": "充电站",
+      "rating": "3.8",
+      "tel": "4001300001",
+      "rectag": "充电站",
+      "opentime_week": "周一至周日 00:00-24:00"
+    },
+    "cgcs_lon": 118.82420664720684,
+    "cgcs_lat": 31.26842908838514,
+    "amap_lon": 118.829254,
+    "amap_lat": 31.26629,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B00190CQEW",
+    "amap_name": "砖墙镇敬老院",
+    "amap_address": "砖墙镇双砖线砖墙敬老院",
+    "amap_area": "",
+    "amap_type": "体育休闲服务;度假疗养场所;疗养院",
+    "amap_distance": 1957.0,
+    "amap_businessarea": {
+      "keytag": "养老院",
+      "rectag": "养老院"
+    },
+    "cgcs_lon": 118.83911647732793,
+    "cgcs_lat": 31.279208075213212,
+    "amap_lon": 118.844134,
+    "amap_lat": 31.277046,
+    "source": "name_poi"
+  }
+]

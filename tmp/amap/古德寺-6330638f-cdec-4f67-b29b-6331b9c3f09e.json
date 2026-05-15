@@ -1,0 +1,91 @@
+[
+  {
+    "amap_id": "B0FFL1JOZI",
+    "amap_name": "古德寺-圆通宝殿",
+    "amap_address": "二七街街道二七街街道黄浦大街上滑坡路74号古德寺内",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;寺庙道观",
+    "amap_distance": 10.24,
+    "amap_businessarea": "黄浦路",
+    "cgcs_lon": 114.30256234817354,
+    "cgcs_lat": 30.62090381891037,
+    "amap_lon": 114.308013,
+    "amap_lat": 30.618509,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFL8429R",
+    "amap_name": "古德寺-往生堂",
+    "amap_address": "黄浦大街上滑坡路74号古德寺内(东侧)",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 43.49,
+    "amap_businessarea": "黄浦路",
+    "cgcs_lon": 114.30245446713549,
+    "cgcs_lat": 30.62131583954667,
+    "amap_lon": 114.307905,
+    "amap_lat": 30.618921,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B001B1IGH4",
+    "amap_name": "古德寺(宗教活动场所)",
+    "amap_address": "工农兵路24号",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;寺庙道观",
+    "amap_distance": 62.94,
+    "amap_businessarea": "黄浦路",
+    "cgcs_lon": 114.30183836399236,
+    "cgcs_lat": 30.62111300447764,
+    "amap_lon": 114.307288,
+    "amap_lat": 30.618717,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B001B16D3P",
+    "amap_name": "古德寺(西南门)",
+    "amap_address": "古德寺路与新建后街交叉口北20米",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 68.92,
+    "amap_businessarea": "黄浦路",
+    "cgcs_lon": 114.30182342665962,
+    "cgcs_lat": 30.62063522689697,
+    "amap_lon": 114.307273,
+    "amap_lat": 30.618239,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFL2U3PD",
+    "amap_name": "古德寺-禅堂",
+    "amap_address": "黄浦大街上滑坡路74号古德寺内(北侧)",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 71.53,
+    "amap_businessarea": "黄浦路",
+    "cgcs_lon": 114.30190624615443,
+    "cgcs_lat": 30.621358784555966,
+    "amap_lon": 114.307356,
+    "amap_lat": 30.618963,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "BZA8PF01V1",
+    "amap_name": "古德寺路",
+    "amap_address": "江岸区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;道路名",
+    "amap_distance": 72.95,
+    "amap_businessarea": {
+      "keytag": "道路",
+      "business_area": "黄浦路",
+      "alias": "新建后街",
+      "rectag": "道路"
+    },
+    "cgcs_lon": 114.30185738672257,
+    "cgcs_lat": 30.620539206863945,
+    "amap_lon": 114.307307,
+    "amap_lat": 30.618143,
+    "source": "name_poi"
+  }
+]

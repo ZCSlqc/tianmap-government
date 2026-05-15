@@ -1,0 +1,181 @@
+[
+  {
+    "amap_id": "B0HUO5HD6K",
+    "amap_name": "长白山传奇国际旅游度假区",
+    "amap_address": "白河大街长白山自然博物馆对面",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 28.91,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 128.11036262879696,
+    "cgcs_lat": 42.4019475148877,
+    "amap_lon": 128.116578,
+    "amap_lat": 42.404467,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0KUPZ6HM7",
+    "amap_name": "长白山北景区游客中心(入口)",
+    "amap_address": "保护开发区池北区白山大街与二道白河大街交汇处",
+    "amap_area": "",
+    "amap_type": "通行设施;通行设施;通行设施",
+    "amap_distance": 49.09,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 128.11114746763567,
+    "cgcs_lat": 42.402251095118096,
+    "amap_lon": 128.117362,
+    "amap_lat": 42.40477,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0L16RS81K",
+    "amap_name": "含旨咖啡(长白山店)",
+    "amap_address": "长白山保护开发区池北区含旨咖啡店",
+    "amap_area": "",
+    "amap_type": "餐饮服务;咖啡厅;咖啡厅",
+    "amap_distance": 56.21,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 128.11040957399868,
+    "cgcs_lat": 42.40265552059282,
+    "amap_lon": 128.116625,
+    "amap_lat": 42.405175,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0LRORWUM8",
+    "amap_name": "宝马城",
+    "amap_address": "1110县道与白山大街交叉口东南220米",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 57.03,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 128.1108452072522,
+    "cgcs_lat": 42.401694886854266,
+    "amap_lon": 128.11706,
+    "amap_lat": 42.404214,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0K07CFB34",
+    "amap_name": "长白山金1172",
+    "amap_address": "长白山北景区游客集散中心A馆",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜|购物服务;购物相关场所;购物相关场所",
+    "amap_distance": 75.39,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 128.11093633335628,
+    "cgcs_lat": 42.401543962249484,
+    "amap_lon": 128.117151,
+    "amap_lat": 42.404063,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B05990MB4I",
+    "amap_name": "长白山国家级自然保护区",
+    "amap_address": "",
+    "amap_area": "2550814662.129024",
+    "amap_type": "110202",
+    "amap_distance": 0.0,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 128.04801465980427,
+    "cgcs_lat": 42.0210482587552,
+    "amap_lon": 128.054132,
+    "amap_lat": 42.023555,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "B0HG6CEN1I",
+    "amap_name": "长白山北景区游客集散中心",
+    "amap_address": "保护开发区池北区白山大街与二道白河大街交汇处",
+    "amap_area": "",
+    "amap_type": "生活服务;信息咨询中心;服务中心",
+    "amap_distance": 76.35,
+    "amap_businessarea": {
+      "keytag": "游客中心",
+      "rectag": "游客中心"
+    },
+    "cgcs_lon": 128.11147187188638,
+    "cgcs_lat": 42.40205435485897,
+    "amap_lon": 128.117686,
+    "amap_lat": 42.404573,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0I05C0EYR",
+    "amap_name": "长白山北景区",
+    "amap_address": "长白山池北区长白山景区",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 81.01,
+    "amap_businessarea": {
+      "opentime_today": "08:00-16:30 07:00-16:30",
+      "keytag": "景区",
+      "rating": "4.8",
+      "tel": "4000006789",
+      "rectag": "景区",
+      "opentime_week": "周一至周日 08:00-16:30 最晚进入13:30；景区根据天气变化及客流量营业时间或有调整，详情以景区现场公示为准。 05-01至05-05 周一至周日 07:00-16:30 最晚进入14:30；景区根据天气变化及客流量营业时间或有调整，详情以景区现场公示为准。"
+    },
+    "cgcs_lon": 128.11122364988287,
+    "cgcs_lat": 42.401623179489796,
+    "amap_lon": 128.117438,
+    "amap_lat": 42.404142,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0H1CS3Q4E",
+    "amap_name": "长白山北景区游客集散中心游客社会车辆停车场",
+    "amap_address": "保护开发区池北区白山大街与二道白河大街交汇处",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 462.21,
+    "amap_businessarea": {
+      "opentime_today": "09:00-21:00",
+      "keytag": "地面停车场",
+      "rectag": "地面停车场",
+      "parking_type": "地面",
+      "opentime_week": "周一至周日 09:00-21:00"
+    },
+    "cgcs_lon": 128.1142588132646,
+    "cgcs_lat": 42.40528553986698,
+    "amap_lon": 128.12047,
+    "amap_lat": 42.407802,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "BZE8SM0001",
+    "amap_name": "仙峰岭服务区(延长高速长春方向)",
+    "amap_address": "和龙市",
+    "amap_area": "",
+    "amap_type": "道路附属设施;服务区;高速服务区",
+    "amap_distance": 50915.96,
+    "amap_businessarea": {
+      "keytag": "服务区",
+      "rectag": "服务区"
+    },
+    "cgcs_lon": 128.66608441317317,
+    "cgcs_lat": 42.60495727340133,
+    "amap_lon": 128.672142,
+    "amap_lat": 42.607245,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFHZT8U5",
+    "amap_name": "石油服务区加油站(新合站)",
+    "amap_address": "203省道北",
+    "amap_area": "",
+    "amap_type": "汽车服务;加油站;加油站",
+    "amap_distance": 69726.3,
+    "amap_businessarea": {
+      "opentime_today": "24小时营业",
+      "keytag": "加油站",
+      "rating": "4.0",
+      "rectag": "加油站",
+      "opentime_week": "周一至周日 00:00-24:00"
+    },
+    "cgcs_lon": 128.5119744927594,
+    "cgcs_lat": 42.955560941818504,
+    "amap_lon": 128.518038,
+    "amap_lat": 42.957992,
+    "source": "name_poi"
+  }
+]

@@ -1,0 +1,151 @@
+[
+  {
+    "amap_id": "B00190B693",
+    "amap_name": "国民政府外交部旧址(不对外开放)",
+    "amap_address": "中山北路32号",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 8.46,
+    "amap_businessarea": "湖南路",
+    "cgcs_lon": 118.77380415335188,
+    "cgcs_lat": 32.06623455820678,
+    "amap_lon": 118.779014,
+    "amap_lat": 32.064181,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B00190ADCV",
+    "amap_name": "江苏省人大常委会",
+    "amap_address": "中山北路32号",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;省直辖市级政府及事业单位",
+    "amap_distance": 44.95,
+    "amap_businessarea": "湖南路",
+    "cgcs_lon": 118.77330760589025,
+    "cgcs_lat": 32.06603400938044,
+    "amap_lon": 118.778518,
+    "amap_lat": 32.063981,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B00190B691",
+    "amap_name": "江苏税务大厦",
+    "amap_address": "中山北路55号",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 102.04,
+    "amap_businessarea": "湖南路",
+    "cgcs_lon": 118.77287815812323,
+    "cgcs_lat": 32.065661497401656,
+    "amap_lon": 118.778089,
+    "amap_lat": 32.063609,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFGFFX0R",
+    "amap_name": "湖北路十八号乙楼",
+    "amap_address": "湖北路与厚载巷交叉口北80米",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;住宅小区",
+    "amap_distance": 112.58,
+    "amap_businessarea": "湖南路",
+    "cgcs_lon": 118.77489844491777,
+    "cgcs_lat": 32.066099668810494,
+    "amap_lon": 118.780107,
+    "amap_lat": 32.064045,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFFFQR35",
+    "amap_name": "上海浦东发展银行(鼓楼支行)",
+    "amap_address": "中山北路49号江苏机械大厦F1层",
+    "amap_area": "",
+    "amap_type": "金融保险服务;银行;上海浦东发展银行",
+    "amap_distance": 120.54,
+    "amap_businessarea": "湖南路",
+    "cgcs_lon": 118.77376821108284,
+    "cgcs_lat": 32.065162286253745,
+    "amap_lon": 118.778978,
+    "amap_lat": 32.063109,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0L05NSKSX",
+    "amap_name": "江苏省人大地上停车场",
+    "amap_address": "中山北路32号江苏省人大常委会",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 37.89,
+    "amap_businessarea": {
+      "keytag": "停车场",
+      "business_area": "湖北路",
+      "rectag": "停车场"
+    },
+    "cgcs_lon": 118.77335365346511,
+    "cgcs_lat": 32.06608306662252,
+    "amap_lon": 118.778564,
+    "amap_lat": 32.06403,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0MDYZTC21",
+    "amap_name": "省人大代表服务中心",
+    "amap_address": "中山北路与云南北路交叉口东80米",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;省直辖市级政府及事业单位",
+    "amap_distance": 94.64,
+    "amap_businessarea": {
+      "keytag": "人民代表大会",
+      "business_area": "湖北路",
+      "rectag": "人民代表大会"
+    },
+    "cgcs_lon": 118.77311430546216,
+    "cgcs_lat": 32.06692801079591,
+    "amap_lon": 118.778325,
+    "amap_lat": 32.064875,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFH5S9JH",
+    "amap_name": "江苏省人民医院(本部)职工餐厅",
+    "amap_address": "广州路300号江苏省人民医院内",
+    "amap_area": "",
+    "amap_type": "餐饮服务;中餐厅;中餐厅",
+    "amap_distance": 1945.67,
+    "amap_businessarea": {
+      "opentime_today": "07:00-18:30",
+      "cost": "30.00",
+      "keytag": "食堂",
+      "rating": "4.2",
+      "business_area": "南大",
+      "rectag": "食堂",
+      "opentime_week": "周一至周日 07:00-18:30"
+    },
+    "cgcs_lon": 118.76094583595908,
+    "cgcs_lat": 32.05246709184609,
+    "amap_lon": 118.766166,
+    "amap_lat": 32.050427,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0I1UO30IY",
+    "amap_name": "江苏省人民医院(本部)病员餐厅",
+    "amap_address": "虎踞关与广州路交叉口东北300米",
+    "amap_area": "",
+    "amap_type": "餐饮服务;中餐厅;中餐厅",
+    "amap_distance": 1966.44,
+    "amap_businessarea": {
+      "cost": "27.00",
+      "keytag": "食堂",
+      "rating": "4.3",
+      "business_area": "南大",
+      "rectag": "食堂",
+      "opentime_week": "明周日11:00-16:30"
+    },
+    "cgcs_lon": 118.76076373027367,
+    "cgcs_lat": 32.05235095959706,
+    "amap_lon": 118.765984,
+    "amap_lat": 32.050311,
+    "source": "name_poi"
+  }
+]

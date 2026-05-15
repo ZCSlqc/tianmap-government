@@ -1,0 +1,145 @@
+[
+  {
+    "amap_id": "B0FFHITK6J",
+    "amap_name": "传化美食花园",
+    "amap_address": "钱江世纪城民和路945号传化大厦B2层",
+    "amap_area": "",
+    "amap_type": "餐饮服务;中餐厅;中餐厅",
+    "amap_distance": 35.18,
+    "amap_businessarea": "宁围",
+    "cgcs_lon": 120.23604317032174,
+    "cgcs_lat": 30.24227932370073,
+    "amap_lon": 120.240525,
+    "amap_lat": 30.239825,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFGAR2G6",
+    "amap_name": "传化大厦",
+    "amap_address": "钱江世纪射潮路(钱江世纪城地铁站E3B口步行350米)",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 36.4,
+    "amap_businessarea": "宁围",
+    "cgcs_lon": 120.23603116470464,
+    "cgcs_lat": 30.242178326996836,
+    "amap_lon": 120.240513,
+    "amap_lat": 30.239724,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "BX10032101",
+    "amap_name": "钱江世纪城地铁站E3A口",
+    "amap_address": "6号线",
+    "amap_area": "",
+    "amap_type": "交通设施服务;地铁站;出入口",
+    "amap_distance": 75.3,
+    "amap_businessarea": "宁围",
+    "cgcs_lon": 120.23718547273418,
+    "cgcs_lat": 30.242157700636064,
+    "amap_lon": 120.241666,
+    "amap_lat": 30.239703,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0GUZOJ0OJ",
+    "amap_name": "浙江大学计算机创新技术研究院",
+    "amap_address": "钱江世纪城利一路188号天人大厦33楼",
+    "amap_area": "",
+    "amap_type": "科教文化服务;科研机构;科研机构",
+    "amap_distance": 106.86,
+    "amap_businessarea": "宁围",
+    "cgcs_lon": 120.23531333391209,
+    "cgcs_lat": 30.242043080493087,
+    "amap_lon": 120.239796,
+    "amap_lat": 30.239589,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "BX09915807",
+    "amap_name": "钱江世纪城地铁站出入口",
+    "amap_address": "6号线",
+    "amap_area": "",
+    "amap_type": "交通设施服务;地铁站;出入口",
+    "amap_distance": 112.28,
+    "amap_businessarea": "宁围",
+    "cgcs_lon": 120.23740074728775,
+    "cgcs_lat": 30.24170079802509,
+    "amap_lon": 120.241881,
+    "amap_lat": 30.239246,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFL10KKO",
+    "amap_name": "传化集团警务室",
+    "amap_address": "民和路传化大厦(钱江世纪城地铁站E1口步行240米)",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;公检法机构;公安警察",
+    "amap_distance": 9.18,
+    "amap_businessarea": {
+      "keytag": "公安警察",
+      "tel": "0571-83826110",
+      "rectag": "公安警察"
+    },
+    "cgcs_lon": 120.23643762096481,
+    "cgcs_lat": 30.24230545435319,
+    "amap_lon": 120.240919,
+    "amap_lat": 30.239851,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFHS5LZF",
+    "amap_name": "传化集团",
+    "amap_address": "盈丰街道钱江世纪城平澜路299号浙江商会大厦B座",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 43.42,
+    "amap_businessarea": {
+      "opentime_today": "08:30-18:00",
+      "keytag": "公司",
+      "rectag": "公司",
+      "opentime_week": "周一至周日 08:30-18:00"
+    },
+    "cgcs_lon": 120.23595306552701,
+    "cgcs_lat": 30.242284292238697,
+    "amap_lon": 120.240435,
+    "amap_lat": 30.23983,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0M6ZY0BX1",
+    "amap_name": "传化陆洲科技有限公司",
+    "amap_address": "传化大厦(钱江世纪城地铁站出入口步行200米)",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 56.11,
+    "amap_businessarea": {
+      "keytag": "公司",
+      "rectag": "公司"
+    },
+    "cgcs_lon": 120.23584292967293,
+    "cgcs_lat": 30.24237924683455,
+    "amap_lon": 120.240325,
+    "amap_lat": 30.239925,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0GDDXYZ47",
+    "amap_name": "传化集团-母婴室",
+    "amap_address": "钱江世纪城民和路945号传化集团员工服务中心",
+    "amap_area": "",
+    "amap_type": "生活服务;生活服务场所;生活服务场所",
+    "amap_distance": 67.2,
+    "amap_businessarea": {
+      "opentime_today": "08:30-18:00",
+      "keytag": "母婴室",
+      "rectag": "母婴室",
+      "opentime_week": "周一至周日 08:30-18:00"
+    },
+    "cgcs_lon": 120.23579285898741,
+    "cgcs_lat": 30.242529218176283,
+    "amap_lon": 120.240275,
+    "amap_lat": 30.240075,
+    "source": "name_poi"
+  }
+]

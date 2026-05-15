@@ -1,0 +1,181 @@
+[
+  {
+    "amap_id": "BV09031127",
+    "amap_name": "红山南路·望山路(公交站)",
+    "amap_address": "175路",
+    "amap_area": "",
+    "amap_type": "交通设施服务;公交车站;公交车站相关",
+    "amap_distance": 88.95,
+    "amap_businessarea": "月苑",
+    "cgcs_lon": 118.82001158057946,
+    "cgcs_lat": 32.09240448269473,
+    "amap_lon": 118.825142,
+    "amap_lat": 32.090273,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0L32U3MNO",
+    "amap_name": "南京市博盛风管加工厂",
+    "amap_address": "腾子路48号",
+    "amap_area": "",
+    "amap_type": "公司企业;工厂;工厂",
+    "amap_distance": 158.71,
+    "amap_businessarea": "月苑",
+    "cgcs_lon": 118.82049545788233,
+    "cgcs_lat": 32.09405773678089,
+    "amap_lon": 118.825625,
+    "amap_lat": 32.091925,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0KBFAT6ZQ",
+    "amap_name": "玄武宝龙城珑润华府",
+    "amap_address": "望山路与过街山路交叉口东140米",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;住宅小区",
+    "amap_distance": 217.5,
+    "amap_businessarea": "月苑",
+    "cgcs_lon": 118.81706726672688,
+    "cgcs_lat": 32.09317513444431,
+    "amap_lon": 118.822204,
+    "amap_lat": 32.091049,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "BV09031131",
+    "amap_name": "红山南路东(公交站)",
+    "amap_address": "175路",
+    "amap_area": "",
+    "amap_type": "交通设施服务;公交车站;公交车站相关",
+    "amap_distance": 254.81,
+    "amap_businessarea": "月苑",
+    "cgcs_lon": 118.8220247658809,
+    "cgcs_lat": 32.09345848361965,
+    "amap_lon": 118.827151,
+    "amap_lat": 32.091323,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0G3FHHXWX",
+    "amap_name": "玄武宝龙城",
+    "amap_address": "红山南路与望山路交汇处",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;住宅小区",
+    "amap_distance": 259.96,
+    "amap_businessarea": "月苑",
+    "cgcs_lon": 118.81671147311106,
+    "cgcs_lat": 32.0936295660649,
+    "amap_lon": 118.821849,
+    "amap_lat": 32.091504,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0LRHCA361",
+    "amap_name": "壮观天下国际街区",
+    "amap_address": "",
+    "amap_area": "1321413.752432",
+    "amap_type": "061000",
+    "amap_distance": 0.0,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.81253285330814,
+    "cgcs_lat": 32.09197748287736,
+    "amap_lon": 118.817679,
+    "amap_lat": 32.08986,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "B0HBY5G2L4",
+    "amap_name": "中铁建工集团玄武区玄武之光项目部",
+    "amap_address": "红山路与北苑东路交叉口",
+    "amap_area": "",
+    "amap_type": "公司企业;公司企业;公司企业",
+    "amap_distance": 336.88,
+    "amap_businessarea": {
+      "opentime_today": "24小时营业",
+      "keytag": "公司",
+      "business_area": "月苑",
+      "rectag": "公司",
+      "opentime_week": "周一至周日 00:00-24:00"
+    },
+    "cgcs_lon": 118.82263600017707,
+    "cgcs_lat": 32.09418478411212,
+    "amap_lon": 118.827761,
+    "amap_lat": 32.092048,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0LGHCT7NU",
+    "amap_name": "玄武之光",
+    "amap_address": "易境路与红山南路交叉口北80米",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;住宅区",
+    "amap_distance": 378.51,
+    "amap_businessarea": {
+      "keytag": "自然风光",
+      "rating": "4.2",
+      "business_area": "红山动物园",
+      "rectag": "自然风光"
+    },
+    "cgcs_lon": 118.81631790508415,
+    "cgcs_lat": 32.09075723023884,
+    "amap_lon": 118.821456,
+    "amap_lat": 32.088633,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0JDXOKWH5",
+    "amap_name": "玄武之光展示中心",
+    "amap_address": "玄武大道辅路与花园路交叉口北320米",
+    "amap_area": "",
+    "amap_type": "生活服务;生活服务场所;生活服务场所",
+    "amap_distance": 437.67,
+    "amap_businessarea": {
+      "keytag": "展览馆",
+      "rating": "4.4",
+      "business_area": "红山动物园",
+      "tel": "025-58816600;025-58817700",
+      "rectag": "展览馆"
+    },
+    "cgcs_lon": 118.81610350635113,
+    "cgcs_lat": 32.090171707894314,
+    "amap_lon": 118.821242,
+    "amap_lat": 32.088048,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFF2HA0G",
+    "amap_name": "江苏省科技信息中心",
+    "amap_address": "龙蟠路171-175号金思维大厦",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;省直辖市级政府及事业单位",
+    "amap_distance": 2336.93,
+    "amap_businessarea": {
+      "keytag": "政府机关",
+      "business_area": "板仓村",
+      "rectag": "政府机关"
+    },
+    "cgcs_lon": 118.8077957201212,
+    "cgcs_lat": 32.07434812406453,
+    "amap_lon": 118.81295,
+    "amap_lat": 32.072243,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFFA1CEQ",
+    "amap_name": "南京市科技信息研究所",
+    "amap_address": "成贤街118号南京科技中心6号门",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;地市级政府及事业单位",
+    "amap_distance": 4666.28,
+    "amap_businessarea": {
+      "keytag": "科研机构",
+      "tel": "025-83219276;025-83371679",
+      "rectag": "科研机构"
+    },
+    "cgcs_lon": 118.79119191242329,
+    "cgcs_lat": 32.058404032905855,
+    "amap_lon": 118.796376,
+    "amap_lat": 32.05633,
+    "source": "name_poi"
+  }
+]

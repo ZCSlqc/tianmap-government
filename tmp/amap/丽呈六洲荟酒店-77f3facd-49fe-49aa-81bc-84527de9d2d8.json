@@ -1,0 +1,127 @@
+[
+  {
+    "amap_id": "B0HR9A6W0N",
+    "amap_name": "丽呈六洲荟酒店(高淳宝塔公园店)",
+    "amap_address": "宝塔路246号文化园商业街内J1幢",
+    "amap_area": "",
+    "amap_type": "住宿服务;住宿服务相关;住宿服务相关",
+    "amap_distance": 12.1,
+    "amap_businessarea": "淳溪",
+    "cgcs_lon": 118.88596821238846,
+    "cgcs_lat": 31.324780934849475,
+    "amap_lon": 118.890927,
+    "amap_lat": 31.322579,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0I6PHL26P",
+    "amap_name": "艺之行艺术(宝塔校区)",
+    "amap_address": "宝塔路与胥河路交叉口南80米",
+    "amap_area": "",
+    "amap_type": "科教文化服务;科教文化场所;科教文化场所",
+    "amap_distance": 42.8,
+    "amap_businessarea": "淳溪",
+    "cgcs_lon": 118.88586613313477,
+    "cgcs_lat": 31.325176743151825,
+    "amap_lon": 118.890825,
+    "amap_lat": 31.322975,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0L1VZB1BN",
+    "amap_name": "艺梦舞蹈",
+    "amap_address": "宝塔文化商业街艺梦舞蹈",
+    "amap_area": "",
+    "amap_type": "科教文化服务;培训机构;培训机构",
+    "amap_distance": 43.75,
+    "amap_businessarea": "淳溪",
+    "cgcs_lon": 118.8860161938545,
+    "cgcs_lat": 31.325226793618473,
+    "amap_lon": 118.890975,
+    "amap_lat": 31.323025,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0H0PSFFWF",
+    "amap_name": "约读书房(高淳宝塔路店)",
+    "amap_address": "宝塔路246号宝塔文化商业街S6",
+    "amap_area": "",
+    "amap_type": "科教文化服务;培训机构;培训机构",
+    "amap_distance": 54.71,
+    "amap_businessarea": "淳溪",
+    "cgcs_lon": 118.88656648063903,
+    "cgcs_lat": 31.324577275630542,
+    "amap_lon": 118.891525,
+    "amap_lat": 31.322375,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0KR9ZIHO5",
+    "amap_name": "霸王茶姬(江苏南京高淳宝塔商业街店)",
+    "amap_address": "宝塔路246瑞幸隔壁",
+    "amap_area": "",
+    "amap_type": "餐饮服务;冷饮店;冷饮店",
+    "amap_distance": 96.91,
+    "amap_businessarea": "淳溪",
+    "cgcs_lon": 118.88661641277544,
+    "cgcs_lat": 31.325576931536162,
+    "amap_lon": 118.891575,
+    "amap_lat": 31.323375,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0JK4SNRPL",
+    "amap_name": "六洲荟精品酒店南京文化园店地面停车点",
+    "amap_address": "丽呈六洲荟酒店(高淳宝塔公园店)",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 133.51,
+    "amap_businessarea": {
+      "keytag": "停车场",
+      "business_area": "淳溪",
+      "rectag": "停车场",
+      "parking_type": "地面"
+    },
+    "cgcs_lon": 118.88521178326162,
+    "cgcs_lat": 31.32578321103427,
+    "amap_lon": 118.890171,
+    "amap_lat": 31.323582,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0LUMCEFI4",
+    "amap_name": "丽呈六洲荟酒店(高淳濑渚洲公园店)-停车场",
+    "amap_address": "淳溪街道丹阳湖南路5号丽呈六洲荟酒店(高淳濑渚洲公园店)",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 495.58,
+    "amap_businessarea": {
+      "keytag": "停车场",
+      "rectag": "停车场"
+    },
+    "cgcs_lon": 118.89109368600855,
+    "cgcs_lat": 31.326022281365365,
+    "amap_lon": 118.896051,
+    "amap_lat": 31.323819,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFMHX4FL",
+    "amap_name": "丽呈六洲荟酒店(高淳濑渚洲公园店)",
+    "amap_address": "淳溪街道丹阳湖南路5号",
+    "amap_area": "",
+    "amap_type": "住宿服务;宾馆酒店;宾馆酒店",
+    "amap_distance": 496.37,
+    "amap_businessarea": {
+      "keytag": "舒适型",
+      "rating": "4.7",
+      "tel": "025-57877888;13776536508",
+      "rectag": "舒适型"
+    },
+    "cgcs_lon": 118.89109868595648,
+    "cgcs_lat": 31.326033278572996,
+    "amap_lon": 118.896056,
+    "amap_lat": 31.32383,
+    "source": "name_poi"
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "amap_id": "B020705KS3",
+    "amap_name": "滆湖旅游点",
+    "amap_address": "沧海路79号",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 84.22,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 119.8417618173821,
+    "cgcs_lat": 31.687535926380352,
+    "amap_lon": 119.846551,
+    "amap_lat": 31.685456,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B020705T4U",
+    "amap_name": "揽月湾广场",
+    "amap_address": "西湖街道环湖北路",
+    "amap_area": "",
+    "amap_type": "风景名胜;公园广场;公园",
+    "amap_distance": 134.28,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 119.84044807760206,
+    "cgcs_lat": 31.686586559859517,
+    "amap_lon": 119.845241,
+    "amap_lat": 31.684509,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFKOM568",
+    "amap_name": "西太湖观光塔景区",
+    "amap_address": "揽月路西太湖观光塔",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 134.86,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 119.84070984647096,
+    "cgcs_lat": 31.686530017415443,
+    "amap_lon": 119.845502,
+    "amap_lat": 31.684452,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFI28H8F",
+    "amap_name": "揽月湾广场(北2门)",
+    "amap_address": "西湖街道环湖北路揽月湾广场",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 161.76,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 119.84246076990586,
+    "cgcs_lat": 31.688337195358017,
+    "amap_lon": 119.847248,
+    "amap_lat": 31.686256,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFI27WFE",
+    "amap_name": "揽月湾广场(北1门)",
+    "amap_address": "西湖街道环湖北路揽月湾广场(西北角)",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 176.93,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 119.83945999500314,
+    "cgcs_lat": 31.68874895223964,
+    "amap_lon": 119.844256,
+    "amap_lat": 31.686673,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0LKUHZ92R",
+    "amap_name": "揽月湾广场-地下停车场",
+    "amap_address": "西湖街道环湖北路揽月湾广场(东北角)",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 61.92,
+    "amap_businessarea": {
+      "keytag": "地下停车场",
+      "rectag": "地下停车场"
+    },
+    "cgcs_lon": 119.84131145599343,
+    "cgcs_lat": 31.68814817899357,
+    "amap_lon": 119.846102,
+    "amap_lat": 31.686069,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0J2RMK5S4",
+    "amap_name": "揽月湾广场地面停车点(出入口)",
+    "amap_address": "揽月路666-1号揽月湾广场地面停车点",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;停车场出入口",
+    "amap_distance": 180.6,
+    "amap_businessarea": {
+      "keytag": "交通设施服务,停车场,停车场出入口",
+      "parking_type": "地面"
+    },
+    "cgcs_lon": 119.8393185886258,
+    "cgcs_lat": 31.688649694337087,
+    "amap_lon": 119.844115,
+    "amap_lat": 31.686574,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFGYO41U",
+    "amap_name": "揽月湾广场地面停车点",
+    "amap_address": "揽月路666-1号",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 222.12,
+    "amap_businessarea": {
+      "opentime_today": "24小时营业",
+      "keytag": "地面停车场",
+      "rectag": "地面停车场",
+      "parking_type": "地面",
+      "opentime_week": "周一至周日 00:00-24:00"
+    },
+    "cgcs_lon": 119.8386666964104,
+    "cgcs_lat": 31.688365513768048,
+    "amap_lon": 119.843465,
+    "amap_lat": 31.686291,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0L0A7CC5K",
+    "amap_name": "星心公园",
+    "amap_address": "西湖街道揽月湾广场东侧",
+    "amap_area": "",
+    "amap_type": "风景名胜;公园广场;公园",
+    "amap_distance": 233.35,
+    "amap_businessarea": {
+      "opentime_today": "24小时营业",
+      "keytag": "公园",
+      "rating": "3.6",
+      "rectag": "公园",
+      "opentime_week": "周一至周日 00:00-24:00"
+    },
+    "cgcs_lon": 119.843294263484,
+    "cgcs_lat": 31.68728956780504,
+    "amap_lon": 119.848079,
+    "amap_lat": 31.685207,
+    "source": "name_poi"
+  }
+]

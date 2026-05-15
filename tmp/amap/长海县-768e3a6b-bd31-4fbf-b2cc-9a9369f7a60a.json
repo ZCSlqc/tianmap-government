@@ -1,0 +1,72 @@
+[
+  {
+    "amap_id": "B019B0YDBG",
+    "amap_name": "中国移动长海分公司",
+    "amap_address": "大长山岛镇四块石湾公园5号",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;电信公司|生活服务;电讯营业厅;中国移动营业厅",
+    "amap_distance": 202.57,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 122.5894163399747,
+    "cgcs_lat": 39.270755363273764,
+    "amap_lon": 122.594214,
+    "amap_lat": 39.271763,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0KB976U3Q",
+    "amap_name": "长海县烟草专卖局",
+    "amap_address": "大长山岛镇四块石湾公园3号",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;区县级政府及事业单位",
+    "amap_distance": 212.01,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 122.58982126719185,
+    "cgcs_lat": 39.27069644931211,
+    "amap_lon": 122.594619,
+    "amap_lat": 39.271704,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFHDQF09",
+    "amap_name": "中国工商银行(长海县支行)",
+    "amap_address": "国家税务总局长海县税务局东侧130米",
+    "amap_area": "",
+    "amap_type": "金融保险服务;银行;中国工商银行",
+    "amap_distance": 253.73,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 122.58844442594943,
+    "cgcs_lat": 39.2713378897488,
+    "amap_lon": 122.593242,
+    "amap_lat": 39.272346,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFI9IW4B",
+    "amap_name": "长海县大长山岛镇新长兴家私城",
+    "amap_address": "大长山岛镇环海路178号",
+    "amap_area": "",
+    "amap_type": "购物服务;家居建材市场;家具城",
+    "amap_distance": 263.72,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 122.58789548278628,
+    "cgcs_lat": 39.27137276193448,
+    "amap_lon": 122.592693,
+    "amap_lat": 39.272381,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFKJJMUQ",
+    "amap_name": "长海县住房和城乡建设局",
+    "amap_address": "大长山岛镇环海路175号",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;区县级政府及事业单位",
+    "amap_distance": 269.93,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 122.58765450282722,
+    "cgcs_lat": 39.271381705001026,
+    "amap_lon": 122.592452,
+    "amap_lat": 39.27239,
+    "source": "geo_poi"
+  }
+]

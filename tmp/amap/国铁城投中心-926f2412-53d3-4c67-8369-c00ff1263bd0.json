@@ -1,0 +1,146 @@
+[
+  {
+    "amap_id": "B0JAX97S2J",
+    "amap_name": "国铁城投中心(建设中)",
+    "amap_address": "临江大道与规划道路交汇处",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 38.88,
+    "amap_businessarea": "徐家棚",
+    "cgcs_lon": 114.32462174614516,
+    "cgcs_lat": 30.596731222447087,
+    "amap_lon": 114.330105,
+    "amap_lat": 30.594368,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0J2GUGCMW",
+    "amap_name": "长江沿岸铁路集团总部(建设中)",
+    "amap_address": "临江大道621号",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 83.93,
+    "amap_businessarea": "徐家棚",
+    "cgcs_lon": 114.32415851317434,
+    "cgcs_lat": 30.596646143445547,
+    "amap_lon": 114.329641,
+    "amap_lat": 30.594282,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0MG2U3VW3",
+    "amap_name": "保利·翡丽甲第(建设中)",
+    "amap_address": "徐家棚街与武车中路交汇处",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;住宅区",
+    "amap_distance": 122.73,
+    "amap_businessarea": "徐家棚",
+    "cgcs_lon": 114.32590171782006,
+    "cgcs_lat": 30.59593108131309,
+    "amap_lon": 114.331387,
+    "amap_lat": 30.59357,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0HK01MTH0",
+    "amap_name": "生达无纺布制品设备有限公司(西南门)",
+    "amap_address": "临江大道与横堤二街交叉口东南20米",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 159.47,
+    "amap_businessarea": "徐家棚",
+    "cgcs_lon": 114.32340177227644,
+    "cgcs_lat": 30.596437675463694,
+    "amap_lon": 114.328883,
+    "amap_lat": 30.594072,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0LAUX8DUY",
+    "amap_name": "劲牌大厦(建设中)",
+    "amap_address": "临江大道726号",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 173.76,
+    "amap_businessarea": "徐家棚",
+    "cgcs_lon": 114.32576874136326,
+    "cgcs_lat": 30.598162468621855,
+    "amap_lon": 114.331254,
+    "amap_lat": 30.595802,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0MBF77QQZ",
+    "amap_name": "国铁城投中心写字楼",
+    "amap_address": "临江大道714号",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 93.29,
+    "amap_businessarea": {
+      "keytag": "写字楼",
+      "business_area": "徐家棚",
+      "rectag": "写字楼"
+    },
+    "cgcs_lon": 114.32436621680826,
+    "cgcs_lat": 30.59613794245875,
+    "amap_lon": 114.329849,
+    "amap_lat": 30.593774,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0MGJ7CT74",
+    "amap_name": "国铁城投中心裙楼",
+    "amap_address": "临江大道与徐家棚街交叉口东北120米",
+    "amap_area": "",
+    "amap_type": "商务住宅;楼宇;商务写字楼",
+    "amap_distance": 100.9,
+    "amap_businessarea": {
+      "keytag": "写字楼",
+      "business_area": "江滩",
+      "rectag": "写字楼"
+    },
+    "cgcs_lon": 114.32426627356048,
+    "cgcs_lat": 30.59736865608494,
+    "amap_lon": 114.329749,
+    "amap_lat": 30.595005,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0JRXSTBL7",
+    "amap_name": "国铁城投国樾滨江营销中心",
+    "amap_address": "徐东大街34号",
+    "amap_area": "",
+    "amap_type": "生活服务;生活服务场所;生活服务场所",
+    "amap_distance": 303.22,
+    "amap_businessarea": {
+      "keytag": "售楼处",
+      "rating": "4.5",
+      "business_area": "江滩",
+      "tel": "027-88777777",
+      "rectag": "售楼处"
+    },
+    "cgcs_lon": 114.32813095202432,
+    "cgcs_lat": 30.59730728840429,
+    "amap_lon": 114.33362,
+    "amap_lat": 30.594951,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0JAX9Y1PC",
+    "amap_name": "国铁城投国樾滨江",
+    "amap_address": "徐东大街与规划道路交汇处",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;住宅小区",
+    "amap_distance": 342.76,
+    "amap_businessarea": {
+      "keytag": "新房",
+      "business_area": "徐家棚",
+      "rectag": "新房"
+    },
+    "cgcs_lon": 114.32820375719237,
+    "cgcs_lat": 30.598179809958296,
+    "amap_lon": 114.333693,
+    "amap_lat": 30.595824,
+    "source": "name_poi"
+  }
+]

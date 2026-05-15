@@ -1,0 +1,107 @@
+[
+  {
+    "amap_id": "B0FFLP583E",
+    "amap_name": "南京空港国际博览中心",
+    "amap_address": "润淮大道99号",
+    "amap_area": "",
+    "amap_type": "科教文化服务;展览馆;展览馆",
+    "amap_distance": 8.6,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.98050103167417,
+    "cgcs_lat": 31.734514720197232,
+    "amap_lon": 118.985671,
+    "amap_lat": 31.732503,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0LK7S42VR",
+    "amap_name": "南京空港国际博览中心A3馆",
+    "amap_address": "润淮大道与乌山路交叉口东220米",
+    "amap_area": "",
+    "amap_type": "科教文化服务;展览馆;展览馆",
+    "amap_distance": 59.87,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.98020604473321,
+    "cgcs_lat": 31.734937640403757,
+    "amap_lon": 118.985375,
+    "amap_lat": 31.732925,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFMGQIBS",
+    "amap_name": "南京空港国际博览中心A4馆(4号门)",
+    "amap_address": "空港国际博览中心A3馆",
+    "amap_area": "",
+    "amap_type": "通行设施;建筑物门;建筑物门",
+    "amap_distance": 127.38,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.97945281932117,
+    "cgcs_lat": 31.73390775173504,
+    "amap_lon": 118.984619,
+    "amap_lat": 31.731893,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFMGQMXL",
+    "amap_name": "南京空港国际博览中心A1馆(1号门)",
+    "amap_address": "润淮大道99号南京空港国际博览中心",
+    "amap_area": "",
+    "amap_type": "通行设施;建筑物门;建筑物门",
+    "amap_distance": 142.21,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.98200768034388,
+    "cgcs_lat": 31.734088196698554,
+    "amap_lon": 118.987183,
+    "amap_lat": 31.732081,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0LK7Z23WF",
+    "amap_name": "南京空港国际博览中心2号馆",
+    "amap_address": "润淮大道与葛山路交叉口西南100米",
+    "amap_area": "",
+    "amap_type": "科教文化服务;展览馆;展览馆",
+    "amap_distance": 156.19,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.98200159735286,
+    "cgcs_lat": 31.735230341304074,
+    "amap_lon": 118.987177,
+    "amap_lat": 31.733223,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0H0Y5IWMF",
+    "amap_name": "南京空港国际博览中心地面停车场(出入口)(暂停营业)",
+    "amap_address": "润淮大道与葛山路交叉口西200米",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;停车场出入口",
+    "amap_distance": 106.63,
+    "amap_businessarea": {
+      "keytag": "停车场入口",
+      "rectag": "停车场入口",
+      "parking_type": "地面"
+    },
+    "cgcs_lon": 118.98067233120572,
+    "cgcs_lat": 31.735486320454747,
+    "amap_lon": 118.985843,
+    "amap_lat": 31.733475,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0H0Y5I2AA",
+    "amap_name": "南京空港国际博览中心地下停车场(出入口)",
+    "amap_address": "润淮大道与葛山路交叉口西南100米",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;停车场出入口",
+    "amap_distance": 151.12,
+    "amap_businessarea": {
+      "keytag": "停车场入口",
+      "rectag": "停车场入口"
+    },
+    "cgcs_lon": 118.9819617386694,
+    "cgcs_lat": 31.735248462067247,
+    "amap_lon": 118.987137,
+    "amap_lat": 31.733241,
+    "source": "name_poi"
+  }
+]

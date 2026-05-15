@@ -1,0 +1,107 @@
+[
+  {
+    "amap_id": "B0FFL75PPY",
+    "amap_name": "孩子王智慧物流产业园",
+    "amap_address": "苍穹路2号",
+    "amap_area": "",
+    "amap_type": "生活服务;物流速递;物流仓储场地",
+    "amap_distance": 42.14,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.81309171674255,
+    "cgcs_lat": 31.776931417316142,
+    "amap_lon": 118.818208,
+    "amap_lat": 31.774879,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0HUVS22HI",
+    "amap_name": "顺心捷达南京中转场",
+    "amap_address": "苍穹路2号",
+    "amap_area": "",
+    "amap_type": "生活服务;物流速递;物流速递",
+    "amap_distance": 125.81,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.81382132530048,
+    "cgcs_lat": 31.775956620424257,
+    "amap_lon": 118.818936,
+    "amap_lat": 31.773903,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0H6J5F8ZT",
+    "amap_name": "空港经济开发区执法大队",
+    "amap_address": "凌霄路69号",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;政府机关相关",
+    "amap_distance": 128.56,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.81404058678359,
+    "cgcs_lat": 31.77812434354043,
+    "amap_lon": 118.819155,
+    "amap_lat": 31.77607,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFKFOEU5",
+    "amap_name": "孩子王江宁仓(苍穹路店)",
+    "amap_address": "苍穹路2号孩子王智慧物流产业园",
+    "amap_area": "",
+    "amap_type": "公司企业;公司企业;公司企业",
+    "amap_distance": 136.07,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.81485033510643,
+    "cgcs_lat": 31.77751875339847,
+    "amap_lon": 118.819963,
+    "amap_lat": 31.775463,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFJ35XKY",
+    "amap_name": "空港消防中队",
+    "amap_address": "禄口街道翔宇路20号",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府及社会团体相关;政府及社会团体相关",
+    "amap_distance": 154.27,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 118.81485932414986,
+    "cgcs_lat": 31.777847818494948,
+    "amap_lon": 118.819972,
+    "amap_lat": 31.775792,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0L3VPFM1Q",
+    "amap_name": "孩子王智慧物流产业园停车场",
+    "amap_address": "苍穹路2号孩子王智慧物流产业园",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 97.65,
+    "amap_businessarea": {
+      "keytag": "停车场",
+      "rectag": "停车场"
+    },
+    "cgcs_lon": 118.81396960707139,
+    "cgcs_lat": 31.77626293909011,
+    "amap_lon": 118.819084,
+    "amap_lat": 31.774209,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0M6NRFPHC",
+    "amap_name": "丰巢快递柜(孩子王智慧物流产业园店)",
+    "amap_address": "苍穹路与翔宇路交叉口西北60米",
+    "amap_area": "",
+    "amap_type": "生活服务;物流速递;物流速递",
+    "amap_distance": 179.74,
+    "amap_businessarea": {
+      "keytag": "快递柜",
+      "rating": "3.1",
+      "rectag": "快递柜"
+    },
+    "cgcs_lon": 118.81496070276843,
+    "cgcs_lat": 31.77601073716863,
+    "amap_lon": 118.820073,
+    "amap_lat": 31.773955,
+    "source": "name_poi"
+  }
+]

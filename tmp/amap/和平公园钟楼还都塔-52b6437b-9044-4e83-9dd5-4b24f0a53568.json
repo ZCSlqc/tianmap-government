@@ -1,0 +1,91 @@
+[
+  {
+    "amap_id": "B0FFI26QOB",
+    "amap_name": "和平公园钟楼",
+    "amap_address": "北京东路43号和平公园(鸡鸣寺地铁站6号口步行50米)",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 3.73,
+    "amap_businessarea": "九华山",
+    "cgcs_lon": 118.79194210362019,
+    "cgcs_lat": 32.059402387654295,
+    "amap_lon": 118.797125,
+    "amap_lat": 32.057327,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B001909FTR",
+    "amap_name": "还都塔",
+    "amap_address": "北京东路43号和平公园(鸡鸣寺地铁站6号口步行50米)",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 5.57,
+    "amap_businessarea": "九华山",
+    "cgcs_lon": 118.79188300119053,
+    "cgcs_lat": 32.05941129984464,
+    "amap_lon": 118.797066,
+    "amap_lat": 32.057336,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B001909J4F",
+    "amap_name": "和平公园",
+    "amap_address": "北京东路43号(鸡鸣寺地铁站5号口旁)",
+    "amap_area": "",
+    "amap_type": "风景名胜;公园广场;公园",
+    "amap_distance": 17.17,
+    "amap_businessarea": "九华山",
+    "cgcs_lon": 118.7919941767428,
+    "cgcs_lat": 32.05958150643753,
+    "amap_lon": 118.797177,
+    "amap_lat": 32.057506,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B00190B5T8",
+    "amap_name": "和平公园-考试院钟楼",
+    "amap_address": "北京东路43号和平公园(鸡鸣寺地铁站6号口步行50米)",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 26.39,
+    "amap_businessarea": "九华山",
+    "cgcs_lon": 118.79182992806409,
+    "cgcs_lat": 32.05921517590231,
+    "amap_lon": 118.797013,
+    "amap_lat": 32.05714,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "BX10022693",
+    "amap_name": "鸡鸣寺地铁站6号口",
+    "amap_address": "3号线4号线",
+    "amap_area": "",
+    "amap_type": "交通设施服务;地铁站;出入口",
+    "amap_distance": 48.42,
+    "amap_businessarea": "九华山",
+    "cgcs_lon": 118.79142622276223,
+    "cgcs_lat": 32.05936959937971,
+    "amap_lon": 118.79661,
+    "amap_lat": 32.057295,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0KK9CEM8L",
+    "amap_name": "和平公园梧桐语",
+    "amap_address": "北京东路43号(鸡鸣寺地铁站6号口步行100米)",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 50.31,
+    "amap_businessarea": {
+      "keytag": "公园",
+      "rating": "3.4",
+      "business_area": "九华山",
+      "rectag": "公园"
+    },
+    "cgcs_lon": 118.79237286734656,
+    "cgcs_lat": 32.059179995160186,
+    "amap_lon": 118.797555,
+    "amap_lat": 32.057104,
+    "source": "name_poi"
+  }
+]

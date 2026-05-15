@@ -1,0 +1,109 @@
+[
+  {
+    "amap_id": "B00190AHG4",
+    "amap_name": "永寿塔",
+    "amap_address": "宝塔路21号",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 18.3,
+    "amap_businessarea": "永阳",
+    "cgcs_lon": 119.01725344216231,
+    "cgcs_lat": 31.66226319096441,
+    "amap_lon": 119.022549,
+    "amap_lat": 31.660367,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFKO6MSF",
+    "amap_name": "享家花园酒店(通济街商业广场店)",
+    "amap_address": "宝城名苑9幢",
+    "amap_area": "",
+    "amap_type": "住宿服务;住宿服务相关;住宿服务相关",
+    "amap_distance": 92.56,
+    "amap_businessarea": "永阳",
+    "cgcs_lon": 119.01693045525903,
+    "cgcs_lat": 31.66322214672773,
+    "amap_lon": 119.022225,
+    "amap_lat": 31.661325,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0L3ASU5D7",
+    "amap_name": "福源康健康中心",
+    "amap_address": "宝塔路与永昌东路交叉口西北140米",
+    "amap_area": "",
+    "amap_type": "医疗保健服务;医疗保健服务场所;医疗保健服务场所",
+    "amap_distance": 98.05,
+    "amap_businessarea": "永阳",
+    "cgcs_lon": 119.01782740961549,
+    "cgcs_lat": 31.663119599424718,
+    "amap_lon": 119.023125,
+    "amap_lat": 31.661225,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFFLIQ5I",
+    "amap_name": "宝塔公园(万辰广场北)",
+    "amap_address": "宝塔路与永昌东路交叉口西南约80米",
+    "amap_area": "",
+    "amap_type": "风景名胜;公园广场;公园",
+    "amap_distance": 101.53,
+    "amap_businessarea": "永阳",
+    "cgcs_lon": 119.01784946713741,
+    "cgcs_lat": 31.661694480708288,
+    "amap_lon": 119.023147,
+    "amap_lat": 31.6598,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B00190CO5X",
+    "amap_name": "宝塔旅馆(宝城名苑东南)",
+    "amap_address": "宝塔路16-8号",
+    "amap_area": "",
+    "amap_type": "住宿服务;旅馆招待所;旅馆招待所",
+    "amap_distance": 108.57,
+    "amap_businessarea": "永阳",
+    "cgcs_lon": 119.01831779321593,
+    "cgcs_lat": 31.66262119546288,
+    "amap_lon": 119.023617,
+    "amap_lat": 31.660728,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "BZAKQH009F",
+    "amap_name": "永寿路",
+    "amap_address": "溧水区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;道路名",
+    "amap_distance": 594.21,
+    "amap_businessarea": {
+      "keytag": "道路",
+      "business_area": "永阳",
+      "alias": "806县道|80县道|城北干道",
+      "rectag": "道路"
+    },
+    "cgcs_lon": 119.02254744663445,
+    "cgcs_lat": 31.665254568691026,
+    "amap_lon": 119.027861,
+    "amap_lat": 31.663373,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B001915JEM",
+    "amap_name": "兴卫永寿陵园",
+    "amap_address": "兴兴路",
+    "amap_area": "",
+    "amap_type": "生活服务;丧葬设施;公墓",
+    "amap_distance": 51449.92,
+    "amap_businessarea": {
+      "keytag": "墓地陵园",
+      "business_area": "月苑",
+      "rectag": "墓地陵园"
+    },
+    "cgcs_lon": 118.84100146453254,
+    "cgcs_lat": 32.10139403465911,
+    "amap_lon": 118.846089,
+    "amap_lat": 32.099222,
+    "source": "name_poi"
+  }
+]

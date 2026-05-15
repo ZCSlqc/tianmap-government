@@ -1,0 +1,171 @@
+[
+  {
+    "amap_id": "B0JGUZH8IH",
+    "amap_name": "九洲智慧农贸市场",
+    "amap_address": "云海路999号",
+    "amap_area": "",
+    "amap_type": "购物服务;综合市场;农副产品市场",
+    "amap_distance": 4.94,
+    "amap_businessarea": "象湖",
+    "cgcs_lon": 115.87209721377545,
+    "cgcs_lat": 28.619241406049767,
+    "amap_lon": 115.876957,
+    "amap_lat": 28.61585,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0KRXDAAGW",
+    "amap_name": "西湖区九洲街道党群服务中心",
+    "amap_address": "云海路999号",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;乡镇级政府及事业单位",
+    "amap_distance": 28.75,
+    "amap_businessarea": "象湖",
+    "cgcs_lon": 115.87235359691334,
+    "cgcs_lat": 28.619444553979065,
+    "amap_lon": 115.877213,
+    "amap_lat": 28.616053,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0M6TH3MHT",
+    "amap_name": "顺势AI英语(华侨城店)",
+    "amap_address": "华侨城万科世纪水岸浔岸西门西南140米",
+    "amap_area": "",
+    "amap_type": "科教文化服务;培训机构;培训机构",
+    "amap_distance": 35.98,
+    "amap_businessarea": "象湖",
+    "cgcs_lon": 115.8723796693332,
+    "cgcs_lat": 28.619031791584796,
+    "amap_lon": 115.877239,
+    "amap_lat": 28.61564,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0K0R7DWJ1",
+    "amap_name": "佰卤樘(华侨城店)",
+    "amap_address": "华侨城·万科·世纪水岸三期云境南门东140米",
+    "amap_area": "",
+    "amap_type": "餐饮服务;餐饮相关场所;餐饮相关",
+    "amap_distance": 38.68,
+    "amap_businessarea": "象湖",
+    "cgcs_lon": 115.8718648675354,
+    "cgcs_lat": 28.619016291044748,
+    "amap_lon": 115.876725,
+    "amap_lat": 28.615625,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0JUFUJA0D",
+    "amap_name": "粤西全频烧味",
+    "amap_address": "华侨城·万科·世纪水岸三期云境南门东170米",
+    "amap_area": "",
+    "amap_type": "餐饮服务;中餐厅;特色/地方风味餐厅",
+    "amap_distance": 39.73,
+    "amap_businessarea": "象湖",
+    "cgcs_lon": 115.872024123852,
+    "cgcs_lat": 28.6189284944069,
+    "amap_lon": 115.876884,
+    "amap_lat": 28.615537,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFKQ142T",
+    "amap_name": "华侨城·万科·世纪水岸",
+    "amap_address": "",
+    "amap_area": "452886.877322",
+    "amap_type": "120302",
+    "amap_distance": 0.0,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 115.8754659549781,
+    "cgcs_lat": 28.623019586900593,
+    "amap_lon": 115.880321,
+    "amap_lat": 28.619627,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "B0FFL2DMSX",
+    "amap_name": "华侨城·万科·世纪水岸三期云境",
+    "amap_address": "十里庙街与子羽路交叉口东南100米",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;住宅小区",
+    "amap_distance": 136.25,
+    "amap_businessarea": {
+      "keytag": "住宅区",
+      "rectag": "住宅区"
+    },
+    "cgcs_lon": 115.87085720736353,
+    "cgcs_lat": 28.619774879506544,
+    "amap_lon": 115.875719,
+    "amap_lat": 28.616385,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0IGXDKXK9",
+    "amap_name": "华侨城·万科·世纪水岸三期浔岸",
+    "amap_address": "侨谊路与十里庙街交叉口东100米",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;住宅小区",
+    "amap_distance": 172.73,
+    "amap_businessarea": {
+      "keytag": "住宅区",
+      "rectag": "住宅区"
+    },
+    "cgcs_lon": 115.87376872193825,
+    "cgcs_lat": 28.619835704359925,
+    "amap_lon": 115.878626,
+    "amap_lat": 28.616443,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0LB5AF6MQ",
+    "amap_name": "华侨城·万科·世纪水岸三期(建设中)",
+    "amap_address": "侨谊路与十里庙街交叉口东120米",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;住宅小区",
+    "amap_distance": 194.48,
+    "amap_businessarea": {
+      "keytag": "住宅区",
+      "rectag": "住宅区"
+    },
+    "cgcs_lon": 115.8739960589297,
+    "cgcs_lat": 28.619859902466025,
+    "amap_lon": 115.878853,
+    "amap_lat": 28.616467,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0K64SOKWA",
+    "amap_name": "华侨城·万科·世纪水岸泊岸",
+    "amap_address": "云海路919号",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;住宅区",
+    "amap_distance": 324.54,
+    "amap_businessarea": {
+      "keytag": "住宅区",
+      "rectag": "住宅区"
+    },
+    "cgcs_lon": 115.87291769984829,
+    "cgcs_lat": 28.616421649155008,
+    "amap_lon": 115.877776,
+    "amap_lat": 28.613028,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0G0CCY3X0",
+    "amap_name": "华侨城·万科·世纪水岸湖山",
+    "amap_address": "云海路与真君路交叉口西北250米",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;住宅小区",
+    "amap_distance": 327.43,
+    "amap_businessarea": {
+      "keytag": "住宅区",
+      "rectag": "住宅区"
+    },
+    "cgcs_lon": 115.87546826159736,
+    "cgcs_lat": 28.619105609143144,
+    "amap_lon": 115.880323,
+    "amap_lat": 28.615711,
+    "source": "name_poi"
+  }
+]

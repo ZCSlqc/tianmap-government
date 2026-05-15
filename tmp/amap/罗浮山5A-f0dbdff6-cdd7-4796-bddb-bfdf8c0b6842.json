@@ -1,0 +1,179 @@
+[
+  {
+    "amap_id": "B0FFG1JORQ",
+    "amap_name": "罗浮山-索道上站",
+    "amap_address": "罗浮山",
+    "amap_area": "",
+    "amap_type": "交通设施服务;交通服务相关;交通服务相关",
+    "amap_distance": 87.2,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 114.04323404694465,
+    "cgcs_lat": 23.272923806774486,
+    "amap_lon": 114.048383,
+    "amap_lat": 23.270431,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFG2DZ5Y",
+    "amap_name": "罗浮山风景名胜区-天象台",
+    "amap_address": "长宁镇罗浮山风景名胜区内(东北角)",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 161.86,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 114.04251818435374,
+    "cgcs_lat": 23.27278937591569,
+    "amap_lon": 114.047666,
+    "amap_lat": 23.270295,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFG25Q9M",
+    "amap_name": "罗浮山风景名胜区朱明洞景区-鹰嘴岩",
+    "amap_address": "长宁镇罗浮山风景名胜区内(西北角)",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 372.93,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 114.04041260198146,
+    "cgcs_lat": 23.272980917697023,
+    "amap_lon": 114.045557,
+    "amap_lat": 23.270482,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0M6L55ORR",
+    "amap_name": "轮龙坪",
+    "amap_address": "罗浮山风景名胜区内(西侧)",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 437.25,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 114.0430985009968,
+    "cgcs_lat": 23.269310190477743,
+    "amap_lon": 114.048247,
+    "amap_lat": 23.266816,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0M6L55O40",
+    "amap_name": "紫云步道",
+    "amap_address": "罗浮山风景名胜区(西北角)",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 437.5,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 114.0408197424684,
+    "cgcs_lat": 23.275721193861862,
+    "amap_lon": 114.045965,
+    "amap_lat": 23.273224,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B02F002J5M",
+    "amap_name": "罗浮山风景名胜区",
+    "amap_address": "",
+    "amap_area": "16118433.583589",
+    "amap_type": "110202",
+    "amap_distance": 0.0,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 114.06244927127673,
+    "cgcs_lat": 23.26368293178831,
+    "amap_lon": 114.06762,
+    "amap_lat": 23.261221,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "B0FFG6OSC8",
+    "amap_name": "罗浮山索道下站",
+    "amap_address": "罗浮山",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 1395.94,
+    "amap_businessarea": {
+      "keytag": "索道站",
+      "rating": "4.4",
+      "tel": "0752-6668600",
+      "rectag": "索道站"
+    },
+    "cgcs_lon": 114.05697965274643,
+    "cgcs_lat": 23.269096345556704,
+    "amap_lon": 114.062146,
+    "amap_lat": 23.266628,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFG6LBEU",
+    "amap_name": "罗浮山-青霞谷",
+    "amap_address": "博罗浮罗浮山风景名胜区内(西北角)",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 1466.4,
+    "amap_businessarea": {
+      "keytag": "名山大川",
+      "rating": "3.2",
+      "tel": "0752-6668600",
+      "rectag": "名山大川"
+    },
+    "cgcs_lon": 114.05752015696007,
+    "cgcs_lat": 23.268599642897183,
+    "amap_lon": 114.062687,
+    "amap_lat": 23.266132,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B02F002049",
+    "amap_name": "罗浮山",
+    "amap_address": "博罗县",
+    "amap_area": "",
+    "amap_type": "地名地址信息;自然地名;山",
+    "amap_distance": 1495.4,
+    "amap_businessarea": {
+      "keytag": "山峰",
+      "rectag": "山峰"
+    },
+    "cgcs_lon": 114.02954984044773,
+    "cgcs_lat": 23.271542350281724,
+    "amap_lon": 114.034674,
+    "amap_lat": 23.269017,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFFTUZVB",
+    "amap_name": "古罗浮山全图",
+    "amap_address": "长宁镇罗浮山风景名胜区内(东侧)",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 1498.73,
+    "amap_businessarea": {
+      "keytag": "名山大川",
+      "rating": "3.3",
+      "tel": "0752-6668600",
+      "rectag": "名山大川"
+    },
+    "cgcs_lon": 114.05415601241131,
+    "cgcs_lat": 23.26334477347019,
+    "amap_lon": 114.059319,
+    "amap_lat": 23.26087,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFHSLIGA",
+    "amap_name": "罗浮山风景名胜区-云根",
+    "amap_address": "长宁镇罗浮山风景名胜区内(东侧)",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 1562.27,
+    "amap_businessarea": {
+      "keytag": "文物古迹",
+      "rating": "3.1",
+      "tel": "0752-6668600",
+      "rectag": "文物古迹"
+    },
+    "cgcs_lon": 114.05677510825429,
+    "cgcs_lat": 23.26533882471077,
+    "amap_lon": 114.061941,
+    "amap_lat": 23.262869,
+    "source": "name_poi"
+  }
+]

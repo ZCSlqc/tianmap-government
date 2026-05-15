@@ -1,0 +1,128 @@
+[
+  {
+    "amap_id": "B001912ISN",
+    "amap_name": "南京农业大学浦口校区",
+    "amap_address": "点将台路40号",
+    "amap_area": "",
+    "amap_type": "科教文化服务;学校;高等院校",
+    "amap_distance": 53.89,
+    "amap_businessarea": "江北新区直管区",
+    "cgcs_lon": 118.6940030581814,
+    "cgcs_lat": 32.134943362865585,
+    "amap_lon": 118.699181,
+    "amap_lat": 32.132845,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFH0FTHR",
+    "amap_name": "椅子山",
+    "amap_address": "浦口区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;自然地名;山",
+    "amap_distance": 76.51,
+    "amap_businessarea": "江北新区直管区",
+    "cgcs_lon": 118.6935578137576,
+    "cgcs_lat": 32.13603829904496,
+    "amap_lon": 118.698735,
+    "amap_lat": 32.133939,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFHGVYG7",
+    "amap_name": "南京农业大学(浦口校区)-育贤楼",
+    "amap_address": "南京农业大学浦口校区4号楼",
+    "amap_area": "",
+    "amap_type": "科教文化服务;学校;高等院校",
+    "amap_distance": 99.25,
+    "amap_businessarea": "江北新区直管区",
+    "cgcs_lon": 118.69479554657596,
+    "cgcs_lat": 32.13492206928585,
+    "amap_lon": 118.699975,
+    "amap_lat": 32.132825,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFF2WJK2",
+    "amap_name": "南京农业大学浦口校区4号楼",
+    "amap_address": "点将台路40号",
+    "amap_area": "",
+    "amap_type": "地名地址信息;门牌信息;楼栋号",
+    "amap_distance": 135.86,
+    "amap_businessarea": "江北新区直管区",
+    "cgcs_lon": 118.69534647455625,
+    "cgcs_lat": 32.13523023850948,
+    "amap_lon": 118.700527,
+    "amap_lat": 32.133134,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0019142SK",
+    "amap_name": "南京农业大学浦口校区图书馆",
+    "amap_address": "点将台路40号南京农业大学浦口校区",
+    "amap_area": "",
+    "amap_type": "科教文化服务;图书馆;图书馆",
+    "amap_distance": 198.85,
+    "amap_businessarea": "江北新区直管区",
+    "cgcs_lon": 118.69537152975163,
+    "cgcs_lat": 32.13412098894372,
+    "amap_lon": 118.700552,
+    "amap_lat": 32.132025,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFFCLKEK",
+    "amap_name": "南京农业大学浦口校区美术室",
+    "amap_address": "点将台路40号南京农业大学浦口校区",
+    "amap_area": "",
+    "amap_type": "科教文化服务;学校;高等院校",
+    "amap_distance": 70.74,
+    "amap_businessarea": {
+      "keytag": "绘画培训",
+      "rating": "2.1",
+      "business_area": "江北新区",
+      "rectag": "绘画培训"
+    },
+    "cgcs_lon": 118.69468371232949,
+    "cgcs_lat": 32.135430346242586,
+    "amap_lon": 118.699863,
+    "amap_lat": 32.133333,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0FFFCLKX0",
+    "amap_name": "南京农业大学浦口校区学生会",
+    "amap_address": "点将台路40号南京农业大学浦口校区",
+    "amap_area": "",
+    "amap_type": "科教文化服务;学校;高等院校",
+    "amap_distance": 171.43,
+    "amap_businessarea": {
+      "keytag": "高等教育",
+      "business_area": "江北新区",
+      "rectag": "高等教育"
+    },
+    "cgcs_lon": 118.69458476723872,
+    "cgcs_lat": 32.13687577827275,
+    "amap_lon": 118.699764,
+    "amap_lat": 32.134778,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B001913WFO",
+    "amap_name": "南京农业大学浦口校区润泽园",
+    "amap_address": "点将台路40号南京农业大学浦口校区",
+    "amap_area": "",
+    "amap_type": "科教文化服务;学校;高等院校|餐饮服务;中餐厅;中餐厅",
+    "amap_distance": 217.72,
+    "amap_businessarea": {
+      "keytag": "食堂",
+      "rating": "3.9",
+      "business_area": "江北新区",
+      "rectag": "食堂"
+    },
+    "cgcs_lon": 118.6945977022143,
+    "cgcs_lat": 32.13731283913143,
+    "amap_lon": 118.699777,
+    "amap_lat": 32.135215,
+    "source": "name_poi"
+  }
+]

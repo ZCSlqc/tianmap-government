@@ -1,0 +1,158 @@
+[
+  {
+    "amap_id": "B0FFKYWSK0",
+    "amap_name": "蜀山风景区(东门)",
+    "amap_address": "东贤路77号蜀山风景区内(东侧)",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 79.82,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 119.86206238790096,
+    "cgcs_lat": 31.269639888026592,
+    "amap_lon": 119.866761,
+    "amap_lat": 31.267453,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFLKOGC4",
+    "amap_name": "潘序伦纪念馆",
+    "amap_address": "东坡东路与显圣路交叉口西北320米",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;纪念馆",
+    "amap_distance": 160.22,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 119.86067313064446,
+    "cgcs_lat": 31.26854750878016,
+    "amap_lon": 119.865375,
+    "amap_lat": 31.266362,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B01FE0JUW1",
+    "amap_name": "东坡书院",
+    "amap_address": "丁蜀镇东贤路77号",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;省级景点",
+    "amap_distance": 169.31,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 119.8612224782541,
+    "cgcs_lat": 31.268372319341854,
+    "amap_lon": 119.865923,
+    "amap_lat": 31.266186,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFGNZOD2",
+    "amap_name": "东坡书院(南门)",
+    "amap_address": "丁蜀镇东贤路77号东坡书院",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院正门",
+    "amap_distance": 198.81,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 119.86109419020984,
+    "cgcs_lat": 31.268113258811006,
+    "amap_lon": 119.865795,
+    "amap_lat": 31.265927,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B01FE01V8H",
+    "amap_name": "蜀山风景区",
+    "amap_address": "东贤路77号",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 215.01,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 119.8591652478935,
+    "cgcs_lat": 31.27059857388764,
+    "amap_lon": 119.863871,
+    "amap_lat": 31.268416,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFL6VXU8",
+    "amap_name": "宜兴市显圣寺",
+    "amap_address": "",
+    "amap_area": "14715.806672",
+    "amap_type": "110205",
+    "amap_distance": 0.0,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 119.86110907164907,
+    "cgcs_lat": 31.269910513076468,
+    "amap_lon": 119.86581,
+    "amap_lat": 31.267725,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "BZAGQN00EW",
+    "amap_name": "显圣路",
+    "amap_address": "宜兴市",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;道路名",
+    "amap_distance": 226.13,
+    "amap_businessarea": {
+      "keytag": "城市次干路",
+      "alias": "蜀张路",
+      "rectag": "城市次干路"
+    },
+    "cgcs_lon": 119.86038414767127,
+    "cgcs_lat": 31.27178074477386,
+    "amap_lon": 119.865087,
+    "amap_lat": 31.269597,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "BV10837703",
+    "amap_name": "显圣禅寺(公交站)",
+    "amap_address": "宜兴155路/K155路;宜兴156路;宜兴246路",
+    "amap_area": "",
+    "amap_type": "交通设施服务;公交车站;公交车站相关",
+    "amap_distance": 429.87,
+    "amap_businessarea": {
+      "keytag": "公交站",
+      "rectag": "公交站"
+    },
+    "cgcs_lon": 119.86091326664338,
+    "cgcs_lat": 31.27375162576737,
+    "amap_lon": 119.865615,
+    "amap_lat": 31.271568,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0LRSB4Q6Z",
+    "amap_name": "竹碧泉",
+    "amap_address": "显圣路与通蜀东路交叉口北260米",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜相关;旅游景点",
+    "amap_distance": 498.02,
+    "amap_businessarea": {
+      "opentime_today": "07:00-17:00",
+      "keytag": "风景名胜,风景名胜相关,旅游景点",
+      "rating": "3.6",
+      "opentime_week": "周一至周日 07:00-17:00"
+    },
+    "cgcs_lon": 119.86077287342513,
+    "cgcs_lat": 31.274358182003528,
+    "amap_lon": 119.865475,
+    "amap_lat": 31.272175,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "BZAGQN00EG",
+    "amap_name": "蜀张路",
+    "amap_address": "宜兴市",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;道路名",
+    "amap_distance": 6478.38,
+    "amap_businessarea": {
+      "keytag": "道路",
+      "alias": "张蜀线|显圣路",
+      "rectag": "道路"
+    },
+    "cgcs_lon": 119.87839670079082,
+    "cgcs_lat": 31.326433539445997,
+    "amap_lon": 119.883066,
+    "amap_lat": 31.324252,
+    "source": "name_poi"
+  }
+]

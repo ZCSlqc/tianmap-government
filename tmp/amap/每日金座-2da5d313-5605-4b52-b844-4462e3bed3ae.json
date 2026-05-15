@@ -1,0 +1,112 @@
+[
+  {
+    "amap_id": "B0HKX7QAD3",
+    "amap_name": "每日金座",
+    "amap_address": "荆大路100号",
+    "amap_area": "",
+    "amap_type": "商务住宅;商务住宅相关;商务住宅相关",
+    "amap_distance": 7.0,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 120.03212352005718,
+    "cgcs_lat": 30.3117013944898,
+    "amap_lon": 120.036898,
+    "amap_lat": 30.309354,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0JKJHL9AL",
+    "amap_name": "每日金座(南门)",
+    "amap_address": "荆大路100号每日金座",
+    "amap_area": "",
+    "amap_type": "通行设施;临街院门;临街院门",
+    "amap_distance": 33.76,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 120.03222335058848,
+    "cgcs_lat": 30.311371186296114,
+    "amap_lon": 120.036998,
+    "amap_lat": 30.309024,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0IA34ISIG",
+    "amap_name": "智强路",
+    "amap_address": "西湖区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;交通地名;道路名",
+    "amap_distance": 46.61,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 120.03222735305323,
+    "cgcs_lat": 30.311249191359497,
+    "amap_lon": 120.037002,
+    "amap_lat": 30.308902,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0J2TL0CMW",
+    "amap_name": "每日互动公司",
+    "amap_address": "荆大路100号每日金座",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 49.46,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 120.03159858132491,
+    "cgcs_lat": 30.3115007330621,
+    "amap_lon": 120.036372,
+    "amap_lat": 30.309152,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0J3G59T02",
+    "amap_name": "每日金座南楼西门(个咖 每日金座店)",
+    "amap_address": "荆大路100号每日金座南楼西门(个咖)",
+    "amap_area": "",
+    "amap_type": "餐饮服务;咖啡厅;咖啡厅",
+    "amap_distance": 57.75,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 120.03151974154534,
+    "cgcs_lat": 30.311469934855694,
+    "amap_lon": 120.036293,
+    "amap_lat": 30.309121,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0L24CO4UK",
+    "amap_name": "全抖来(杭州)科技有限公司",
+    "amap_address": "荆大路100号每日金座3号楼509室",
+    "amap_area": "",
+    "amap_type": "公司企业;公司;公司",
+    "amap_distance": 51.64,
+    "amap_businessarea": {
+      "keytag": "公司",
+      "rectag": "公司"
+    },
+    "cgcs_lon": 120.03262254533546,
+    "cgcs_lat": 30.311589166743964,
+    "amap_lon": 120.037398,
+    "amap_lat": 30.309243,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0J0FCTDC9",
+    "amap_name": "每日小乐惠(每日金座店)",
+    "amap_address": "荆大路100号每日金座",
+    "amap_area": "",
+    "amap_type": "餐饮服务;餐饮相关场所;餐饮相关",
+    "amap_distance": 54.34,
+    "amap_businessarea": {
+      "opentime_today": "11:00-14:00 17:00-20:30",
+      "cost": "65.00",
+      "keytag": "中餐",
+      "rating": "4.5",
+      "tel": "13858116079",
+      "tag": "豆腐,小酥肉,肥肠,酸菜鱼,宫保鸡丁,鸡肉,鱼香肉丝",
+      "rectag": "中餐",
+      "opentime_week": "周一至周日 11:00-14:00,17:00-20:30"
+    },
+    "cgcs_lon": 120.03261856217594,
+    "cgcs_lat": 30.311483189709215,
+    "amap_lon": 120.037394,
+    "amap_lat": 30.309137,
+    "source": "name_poi"
+  }
+]

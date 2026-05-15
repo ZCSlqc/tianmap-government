@@ -1,0 +1,155 @@
+[
+  {
+    "amap_id": "B0JAMCDUR3",
+    "amap_name": "南京园",
+    "amap_address": "云善路22号",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 173.69,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 119.31069051788103,
+    "cgcs_lat": 34.576062837395014,
+    "amap_lon": 119.31628,
+    "amap_lat": 34.575069,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0JAMCIIQ3",
+    "amap_name": "无锡园",
+    "amap_address": "云善路22号",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 180.23,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 119.31055079145735,
+    "cgcs_lat": 34.57622097070642,
+    "amap_lon": 119.31614,
+    "amap_lat": 34.575227,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0JAM57N2I",
+    "amap_name": "徐州园",
+    "amap_address": "第12届园艺博览会博览园西侧250米",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 195.63,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 119.31102390086787,
+    "cgcs_lat": 34.575336799377155,
+    "amap_lon": 119.316614,
+    "amap_lat": 34.574343,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0JAMCJ5XT",
+    "amap_name": "连云港园",
+    "amap_address": "云善路22号",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 207.55,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 119.31393053447454,
+    "cgcs_lat": 34.578048140218826,
+    "amap_lon": 119.319527,
+    "amap_lat": 34.577062,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0JAM582ES",
+    "amap_name": "亚欧巨舰",
+    "amap_address": "云善路22号",
+    "amap_area": "",
+    "amap_type": "风景名胜;风景名胜;风景名胜",
+    "amap_distance": 222.42,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 119.3103859784586,
+    "cgcs_lat": 34.57770208231826,
+    "amap_lon": 119.315975,
+    "amap_lat": 34.576709,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0H0AMS7IR",
+    "amap_name": "连云港园博园",
+    "amap_address": "",
+    "amap_area": "1909552.085707",
+    "amap_type": "110200",
+    "amap_distance": 0.0,
+    "amap_businessarea": "[]",
+    "cgcs_lon": 119.31411551168964,
+    "cgcs_lat": 34.574548612391936,
+    "amap_lon": 119.319712,
+    "amap_lat": 34.57356,
+    "source": "geo_aoi"
+  },
+  {
+    "amap_id": "B0M6JUEM6Q",
+    "amap_name": "连云港园博园地下停车场",
+    "amap_address": "徐新中路88号连云港园博园内(北侧)",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 345.44,
+    "amap_businessarea": {
+      "keytag": "地下停车场",
+      "rectag": "地下停车场"
+    },
+    "cgcs_lon": 119.31392439314784,
+    "cgcs_lat": 34.579520959286235,
+    "amap_lon": 119.319521,
+    "amap_lat": 34.578536,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0L2L1PLOZ",
+    "amap_name": "连云港园博园管理服务中心",
+    "amap_address": "连云港园博建设投资有限公司西南侧",
+    "amap_area": "",
+    "amap_type": "政府机构及社会团体;政府机关;政府机关相关",
+    "amap_distance": 475.7,
+    "amap_businessarea": {
+      "keytag": "政府机关",
+      "rectag": "政府机关"
+    },
+    "cgcs_lon": 119.31745211664115,
+    "cgcs_lat": 34.57780263579466,
+    "amap_lon": 119.323056,
+    "amap_lat": 34.576823,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0MGTR8FTQ",
+    "amap_name": "连云港园博园管理服务中心地上停车场",
+    "amap_address": "连云港园博园管理服务中心北侧50米",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 505.95,
+    "amap_businessarea": {
+      "keytag": "停车场",
+      "rectag": "停车场"
+    },
+    "cgcs_lon": 119.31762071158325,
+    "cgcs_lat": 34.57825394837605,
+    "amap_lon": 119.323225,
+    "amap_lat": 34.577275,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0JAHSF15E",
+    "amap_name": "连云港园博园4号停车场",
+    "amap_address": "徐新中路88号连云港园博园(东北角)",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;专用停车场",
+    "amap_distance": 511.39,
+    "amap_businessarea": {
+      "keytag": "停车场",
+      "rectag": "停车场",
+      "parking_type": "地面"
+    },
+    "cgcs_lon": 119.3179900370066,
+    "cgcs_lat": 34.57721008554826,
+    "amap_lon": 119.323595,
+    "amap_lat": 34.576231,
+    "source": "name_poi"
+  }
+]

@@ -1,0 +1,147 @@
+[
+  {
+    "amap_id": "B0I1NCCW30",
+    "amap_name": "中国杭州电竞中心",
+    "amap_address": "石祥路102号",
+    "amap_area": "",
+    "amap_type": "体育休闲服务;运动场馆;综合体育馆",
+    "amap_distance": 28.04,
+    "amap_businessarea": "杭州新天地",
+    "cgcs_lon": 120.17798452838481,
+    "cgcs_lat": 30.331737354941538,
+    "amap_lon": 120.182602,
+    "amap_lat": 30.329364,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0MAT5VTF9",
+    "amap_name": "炼金BUFF BAR咖啡馆",
+    "amap_address": "石桥街道中国杭州电竞中心(杭州北景园生态公园原新闻发布中心)",
+    "amap_area": "",
+    "amap_type": "餐饮服务;咖啡厅;咖啡厅",
+    "amap_distance": 98.3,
+    "amap_businessarea": "杭州新天地",
+    "cgcs_lon": 120.17817199436857,
+    "cgcs_lat": 30.332737558789084,
+    "amap_lon": 120.182789,
+    "amap_lat": 30.330364,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B023B06JVA",
+    "amap_name": "石桥社区服务中心",
+    "amap_address": "石祥路86-2号",
+    "amap_area": "",
+    "amap_type": "商务住宅;住宅区;社区中心",
+    "amap_distance": 148.19,
+    "amap_businessarea": "杭州新天地",
+    "cgcs_lon": 120.17722137710747,
+    "cgcs_lat": 30.33067609938067,
+    "amap_lon": 120.181841,
+    "amap_lat": 30.328304,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0HBKCSY2P",
+    "amap_name": "北景园生态公园",
+    "amap_address": "石祥路与永福桥路交叉口西北180米",
+    "amap_area": "",
+    "amap_type": "风景名胜;公园广场;公园",
+    "amap_distance": 154.16,
+    "amap_businessarea": "杭州新天地",
+    "cgcs_lon": 120.17627954370354,
+    "cgcs_lat": 30.331416258327767,
+    "amap_lon": 120.180902,
+    "amap_lat": 30.329046,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0FFGCVN3M",
+    "amap_name": "杭州新天地",
+    "amap_address": "拱墅区",
+    "amap_area": "",
+    "amap_type": "地名地址信息;热点地名;热点地名",
+    "amap_distance": 243.63,
+    "amap_businessarea": "杭州新天地",
+    "cgcs_lon": 120.17884720320426,
+    "cgcs_lat": 30.329931186504034,
+    "amap_lon": 120.183462,
+    "amap_lat": 30.327556,
+    "source": "geo_poi"
+  },
+  {
+    "amap_id": "B0KKG581AX",
+    "amap_name": "中国杭州电竞中心地下停车场",
+    "amap_address": "石祥路102号中国杭州电竞中心",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;公共停车场",
+    "amap_distance": 233.96,
+    "amap_businessarea": {
+      "keytag": "地下停车场",
+      "business_area": "东新",
+      "rectag": "地下停车场",
+      "parking_type": "地下"
+    },
+    "cgcs_lon": 120.17589525707228,
+    "cgcs_lat": 30.33325728920744,
+    "amap_lon": 120.180519,
+    "amap_lat": 30.330888,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0K6Z703JF",
+    "amap_name": "中国杭州电竞中心地下停车场(出入口)",
+    "amap_address": "中国杭州电竞中心地下停车场",
+    "amap_area": "",
+    "amap_type": "交通设施服务;停车场;停车场出入口",
+    "amap_distance": 351.9,
+    "amap_businessarea": {
+      "keytag": "停车场入口",
+      "rectag": "停车场入口",
+      "parking_type": "地下"
+    },
+    "cgcs_lon": 120.17447605812572,
+    "cgcs_lat": 30.333296649760346,
+    "amap_lon": 120.179104,
+    "amap_lat": 30.33093,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0G2XRNM4O",
+    "amap_name": "杭州MAX电竞公寓(电竞中心新天地店)",
+    "amap_address": "新北街117号华盛达时代中心2号楼D座738室",
+    "amap_area": "",
+    "amap_type": "住宿服务;住宿服务相关;住宿服务相关",
+    "amap_distance": 512.14,
+    "amap_businessarea": {
+      "keytag": "电竞酒店",
+      "rating": "4.7",
+      "business_area": "东新",
+      "tel": "19157823310",
+      "rectag": "电竞酒店"
+    },
+    "cgcs_lon": 120.17494187893149,
+    "cgcs_lat": 30.327994251621316,
+    "amap_lon": 120.179568,
+    "amap_lat": 30.325626,
+    "source": "name_poi"
+  },
+  {
+    "amap_id": "B0M6FDYE6I",
+    "amap_name": "杭州电竞中心新天地店",
+    "amap_address": "跨贸小镇12幢",
+    "amap_area": "",
+    "amap_type": "体育休闲服务;娱乐场所;网吧",
+    "amap_distance": 617.87,
+    "amap_businessarea": {
+      "keytag": "网吧",
+      "rating": "4.0",
+      "rectag": "网吧"
+    },
+    "cgcs_lon": 120.18191931150108,
+    "cgcs_lat": 30.327656070398024,
+    "amap_lon": 120.186525,
+    "amap_lat": 30.325275,
+    "source": "name_poi"
+  }
+]
