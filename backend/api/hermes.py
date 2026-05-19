@@ -4,27 +4,17 @@ API 调用模块，所有网络请求统一在此处理。"""
 
 import asyncio
 import aiohttp
-import os
-import requests
 from typing import Any
-from dotenv import load_dotenv
 from loguru import logger
-from pathlib import Path
 
-_env_path = Path(__file__).resolve().parent.parent / ".." / ".env"
-if _env_path.exists():
-    load_dotenv(_env_path)
-
-HERMES_HOST = os.getenv("HERMES_HOST", "0.0.0.0")
-HERMES_PORT = os.getenv("HERMES_PORT", "8643")
-HERMES_KEY = os.getenv("HERMES_KEY", "12345678")
+from backend.api.config import HERMES_HOST, HERMES_PORT, HERMES_KEY, HERMES_MAX_RETRIES, HERMES_MAX_TOKENS
 
 BASE_URL = f"http://{HERMES_HOST}:{HERMES_PORT}/v1/chat/completions"
 HEALTH_URL = f"http://{HERMES_HOST}:{HERMES_PORT}/health"
 
 
-async def _health_once() -> bool:
-    """单次健康检查"""
+async def health() -> bool:
+    """Hermes 健康检查"""
     try:
         async with aiohttp.ClientSession() as session:
             async with session.get(HEALTH_URL, timeout=aiohttp.ClientTimeout(total=5)) as r:
@@ -37,23 +27,12 @@ async def _health_once() -> bool:
         return False
 
 
-def health() -> bool:
-    """同步健康检查（兼容旧调用）"""
-    try:
-        r = requests.get(HEALTH_URL, timeout=5)
-        ok = r.status_code == 200 and r.json().get("status") == "ok"
-        if not ok:
-            logger.warning("[Hermes] API 健康检查失败")
-        return ok
-    except Exception as e:
-        logger.error(f"[Hermes] 连接失败: {e}")
-        return False
-
-
 async def _chat_once(messages: list[dict], session_id: str = "",
-                     max_tokens: int = 1024) -> str | None:
+                     max_tokens: int | None = None) -> str | None:
     """单次 Agent 请求"""
-    if not await _health_once():
+    if max_tokens is None:
+        max_tokens = HERMES_MAX_TOKENS
+    if not await health():
         logger.error("[Hermes] Agent 不可用，跳过请求")
         return None
 
@@ -81,14 +60,37 @@ async def _chat_once(messages: list[dict], session_id: str = "",
         return None
 
 
-async def chat(messages: list[dict], session_id: str = "", max_tokens: int = 1024,
-               retries: int = 3) -> str | None:
-    """Agent 请求，重试 _AMAP_MAX_RETRIES 次"""
-    for attempt in range(1, retries + 1):
+async def chat(messages: list[dict], session_id: str = "", max_tokens: int | None = None,
+               retries: int | None = None) -> str | None:
+    """Agent 请求，重试 retries 次"""
+    for _ in range(retries if retries is not None else HERMES_MAX_RETRIES):
         result = await _chat_once(messages, session_id, max_tokens)
         if result:
             return result
-        logger.warning(f"[Hermes] 第 {attempt} 次返回为空")
-        if attempt < retries:
-            await asyncio.sleep(0.5 * attempt)
+        logger.warning("[Hermes] 返回为空，重试")
+        await asyncio.sleep(0.5)
+    return None
+
+
+async def chat_return_json(messages: list[dict], session_id: str = "", max_tokens: int | None = None,
+                           retries: int | None = None) -> dict | None:
+    """Agent 请求 + 提取 JSON，网络失败重试 chat，解析失败重试"""
+    import json
+
+    for _ in range(retries if retries is not None else HERMES_MAX_RETRIES):
+        text = await _chat_once(messages, session_id, max_tokens)
+        if not text:
+            continue
+        start = text.find("{")
+        end = text.rfind("}")
+        if start < 0 or end <= start:
+            logger.debug("[Hermes] 响应中未找到 JSON 对象")
+            continue
+        try:
+            return json.loads(text[start:end + 1])
+        except json.JSONDecodeError as e:
+            logger.debug(f"[Hermes] JSON 解析失败: {e}")
+            continue
+
+    logger.debug("[Hermes] JSON 提取全部失败")
     return None

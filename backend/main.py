@@ -1,6 +1,12 @@
 """天地图分享数据 → SQLite 入库
 
-用法：修改 UUID 变量，直接运行 python3 backend/main.py"""
+用法：修改 UUID 变量，直接运行 python3 backend/main.py
+
+增量模式：
+- id 不存在 → INSERT
+- id 存在且 remark 不同 → UPDATE remark + 记录变更
+- 其余跳过（保留已标注数据）
+"""
 
 import sys
 from pathlib import Path
@@ -9,8 +15,8 @@ _here = Path(__file__).resolve().parent
 sys.path.insert(0, str(_here.parent))
 
 # 统一日志
-from backend.util import logger
-logger.info("[main] 启动天地图数据入库")
+from backend.util import logger, save_json
+logger.debug("[main] 启动天地图数据入库")
 
 import asyncio
 import json
@@ -22,7 +28,8 @@ import aiohttp
 from backend.util import parse_address
 
 # ==================== 配置 ====================
-UUID = "f6756cd4aff441528f72e2d3252f1eb4"  # <-- 改这里
+# UUID = "f6756cd4aff441528f72e2d3252f1eb4"  # <-- 改这里
+UUID = "c34faf791b4641a19a02104ebc7f83f4"
 TIANDITU_API = "https://map.tianditu.gov.cn/api/map/share"
 DB_PATH = Path(__file__).parent.parent / "data" / "tianmap.db"
 
@@ -42,10 +49,10 @@ def _safe_int(val: str) -> int:
 
 
 async def main() -> dict:
-    stats = {"success": 0, "error": 0}
+    stats = {"new": 0, "updated": 0, "skipped": 0, "error": 0}
 
     # ---- 1. 下载 JSON ----
-    logger.info("[下载] 从天地图获取分享数据")
+    logger.debug("[下载] 从天地图获取分享数据")
     url = f"{TIANDITU_API}/{UUID}"
     headers = {"User-Agent": "Mozilla/5.0", "Accept": "application/json"}
     try:
@@ -71,23 +78,16 @@ async def main() -> dict:
         inner = data_str
     draw_info = inner.get("drawInfo", inner)
     points = draw_info.get("points", {})
-    logger.info(f"[下载] 获取 {len(points)} 个点")
+    logger.debug(f"[下载] 获取 {len(points)} 个点")
 
     # ---- 1.5. 保存原始 JSON ----
-    tmp_dir = Path(__file__).parent.parent / "tmp" / "raw_url"
-    tmp_dir.mkdir(parents=True, exist_ok=True)
-    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
-    json_path = tmp_dir / f"{ts}_{UUID}.json"
-    with open(json_path, "w", encoding="utf-8") as f:
-        json.dump(draw_info, f, ensure_ascii=False, indent=2)
-    logger.info(f"[保存] JSON 已保存: {json_path}")
+    await save_json(UUID, draw_info, subdir="raw_url")
 
     # ---- 2. 建表 ----
-    logger.info("[建表] 创建 poi_points 表")
+    logger.debug("[建表] 确保 poi_points 表存在")
     conn = sqlite3.connect(str(DB_PATH))
-    conn.execute("DROP TABLE IF EXISTS poi_points")
     conn.execute(
-        "CREATE TABLE poi_points ("
+        "CREATE TABLE IF NOT EXISTS poi_points ("
         "id TEXT PRIMARY KEY, "
         "name TEXT DEFAULT '', address TEXT DEFAULT '', "
         "province TEXT DEFAULT '', city TEXT DEFAULT '', district TEXT DEFAULT '', township TEXT DEFAULT '', "
@@ -118,6 +118,10 @@ async def main() -> dict:
         "img_url,record,created_at,updated_at) "
         "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)"
     )
+    UPDATE_REMARK = "UPDATE poi_points SET remark=?, updated_at=? WHERE id=?"
+
+    # 变更日志收集
+    changes = []
 
     for fid, item in points.items():
         try:
@@ -146,36 +150,57 @@ async def main() -> dict:
             district = addr_info["district"] if addr_info else ""
             township = addr_info["town"] if addr_info else ""
 
-            conn.execute(INSERT, (
-                fid, name, address, province, city, district, township,
-                lon, lat, color, code, size, remark, nc,
-                "", "", "", "", "", "", "",
-                "", "", "", "", 0.0, "", 0.0, 0.0, 0.0, 0.0,
-                "", "", now, now
-            ))
-            stats["success"] += 1
-            logger.debug(f"[入库] {name}")
+            # 检查 id 是否存在
+            old_row = conn.execute(
+                "SELECT name, remark FROM poi_points WHERE id=?", (fid,)
+            ).fetchone()
+
+            if old_row is None:
+                # 新 POI，直接插入
+                conn.execute(INSERT, (
+                    fid, name, address, province, city, district, township,
+                    lon, lat, color, code, size, remark, nc,
+                    "", "", "", "", "", "", "",
+                    "", "", "", "", 0.0, "", 0.0, 0.0, 0.0, 0.0,
+                    "", "", now, now
+                ))
+                stats["new"] += 1
+                logger.debug(f"[导入] 新 POI: {name} ({fid}) remark={remark[:80]}")
+            else:
+                old_name, old_remark = old_row
+                if remark != old_remark:
+                    # remark 不同，更新 remark
+                    conn.execute(UPDATE_REMARK, (remark, now, fid))
+                    stats["updated"] += 1
+                    # 记录变更
+                    changes.append({
+                        "id": fid,
+                        "name": [name, old_name],
+                        "remark": [remark, old_remark],
+                        "status": "updated"
+                    })
+                    logger.debug(f"[更新] {name} id={fid[:8]}")
+                else:
+                    stats["skipped"] += 1
+
         except Exception as e:
             stats["error"] += 1
-            logger.error(f"[入库失败] id={fid} name={info.get('name', '')} error={e}")
+            name = info.get("name", "") if "info" in dir() else ""
+            logger.error(f"[导入失败] id={fid} name={name} error={e}")
 
     conn.commit()
     conn.close()
-    logger.info(f"[入库] 成功={stats['success']}, 失败={stats['error']}")
 
-    # ---- 4. 验证 ----
+    # ---- 4. 保存变更日志 ----
+    if changes:
+        await save_json([UUID, "changes"], changes, subdir="update")
+
+    logger.info(f"[入库] 新={stats['new']}, 更新={stats['updated']}, 跳过={stats['skipped']}, 失败={stats['error']}")
+
+    # ---- 5. 验证 ----
     conn = sqlite3.connect(str(DB_PATH))
     total = conn.execute("SELECT COUNT(*) FROM poi_points").fetchone()[0]
     logger.info(f"[验证] 数据库总记录数: {total}")
-    rows = conn.execute(
-        "SELECT id[:8], name, province, city, district, color[:12], code, name_checked, "
-        "affiliation, point_type "
-        "FROM poi_points ORDER BY id LIMIT 10"
-    ).fetchall()
-    for r in rows:
-        aff = r[8][:10] if r[8] else ""
-        ptype = r[9][:10] if r[9] else ""
-        logger.debug(f"  {r[0]}.. | {r[1][:15]:15s} | {r[2]}/{r[3]}/{r[4]:10s} | {r[5]} aff={aff} pt={ptype}")
     conn.close()
 
     return stats

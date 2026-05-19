@@ -7,24 +7,14 @@
 
 import asyncio
 import json
-import os
 import aiohttp
 from typing import Any
-from dotenv import load_dotenv
 from loguru import logger
-from pathlib import Path
 from geopy.distance import geodesic
 
-from backend.util.coord import cgcs2000_to_gcj02, gcj02_to_wgs84, wgs84_to_cgcs2000
-from backend.util.amap_codes import codes_to_name
-
-_AMAP_MAX_RETRIES = 3
-
-# ===================== 配置 =====================
-_env_path = Path(__file__).resolve().parent.parent / ".." / ".env"
-if _env_path.exists():
-    load_dotenv(_env_path)
-AMAP_KEY: str | None = os.getenv("AMAP_KEY")
+from backend.api.config import AMAP_KEY, AMAP_RADIUS, AMAP_MAX_RETRIES
+from backend.util.coord import cgcs2000_to_gcj02, gcj02_to_cgcs2000
+from backend.util.amap_codes import code_to_name
 
 # 中国边界
 GCJ_LON_MIN, GCJ_LON_MAX = 73.66, 135.05
@@ -69,32 +59,43 @@ def _parse_amap_item(item: dict) -> dict:
     loc = item.get("location", "")
     try:
         lon_a, lat_a = map(float, loc.split(","))
-        cgcs_lon, cgcs_lat = wgs84_to_cgcs2000(*gcj02_to_wgs84(lon_a, lat_a))
+        # 如果传入方已提供 cgcs_lon/cgcs_lat，跳过重复转换
+        if "cgcs_lon" in item and "cgcs_lat" in item:
+            cgcs_lon, cgcs_lat = item["cgcs_lon"], item["cgcs_lat"]
+        else:
+            cgcs_lon, cgcs_lat = gcj02_to_cgcs2000(lon_a, lat_a)
     except (ValueError, TypeError):
         cgcs_lon = cgcs_lat = lon_a = lat_a = 0.0
 
-    distance_raw = item.get("distance", "0")
+    distance_raw = item.get("distance", 0)
     try:
         distance = round(float(distance_raw), 2)
     except (ValueError, TypeError):
         distance = 9999.0
 
-    ba = item.get("businessarea", item.get("business", []))
+    ba = item.get("businessarea", item.get("business", ""))
     if isinstance(ba, list):
-        ba = json.dumps(ba, ensure_ascii=False)
+        ba = json.dumps(ba, ensure_ascii=False) if ba else ""
     elif ba is None:
         ba = ""
 
     raw_type = item.get("type", "")
-    # 六位纯数字编码 → 保持原样（高德原始编码，如 "141201"）
-    # 分号/竖线分隔 → 已是中文 name，保持原样
+    type_str = raw_type
+    if raw_type:
+        # 含竖线 → 每项查编码表，用 | 拼接编码段
+        if "|" in raw_type:
+            segments = [code_to_name(p.strip()) for p in raw_type.split("|") if p.strip()]
+            type_str = "|".join(segments) or raw_type
+        # 纯 6 位数字 → 直接查编码表
+        elif len(raw_type) == 6 and raw_type.isdigit():
+            type_str = code_to_name(raw_type) or raw_type
 
     return {
         "amap_id": item.get("id", ""),
         "amap_name": item.get("name", ""),
         "amap_address": item.get("address", ""),
         "amap_area": item.get("area", ""),
-        "amap_type": raw_type,
+        "amap_type": type_str,
         "amap_distance": distance,
         "amap_businessarea": ba,
         "cgcs_lon": cgcs_lon, "cgcs_lat": cgcs_lat,
@@ -105,8 +106,10 @@ def _parse_amap_item(item: dict) -> dict:
 # ===================== 逆地理编码 =====================
 
 
-async def _geo_to_address_once(lon: float, lat: float, radius: int = 2000) -> dict[str, Any]:
+async def _geo_to_address_once(lon: float, lat: float, radius: int | None = None) -> dict[str, Any]:
     """单次逆地理请求"""
+    if radius is None:
+        radius = AMAP_RADIUS
     if not AMAP_KEY:
         logger.error("[高德] AMAP_KEY 未配置")
         return {"success": False, "geo": {}, "pois": [], "aois": [], "raw": None}
@@ -158,7 +161,7 @@ async def _geo_to_address_once(lon: float, lat: float, radius: int = 2000) -> di
     pois.sort(key=lambda x: x["amap_distance"])
     aois.sort(key=lambda x: x["amap_distance"])
 
-    logger.success(f"逆地理完成，返回 {len(pois[:5])} 个POI, {len(aois[:5])} 个AOI")
+    logger.debug(f"[高德] 逆地理完成，返回 {len(pois[:5])} 个POI, {len(aois[:5])} 个AOI")
     return {
         "success": True,
         "geo":{
@@ -173,14 +176,18 @@ async def _geo_to_address_once(lon: float, lat: float, radius: int = 2000) -> di
     }
 
 
-async def geo_to_address(lon: float, lat: float, radius: int = 2000) -> dict[str, Any]:
-    """经纬度 → 逆地理编码（最多重试 _AMAP_MAX_RETRIES 次）"""
-    for attempt in range(1, _AMAP_MAX_RETRIES + 1):
+async def geo_to_address(lon: float, lat: float, radius: int | None = None, retries: int | None = None) -> dict[str, Any]:
+    """经纬度 → 逆地理编码"""
+    if retries is None:
+        retries = AMAP_MAX_RETRIES
+    if radius is None:
+        radius = AMAP_RADIUS
+    for attempt in range(1, retries + 1):
         result = await _geo_to_address_once(lon, lat, radius)
         if result.get("success"):
             return result
         logger.warning(f"[高德] 逆地理第 {attempt} 次返回失败")
-        if attempt < _AMAP_MAX_RETRIES:
+        if attempt < retries:
             await asyncio.sleep(0.5 * attempt)
     return {"success": False, "geo": {}, "pois": [], "aois": [], "raw": None}
 
@@ -242,8 +249,7 @@ async def _name_to_poi_once(name: str, city: str, ref_lon: float, ref_lat: float
         except ValueError:
             continue
 
-        wgs_lon, wgs_lat = gcj02_to_wgs84(lon_amap, lat_amap)
-        cgcs_lon, cgcs_lat = wgs84_to_cgcs2000(wgs_lon, wgs_lat)
+        cgcs_lon, cgcs_lat = gcj02_to_cgcs2000(lon_amap, lat_amap)
 
         distance = get_distance_meters(ref_lon, ref_lat, cgcs_lon, cgcs_lat)
         if distance is None:
@@ -252,22 +258,26 @@ async def _name_to_poi_once(name: str, city: str, ref_lon: float, ref_lat: float
         parsed.append(_parse_amap_item({
             **poi,
             "location": f"{lon_amap},{lat_amap}",
-            "distance": str(distance),
+            "distance": distance,
+            "cgcs_lon": cgcs_lon,
+            "cgcs_lat": cgcs_lat,
         }))
 
     parsed.sort(key=lambda x: x["amap_distance"])
-    logger.success(f"名称搜索完成，返回 {len(parsed[:5])} 个 POI")
+    logger.debug(f"[高德] 名称搜索完成，返回 {len(parsed[:5])} 个 POI")
     return {"success": True, "raw": data, "pois": parsed[:5]}
 
 
-async def name_to_poi(name: str, city: str, ref_lon: float, ref_lat: float) -> dict[str, Any]:
-    """高德 V5 POI 搜索（最多重试 _AMAP_MAX_RETRIES 次）"""
-    for attempt in range(1, _AMAP_MAX_RETRIES + 1):
+async def name_to_poi(name: str, city: str, ref_lon: float, ref_lat: float, retries: int | None = None) -> dict[str, Any]:
+    """高德 V5 POI 搜索"""
+    if retries is None:
+        retries = AMAP_MAX_RETRIES
+    for attempt in range(1, retries + 1):
         result = await _name_to_poi_once(name, city, ref_lon, ref_lat)
         if result["success"] and result["pois"]:
             return result
         logger.warning(f"[高德] 名称搜索第 {attempt} 次无结果")
-        if attempt < _AMAP_MAX_RETRIES:
+        if attempt < retries:
             await asyncio.sleep(0.5 * attempt)
     return {"success": False, "raw": None, "pois": []}
 
@@ -276,18 +286,21 @@ async def name_to_poi(name: str, city: str, ref_lon: float, ref_lat: float) -> d
 
 
 async def query_candidates(name: str, lon: float, lat: float,
-                           city: str, type_loader=None) -> dict[str, Any]:
+                           city: str,
+                           radius: int | None = None,
+                           retries: int | None = None) -> dict[str, Any]:
     """逆地理 + 名称搜索，并行合并去重，返回候选列表。
 
     Args:
-        name: POI 名称
+        name: SPOT 名称
         lon/lat: CGCS2000 坐标
         city: 城市名
-        type_loader: 可选回调 type → type_name，默认 codes_to_name
+        radius: 逆地理搜索半径，默认取 config.AMAP_RADIUS
+        retries: 单次查询重试次数，默认取 config.AMAP_MAX_RETRIES
     """
     geo_res, name_res = await asyncio.gather(
-        geo_to_address(lon, lat),
-        name_to_poi(name, city, lon, lat),
+        geo_to_address(lon, lat, radius=radius, retries=retries),
+        name_to_poi(name, city, lon, lat, retries=retries),
     )
 
     # 全部失败 → 快速返回空结构
@@ -327,25 +340,8 @@ async def query_candidates(name: str, lon: float, lat: float,
         deduped.append(item)
 
     # 按距离升序
-    deduped.sort(key=lambda x: x.get("distance", 99999))
+    deduped.sort(key=lambda x: x.get("amap_distance", 99999))
 
-    # type 覆盖：六位纯数字编码 → 转中文名
-    for item in deduped:
-        raw_type = item.get("type", "")
-        # 六位纯数字（如 "141201"）→ 查编码表转中文
-        if raw_type and len(raw_type) == 6 and raw_type.isdigit():
-            item["type"] = (type_loader or codes_to_name)(raw_type)
-
-    logger.info(f"[高德] 候选去重后: {len(deduped)} 条")
+    logger.debug(f"[高德] 候选去重后: {len(deduped)} 条")
     return {"geo": geo, "candidates": deduped[:11]}
-
-
-def save_candidates(name: str, poi_id: str, candidates: list[dict[str, Any]]) -> Path:  # noqa: D401
-    """保存候选数据到 tmp/amap/{name}-{poi_id}.json，可覆盖。"""
-    out_dir = Path(__file__).parent.parent.parent / "tmp" / "amap"
-    out_dir.mkdir(parents=True, exist_ok=True)
-    safe_name = "".join(c for c in name if c.isalnum() or c in "._-")[:50]
-    path = out_dir / f"{safe_name}-{poi_id}.json"
-    path.write_text(json.dumps(candidates, ensure_ascii=False, indent=2), encoding="utf-8")
-    return path
 

@@ -1,0 +1,173 @@
+# 天地图政府POI标注系统
+
+天地图 POI 数据导入 + 高德坐标校验 + Hermes Agent 智能标注一体化 pipeline。
+
+## 环境准备
+
+```bash
+# 安装依赖
+uv sync
+```
+
+确保 `.env` 文件已配置（项目根目录）：
+
+```bash
+# 高德 API key
+AMAP_KEY = "your_key"
+AMAP_RADIUS = 2000
+AMAP_MAX_RETRIES = 3
+
+# Hermes Agent 服务地址
+HERMES_HOST = 0.0.0.0
+HERMES_PORT = 8643
+HERMES_KEY = 12345678
+HERMES_MAX_RETRIES = 3
+HERMES_MAX_TOKENS = 1024
+```
+
+## 启动方式
+
+### 1. 天地图数据导入
+
+从天地图下载分享数据，增量写入 SQLite：
+
+```bash
+cd /data/openclaw/tianmap-government
+uv run python backend/main.py
+```
+
+默认处理 `main.py` 中配置的 UUID，修改该变量可切换数据源。
+
+- **增量模式**：id 不存在 → INSERT；id 存在且 remark 不同 → UPDATE
+- 坐标使用 CGCS2000（天地图坐标系）
+
+### 2. POI 智能标注
+
+对数据库中未标注的 POI（`size = 30`）进行全流程标注：
+
+```bash
+# 处理 1 条
+uv run python -m backend.annotate -n 1
+
+# 处理 10 条
+uv run python -m backend.annotate -n 10
+
+# 处理全部（自动循环直到没有未标注数据）
+uv run python -m backend.annotate -n 100 --all
+```
+
+**标注流程**：
+1. 高德逆地理 + 名称搜索（并行），合并去重生成候选列表
+2. 地址校验（对比 DB 存储与高德返回）
+3. Hermes Agent 选择 POI/AOI
+4. Hermes Agent 网络搜索 + 分类标注
+5. 统一入库，记录变更
+
+### 3. 坐标转换精度测试
+
+```bash
+uv run python test/test_coord.py
+```
+
+## 后台运行（nohup）
+
+### 天地图导入
+
+```bash
+nohup uv run python backend/main.py > /dev/null 2>&1 &
+echo $! > log/import.pid
+
+# 查看日志
+tail -f log/app.log
+
+# 停止
+kill $(cat log/import.pid)
+```
+
+### POI 标注（全部）
+
+```bash
+nohup uv run python -m backend.annotate -n 100 --all > /dev/null 2>&1 &
+echo $! > log/annotate.pid
+
+# 查看日志
+tail -f log/app.log
+
+# 停止
+kill $(cat log/annotate.pid)
+```
+
+### 日志说明
+
+| 文件 | 级别 | 内容 |
+|------|------|------|
+| `log/app.log` | INFO | 核心流程：导入统计、入库结果 |
+| `log/app_detail.log` | DEBUG | 中间数据：高德返回、Agent 交互、重试细节 |
+
+日志每天轮转，保留 7 天。
+
+## 项目结构
+
+```
+tianmap-government/
+  backend/
+    main.py                # 天地图数据导入（增量模式）
+    annotate.py            # POI 智能标注 pipeline
+    mapping.py             # 归属/类型 → color + code 映射表
+    api/
+      amap.py              # 高德 API（逆地理 + 名称搜索 + 候选合并）
+      hermes.py            # Hermes Agent 接口
+      config.py            # .env 环境变量
+    util/
+      coord.py             # CGCS2000/WGS84/GCJ02 坐标转换（Newton 迭代）
+      amap_codes.py        # 高德 POI 编码查表（Excel 源）
+      address.py           # 地址解析
+      io.py / json.py      # 文件工具
+      log.py               # loguru 配置
+  data/tianmap.db          # SQLite 数据库
+  log/                     # 运行日志
+  tmp/                     # 临时缓存（高德 API 返回数据）
+  assert/
+    hermes_system/         # Agent 系统提示词
+    Amap_poicode.xlsx      # 高德类型编码源表
+  test/test_coord.py       # 坐标转换精度测试
+  .env                     # 环境变量
+  pyproject.toml           # 项目配置
+```
+
+## 数据流转
+
+```
+天地图分享数据 (CGCS2000)
+    ↓ main.py
+SQLite poi_points 表
+    ↓ annotate.py
+高德逆地理 + 名称搜索 (GCJ02)
+    ↓ 坐标互转 CGCS2000 ↔ GCJ02
+Hermes Agent 选择 POI/AOI
+Hermes Agent 网络搜索 + 分类标注
+    ↓ 入库
+SQLite 更新（含变更记录）
+```
+
+## 坐标系统
+
+```
+CGCS2000（天地图）
+    ←→ WGS84（GPS）
+    ←→ GCJ02（高德）
+
+转换链：
+CGCS2000 → WGS84 → GCJ02    （天地图 → 高德查询）
+GCJ02 → WGS84 → CGCS2000    （高德返回 → 写回数据库）
+
+精度：gcj02_to_wgs84 使用 Newton 迭代，10 次迭代精度 0.01m
+```
+
+## 关键设计
+
+- **`size` 标记状态**：30 = 未标注，15 = 已标注
+- **`record` 字段**：每次更新对比关键字段（name/省市区/归属/类型），写入 JSON 变更记录
+- **`--all` 循环**：不依赖 cron，启动一次自动跑完全部未标注数据
+- **日志文件直写**：loguru 直写文件，不受 nohup 重定向影响
+- **SQLite 单文件**：`data/tianmap.db` 即全部数据，复制即备份

@@ -65,20 +65,30 @@ def wgs84_to_gcj02(lon: float, lat: float) -> tuple[float, float]:
 
 
 def gcj02_to_wgs84(lon: float, lat: float) -> tuple[float, float]:
-    """GCJ02 → WGS84"""
+    """GCJ02 → WGS84（牛顿迭代求精确反解）"""
     if _out_of_china(lon, lat):
         return round(lon, 6), round(lat, 6)
-    d_lon = _transform_lon(lon - 105.0, lat - 35.0)
-    d_lat = _transform_lat(lon - 105.0, lat - 35.0)
-    rad_lat = lat / 180.0 * PI
-    magic = math.sin(rad_lat)
-    magic = 1 - EE * magic * magic
-    sqrt_magic = math.sqrt(magic)
-    d_lat = (d_lat * 180.0) / ((A * (1 - EE)) / (magic * sqrt_magic) * PI)
-    d_lon = (d_lon * 180.0) / (A / sqrt_magic * math.cos(rad_lat) * PI)
-    mg_lon = lon + d_lon
-    mg_lat = lat + d_lat
-    return lon * 2 - mg_lon, lat * 2 - mg_lat
+
+    def _delta(d_lon, d_lat):
+        rad = lat / 180.0 * PI
+        magic = math.sin(rad)
+        magic = 1 - EE * magic * magic
+        sqrt_magic = math.sqrt(magic)
+        d_lat = (d_lat * 180.0) / ((A * (1 - EE)) / (magic * sqrt_magic) * PI)
+        d_lon = (d_lon * 180.0) / (A / sqrt_magic * math.cos(rad) * PI)
+        return d_lon, d_lat
+
+    # 初始猜测：wgs ≈ gcj - delta(gcj)
+    d_lon, d_lat = _delta(_transform_lon(lon - 105.0, lat - 35.0), _transform_lat(lon - 105.0, lat - 35.0))
+    w_lon, w_lat = lon - d_lon, lat - d_lat
+
+    # 牛顿迭代：gcj = wgs + delta(wgs)，求 wgs
+    for _ in range(10):
+        dd_lon, dd_lat = _delta(_transform_lon(w_lon - 105.0, w_lat - 35.0), _transform_lat(w_lon - 105.0, w_lat - 35.0))
+        w_lon -= (w_lon + dd_lon) - lon
+        w_lat -= (w_lat + dd_lat) - lat
+
+    return w_lon, w_lat
 
 
 def cgcs2000_to_gcj02(lon: float, lat: float) -> tuple[float, float]:

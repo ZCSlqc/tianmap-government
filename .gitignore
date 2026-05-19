@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.eggs/
+*.egg-info/
+dist/
+build/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+log/
+
+# Temp caches
+tmp/amap/
+tmp/test*.json
+
+# OS
+.DS_Store

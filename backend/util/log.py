@@ -14,7 +14,7 @@ logger.remove()
 _log_dir = Path(__file__).parent.parent.parent / "log"
 _log_dir.mkdir(parents=True, exist_ok=True)
 
-# === 标准日志 ===
+# === 标准日志：核心流程（INFO 及以上）===
 logger.add(
     _log_dir / "app.log",
     rotation="00:00", retention="7 days",
@@ -23,14 +23,13 @@ logger.add(
     encoding="utf-8",
 )
 
-# === 超详细日志 ===
+# === 详细日志：中间数据、重试、API 交互（DEBUG）===
 logger.add(
     _log_dir / "app_detail.log",
     rotation="00:00", retention="7 days",
     level="DEBUG",
     format="{time:YYYY-MM-DD HH:mm:ss.SSS} | {level: <8} | {name}:{function}:{line} | {message}",
     encoding="utf-8",
-    serialize=False,  # 不用 JSON 序列化，可读性更好
 )
 
 # === 终端日志 ===

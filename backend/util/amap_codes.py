@@ -19,26 +19,21 @@ def _load_codes() -> dict[str, str]:
     ws = wb.active
     mapping: dict[str, str] = {}
 
-    # 先收集中类和大类（以 00 结尾）
-    big_mid: dict[str, tuple[str, str]] = {}
     for r in range(2, ws.max_row + 1):
         new_type = ws.cell(r, 2).value
+        if new_type is None:
+            continue
+        new_type = str(new_type)
         big = ws.cell(r, 3).value or ""
         mid = ws.cell(r, 4).value or ""
-        if not isinstance(new_type, str):
-            continue
-        if new_type.endswith("00") and not new_type.endswith("0000"):
-            big_mid[new_type[:4]] = (big, mid)
-
-    # 再处理小类（6位）
-    for r in range(2, ws.max_row + 1):
-        new_type = ws.cell(r, 2).value
         sub = ws.cell(r, 5).value or ""
-        if not isinstance(new_type, str) or len(new_type) != 6:
-            continue
         code = new_type
-        big, mid = big_mid.get(code[:4], ("", ""))
-        mapping[code] = f"{big};{mid};{sub}" if mid and sub else (sub if sub else "")
+        if big and mid and sub:
+            mapping[code] = f"{big};{mid};{sub}"
+        elif big and mid:
+            mapping[code] = f"{big};{mid}"
+        elif big:
+            mapping[code] = big
 
     wb.close()
     _type_cache = mapping
@@ -50,28 +45,13 @@ def code_to_name(code: str) -> str:
     if not code:
         return ""
     codes = _load_codes()
-    return codes.get(code, "")
-
-
-def codes_to_name(codes_str: str) -> str:
-    """将高德返回的分号分隔编码（如 "050400|050700"）转为中文名。
-
-    高德 type 字段可能用 | 分隔多个编码，这里取第一个匹配。
-    """
-    if not codes_str:
-        return ""
-    parts = codes_str.replace("|", ";").split(";")
-    names = []
-    for c in parts:
-        n = code_to_name(c.strip())
-        if n:
-            names.append(n)
-        else:
-            names.append(c.strip())
-    return ";".join(names)
+    return codes.get(code, code)
 
 
 if __name__ == "__main__":
-    print(code_to_name("060102"))       # 购物服务;商场;普通商场
-    print(code_to_name("010000"))       # 汽车服务
-    print(codes_to_name("050400|050700"))  # 餐饮服务;休闲餐饮场所;餐饮相关|餐饮服务;冷饮店;冷饮店
+    assert code_to_name("060102") == "购物服务;商场;普通商场"
+    assert code_to_name("140600") == "科教文化服务;科技馆;科技馆"
+    assert code_to_name("110210") == "风景名胜;风景名胜;红色景区"
+    assert code_to_name("999999") == "999999"  # 查不到返回原码
+    assert code_to_name("") == ""
+    print("all pass")
