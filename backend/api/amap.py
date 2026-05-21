@@ -13,12 +13,16 @@ from loguru import logger
 from geopy.distance import geodesic
 
 from backend.api.config import AMAP_KEY, AMAP_RADIUS, AMAP_MAX_RETRIES
-from backend.util.coord import cgcs2000_to_gcj02, gcj02_to_cgcs2000
+from backend.util.coord import GCJ_LON_MIN, GCJ_LON_MAX, GCJ_LAT_MIN, GCJ_LAT_MAX, cgcs2000_to_gcj02, gcj02_to_cgcs2000
 from backend.util.amap_codes import code_to_name
 
-# 中国边界
-GCJ_LON_MIN, GCJ_LON_MAX = 73.66, 135.05
-GCJ_LAT_MIN, GCJ_LAT_MAX = 18.15, 53.55
+AMAP_NAME = False # 每月5000次限额很坑
+
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+    "Accept": "application/json, text/javascript, */*; q=0.01",
+    "Referer": "https://lbs.amap.com/",
+}
 
 
 def _out_of_china(lon: float, lat: float) -> bool:
@@ -136,7 +140,7 @@ async def _geo_to_address_once(lon: float, lat: float, radius: int | None = None
 
     try:
         async with aiohttp.ClientSession() as session:
-            async with session.get(url, params=params, timeout=aiohttp.ClientTimeout(total=3)) as resp:
+            async with session.get(url, params=params, headers=headers, timeout=aiohttp.ClientTimeout(total=10)) as resp:
                 resp.raise_for_status()
                 data = await resp.json()
     except asyncio.TimeoutError:
@@ -217,7 +221,7 @@ async def _name_to_poi_once(name: str, city: str, ref_lon: float, ref_lat: float
 
     try:
         async with aiohttp.ClientSession() as session:
-            async with session.get(url, params=params, timeout=aiohttp.ClientTimeout(total=8)) as resp:
+            async with session.get(url, params=params, headers=headers, timeout=aiohttp.ClientTimeout(total=8)) as resp:
                 resp.raise_for_status()
                 data = await resp.json()
     except asyncio.TimeoutError:
@@ -237,7 +241,7 @@ async def _name_to_poi_once(name: str, city: str, ref_lon: float, ref_lat: float
     pois = data.get("pois", [])
     if not pois:
         logger.warning(f"[高德] 未搜索到POI: {name}")
-        return {"success": False, "raw": data, "pois": []}
+        return {"success": True, "raw": data, "pois": []}
 
     parsed = []
     for poi in pois:
@@ -274,9 +278,9 @@ async def name_to_poi(name: str, city: str, ref_lon: float, ref_lat: float, retr
         retries = AMAP_MAX_RETRIES
     for attempt in range(1, retries + 1):
         result = await _name_to_poi_once(name, city, ref_lon, ref_lat)
-        if result["success"] and result["pois"]:
+        if result.get("success"):
             return result
-        logger.warning(f"[高德] 名称搜索第 {attempt} 次无结果")
+        logger.warning(f"[高德] 名称搜索第 {attempt} 次请求失败")
         if attempt < retries:
             await asyncio.sleep(0.5 * attempt)
     return {"success": False, "raw": None, "pois": []}
@@ -298,20 +302,20 @@ async def query_candidates(name: str, lon: float, lat: float,
         radius: 逆地理搜索半径，默认取 config.AMAP_RADIUS
         retries: 单次查询重试次数，默认取 config.AMAP_MAX_RETRIES
     """
-    geo_res, name_res = await asyncio.gather(
-        geo_to_address(lon, lat, radius=radius, retries=retries),
-        name_to_poi(name, city, lon, lat, retries=retries),
-    )
+
+    geo_res = await geo_to_address(lon, lat, radius=radius, retries=retries)
+    if AMAP_NAME:
+        name_res = None
+    else:
+        name_res = await name_to_poi(name, city, lon, lat, retries=retries)
 
     # 全部失败 → 快速返回空结构
-    if not geo_res.get("success") and not name_res.get("success"):
+    if not geo_res.get("success") and (name_res is None or not name_res.get("success")):
         logger.warning(f"[高德] 逆地理+名称搜索均无结果: {name}")
         return {"geo": {}, "candidates": []}
 
     if not geo_res.get("pois") and not geo_res.get("aois"):
         logger.warning(f"[高德] 逆地理未返回 pois/aois: {name}")
-    if not name_res.get("pois"):
-        logger.warning(f"[高德] 名称搜索未返回结果: {name}")
     
     geo = geo_res.get("geo", {})
     all_items: list[dict[str, Any]] = []
@@ -323,10 +327,16 @@ async def query_candidates(name: str, lon: float, lat: float,
         ca = dict(a)
         ca["source"] = "geo_aoi"
         all_items.append(ca)
-    for p in name_res.get("pois", []):
-        cp = dict(p)
-        cp["source"] = "name_poi"
-        all_items.append(cp)
+    
+    if name_res is not None:
+        if not name_res.get("pois"):
+            logger.warning(f"[高德] 名称搜索未返回结果: {name}")    
+        for p in name_res.get("pois", []):
+            cp = dict(p)
+            cp["source"] = "name_poi"
+            all_items.append(cp)
+    else:
+        logger.info(f"[高德] 名称搜索已禁用")  
 
     # 去重
     seen = set()

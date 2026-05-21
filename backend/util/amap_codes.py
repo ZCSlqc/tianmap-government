@@ -15,7 +15,13 @@ def _load_codes() -> dict[str, str]:
     if _type_cache is not None:
         return _type_cache
 
-    wb = openpyxl.load_workbook(_CODE_XLSX, read_only=True)
+    if not _CODE_XLSX.exists():
+        raise FileNotFoundError(f"POI 编码表不存在: {_CODE_XLSX}")
+
+    try:
+        wb = openpyxl.load_workbook(_CODE_XLSX, read_only=True)
+    except Exception:
+        raise RuntimeError(f"POI 编码表读取失败，请检查文件是否损坏: {_CODE_XLSX}")
     ws = wb.active
     mapping: dict[str, str] = {}
 

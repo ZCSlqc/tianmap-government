@@ -4,6 +4,7 @@ API 调用模块，所有网络请求统一在此处理。"""
 
 import asyncio
 import aiohttp
+import json
 from typing import Any
 from loguru import logger
 
@@ -11,6 +12,27 @@ from backend.api.config import HERMES_HOST, HERMES_PORT, HERMES_KEY, HERMES_MAX_
 
 BASE_URL = f"http://{HERMES_HOST}:{HERMES_PORT}/v1/chat/completions"
 HEALTH_URL = f"http://{HERMES_HOST}:{HERMES_PORT}/health"
+
+
+def _extract_json(text: str) -> tuple[int, int] | None:
+    """用栈匹配找到第一个完整 JSON 对象 { } 的起止位置。"""
+    start = text.find("{")
+    if start < 0:
+        return None
+    depth = 0
+    i = start
+    while i < len(text):
+        ch = text[i]
+        if ch == "{":
+            depth += 1
+        elif ch == "}":
+            depth -= 1
+            if depth < 0:
+                return None
+            if depth == 0:
+                return start, i
+        i += 1
+    return None
 
 
 async def health() -> bool:
@@ -58,6 +80,9 @@ async def _chat_once(messages: list[dict], session_id: str = "",
     except (KeyError, IndexError) as e:
         logger.error(f"[Hermes] 响应解析失败: {e}")
         return None
+    except TypeError as e:
+        logger.error(f"[Hermes] 响应类型异常: {e}")
+        return None
 
 
 async def chat(messages: list[dict], session_id: str = "", max_tokens: int | None = None,
@@ -75,17 +100,15 @@ async def chat(messages: list[dict], session_id: str = "", max_tokens: int | Non
 async def chat_return_json(messages: list[dict], session_id: str = "", max_tokens: int | None = None,
                            retries: int | None = None) -> dict | None:
     """Agent 请求 + 提取 JSON，网络失败重试 chat，解析失败重试"""
-    import json
-
     for _ in range(retries if retries is not None else HERMES_MAX_RETRIES):
         text = await _chat_once(messages, session_id, max_tokens)
         if not text:
             continue
-        start = text.find("{")
-        end = text.rfind("}")
-        if start < 0 or end <= start:
+        pos = _extract_json(text)
+        if pos is None:
             logger.debug("[Hermes] 响应中未找到 JSON 对象")
             continue
+        start, end = pos
         try:
             return json.loads(text[start:end + 1])
         except json.JSONDecodeError as e:

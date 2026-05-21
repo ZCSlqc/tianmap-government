@@ -19,8 +19,10 @@ logger.add(
     _log_dir / "app.log",
     rotation="00:00", retention="7 days",
     level="INFO",
-    format="{time:YYYY-MM-DD HH:mm:ss} | {level: <8} | {name}:{function}:{line} | {message}",
+    format="{time:YYYY-MM-DD HH:mm:ss} | {level: <8} | {message}",
     encoding="utf-8",
+    backtrace=True, 
+    diagnose=True, 
 )
 
 # === 详细日志：中间数据、重试、API 交互（DEBUG）===
@@ -28,8 +30,10 @@ logger.add(
     _log_dir / "app_detail.log",
     rotation="00:00", retention="7 days",
     level="DEBUG",
-    format="{time:YYYY-MM-DD HH:mm:ss.SSS} | {level: <8} | {name}:{function}:{line} | {message}",
+    format="{time:YYYY-MM-DD HH:mm:ss.SSS} | {level: <8} | {message}",
     encoding="utf-8",
+    backtrace=True, 
+    diagnose=True, 
 )
 
 # === 终端日志 ===
@@ -38,4 +42,6 @@ logger.add(
     level="DEBUG",
     format="<green>{time:HH:mm:ss}</green> | <level>{level: <8}</level> | {message}",
     colorize=True,
+    backtrace=True, 
+    diagnose=True, 
 )

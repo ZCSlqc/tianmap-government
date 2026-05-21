@@ -14,19 +14,16 @@
 import asyncio
 import json
 import sqlite3
+import sys
+import urllib.parse
 from pathlib import Path
 from datetime import datetime
 
-from backend.util import logger, save_json, parse_json
+from backend.util import logger, save_json
 from backend.api.amap import query_candidates
+from backend.api.config import HERMES_MAX_RETRIES
 from backend.api.hermes import chat_return_json
 from backend.mapping import get_color_code
-
-AMAP_RADIUS = 2000
-AMAP_MAX_RETRIES = 3
-HERMES_MAX_TOKENS = 1024
-HERMES_MAX_RETRIES = 3
-MAX_RETRIES = AMAP_MAX_RETRIES
 
 DB_PATH = Path(__file__).parent.parent / "data" / "tianmap.db"
 SELECT_PROMPT_PATH = Path(__file__).parent.parent / "assert" / "hermes_system" / "select_prompt.md"
@@ -48,8 +45,14 @@ def resolve_selection(agents_amap_id: str, agents_name: str, candidates: list) -
     return None, f"amap_id={agents_amap_id} 未找到"
 
 
-SYSTEM_SELECT = SELECT_PROMPT_PATH.read_text(encoding="utf-8")
-SYSTEM_ANNOTATE = ANNOTATE_PROMPT_PATH.read_text(encoding="utf-8")
+try:
+    SYSTEM_SELECT = SELECT_PROMPT_PATH.read_text(encoding="utf-8")
+except FileNotFoundError:
+    raise RuntimeError(f"选择提示词文件不存在: {SELECT_PROMPT_PATH}")
+try:
+    SYSTEM_ANNOTATE = ANNOTATE_PROMPT_PATH.read_text(encoding="utf-8")
+except FileNotFoundError:
+    raise RuntimeError(f"标注提示词文件不存在: {ANNOTATE_PROMPT_PATH}")
 
 
 def build_select_messages(poi_name: str, geo: dict, candidates: list) -> list[dict]:
@@ -72,7 +75,7 @@ async def select_type(poi_name: str, geo: dict, candidates: list) -> tuple[dict 
     """
     messages = build_select_messages(poi_name, geo, candidates)
 
-    for attempt in range(1, MAX_RETRIES + 1):
+    for attempt in range(1, HERMES_MAX_RETRIES + 1):
         parsed = await chat_return_json(messages)
         if not parsed:
             continue
@@ -114,7 +117,7 @@ async def select_type(poi_name: str, geo: dict, candidates: list) -> tuple[dict 
         return selected, parsed.get("reason", ""), attempt
 
     logger.error("[选择] 全部重试失败")
-    return None, "agent解析失败", MAX_RETRIES
+    return None, "agent解析失败", HERMES_MAX_RETRIES
 
 
 # ===================== Agent 标注分类 =====================
@@ -141,9 +144,9 @@ def build_annotate_messages(poi_name: str, geo: dict,
                     f"## 你的任务\n\n"
                     f"1. **必须先搜索再标注**：\n"
                     f"   1.1 使用 web_search 工具搜索 SPOT 名称，获取搜索结果摘要\n"
-                    f"   1.2 如 web_search 结果不足，使用 browser_navigate 打开百度搜索（URL: https://www.baidu.com/s?wd={poi_name}），用 browser_snapshot 读取链接和摘要\n"
+                    f"   1.2 如 web_search 结果不足，使用 browser_navigate 打开百度搜索（URL: https://www.baidu.com/s?wd={urllib.parse.quote(poi_name)}），用 browser_snapshot 读取链接和摘要\n"
                     f"   1.3 对搜索结果中有价值的链接，使用 web_extract 提取详细内容\n"
-                    f"   1.4 如百度结果仍不足，再打开搜狗搜索（URL: https://www.sogou.com/web?query={poi_name}），重复 1.2-1.3\n"
+                    f"   1.4 如百度结果仍不足，再打开搜狗搜索（URL: https://www.sogou.com/web?query={urllib.parse.quote(poi_name)}），重复 1.2-1.3\n"
                     f"      - 提示：可在 URL 中追加搜索参数\n"
                     f"   1.5 禁止凭记忆回答，必须以搜索到的实时信息为准\n"
                     f"   1.6 至少完成一次完整搜索后再开始标注\n"
@@ -154,12 +157,12 @@ def build_annotate_messages(poi_name: str, geo: dict,
 
 
 async def annotate_category(poi_name: str, geo: dict, selected_item: dict | None, remark: str | None) -> tuple[dict | None, int]:
-    """Agent 标注分类，最多重试 MAX_RETRIES 次，内部自检字段。"""
+    """Agent 标注分类，最多重试 HERMES_MAX_RETRIES 次，内部自检字段。"""
     messages = build_annotate_messages(poi_name, geo, selected_item, remark)
 
     required_fields = ("name", "affiliation", "point_type", "level", "feature", "parent_company", "constructor")
 
-    for attempt in range(1, MAX_RETRIES + 1):
+    for attempt in range(1, HERMES_MAX_RETRIES + 1):
         parsed = await chat_return_json(messages)
         if not parsed:
             logger.warning(f"[标注] 第 {attempt} 次返回为空或格式不对")
@@ -190,7 +193,7 @@ async def annotate_category(poi_name: str, geo: dict, selected_item: dict | None
         return parsed, attempt
 
     logger.error("[标注] 全部重试失败")
-    return None, MAX_RETRIES
+    return None, HERMES_MAX_RETRIES
 
 
 # ===================== 入库 =====================
@@ -198,71 +201,90 @@ async def annotate_category(poi_name: str, geo: dict, selected_item: dict | None
 def save_result(poi_id: str, db_name: str, geo: dict | None, selected: dict | None, annotation: dict | None):
     now = datetime.now().isoformat()
     conn = sqlite3.connect(str(DB_PATH))
+    conn.execute("PRAGMA journal_mode=WAL")
+    try:
+        conn.execute("BEGIN")
+        # 1. 查旧数据打底
+        cur = conn.execute("SELECT * FROM poi_points WHERE id=?", (poi_id,))
+        old_row = cur.fetchone()
+        cols = [d[0] for d in cur.description] if cur.description else []
+        table_cols = set(cols)
+        old_dict = dict(zip(cols, old_row)) if old_row else {}
+        new = {}
 
-    # 1. 查旧数据打底
-    cur = conn.execute("SELECT * FROM poi_points WHERE id=?", (poi_id,))
-    old_row = cur.fetchone()
-    cols = [d[0] for d in cur.description] if cur.description else []
-    table_cols = set(cols)
-    old_dict = dict(zip(cols, old_row)) if old_row else {}
-    new = {}
+        # 2. geo 负责：省市区街道
+        if geo:
+            for k in ("province", "city", "district", "township", "geo_detail"):
+                v = geo.get(k, "")
+                if v and k in table_cols:
+                    new[k] = v
 
-    # 2. geo 负责：省市区街道
-    if geo:
-        for k in ("province", "city", "district", "township", "geo_detail"):
-            v = geo.get(k, "")
-            if v and k in table_cols:
-                new[k] = v
+        # 3. selected 负责：全套高德字段（selected 返回值已带 amap_ 前缀，直接映射）
+        if selected:
+            for k, v in selected.items():
+                if v and k in table_cols:
+                    new[k] = v  # k 已带 amap_ 前缀
+            new["name"] = selected.get("amap_name", db_name)  # 优先采纳 agent 选定的名称
 
-    # 3. selected 负责：全套高德字段（selected 返回值已带 amap_ 前缀，直接映射）
-    if selected:
-        for k, v in selected.items():
-            if v and k in table_cols:
-                new[k] = v  # k 已带 amap_ 前缀
-        new["name"] = selected.get("amap_name", db_name)  # 优先采纳 agent 选定的名称
+        # 4. annotation 负责：业务属性  name最优先级
+        if annotation:
+            for k, v in annotation.items():
+                if v and k in table_cols:
+                    new[k] = v
 
-    # 4. annotation 负责：业务属性  name最优先级
-    if annotation:
-        for k, v in annotation.items():
-            if v and k in table_cols:
-                new[k] = v
+        affiliation = annotation.get("affiliation", "")
+        point_type = annotation.get("point_type", "")
+        color, code = get_color_code(affiliation, point_type)
+        new["color"] = color
+        new["code"] = code
 
-    affiliation = annotation.get("affiliation", "")
-    point_type = annotation.get("point_type", "")
-    color, code = get_color_code(affiliation, point_type)
-    new["color"] = color
-    new["code"] = code
+        # 去掉空值 key（0/False 是有效值，不跳过）
+        new = {k: v for k, v in new.items() if v is not None and v != "" and not isinstance(v, dict)}
 
-    # 去掉空值 key（0/False 是有效值，不跳过）
-    new = {k: v for k, v in new.items() if v is not None and v != "" and not isinstance(v, dict)}
+        if annotation:
+            new["size"] = 15  # 已标注，缩小标记，避免重复选取
+        new["name_checked"] = 1
+        new["updated_at"] = now
 
-    if annotation:
-        new["size"] = 15  # 已标注，缩小标记，避免重复选取
-    new["name_checked"] = 1
-    new["updated_at"] = now
+        # 6. 变更记录：白名单对比
+        compare_fields = ("name", "province", "city", "district", "township", "affiliation", "point_type")
+        changes = {}
+        for f in compare_fields:
+            old_v = old_dict.get(f, "")
+            cur_v = new.get(f, "")
+            if old_v and cur_v and old_v != cur_v:
+                changes[f] = [cur_v, old_v]
 
+        if changes:
+            full_record = json.dumps(changes, ensure_ascii=False)
+        else:
+            full_record = ""
+        new["record"] = full_record[:2000]
 
-    # 6. 变更记录：白名单对比
-    compare_fields = ("name", "province", "city", "district", "township", "affiliation", "point_type")
-    changes = {}
-    for f in compare_fields:
-        old_v = old_dict.get(f, "")
-        cur_v = new.get(f, "")
-        if old_v and cur_v and old_v != cur_v:
-            changes[f] = [cur_v, old_v]
-
-    if changes:
-        full_record = json.dumps(changes, ensure_ascii=False)
-    else:
-        full_record = ""
-    new["record"] = full_record[:2000]
-
-    # 7. 一次性 UPDATE 入库
-    SET = ", ".join(f"{k}=?" for k in new)
-    conn.execute(f"UPDATE poi_points SET {SET} WHERE id=?", list(new.values()) + [poi_id])
-    conn.commit()
-    logger.info(f"[入库] poi_id={poi_id} {affiliation}/{point_type} {color}/{code}")
-    logger.info(f"[记录] {full_record}")
+        # 7. 入库
+        cur = conn.execute("SELECT 1 FROM poi_points WHERE id=?", (poi_id,))
+        if cur.fetchone():
+            SET = ", ".join(f"{k}=?" for k in new)
+            conn.execute(f"UPDATE poi_points SET {SET} WHERE id=?", list(new.values()) + [poi_id])
+        else:
+            cols = list(new)
+            SET = ", ".join(f"{k}=?" for k in cols)
+            placeholders = ", ".join(["?"] * len(cols))
+            conn.execute(f"INSERT INTO poi_points ({', '.join(cols)}) VALUES ({placeholders})", list(new.values()) + [poi_id])
+        conn.commit()
+        logger.info(f"[入库] poi_id={poi_id} {affiliation}/{point_type} {color}/{code}")
+        logger.info(f"[记录] {full_record}")
+    except Exception as e:
+        logger.error(f"[入库失败] poi_id={poi_id} error={e}")
+        try:
+            conn.rollback()
+        except Exception:
+            pass
+    finally:
+        try:
+            conn.close()
+        except Exception:
+            pass
 
 
 # ===================== 主流程 =====================
@@ -272,103 +294,123 @@ async def run(count: int = 1, all_mode: bool = False):
     logger.debug(f"=== 启动标注，count={count}, all={all_mode} ===")
 
     conn = sqlite3.connect(str(DB_PATH))
+    conn.execute("PRAGMA journal_mode=WAL")
+    _current_poi = "[none]"
 
-    total = 0
-    while True:
-        rows = conn.execute(
-            "SELECT id, name, lon, lat, province, city, district, township, remark "
-            "FROM poi_points WHERE lon != 0 AND lat != 0 AND size != 15 "
-            "ORDER BY RANDOM()"
-        ).fetchmany(count)
+    try:
+        total = 0
+        # 随机选取：先 COUNT，再随机取 N 个 id，避免 ORDER BY RANDOM() 全表扫描
+        n = conn.execute(
+            "SELECT COUNT(*) FROM poi_points WHERE lon != 0 AND lat != 0 AND size != 15"
+        ).fetchone()[0]
+        while n > 0:
+            take = min(count, n)
+            n -= take
+            rows = conn.execute(
+                "SELECT id FROM poi_points WHERE lon != 0 AND lat != 0 AND size != 15 "
+                "ORDER BY RANDOM() LIMIT ?", (take,)
+            ).fetchall()
+            if not rows:
+                break
+            ids = [r[0] for r in rows]
+            placeholders = ",".join(["?"] * len(ids))
+            rows = conn.execute(
+                f"SELECT id, name, lon, lat, province, city, district, township, remark "
+                f"FROM poi_points WHERE id IN ({placeholders})", ids
+            ).fetchall()
+            for r in rows:
+                total += 1
+                poi_id, poi_name, lon, lat, province, city, district, township, remark = r
+                _current_poi = poi_name
+                logger.debug(f"{'-'*40}")
+                logger.info(f"SPOT: {poi_name} | {province}/{city}/{district}/{township}")
 
-        if not rows:
-            break
+                # Step 1: 高德查询
+                logger.debug("[1] 高德查询...")
+                result = await query_candidates(poi_name, lon, lat, city)
+                geo = result["geo"]
+                candidates = result["candidates"]
+                await save_json([poi_name, poi_id[:8]], candidates, subdir="amap")
 
-        for r in rows:
-            total += 1
-        poi_id, poi_name, lon, lat, province, city, district, township, remark = r
-        logger.debug(f"{'-'*40}")
-        logger.info(f"SPOT: {poi_name} | {province}/{city}/{district}/{township}")
-        
-
-        # Step 1: 高德查询
-        logger.debug("[1] 高德查询...")
-        result = await query_candidates(poi_name, lon, lat, city, radius=AMAP_RADIUS, retries=AMAP_MAX_RETRIES)
-        geo = result["geo"]
-        candidates = result["candidates"]
-        await save_json([poi_name, poi_id[:8]], candidates, subdir="amap")
-
-        # Step 2: geo 为空则跳过地址对比和选择，直接标注
-        if geo:
-            amap_province = (geo.get("province") or "").strip()
-            amap_city = (geo.get("city") or "").strip()
-            amap_district = (geo.get("district") or "").strip()
-            amap_township = (geo.get("township") or "").strip()
-            diffs = []
-            for db_val, amap_val, _ in [
-                (province, amap_province, "省"), (city, amap_city, "市"),
-                (district, amap_district, "区"), (township, amap_township, "街道"),
-            ]:
-                if amap_val and db_val and amap_val != db_val:
-                    diffs.append(f"DB={db_val} → 高德={amap_val}")
-            if not diffs:
-                logger.debug(f"[地址] 一致: {amap_province}/{amap_city}/{amap_district}/{amap_township}")
-            else:
-                logger.debug(f"[地址] 不一致: {' | '.join(diffs)}")
-        else:
-            logger.warning("[地址] 高德返回为空，跳过地址对比")
-        
-          
-        # Step 3: Agent 选择 AOI/POI（None=失败, {}=兜底, dict=选中）
-        logger.debug("[2] Agent 筛选高德...")
-        selected = None
-        if candidates:
-            selected, reason, select_attempts = await select_type(poi_name, geo, candidates)
-            if selected is None:
-                logger.error(f"[降级] {reason}")
-            if selected == {}:
-                logger.debug(f"[选择] 不使用 Amap 数据")
-                logger.debug(f"[理由] {reason} ({select_attempts}次成功)")
-            elif isinstance(selected, dict) and selected:
-                sel_name = selected.get('amap_name', '')
-                sel_type = selected.get('source', '')
-                sel_distance = selected.get('amap_distance', 99999)
-                prev_names = []
-                for c in candidates:
-                    if c.get("amap_id") == selected.get("amap_id"):
-                        break
-                    prev_names.append(f"{c.get('amap_name', '')}({c.get('source', '')})")
-
-                if sel_name == poi_name:
-                    logger.debug(f"[名称] 一致: {poi_name}")
+                # Step 2: geo 为空则跳过地址对比和选择，直接标注
+                if geo:
+                    amap_province = (geo.get("province") or "").strip()
+                    amap_city = (geo.get("city") or "").strip()
+                    amap_district = (geo.get("district") or "").strip()
+                    amap_township = (geo.get("township") or "").strip()
+                    diffs = []
+                    for db_val, amap_val, _ in [
+                        (province, amap_province, "省"), (city, amap_city, "市"),
+                        (district, amap_district, "区"), (township, amap_township, "街道"),
+                    ]:
+                        if amap_val and db_val and amap_val != db_val:
+                            diffs.append(f"DB={db_val} → 高德={amap_val}")
+                    if not diffs:
+                        logger.debug(f"[地址] 一致: {amap_province}/{amap_city}/{amap_district}/{amap_township}")
+                    else:
+                        logger.debug(f"[地址] 不一致: {' | '.join(diffs)}")
                 else:
-                    logger.debug(f"[名称] 不一致: DB={poi_name} → agent={sel_name}")
-                if prev_names:
-                    logger.debug(f"[选择] {sel_type} | {sel_distance}m | 第{len(prev_names)+1}名 | 前面: {', '.join(prev_names)}")
-                else:
-                    logger.debug(f"[选择] {sel_type} | {sel_distance}m | 第1名")
-                if sel_distance > 200:
-                    logger.warning(f"[警告] {sel_distance}m 超出阈值")
-                logger.debug(f"[理由] {reason} ({select_attempts}次成功)")
+                    logger.warning("[地址] 高德返回为空，跳过地址对比")
 
-        # Step 4: Agent 标注分类
-        logger.debug("[3] Agent 标注分类...")
-        annotation = {}
-        annotate_geo = geo or {"province": province, "city": city, "district": district, "township": township}
-        annotation, annotate_attempts = await annotate_category(poi_name, annotate_geo, selected, remark)
-        if not annotation:
-            logger.error("[降级] agent解析失败")
-            continue
+                # Step 3: Agent 选择 AOI/POI（None=失败, {}=兜底, dict=选中）
+                logger.debug("[2] Agent 筛选高德...")
+                selected = None
+                if candidates:
+                    selected, reason, select_attempts = await select_type(poi_name, geo, candidates)
+                    if selected is None:
+                        logger.error(f"[降级] {reason}")
+                    if selected == {}:
+                        logger.debug(f"[选择] 不使用 Amap 数据")
+                        logger.debug(f"[理由] {reason} ({select_attempts}次成功)")
+                    elif isinstance(selected, dict) and selected:
+                        sel_name = selected.get('amap_name', '')
+                        sel_type = selected.get('source', '')
+                        sel_distance = selected.get('amap_distance', 99999)
+                        prev_names = []
+                        for c in candidates:
+                            if c.get("amap_id") == selected.get("amap_id"):
+                                break
+                            prev_names.append(f"{c.get('amap_name', '')}({c.get('source', '')})")
 
-        logger.debug(f"[标注] {json.dumps(annotation, ensure_ascii=False)} ({annotate_attempts}次成功)")
+                        if sel_name == poi_name:
+                            logger.debug(f"[名称] 一致: {poi_name}")
+                        else:
+                            logger.debug(f"[名称] 不一致: DB={poi_name} → agent={sel_name}")
+                        if prev_names:
+                            logger.debug(f"[选择] {sel_type} | {sel_distance}m | 第{len(prev_names)+1}名 | 前面: {', '.join(prev_names)}")
+                        else:
+                            logger.debug(f"[选择] {sel_type} | {sel_distance}m | 第1名")
+                        if sel_distance > 200:
+                            logger.warning(f"[警告] {sel_distance}m 超出阈值")
+                        logger.debug(f"[理由] {reason} ({select_attempts}次成功)")
 
-        # Step 5: 入库
-        logger.debug("[4] 入库...")
-        await asyncio.to_thread(save_result, poi_id, poi_name, geo, selected, annotation)
+                # Step 4: Agent 标注分类
+                logger.debug("[3] Agent 标注分类...")
+                annotation = {}
+                annotate_geo = geo or {"province": province, "city": city, "district": district, "township": township}
+                annotation, annotate_attempts = await annotate_category(poi_name, annotate_geo, selected, remark)
+                if not annotation:
+                    logger.error("[降级] agent解析失败")
+                    continue
 
-    conn.close()
-    logger.info(f"=== 标注完成，共处理 {total} 条 ===")
+                logger.debug(f"[标注] {json.dumps(annotation, ensure_ascii=False)} ({annotate_attempts}次成功)")
 
+                # Step 5: 入库
+                logger.debug("[4] 入库...")
+                await asyncio.to_thread(save_result, poi_id, poi_name, geo, selected, annotation)
+
+    except Exception as e:
+        logger.error(f"[run异常] 当前POI={_current_poi} error={e}")
+        raise
+    finally:
+        try:
+            conn.close()
+        except Exception:
+            pass
+    try:
+        logger.info(f"=== 标注完成，共处理 {total} 条 ===")
+    except Exception:
+        pass
 
 if __name__ == "__main__":
     import argparse
@@ -376,4 +418,10 @@ if __name__ == "__main__":
     p.add_argument("-n", "--count", type=int, default=1, help="处理数量")
     p.add_argument("--all", action="store_true", help="处理全部剩余（size=30）")
     args = p.parse_args()
-    asyncio.run(run(count=args.count, all_mode=args.all))
+    try:
+        asyncio.run(run(count=args.count, all_mode=args.all))
+    except KeyboardInterrupt:
+        logger.info("[中断] 用户强制停止 (Ctrl+C)")
+    except Exception as e:
+        logger.error(f"[致命] 程序异常退出: {e}")
+        sys.exit(1)

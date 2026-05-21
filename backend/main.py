@@ -49,7 +49,7 @@ def _safe_int(val: str) -> int:
 
 
 async def main() -> dict:
-    stats = {"new": 0, "updated": 0, "skipped": 0, "error": 0}
+    stats = {"add": 0, "update": 0, "record": 0, "skipped": 0, "error": 0}
 
     # ---- 1. 下载 JSON ----
     logger.debug("[下载] 从天地图获取分享数据")
@@ -73,7 +73,11 @@ async def main() -> dict:
     # 解包双层 JSON
     data_str = raw_data.get("data", "")
     if isinstance(data_str, str):
-        inner = json.loads(data_str)
+        try:
+            inner = json.loads(data_str)
+        except json.JSONDecodeError as e:
+            logger.error(f"[下载] data 字段 JSON 解析失败: {e}")
+            return stats
     else:
         inner = data_str
     draw_info = inner.get("drawInfo", inner)
@@ -111,7 +115,7 @@ async def main() -> dict:
     # ---- 3. 入库 ----
     now = datetime.now().isoformat()
     INSERT = (
-        "INSERT OR REPLACE INTO poi_points "
+        "INSERT INTO poi_points "
         "(id,name,address,province,city,district,township,lon,lat,color,code,size,remark,name_checked,"
         "affiliation,point_type,level,feature,parent_company,constructor,"
         "amap_id,amap_name,amap_address,amap_area,amap_type,amap_distance,amap_businessarea,cgcs_lon,cgcs_lat,amap_lon,amap_lat,"
@@ -123,6 +127,7 @@ async def main() -> dict:
     # 变更日志收集
     changes = []
 
+    info = None
     for fid, item in points.items():
         try:
             info = item.get("featureInfo", {})
@@ -156,7 +161,7 @@ async def main() -> dict:
             ).fetchone()
 
             if old_row is None:
-                # 新 POI，直接插入
+                # 新 POI
                 conn.execute(INSERT, (
                     fid, name, address, province, city, district, township,
                     lon, lat, color, code, size, remark, nc,
@@ -164,28 +169,42 @@ async def main() -> dict:
                     "", "", "", "", 0.0, "", 0.0, 0.0, 0.0, 0.0,
                     "", "", now, now
                 ))
-                stats["new"] += 1
+                stats["add"] += 1
+                changes.append({
+                    "id": fid,
+                    "name": [name, ""],
+                    "remark": [remark, ""],
+                    "status": "add"
+                })
                 logger.debug(f"[导入] 新 POI: {name} ({fid}) remark={remark[:80]}")
             else:
                 old_name, old_remark = old_row
-                if remark != old_remark:
-                    # remark 不同，更新 remark
+                if remark == old_remark:
+                    stats["skipped"] += 1
+                elif old_remark in remark and len(remark) > len(old_remark):
+                    # 新 remark 包含旧 remark 且内容更长 → 更新
                     conn.execute(UPDATE_REMARK, (remark, now, fid))
-                    stats["updated"] += 1
-                    # 记录变更
+                    stats["update"] += 1
                     changes.append({
                         "id": fid,
                         "name": [name, old_name],
                         "remark": [remark, old_remark],
-                        "status": "updated"
+                        "status": "update"
                     })
-                    logger.debug(f"[更新] {name} id={fid[:8]}")
+                    logger.debug(f"[更新] {name} id={fid[:8]} remark={old_remark[:40]}→{remark[:40]}")
                 else:
-                    stats["skipped"] += 1
+                    # 无包含关系 → 只记录不更新
+                    changes.append({
+                        "id": fid,
+                        "name": [name, old_name],
+                        "remark": [remark, old_remark],
+                        "status": "record"
+                    })
+                    logger.debug(f"[记录] {name} id={fid[:8]} 无包含关系")
 
         except Exception as e:
             stats["error"] += 1
-            name = info.get("name", "") if "info" in dir() else ""
+            name = info.get("name", "") if info else ""
             logger.error(f"[导入失败] id={fid} name={name} error={e}")
 
     conn.commit()
@@ -195,7 +214,7 @@ async def main() -> dict:
     if changes:
         await save_json([UUID, "changes"], changes, subdir="update")
 
-    logger.info(f"[入库] 新={stats['new']}, 更新={stats['updated']}, 跳过={stats['skipped']}, 失败={stats['error']}")
+    logger.info(f"[入库] 新增={stats['add']}, 更新={stats['update']}, 记录={stats['record']}, 跳过={stats['skipped']}, 失败={stats['error']}")
 
     # ---- 5. 验证 ----
     conn = sqlite3.connect(str(DB_PATH))
@@ -207,4 +226,10 @@ async def main() -> dict:
 
 
 if __name__ == "__main__":
-    stats = asyncio.run(main())
+    try:
+        stats = asyncio.run(main())
+    except KeyboardInterrupt:
+        logger.info("[中断] 用户强制停止 (Ctrl+C)")
+    except Exception as e:
+        logger.error(f"[致命] 程序异常退出: {e}")
+        sys.exit(1)

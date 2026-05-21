@@ -6,8 +6,6 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any, Union
 
-from loguru import logger
-
 from backend.util.log import logger as app_logger
 
 

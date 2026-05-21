@@ -18,5 +18,8 @@ log/
 tmp/amap/
 tmp/test*.json
 
+# Config
+.env
+
 # OS
 .DS_Store
