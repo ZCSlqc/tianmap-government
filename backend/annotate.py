@@ -301,13 +301,14 @@ async def run(count: int = 1, all_mode: bool = False):
         total = 0
         # 随机选取：先 COUNT，再随机取 N 个 id，避免 ORDER BY RANDOM() 全表扫描
         n = conn.execute(
-            "SELECT COUNT(*) FROM poi_points WHERE lon != 0 AND lat != 0 AND size != 15"
+            "SELECT COUNT(*) FROM poi_points WHERE lon != 0 AND lat != 0 AND amap_id='' "
         ).fetchone()[0]
+        logger.info(f"[标注] 待处理 {n} 条SPOT")
         while n > 0:
             take = min(count, n)
             n -= take
             rows = conn.execute(
-                "SELECT id FROM poi_points WHERE lon != 0 AND lat != 0 AND size != 15 "
+                "SELECT id FROM poi_points WHERE lon != 0 AND lat != 0 AND amap_id='' "
                 "ORDER BY RANDOM() LIMIT ?", (take,)
             ).fetchall()
             if not rows:

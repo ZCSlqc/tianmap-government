@@ -3,11 +3,9 @@ name = "tianmap-government"
 version = "0.1.0"
 requires-python = ">=3.11"
 dependencies = [
-    "requests",
     "pyproj",
     "python-dotenv",
     "loguru",
     "geopy",
     "cpca",
-    "setuptools<79",
 ]

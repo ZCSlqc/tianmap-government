@@ -304,7 +304,7 @@ async def query_candidates(name: str, lon: float, lat: float,
     """
 
     geo_res = await geo_to_address(lon, lat, radius=radius, retries=retries)
-    if AMAP_NAME:
+    if not AMAP_NAME:
         name_res = None
     else:
         name_res = await name_to_poi(name, city, lon, lat, retries=retries)
