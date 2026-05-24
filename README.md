@@ -13,16 +13,16 @@ uv sync
 
 ```bash
 # 高德 API key
-AMAP_KEY = "your_key"
-AMAP_RADIUS = 2000
-AMAP_MAX_RETRIES = 3
+AMAP_KEY=your_key
+AMAP_RADIUS=2000
+AMAP_MAX_RETRIES=3
 
 # Hermes Agent 服务地址
-HERMES_HOST = 0.0.0.0
-HERMES_PORT = 8643
-HERMES_KEY = 12345678
-HERMES_MAX_RETRIES = 3
-HERMES_MAX_TOKENS = 1024
+HERMES_HOST=0.0.0.0
+HERMES_PORT=8643
+HERMES_KEY=12345678
+HERMES_MAX_RETRIES=3
+HERMES_MAX_TOKENS=1024
 ```
 
 ## 启动方式
@@ -80,9 +80,19 @@ uv run python backend/post.py
 
 - 输出新 UUID 和分享链接
 - 从 `poi_points` 和 `line_polygon` 表读取数据
-- 按 `assert/templete.json` 模板 + `assert/template.md` 编码规则生成
+- 按 `assert/templete.json` 模板 + `assert/template.md` 编码规则生成（默认值省略）
 
 ## 后台运行（nohup）
+
+### POST 分享
+
+```bash
+nohup uv run python backend/post.py > /dev/null 2>&1 &
+echo $! > log/post.pid
+
+# 停止
+kill $(cat log/post.pid)
+```
 
 ### 天地图导入
 
@@ -175,7 +185,7 @@ tianmap-government/
 ```
 天地图分享数据 (CGCS2000)
     ↓ main.py
-SQLite poi_points 表
+SQLite poi_points / line_polygon 表
     ↓ annotate.py
 高德逆地理 + 名称搜索 (GCJ02)
     ↓ 坐标互转 CGCS2000 ↔ GCJ02
@@ -183,6 +193,8 @@ Hermes Agent 选择 POI/AOI
 Hermes Agent 网络搜索 + 分类标注
     ↓ 入库
 SQLite 更新（含变更记录）
+    ↓ post.py
+天地图 API POST → 新 UUID
 ```
 
 ## 坐标系统
@@ -202,6 +214,8 @@ GCJ02 → WGS84 → CGCS2000    （高德返回 → 写回数据库）
 ## 关键设计
 
 - **`size` 标记状态**：30 = 未标注，15 = 已标注
+- **增量去重**：main.py 以 `id` 判断是否已存在，`remark` 不同才更新，避免重复写入
+- **并发安全**：main() 和 addition() 各自独立 stats dict，通过 `asyncio.gather` 并发执行
 - **`record` 字段**：每次更新对比关键字段（name/省市区/归属/类型），写入 JSON 变更记录
 - **`--all` 循环**：不依赖 cron，启动一次自动跑完全部未标注数据
 - **日志文件直写**：loguru 直写文件，不受 nohup 重定向影响
