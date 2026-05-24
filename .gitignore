@@ -15,11 +15,10 @@ build/
 log/
 
 # Temp caches
-tmp/amap/
-tmp/test*.json
+tmp/
 
 # Config
-.env
+# .env
 
 # OS
 .DS_Store

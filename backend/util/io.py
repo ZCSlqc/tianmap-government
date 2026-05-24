@@ -42,9 +42,9 @@ async def save_json(
     ts = datetime.now().strftime("%Y%m%d_%H%M%S")
     safe = _safe_name(name)
     filename = f"{ts}_{safe}.json"
-    if subdir:
-        filename = f"{subdir}/{filename}"
     out_dir = _tmp_dir()
+    if subdir:
+        out_dir = out_dir / subdir
     out_dir.mkdir(parents=True, exist_ok=True)
     path = out_dir / filename
     content = json.dumps(data, ensure_ascii=False, indent=2)

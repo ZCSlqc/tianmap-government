@@ -40,6 +40,7 @@ uv run python backend/main.py
 
 - **增量模式**：id 不存在 → INSERT；id 存在且 remark 不同 → UPDATE
 - 坐标使用 CGCS2000（天地图坐标系）
+- 并发处理 points（POI 点）和 lines/polygons（线/面）
 
 ### 2. POI 智能标注
 
@@ -68,6 +69,18 @@ uv run python -m backend.annotate -n 100 --all
 ```bash
 uv run python test/test_coord.py
 ```
+
+### 4. 数据库 → 天地图分享（POST）
+
+从数据库读取 POI/线/面数据，反向编码为天地图分享 JSON，POST 创建新分享：
+
+```bash
+uv run python backend/post.py
+```
+
+- 输出新 UUID 和分享链接
+- 从 `poi_points` 和 `line_polygon` 表读取数据
+- 按 `assert/templete.json` 模板 + `assert/template.md` 编码规则生成
 
 ## 后台运行（nohup）
 
@@ -106,12 +119,34 @@ kill $(cat log/annotate.pid)
 
 日志每天轮转，保留 7 天。
 
+## 表结构
+
+### `poi_points` — 点数据
+
+| 字段 | 说明 | 字段 | 说明 |
+|------|------|------|------|
+| `id` | featureId | `name` | 点位名称 |
+| `lon`, `lat` | CGCS2000 坐标 | `address` | 地址 |
+| `color`, `code`, `size` | 样式 | `remark` | 备注 |
+| `name_checked` | 名称显示标记 | `province/city/district/township` | 行政区域 |
+| `amap_*` | 高德匹配结果 | `created_at/updated_at` | 时间戳 |
+
+### `line_polygon` — 线/面数据
+
+| 字段 | 说明 | 字段 | 说明 |
+|------|------|------|------|
+| `id` | featureId | `name` | 线/面名称 |
+| `lnglats` | JSON `[[lon,lat],...]` | `featureType` | "2"=线, "3"=面 |
+| `width`, `opacity`, `color`, `code` | 样式 | `remark` | 备注 |
+| `s_*` / `e_*` | 起终点行政区域 | `created_at/updated_at` | 时间戳 |
+
 ## 项目结构
 
 ```
 tianmap-government/
   backend/
     main.py                # 天地图数据导入（增量模式）
+    post.py                # 数据库 → 天地图分享 POST（创建新 UUID）
     annotate.py            # POI 智能标注 pipeline
     mapping.py             # 归属/类型 → color + code 映射表
     api/

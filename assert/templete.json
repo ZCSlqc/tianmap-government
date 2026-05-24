@@ -1,0 +1,112 @@
+{
+  "drawInfo": {
+    "points": {},
+    "circles": {},
+    "measure-polygons": {},
+    "measure-distances": {},
+    "rects": {},
+    "clearDrawing": false,
+    "saves": {},
+    "polygons": {}
+  },
+  "viewport": {
+    "center": [
+      97.86841310888144,
+      30.03753579539709
+    ],
+    "zoom": 3.5752639175610414,
+    "pitch": 0,
+    "bearing": 0,
+    "bound": "",
+    "mapNeedUpdate": true,
+    "location": false
+  },
+  "mapInfo": {
+    "type": "img",
+    "projection": "w",
+    "name": "cname",
+    "border": true,
+    "loaded": false
+  },
+  "defaultLayer": {
+    "layers": [],
+    "detailInfo": {},
+    "timeInfo": {
+      "timeId": "",
+      "timeTick": "",
+      "timeTicks": []
+    },
+    "indicators": {},
+    "adminLayers": []
+  },
+  "plotPopup": {
+    "show": false,
+    "plotType": "",
+    "popupId": "",
+    "isFavorite": false
+  },
+  "search": {
+    "queryParams": {
+      "webService": true,
+      "specify": "",
+      "queryType": "1",
+      "start": 0,
+      "mapBound": "",
+      "yingjiType": 0,
+      "pointLonlat": "",
+      "queryTerminal": 10000,
+      "level": 0,
+      "keyWord": "",
+      "count": 10,
+      "sourceType": 0,
+      "queryRadius": ""
+    },
+    "nearby": {
+      "name": "",
+      "poiInfo": ""
+    }
+  },
+  "popupInfo": {
+    "show": false,
+    "propertyShow": false,
+    "view": "",
+    "lngLat": [],
+    "data": null,
+    "popupId": ""
+  },
+  "thematicLayer": {
+    "layers": {}
+  },
+  "route": {
+    "start": {
+      "name": "",
+      "lngLat": "",
+      "poiInfo": null
+    },
+    "mids": [],
+    "vehicle": "car",
+    "queryParams": {},
+    "lineType": "",
+    "inputFocus": "",
+    "activeRouteIndex": 0,
+    "isNew": 0,
+    "activeStatus": 1,
+    "end": {
+      "name": "",
+      "lngLat": "",
+      "poiInfo": null
+    },
+    "loading": false
+  },
+  "contextmenu": {
+    "nearby": {
+      "id": "",
+      "lngLat": ""
+    }
+  },
+  "cityInfo": {
+    "name": "中国",
+    "gbcode": "156000000",
+    "ds": ""
+  }
+}
