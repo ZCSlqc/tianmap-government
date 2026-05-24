@@ -167,14 +167,18 @@ tianmap-government/
       coord.py             # CGCS2000/WGS84/GCJ02 坐标转换（Newton 迭代）
       amap_codes.py        # 高德 POI 编码查表（Excel 源）
       address.py           # 地址解析
-      io.py / json.py      # 文件工具
+      io.py                # 文件工具
       log.py               # loguru 配置
-  data/tianmap.db          # SQLite 数据库
+  data/
+    tianmap.db             # SQLite 数据库（生产）
+    tianmap copy.db        # 数据库备份/副本
   log/                     # 运行日志
   tmp/                     # 临时缓存（高德 API 返回数据）
   assert/
     hermes_system/         # Agent 系统提示词
     Amap_poicode.xlsx      # 高德类型编码源表
+    code.png               # 编码对照图
+    template.md / templete.json  # 天地图分享编码模板
   test/test_coord.py       # 坐标转换精度测试
   .env                     # 环境变量
   pyproject.toml           # 项目配置
