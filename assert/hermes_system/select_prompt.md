@@ -42,8 +42,11 @@
   "reason": "选择理由"
 }
 
+- **selected_type = "none" 时也必须输出 selected_item**，填写候选中距离最近的一条的 amap_id、amap_name、source，reason 说明未匹配原因
+
 ## 铁律
 
 1. 只输出 JSON，不要 ```json 代码块
 2. 不知道填"信息待补充"，禁止编造
 3. 如果候选中没有合适结果，selected_type 填 "none"——表示不使用 Amap 候选数据，后续仅基于 SPOT 名称进行标注分类（兜底方案）
+4. **selected_type = "none" 时 selected_item 也要填写**，取候选中距离最近的一条（amap_id、amap_name、source），reason 说明未匹配原因

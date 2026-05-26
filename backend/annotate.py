@@ -67,11 +67,11 @@ def build_select_messages(poi_name: str, geo: dict, candidates: list) -> list[di
     return [{"role": "system", "content": SYSTEM_SELECT}, {"role": "user", "content": user_content}]
 
 
-async def select_type(poi_name: str, geo: dict, candidates: list) -> tuple[dict | None, str, int]:
+async def select_type(poi_name: str, geo: dict, candidates: list) -> tuple[str | None, dict | None, str, int]:
     """
     Agent 选择 POI 或 AOI（只返回 amap_id + name），
     然后在候选中用 amap_id 查找完整数据。
-    返回: (选定结果, 选择理由, 使用次数, 是否兜底none)
+    返回: (选定类型，选定结果, 选择理由, 使用次数)
     """
     messages = build_select_messages(poi_name, geo, candidates)
 
@@ -80,17 +80,14 @@ async def select_type(poi_name: str, geo: dict, candidates: list) -> tuple[dict 
         if not parsed:
             continue
 
-        if parsed.get("selected_type") == "none":
-            return {}, parsed.get("reason", "无合适结果"), attempt
-
         selected_type = parsed.get("selected_type", "")
         selected_item = parsed.get("selected_item", {})
         agents_source = selected_item.get("source", "")
 
         # 基础校验
-        if selected_type not in ("poi", "aoi"):
+        if selected_type not in ("poi", "aoi", "none"):
             messages.append({"role": "assistant", "content": ""})
-            messages.append({"role": "user", "content": f"selected_type='{selected_type}' 无效，必须是 poi 或 aoi。"})
+            messages.append({"role": "user", "content": f"selected_type='{selected_type}' 无效，必须是 poi、aoi 或 none。"})
             continue
         if agents_source not in ("geo_poi", "geo_aoi", "name_poi"):
             messages.append({"role": "assistant", "content": ""})
@@ -114,33 +111,21 @@ async def select_type(poi_name: str, geo: dict, candidates: list) -> tuple[dict 
             continue
 
         logger.debug(f"[选择] 自检通过: type={selected_type} source={agents_source} id={agents_amap_id}")
-        return selected, parsed.get("reason", ""), attempt
+        return selected_type, selected, parsed.get("reason", ""), attempt
 
     logger.error("[选择] 全部重试失败")
-    return None, "agent解析失败", HERMES_MAX_RETRIES
+    return None, None, "agent解析失败", HERMES_MAX_RETRIES
 
 
 # ===================== Agent 标注分类 =====================
 
-def build_annotate_messages(poi_name: str, geo: dict,
-                             selected_item: dict | None, remark: str | None) -> list[dict]:
-    if selected_item:
-        select_info = (f"- **选定结果**: {selected_item.get('amap_name', '')}\n"
-                       f"- **高德 ID**: {selected_item.get('amap_id', '')}\n"
-                       f"- **距离**: {selected_item.get('amap_distance', 0)}m\n"
-                       f"- **地址**: {selected_item.get('amap_address', '')}\n"
-                       f"- **商圈**: {selected_item.get('amap_businessarea', '')}\n"
-                       f"- **面积**: {selected_item.get('amap_area', '')}\n"
-                       f"- **类型**: {selected_item.get('amap_type', '')}\n")
-    else:
-        select_info = "- **选定结果**: 无合适候选（不使用 Amap 数据）\n"
-
-    geo_info = f"- **省市区**: {geo.get('province', '')}/{geo.get('city', '')}/{geo.get('district', '')}/{geo.get('township', '')}\n"
-    remark_info = f"- **备注**: {remark or '无'}\n"
-
-    user_content = (f"## 当前 SPOT 上下文\n\n"
-                    f"- **SPOT 名称**: {poi_name}\n{geo_info}"
-                    f"{remark_info}{select_info}\n"
+def build_annotate_messages(poi_name: str, geo: dict, selected_info: str, remark: str | None) -> list[dict]:
+    user_content = (f"## SPOT 信息\n\n"
+                    f"- **SPOT 名称**: {poi_name}\n"
+                    f"- **省市区**: {geo.get('province', '')}/{geo.get('city', '')}/{geo.get('district', '')}/{geo.get('township', '')}\n"
+                    f"- **备注**: {remark or '无'}\n"
+                    f"## AMAP 选择\n\n"
+                    f"{selected_info}"
                     f"## 你的任务\n\n"
                     f"1. **必须先搜索再标注**：\n"
                     f"   1.1 使用 web_search 工具搜索 SPOT 名称，获取搜索结果摘要\n"
@@ -150,15 +135,16 @@ def build_annotate_messages(poi_name: str, geo: dict,
                     f"      - 提示：可在 URL 中追加搜索参数\n"
                     f"   1.5 禁止凭记忆回答，必须以搜索到的实时信息为准\n"
                     f"   1.6 至少完成一次完整搜索后再开始标注\n"
+                    f"   1.7 若采用无头搜索建议采用（URL: https://www.bing.com）\n"
                     f"2. **分类标注**: 对照上方分类规则判断归属大类和细分类型，补充全部字段\n"
                     f"3. **冲突处理**: 若同时符合多个分类，按规则中的冲突解决优先级判断\n")
 
     return [{"role": "system", "content": SYSTEM_ANNOTATE}, {"role": "user", "content": user_content}]
 
 
-async def annotate_category(poi_name: str, geo: dict, selected_item: dict | None, remark: str | None) -> tuple[dict | None, int]:
+async def annotate_category(poi_name: str, geo: dict, selected_info: str, remark: str | None) -> tuple[dict | None, int]:
     """Agent 标注分类，最多重试 HERMES_MAX_RETRIES 次，内部自检字段。"""
-    messages = build_annotate_messages(poi_name, geo, selected_item, remark)
+    messages = build_annotate_messages(poi_name, geo, selected_info, remark)
 
     required_fields = ("name", "affiliation", "point_type", "level", "feature", "parent_company", "constructor")
 
@@ -198,7 +184,7 @@ async def annotate_category(poi_name: str, geo: dict, selected_item: dict | None
 
 # ===================== 入库 =====================
 
-def save_result(poi_id: str, db_name: str, geo: dict | None, selected: dict | None, annotation: dict | None):
+def save_result(poi_id: str, db_name: str, geo: dict | None, selected_type: str | None, selected: dict | None, annotation: dict | None):
     now = datetime.now().isoformat()
     conn = sqlite3.connect(str(DB_PATH))
     conn.execute("PRAGMA journal_mode=WAL")
@@ -221,6 +207,8 @@ def save_result(poi_id: str, db_name: str, geo: dict | None, selected: dict | No
 
         # 3. selected 负责：全套高德字段（selected 返回值已带 amap_ 前缀，直接映射）
         if selected:
+            if selected_type:
+                new["amap_selected"] = selected_type
             for k, v in selected.items():
                 if v and k in table_cols:
                     new[k] = v  # k 已带 amap_ 前缀
@@ -356,13 +344,13 @@ async def run(count: int = 1, all_mode: bool = False):
                 # Step 3: Agent 选择 AOI/POI（None=失败, {}=兜底, dict=选中）
                 logger.debug("[2] Agent 筛选高德...")
                 selected = None
+                selected_type = None
+                selected_reason = None
                 if candidates:
-                    selected, reason, select_attempts = await select_type(poi_name, geo, candidates)
+                    selected_type, selected, selected_reason, select_attempts = await select_type(poi_name, geo, candidates)
                     if selected is None:
-                        logger.error(f"[降级] {reason}")
-                    if selected == {}:
-                        logger.debug(f"[选择] 不使用 Amap 数据")
-                        logger.debug(f"[理由] {reason} ({select_attempts}次成功)")
+                        logger.error(f"[降级] {selected_reason}")
+                        logger.error(f"[选择] 不使用 Amap 数据")
                     elif isinstance(selected, dict) and selected:
                         sel_name = selected.get('amap_name', '')
                         sel_type = selected.get('source', '')
@@ -383,22 +371,45 @@ async def run(count: int = 1, all_mode: bool = False):
                             logger.debug(f"[选择] {sel_type} | {sel_distance}m | 第1名")
                         if sel_distance > 200:
                             logger.warning(f"[警告] {sel_distance}m 超出阈值")
-                        logger.debug(f"[理由] {reason} ({select_attempts}次成功)")
+                        logger.debug(f"[理由] {selected_reason} ({select_attempts}次成功)")
+                else:
+                    logger.warning("[选择] 高德返回为空，跳过agent选择")
+                
+                # 前期组装
+                select_info = ""
+                if selected:
+                    if selected_type=="aoi":
+                        select_type_info = "AOI(area of interert)，尽可能以该AOI名字为主，适应模板名称规则" 
+                    elif selected_type=="poi":
+                        select_type_info = "POI(point of interert)，尽可能以该POI名字为主，适应模板名称规则" 
+                    else:
+                        select_type_info = "没有适合选项，但依旧提供参考和理由，不过尽可能以原SPOT名字为主，适应模板名称规则"
+                    select_info = (f"- **选定类型**: {select_type_info}\n"
+                                   f"- **选定结果**: {selected.get('amap_name', '')}\n"
+                                   f"- **与SPOT距离**: {selected.get('amap_distance', 0)}m\n"
+                                   f"- **地址**: {selected.get('amap_address', '')}\n"
+                                   f"- **商圈**: {selected.get('amap_businessarea', '')}\n"
+                                   f"- **面积**: {selected.get('amap_area', '')}\n"
+                                   f"- **类型**: {selected.get('amap_type', '')}\n"
+                                   f"- **选定理由**: {selected_reason}\n")
+                else:
+                    select_info = "- **选定结果**: 不使用 Amap 数据，以原SPOT名字为主，适应模板名称规则\n"
 
                 # Step 4: Agent 标注分类
                 logger.debug("[3] Agent 标注分类...")
-                annotation = {}
+                annotation = None
                 annotate_geo = geo or {"province": province, "city": city, "district": district, "township": township}
-                annotation, annotate_attempts = await annotate_category(poi_name, annotate_geo, selected, remark)
+                annotation, annotate_attempts = await annotate_category(poi_name, annotate_geo, select_info, remark)
                 if not annotation:
-                    logger.error("[降级] agent解析失败")
+                    logger.error(f"[降级] agent标注失败")
+                    logger.error(f"[4] 不入库")
                     continue
 
                 logger.debug(f"[标注] {json.dumps(annotation, ensure_ascii=False)} ({annotate_attempts}次成功)")
 
                 # Step 5: 入库
                 logger.debug("[4] 入库...")
-                await asyncio.to_thread(save_result, poi_id, poi_name, geo, selected, annotation)
+                await asyncio.to_thread(save_result, poi_id, poi_name, geo, selected_type, selected, annotation)
 
     except Exception as e:
         logger.error(f"[run异常] 当前POI={_current_poi} error={e}")

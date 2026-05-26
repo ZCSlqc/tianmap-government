@@ -104,7 +104,7 @@ async def main(draw_info) -> dict:
         "name_checked INTEGER DEFAULT 0, "
         "affiliation TEXT DEFAULT '', point_type TEXT DEFAULT '', "
         "level TEXT DEFAULT '', feature TEXT DEFAULT '', "
-        "parent_company TEXT DEFAULT '', constructor TEXT DEFAULT '', "
+        "parent_company TEXT DEFAULT '', constructor TEXT DEFAULT '', amap_selected TEXT DEFAULT '', "
         "amap_id TEXT DEFAULT '', amap_name TEXT DEFAULT '', amap_address TEXT DEFAULT '', "
         "amap_area TEXT DEFAULT '', amap_type TEXT DEFAULT '', "
         "amap_distance REAL DEFAULT 0.0, amap_businessarea TEXT DEFAULT '', "
@@ -121,9 +121,9 @@ async def main(draw_info) -> dict:
         "INSERT INTO poi_points "
         "(id,name,address,province,city,district,township,lon,lat,color,code,size,remark,name_checked,"
         "affiliation,point_type,level,feature,parent_company,constructor,"
-        "amap_id,amap_name,amap_address,amap_area,amap_type,amap_distance,amap_businessarea,cgcs_lon,cgcs_lat,amap_lon,amap_lat,"
+        "amap_selected,amap_id,amap_name,amap_address,amap_area,amap_type,amap_distance,amap_businessarea,cgcs_lon,cgcs_lat,amap_lon,amap_lat,"
         "img_url,record,created_at,updated_at) "
-        "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)"
+        "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)"
     )
     UPDATE_REMARK = "UPDATE poi_points SET remark=?, updated_at=? WHERE id=?"
 
@@ -171,7 +171,7 @@ async def main(draw_info) -> dict:
                 conn.execute(INSERT, (
                     fid, name, address, province, city, district, township,
                     lon, lat, color, code, size, remark, nc,
-                    "", "", "", "", "", "", "",
+                    "", "", "", "", "", "", "", "",
                     "", "", "", "", 0.0, "", 0.0, 0.0, 0.0, 0.0,
                     "", "", now, now
                 ))

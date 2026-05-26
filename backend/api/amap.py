@@ -78,10 +78,18 @@ def _parse_amap_item(item: dict) -> dict:
         distance = 9999.0
 
     ba = item.get("businessarea", item.get("business", ""))
-    if isinstance(ba, list):
-        ba = json.dumps(ba, ensure_ascii=False) if ba else ""
-    elif ba is None:
+    if ba:
         ba = ""
+    elif isinstance(ba, dict):
+        ba = ba.get("businessarea", "")
+    elif isinstance(ba, list):
+        ba_list = []
+        for ba_item in ba:
+            ba_list.append(ba_item.get("businessarea", ""))
+        ba = "|".join(ba_list)
+    else:
+        ba = ""
+   
 
     raw_type = item.get("type", "")
     type_str = raw_type
@@ -165,7 +173,7 @@ async def _geo_to_address_once(lon: float, lat: float, radius: int | None = None
     pois.sort(key=lambda x: x["amap_distance"])
     aois.sort(key=lambda x: x["amap_distance"])
 
-    logger.debug(f"[高德] 逆地理完成，返回 {len(pois[:5])} 个POI, {len(aois[:5])} 个AOI")
+    logger.debug(f"[高德] 逆地理完成，返回 {len(pois[:8])} 个POI, {len(aois[:3])} 个AOI")
     return {
         "success": True,
         "geo":{
@@ -174,8 +182,8 @@ async def _geo_to_address_once(lon: float, lat: float, radius: int | None = None
             "district": ac.get("district", ""),
             "township": ac.get("township", ""),
             "geo_detail": _strip_addr(regeocode.get("formatted_address", ""), ac),},
-        "pois": pois[:5],
-        "aois": aois[:5],
+        "pois": pois[:8],
+        "aois": aois[:3],
         "raw": data,
     }
 
