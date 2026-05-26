@@ -319,7 +319,7 @@ async def run(count: int = 1, all_mode: bool = False):
                 result = await query_candidates(poi_name, lon, lat, city)
                 geo = result["geo"]
                 candidates = result["candidates"]
-                await save_json([poi_name, poi_id[:8]], candidates, subdir="amap")
+                # await save_json([poi_name, poi_id[:8]], candidates, subdir="amap")
 
                 # Step 2: geo 为空则跳过地址对比和选择，直接标注
                 if geo:

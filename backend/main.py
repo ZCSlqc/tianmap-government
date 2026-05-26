@@ -29,8 +29,8 @@ from backend.util import parse_address
 
 # ==================== 配置 ====================
 # UUID = "f6756cd4aff441528f72e2d3252f1eb4"
-# UUID = "c34faf791b4641a19a02104ebc7f83f4"
-UUID = "e7977819aef04aa0989fdb1ec9dea572"
+UUID = "c34faf791b4641a19a02104ebc7f83f4"
+# UUID = "e7977819aef04aa0989fdb1ec9dea572"
 TIANDITU_API = "https://map.tianditu.gov.cn/api/map/share"
 DB_PATH = Path(__file__).parent.parent / "data" / "tianmap.db"
 
@@ -380,17 +380,19 @@ async def addition(draw_info) -> dict:
 
 async def run_all():
     data = await fetch_draw_info()
-    stats_points, stats_addition = await asyncio.gather(
-        main(data),
-        addition(data),
-    )
-    total_add = stats_points["add"] + stats_addition["add"]
-    total_update = stats_points["update"] + stats_addition["update"]
-    total_record = stats_points["record"] + stats_addition["record"]
-    total_skip = stats_points["skipped"] + stats_addition["skipped"]
-    total_error = stats_points["error"] + stats_addition["error"]
-    logger.info(f"[汇总] 新增={total_add}, 更新={total_update}, 记录={total_record}, 跳过={total_skip}, 失败={total_error}")
-    return {"add": total_add, "update": total_update, "record": total_record, "skipped": total_skip, "error": total_error}
+    stats_points = await main(data)
+    return stats_points
+    # stats_points, stats_addition = await asyncio.gather(
+    #     main(data),
+    #     addition(data),
+    # )
+    # total_add = stats_points["add"] + stats_addition["add"]
+    # total_update = stats_points["update"] + stats_addition["update"]
+    # total_record = stats_points["record"] + stats_addition["record"]
+    # total_skip = stats_points["skipped"] + stats_addition["skipped"]
+    # total_error = stats_points["error"] + stats_addition["error"]
+    # logger.info(f"[汇总] 新增={total_add}, 更新={total_update}, 记录={total_record}, 跳过={total_skip}, 失败={total_error}")
+    # return {"add": total_add, "update": total_update, "record": total_record, "skipped": total_skip, "error": total_error}
 
 
 if __name__ == "__main__":
