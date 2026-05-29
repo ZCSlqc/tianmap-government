@@ -43,6 +43,7 @@
 }
 
 - **selected_type = "none" 时也必须输出 selected_item**，填写候选中距离最近的一条的 amap_id、amap_name、source，reason 说明未匹配原因
+- **selected_type 必须与 source 一致**：source=geo_poi → selected_type="poi"，source=geo_aoi → selected_type="aoi"，source=name_poi → selected_type="poi"
 
 ## 铁律
 
@@ -50,3 +51,4 @@
 2. 不知道填"信息待补充"，禁止编造
 3. 如果候选中没有合适结果，selected_type 填 "none"——表示不使用 Amap 候选数据，后续仅基于 SPOT 名称进行标注分类（兜底方案）
 4. **selected_type = "none" 时 selected_item 也要填写**，取候选中距离最近的一条（amap_id、amap_name、source），reason 说明未匹配原因
+5. **selected_type 是"选择的类别"（poi 或 aoi），不是"SPOT 本身的类型"**——如果你从候选中选了 geo_aoi 来源的条目，selected_type 就必须填 "aoi"，不管该条目是楼宇还是商铺

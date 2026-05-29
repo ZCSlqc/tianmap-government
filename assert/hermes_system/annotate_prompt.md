@@ -473,8 +473,8 @@
 ## 11. 私人信息 rgb(0,0,0)
 
 - **定位**：名称以"XX家"结尾的点位，通常为住宅楼号或住宅单元
-- **affiliation** = 信息待补充
-- **point_type** = 信息待补充
+- **affiliation** = 私人信息
+- **point_type** = 私人信息
 - **level** = 信息待补充
 - **feature** = 信息待补充
 - **parent_company** = XX小区（所属住宅区）
@@ -483,8 +483,8 @@
 ```json
 {
   "name": "XX家",
-  "affiliation": "信息待补充",
-  "point_type": "信息待补充",
+  "affiliation": "私人信息",
+  "point_type": "私人信息",
   "level": "信息待补充",
   "feature": "信息待补充",
   "parent_company": "仁恒江湾天成",
