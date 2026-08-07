@@ -29,7 +29,9 @@ from backend.util import parse_address
 
 # ==================== 配置 ====================
 # UUID = "f6756cd4aff441528f72e2d3252f1eb4"
-UUID = "c34faf791b4641a19a02104ebc7f83f4"
+# UUID = "c34faf791b4641a19a02104ebc7f83f4" (原值)
+# UUID = "b2a9569625d24c6893358ceadbdd0808"
+UUID = "a9465ce15ab948d58515bb633fd77ac5"
 # UUID = "e7977819aef04aa0989fdb1ec9dea572"
 TIANDITU_API = "https://map.tianditu.gov.cn/api/map/share"
 DB_PATH = Path(__file__).parent.parent / "data" / "tianmap.db"

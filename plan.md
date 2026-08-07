@@ -10,16 +10,18 @@
 
 ```
 天地图分享数据 (CGCS2000)
-    ↓ backend/main.py (CLI 导入)
-SQLite poi_points 表
+    ↓ backend/main.py (CLI 导入，增量模式)
+SQLite poi_points / line_polygon
     ↓ backend/annotate.py (CLI 标注)
 高德逆地理 + 名称搜索 (GCJ02)
     ↓ 坐标互转 CGCS2000 ↔ GCJ02
 Hermes Agent 分类标注
     ↓ 入库
 SQLite 更新（含变更记录）
-    ↓
-前端 (React 18 + Ant Design 5) ← FastAPI API → 数据查询/统计/备份
+    ↓ backend/post.py (CLI 反向导出，按省切批)
+天地图 API POST → 新分享 UUID（江苏省 / 其他 两批）
+    ↓（未来）
+前端 Web 管理界面 (React 18 + Ant Design 5) ← FastAPI API → 数据查询/统计/备份
 ```
 
 ### 技术栈
@@ -82,7 +84,9 @@ tianmap-government/
       address.py           # 地址解析（省市区街道）
       io.py / json.py      # 文件与 JSON 工具
       log.py               # loguru 统一配置
-  frontend/                # React 18 前端（新增）
+    test/
+      test_coord.py        # 坐标转换精度测试
+  frontend/                # React 18 前端（未来新增）
     index.html
     src/
       main.jsx
@@ -119,12 +123,14 @@ tianmap-government/
     vite.config.js
   data/tianmap.db          # SQLite 数据库
   log/                     # 运行日志（app.log + app_detail.log）
-  tmp/                     # 临时文件（高德返回数据缓存）
+  tmp/
+    raw_url/               # main.py 下载的分享原始数据
+    gen_url/               # post.py 待上传 payload
+    update/                # main.py 入库变更日志
   assert/
     hermes_system/         # Agent 系统提示词（select_prompt, annotate_prompt）
     Amap_poicode.xlsx      # 高德 POI 类型编码源表
-  test/
-    test_coord.py          # 坐标转换精度测试
+    template.md / templete.json  # 天地图分享格式文档（入库解析 + 导出编码）/ 模板
   .env                     # 环境变量
   pyproject.toml           # 项目配置
   README.md                # 使用文档
@@ -154,6 +160,14 @@ tianmap-government/
 5. 统一入库：合并字段，计算 color/code，写入 record
 
 支持 `-n N` / `--all`。
+
+### post.py — 反向导出分享（CLI）
+
+从数据库读取 POI/线/面，按 `assert/templete.json` 模板 + `template.md` 编码规则反向编码，POST 天地图 API 创建新分享。
+
+- **按省切批**：点按 `province`、线面按 `s_province` 分为「江苏省 / 其他」两批，每批独立创建分享
+- **服务端限制**：创建/保存分享解码后 JSON ~1MB（约 2600 点）上限，超限 500；前端分享按钮同限（已从 main.0f98e6f9.js 源码实证）
+- 每批 payload 落盘 `tmp/gen_url/`，输出 UUID + 链接
 
 ### mapping.py — 颜色映射
 
@@ -194,9 +208,14 @@ HTTP 调用 Hermes API，JSON 提取与重试机制。
 
 ## 实施状态与待办
 
-### 后端服务层（新增）
+### Web 管理界面（未来，已确认要做）
 
-- [ ] `backend/app/main.py` — FastAPI 应用入口，CORS，JWT 认证，路由注册
+- [ ] 后端服务层 `backend/app/` — FastAPI 应用入口，CORS，JWT 认证，路由注册
+- [ ] 前端 `frontend/` — Vite + React 18 + Ant Design 5
+- [ ] 数据查询/统计/备份 API
+- [ ] 标注任务管理（触发/进度/失败重试）
+
+### 后端服务层（新增）
 - [ ] `backend/app/deps.py` — 依赖注入（当前用户、权限检查）
 - [ ] `backend/app/middlewares/auth.py` — JWT 认证中间件
 - [ ] `backend/app/middlewares/logger.py` — 请求日志
@@ -251,26 +270,12 @@ HTTP 调用 Hermes API，JSON 提取与重试机制。
 - [x] `backend/util/amap_codes.py` — 高德编码查表
 - [x] `backend/util/io.py` — 异步文件写入工具
 - [x] `backend/util/log.py` — loguru 配置
-- [x] `test/test_coord.py` — 坐标转换精度测试
+- [x] `backend/test/test_coord.py` — 坐标转换精度测试
 
 ### 数据表
 
-- [x] `poi_points` — 点数据（4407+ 条）
-- [x] `line_polygon` — 线/面数据（9+ 条，featureType="2"/"3"）
-
----
-
-### CLI 工具
-
-- [x] `backend/main.py` — 天地图数据导入（points + lines/polygons 并发）
-- [x] `backend/annotate.py` — POI 智能标注 pipeline
-- [x] `backend/post.py` — 数据库 → 天地图 POST 分享（反向编码 + 创建新 UUID）
-- [x] `backend/mapping.py` — 颜色映射表
-
-### 数据表
-
-- [x] `poi_points` — 点数据（4407+ 条）
-- [x] `line_polygon` — 线/面数据（9+ 条，featureType="2"/"3"）
+- [x] `poi_points` — 点数据（4457+ 条，`province` 已完善）
+- [x] `line_polygon` — 线/面数据（9+ 条，featureType="2"/"3"，`s_province` 已完善：江苏 7 / 浙江 1 / 湖北 1）
 
 ---
 
@@ -288,3 +293,5 @@ HTTP 调用 Hermes API，JSON 提取与重试机制。
 10. **前端路由守卫**：React Router Navigate，未登录跳转 /login
 11. **React + Ant Design 5**：减少 UI 组件开发量，Ant Design Pro 风格布局
 12. **天地图 SDK**：未来引入 JS API 渲染 POI/线/面，支持点聚合、缩放平移、弹窗详情
+13. **导出按省切批**：`province` / `s_province` 区分江苏/其他，规避分享接口 ~1MB 解码上限（约 2600 点/分享）
+14. **前端分享按钮同限**：createShareCode 与 post.py 同通道（qs.stringify 表单），大包必然 500，不绕

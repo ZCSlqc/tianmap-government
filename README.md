@@ -67,7 +67,7 @@ uv run python -m backend.annotate -n 100 --all
 ### 3. 坐标转换精度测试
 
 ```bash
-uv run python test/test_coord.py
+uv run python backend/test/test_coord.py
 ```
 
 ### 4. 数据库 → 天地图分享（POST）
@@ -81,6 +81,15 @@ uv run python backend/post.py
 - 输出新 UUID 和分享链接
 - 从 `poi_points` 和 `line_polygon` 表读取数据
 - 按 `assert/templete.json` 模板 + `assert/template.md` 编码规则生成（默认值省略）
+- **自动按省份切批**：点按 `province`、线面按 `s_province` 分为「江苏省 / 其他」两批，
+  每批独立创建分享（服务端解码后 ~1MB / 约 2600 点上限），payload 落盘 `tmp/gen_url/`
+
+#### 最新分享批次（2026-08-07）
+
+| 批次 | 内容 | 链接 |
+|------|------|------|
+| jiangsu | 1876 点 + 6 线 + 1 面 | https://map.tianditu.gov.cn/share/f16b4221a9964b9e97ca96b67e87d760 |
+| other | 2581 点 + 2 线（杭州马拉松/潜江马拉松） | https://map.tianditu.gov.cn/share/93dd3e1c1c0a4145804b9af2a3b79136 |
 
 ## 后台运行（nohup）
 
@@ -148,7 +157,7 @@ kill $(cat log/annotate.pid)
 | `id` | featureId | `name` | 线/面名称 |
 | `lnglats` | JSON `[[lon,lat],...]` | `featureType` | "2"=线, "3"=面 |
 | `width`, `opacity`, `color`, `code` | 样式 | `remark` | 备注 |
-| `s_*` / `e_*` | 起终点行政区域 | `created_at/updated_at` | 时间戳 |
+| `s_*` / `e_*` | 起终点行政区域（`s_province` 用于导出切批） | `created_at/updated_at` | 时间戳 |
 
 ## 项目结构
 
@@ -156,7 +165,7 @@ kill $(cat log/annotate.pid)
 tianmap-government/
   backend/
     main.py                # 天地图数据导入（增量模式）
-    post.py                # 数据库 → 天地图分享 POST（创建新 UUID）
+    post.py                # 数据库 → 天地图分享 POST（按省切批，创建新 UUID）
     annotate.py            # POI 智能标注 pipeline
     mapping.py             # 归属/类型 → color + code 映射表
     api/
@@ -169,17 +178,21 @@ tianmap-government/
       address.py           # 地址解析
       io.py                # 文件工具
       log.py               # loguru 配置
+    test/
+      test_coord.py        # 坐标转换精度测试
   data/
     tianmap.db             # SQLite 数据库（生产）
     tianmap copy.db        # 数据库备份/副本
   log/                     # 运行日志
-  tmp/                     # 临时缓存（高德 API 返回数据）
+  tmp/
+    raw_url/               # main.py 下载的分享原始数据
+    gen_url/               # post.py 待上传 payload
+    update/                # main.py 入库变更日志
   assert/
     hermes_system/         # Agent 系统提示词
     Amap_poicode.xlsx      # 高德类型编码源表
     code.png               # 编码对照图
-    template.md / templete.json  # 天地图分享编码模板
-  test/test_coord.py       # 坐标转换精度测试
+    template.md / templete.json  # 天地图分享格式文档（入库解析 + 导出编码）/ 模板
   .env                     # 环境变量
   pyproject.toml           # 项目配置
 ```
@@ -197,8 +210,8 @@ Hermes Agent 选择 POI/AOI
 Hermes Agent 网络搜索 + 分类标注
     ↓ 入库
 SQLite 更新（含变更记录）
-    ↓ post.py
-天地图 API POST → 新 UUID
+    ↓ post.py（点按 province、线面按 s_province 切批）
+天地图 API POST → 新 UUID（江苏省 / 其他，各一批）
 ```
 
 ## 坐标系统
@@ -219,8 +232,9 @@ GCJ02 → WGS84 → CGCS2000    （高德返回 → 写回数据库）
 
 - **`size` 标记状态**：30 = 未标注，15 = 已标注
 - **增量去重**：main.py 以 `id` 判断是否已存在，`remark` 不同才更新，避免重复写入
-- **并发安全**：main() 和 addition() 各自独立 stats dict，通过 `asyncio.gather` 并发执行
 - **`record` 字段**：每次更新对比关键字段（name/省市区/归属/类型），写入 JSON 变更记录
 - **`--all` 循环**：不依赖 cron，启动一次自动跑完全部未标注数据
 - **日志文件直写**：loguru 直写文件，不受 nohup 重定向影响
 - **SQLite 单文件**：`data/tianmap.db` 即全部数据，复制即备份
+- **分享 1MB 限制**：天地图创建/保存分享解码后 JSON ~1MB（约 2600 点）上限，超限 HTTP 500；前端分享按钮同限（源码实证）
+- **导出按省切批**：post.py 点按 `province`、线面按 `s_province` 分为 江苏省/其他 两批，规避 1MB 上限

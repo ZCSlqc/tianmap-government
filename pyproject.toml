@@ -8,4 +8,7 @@ dependencies = [
     "loguru",
     "geopy",
     "cpca",
+    "requests",
+    "aiohttp",
+    "openpyxl",
 ]
